@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /reports/
+Sitemap: https://circuitera.netlify.app/sitemap.xml

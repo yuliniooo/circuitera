@@ -1,0 +1,45 @@
+{
+  "testedAt": "2026-09-05T22:52:04.552Z",
+  "checks": [
+    {
+      "name": "Blink",
+      "status": "PASS",
+      "flashBytes": 1064,
+      "paddedBytes": 1152,
+      "sha256": "657fdb7d1a859650c0a348a38748dcca4340098539a41370176028dfa910b641"
+    },
+    {
+      "name": "Button",
+      "status": "PASS",
+      "flashBytes": 954,
+      "paddedBytes": 1024,
+      "sha256": "02ab1e155375680fc57db8f1fc6a39cc2917328e39d87af85a5309d86ebd1a4b"
+    },
+    {
+      "name": "Servo",
+      "status": "PASS",
+      "flashBytes": 2520,
+      "paddedBytes": 2560,
+      "sha256": "4a788814d70e57dd0bb20fb0ff5dc9c05c2e40fc13d5c61c8631bce50dc323e2"
+    },
+    {
+      "name": "Ultrasonic",
+      "status": "PASS",
+      "flashBytes": 4550,
+      "paddedBytes": 4608,
+      "sha256": "fa9ab829a830143cc4d6ac02096525a5293a7bee0d12ed93789433ba0631e5c5"
+    },
+    {
+      "name": "Changed current source changes firmware; Blink loads no libraries",
+      "status": "PASS"
+    },
+    {
+      "name": "Compiler error maps to line 2 and produces no firmware",
+      "status": "PASS"
+    },
+    {
+      "name": "Friendly missing-library message retains real GCC error and line 1",
+      "status": "PASS"
+    }
+  ]
+}

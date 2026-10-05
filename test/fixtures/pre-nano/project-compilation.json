@@ -1,0 +1,199 @@
+{
+  "testedAt": "2026-09-05T23:35:07.829Z",
+  "runtime": "Actual shipped AVR-GCC WASM, assembler, linker, objcopy. Filesystem transport only; no precompiled student HEX.",
+  "checks": [
+    {
+      "name": "Independent main.ino + motor.cpp + sensors.c + headers compile and link with actual Servo library",
+      "status": "PASS",
+      "flashBytes": 2636,
+      "ramBytes": 52,
+      "hexSha256": "e991dad0663201f4ec708cd404eb204e2ea5cf5003348e0f16ef263269109c86",
+      "stats": {
+        "compiledObjects": 1,
+        "cachedObjects": 0,
+        "libraries": [
+          "servo"
+        ],
+        "projectObjects": 3,
+        "projectFiles": [
+          "main.ino",
+          "motor.h",
+          "motor.cpp",
+          "sensors.h",
+          "sensors.c"
+        ]
+      }
+    },
+    {
+      "name": "Unchanged library objects are reused while project translation units are rebuilt",
+      "status": "PASS",
+      "flashBytes": 2636,
+      "ramBytes": 52,
+      "hexSha256": "e991dad0663201f4ec708cd404eb204e2ea5cf5003348e0f16ef263269109c86",
+      "stats": {
+        "compiledObjects": 0,
+        "cachedObjects": 1,
+        "libraries": [
+          "servo"
+        ],
+        "projectObjects": 3,
+        "projectFiles": [
+          "main.ino",
+          "motor.h",
+          "motor.cpp",
+          "sensors.h",
+          "sensors.c"
+        ]
+      }
+    },
+    {
+      "name": "Changed secondary .cpp source changes generated firmware",
+      "status": "PASS",
+      "flashBytes": 2636,
+      "ramBytes": 52,
+      "hexSha256": "a12bb2a4b862d68c8e496cf3a376dd8f95a38f9adfeb6c4151408fa465e12218",
+      "stats": {
+        "compiledObjects": 1,
+        "cachedObjects": 0,
+        "libraries": [
+          "servo"
+        ],
+        "projectObjects": 3,
+        "projectFiles": [
+          "main.ino",
+          "motor.h",
+          "motor.cpp",
+          "sensors.h",
+          "sensors.c"
+        ]
+      }
+    },
+    {
+      "name": "Project header is visible to separate translation units",
+      "status": "PASS",
+      "flashBytes": 2640,
+      "ramBytes": 52,
+      "hexSha256": "20a92d972c59910b71d5e86464a3db1fb8395abe30f23c8a34c19f0b3254fb45",
+      "stats": {
+        "compiledObjects": 1,
+        "cachedObjects": 0,
+        "libraries": [
+          "servo"
+        ],
+        "projectObjects": 3,
+        "projectFiles": [
+          "main.ino",
+          "motor.h",
+          "motor.cpp",
+          "sensors.h",
+          "sensors.c"
+        ]
+      }
+    },
+    {
+      "name": "Changing only a header recompiles necessary code and invalidates library cache context",
+      "status": "PASS",
+      "flashBytes": 2640,
+      "ramBytes": 52,
+      "hexSha256": "854a7ac82825430fb248fcd6f349fc57d68079553f23fba6650101c25eb48c82",
+      "stats": {
+        "compiledObjects": 1,
+        "cachedObjects": 0,
+        "libraries": [
+          "servo"
+        ],
+        "projectObjects": 3,
+        "projectFiles": [
+          "main.ino",
+          "motor.h",
+          "motor.cpp",
+          "sensors.h",
+          "sensors.c"
+        ]
+      }
+    },
+    {
+      "name": "Missing implementation fails at the real linker",
+      "status": "PASS",
+      "output": "avr-ld failed\n./this.program: /build/sketch.o: in function `setup':\nmain-sketch.cpp:(.text.setup+0x0): undefined reference to `motorBegin()'\n./this.program: /build/sketch.o: in function `loop':\nmain-sketch.cpp:(.text.loop+0x4): undefined reference to `motorMove(int)'"
+    },
+    {
+      "name": "Project compiler diagnostics retain secondary filename and exact line",
+      "status": "PASS",
+      "output": "cc1plus failed\nmotor.cpp: In function 'void motorMove(int)':\nmotor.cpp:4:3: error: 'missingFunction' was not declared in this scope"
+    },
+    {
+      "name": "Multiple .ino tabs share Arduino declarations and genuinely compile",
+      "status": "PASS",
+      "flashBytes": 1068,
+      "ramBytes": 9,
+      "hexSha256": "8c53d15db8c02faec5e423fca939b732a4d87de5038fbc6f0ee6c2fa844fe4a0",
+      "stats": {
+        "compiledObjects": 0,
+        "cachedObjects": 0,
+        "libraries": [],
+        "projectObjects": 1,
+        "projectFiles": [
+          "main.ino",
+          "extra.ino"
+        ]
+      }
+    },
+    {
+      "name": "Unsupported C99 constructs are reported with the real compiler failure",
+      "status": "PASS",
+      "limitation": true,
+      "output": "cc1plus failed\nstrict.c:1:22: sorry, unimplemented: non-trivial designated initializers not supported"
+    },
+    {
+      "name": "Blink preserves previous single-sketch firmware exactly",
+      "status": "PASS",
+      "flashBytes": 1064,
+      "ramBytes": 9,
+      "hexSha256": "657fdb7d1a859650c0a348a38748dcca4340098539a41370176028dfa910b641",
+      "stats": {
+        "compiledObjects": 0,
+        "cachedObjects": 0,
+        "libraries": []
+      }
+    },
+    {
+      "name": "Button preserves previous single-sketch firmware exactly",
+      "status": "PASS",
+      "flashBytes": 954,
+      "ramBytes": 9,
+      "hexSha256": "02ab1e155375680fc57db8f1fc6a39cc2917328e39d87af85a5309d86ebd1a4b",
+      "stats": {
+        "compiledObjects": 0,
+        "cachedObjects": 0,
+        "libraries": []
+      }
+    },
+    {
+      "name": "Servo preserves previous single-sketch firmware exactly",
+      "status": "PASS",
+      "flashBytes": 2520,
+      "ramBytes": 50,
+      "hexSha256": "4a788814d70e57dd0bb20fb0ff5dc9c05c2e40fc13d5c61c8631bce50dc323e2",
+      "stats": {
+        "compiledObjects": 1,
+        "cachedObjects": 0,
+        "libraries": [
+          "servo"
+        ]
+      }
+    },
+    {
+      "name": "Ultrasonic preserves previous single-sketch firmware exactly",
+      "status": "PASS",
+      "flashBytes": 4550,
+      "ramBytes": 214,
+      "hexSha256": "fa9ab829a830143cc4d6ac02096525a5293a7bee0d12ed93789433ba0631e5c5",
+      "stats": {
+        "compiledObjects": 0,
+        "cachedObjects": 0,
+        "libraries": []
+      }
+    }
+  ]
+}

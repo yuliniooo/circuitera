@@ -1,0 +1,31 @@
+{
+  "testedAt": "2026-09-13T22:51:55.145Z",
+  "status": "PASS",
+  "protectedFiles": 637,
+  "metrics": {
+    "html": {
+      "bytes": 10232,
+      "gzipBytes": 3414
+    },
+    "javascript": {
+      "bytes": 888218,
+      "gzipBytes": 289319
+    },
+    "css": {
+      "bytes": 70426,
+      "gzipBytes": 14833
+    }
+  },
+  "checks": [
+    "Exact requested title, description, canonical and social metadata",
+    "One primary H1 and one main landmark; responsive guide is present in static HTML",
+    "Eight upload instructions, supported boards, seven accurate FAQs and existing help links",
+    "All ten sitemap pages exist, are indexable, have unique canonical URLs and valid factual WebApplication JSON-LD",
+    "No new runtime dependencies, images, remote scripts, tracking or authentication",
+    "Existing controls retained with optional reliability, editor and debugging tools",
+    "Uno/Nano engine algorithms, worker protocol, profiles, uploaders, storage, autocomplete and library sources unchanged",
+    "Every compiler binary, Arduino core and library source asset byte-identical; engine changes restricted to error details",
+    "Original Google verification bytes and favicon files retained"
+  ],
+  "physicalHardware": "Not retested; no physical board connected."
+}

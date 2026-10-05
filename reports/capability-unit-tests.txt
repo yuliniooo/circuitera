@@ -1,0 +1,46 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> uno-web-ide@1.0.0 test
+> node --test test/serial.test.js test/uploader.test.js test/worker.test.js test/autocomplete.test.js test/sketch-store.test.js test/capabilities.test.js
+
+✔ Arduino functions/constants carry signatures and descriptions without snippets (13.345979ms)
+✔ Serial member context shows serial signatures and no unrelated globals (2.846113ms)
+✔ Only actual declarations are suggested; locals and parameters respect scope (10.453183ms)
+✔ Declarations refresh after editing or deleting source (2.040059ms)
+✔ Suggestions are suppressed in comments, strings, character literals and read-only mode (1.419482ms)
+✔ All 17 tested libraries offer their public include headers; failed libraries are excluded (0.937591ms)
+✔ Library instance methods use declared types and included headers (1.962184ms)
+✔ Applying a function inserts only a call, reuses existing parentheses, and is undoable (0.763942ms)
+✔ Cached include completion uses current document and does not duplicate closing delimiters (2.155057ms)
+Large-sketch completion (2000 declarations): 15.5 ms including EditorState creation; not a Chromebook benchmark.
+✔ Completion has no network or worker code path and stays bounded on a large sketch (29.483224ms)
+✔ Project conversion preserves identity and all files restore atomically without losing other sketches (14.57392ms)
+✔ File selection never changes firmware identity, but header edits do; compile snapshots are independent (10.34239ms)
+✔ Project validation rejects traversal, duplicate names, missing .ino and oversized sources (0.553789ms)
+✔ Export All keeps genuine project files and duplicate projects in independent folders (42.872697ms)
+✔ Pin hover distinguishes digital pins and analogRead channel numbers and ignores comments (9.973099ms)
+✔ Plotter parses numeric/labeled series, keeps time windows and exports exact timestamped CSV (0.92736ms)
+✔ Upload explanations always retain the actual error and stack (0.889016ms)
+✔ parses Intel HEX and pads to an Uno flash page (3.022455ms)
+✔ rejects a bad Intel HEX checksum (0.774751ms)
+✔ rejects data in the Uno bootloader area (0.346411ms)
+✔ prepares an Arduino sketch with Arduino.h and source line mapping (1.064965ms)
+✔ does not generate prototypes from comments, strings, or control statements (0.353496ms)
+✔ extracts clickable compiler diagnostics (0.880538ms)
+✔ migration keeps newest recovery and all legacy sketches; deleted data is never remigrated (13.645859ms)
+✔ pending save indicator waits for transaction completion; rapid edits and closed tabs restore independently (6.909362ms)
+✔ quota failure retains edits and unsaved state; retry commits; failed deletion retains the sketch (2.27939ms)
+✔ aborted transactions reject rather than reporting a successful save (2.081288ms)
+✔ firmware identity guard rejects different tab, changed source, wrong board and empty firmware (0.494087ms)
+✔ Export All ZIP passes independent Python CRC checks and preserves Unicode, duplicate names and exact sources (50.306453ms)
+✔ STK500v1 programs and reads back every page of real WASM-generated firmware (394.42421ms)
+✔ flash verification rejects corrupted readback and never reports success (367.029186ms)
+✔ production Worker sends real stages, compiles source, and survives a GCC failure (2158.927522ms)
+ℹ tests 32
+ℹ suites 0
+ℹ pass 32
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2705.880672

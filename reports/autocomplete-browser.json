@@ -1,0 +1,67 @@
+{
+  "testedAt": "2026-09-05T17:34:07.607Z",
+  "url": "https://arduino-ide.netlify.app/",
+  "deployId": "6a9c51e322ead76fa91b339e",
+  "scope": "Real production Chrome DOM/keyboard tests. Servo and Blink compiled via the unmodified browser Worker, which validates generated ELF and Intel HEX. No physical board attached; no physical upload tested. Separate full WASM library/example suites ran using the shipped compiler in Node transport.",
+  "checks": [
+    {
+      "name": "Automatic suggestions, signatures, descriptions, arrows and Enter",
+      "status": "PASS",
+      "source": "void setup() {\n  digitalWrite()"
+    },
+    {
+      "name": "Serial member completion with Tab; Undo restores original typed text",
+      "status": "PASS",
+      "source": "void setup() {\n  Serial.println()"
+    },
+    {
+      "name": "Servo header inserts the real preinstalled header and closing delimiter",
+      "status": "PASS",
+      "source": "#include <Servo.h>"
+    },
+    {
+      "name": "Autocomplete-assisted Servo sketch compiles and links in production Chrome",
+      "status": "PASS",
+      "source": "#include <Servo.h>\nServo myServo;\nvoid setup() { myServo.attach(9); }\nvoid loop() {\n  myServo.write(73);\n  delay(137);\n}\n\n",
+      "output": "✓ COMPILED\nSketch uses 2472 bytes (8%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 50 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 4.1 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: Servo 1.3.0.\nLibrary objects: 1 compiled, 0 reused.\n"
+    },
+    {
+      "name": "Current-sketch variable sensorPin is suggested with its declaration",
+      "status": "PASS",
+      "suggestions": "sensorPinconst int sensorPin"
+    },
+    {
+      "name": "Current-sketch helper function includes its signature",
+      "status": "PASS",
+      "suggestions": "readSensorint readSensor(int pin)"
+    },
+    {
+      "name": "Turning autocomplete off closes the popup, persists through reload, and disables Ctrl+Space",
+      "status": "PASS"
+    },
+    {
+      "name": "Comments suppress suggestions and Tab still indents with no popup",
+      "status": "PASS"
+    },
+    {
+      "name": "Ctrl+Space and readable completion popup in light/dark themes without horizontal page overflow",
+      "status": "PASS",
+      "layout": {
+        "height": 936,
+        "pageWidth": 1363,
+        "scripts": [
+          "./assets/index-DTV23MJX.js",
+          "/.netlify/scripts/hud?variant=public"
+        ],
+        "theme": "light",
+        "width": 1363
+      }
+    },
+    {
+      "name": "Blink compiles in production with Ctrl+Enter after autocomplete interaction",
+      "status": "PASS",
+      "source": "// Blink — Arduino Uno R3\nconst int LED_PIN = LED_BUILTIN;\n\n\nvoid setup() {\n  pinMode(LED_PIN, OUTPUT);\n}\n\n\nvoid loop() {\n  digitalWrite(LED_PIN, HIGH);\n  delay(1000);\n  digitalWrite(LED_PIN, LOW);\n  delay(1000);\n}\n\n",
+      "output": "✓ COMPILED\nSketch uses 1064 bytes (3%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 9 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 1.7 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: none.\nLibrary objects: 0 compiled, 0 reused.\n"
+    }
+  ]
+}

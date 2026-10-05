@@ -1,0 +1,28 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> uno-web-ide@1.0.0 test:site
+> node test/site-ui.mjs
+
+PASS — Root immediately mounts the full IDE and restores an existing local sketch without any account
+PASS — Static guide remains below the working IDE; one H1, one main and native FAQ interaction preserve editor state
+PASS — Opening About flushes pending edits in the original IndexedDB database
+PASS — Optional information pages navigate normally and remain indexable
+Warning: An update to App inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at https://reactjs.org/link/wrap-tests-with-act
+    at App (file:///workspace/scratch/305fbfac368b/uno-web-ide/test/generated/site-app.mjs:28411:33)
+    at main
+    at SiteApp (file:///workspace/scratch/305fbfac368b/uno-web-ide/test/generated/site-app.mjs:30392:27)
+PASS — Open example enters the IDE directly and creates a separate sketch without replacing prior work
+PASS — Fresh page mount restores all sketches, the active tab and independent edits; compiler assets resolve from root
+PASS — Returning from help restores the requested homepage title and single guide without duplicating content
+PASS — All retired account URLs and /ide open the same saved IDE, remove obsolete URL parameters and expose no forms
+PASS — Unknown example names cannot replace or create sketches
+PASS — The entire route and editor session requests only the local compiler catalog; no authentication or external requests

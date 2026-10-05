@@ -1,0 +1,40 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> uno-web-ide@1.0.0 test:ui
+> node test/ui-regressions.mjs
+
+PASS — Autocomplete is optional, persists locally, and removes its extension when disabled
+PASS — Autosave writes current source without pressing Save; default theme is light
+PASS — Local save restores exact source after remount
+PASS — Export .ino contains the current source
+PASS — Import .ino updates the editor with actual file contents
+PASS — Compile handler uses current imported code through the real Worker
+PASS — Compiler line-number diagnostics remain visible after real GCC failure
+PASS — Upload handler recompiles changed source and calls unchanged STK500v1 with readback
+PASS — Serial line endings and numeric plotter handle real stream chunks
+PASS — Plot pause keeps Serial Monitor reading, resume adds multiple series, CSV exports real samples, and Clear empties the chart
+PASS — Monitor closes and releases its port before firmware upload
+PASS — Serial Monitor receives text, sends newline-terminated text, and disconnects
+PASS — Physical-disconnect event clears selected-port state immediately
+PASS — Theme persists; duplicate preserves source; rename is saved locally
+PASS — School-policy rejection produces clear IT guidance
+PASS — Library checkmarks agree with exact-build compile/link evidence
+PASS — Library search finds OLED by description and examples
+PASS — Two simultaneous tabs compile their exact source into different real HEX; late results stay with the initiating sketch
+PASS — Each tab uploads only its own real HEX through unchanged STK500v1 and readback verification (software port fixture)
+PASS — Switching sketches while USB selection is pending cancels before any flash commands
+PASS — All sketches, open tabs, tab order, and active sketch survive remount from IndexedDB
+PASS — Export All downloads ZIP with current sketches; sketch content is stored only in IndexedDB
+PASS — Closing a tab keeps its saved sketch and reopening restores its exact code
+PASS — Delete requires confirmation; Cancel keeps data and confirmation removes only that sketch
+PASS — Save/New/Close handlers and Alt fallbacks work when the browser delivers the keyboard event
+PASS — Public example opens once as a new sketch; navigation waits for the real WASM compile to finish
+PASS — Leaving the IDE commits pending local edits and releases the Serial Monitor port before navigation
+PASS — Project UI compiles separate C++ objects; switching files retains firmware and secondary-file edits force genuine recompilation before upload
+PASS — Project records, selected file, independent source contents and open tabs survive IndexedDB remount; project ZIP downloads
+PASS — Optional Test My Uno requires explicit actions, uses real WASM + unchanged STK500v1, rejects bad readback, and never replaces student sketches or their firmware (software port only)
+PASS — Arduino Nano V3 — ATmega328P (new bootloader): UI compiles its own board macro and current source; actual baud reaches uploader; flash readback and Serial Monitor reopen pass (software port)
+PASS — Arduino Nano V3 — ATmega328P (old bootloader): UI compiles its own board macro and current source; actual baud reaches uploader; flash readback and Serial Monitor reopen pass (software port)
+PASS — Nano selection survives remount without modifying IndexedDB sketches or project records
+PASS — Target selector is locked during pending USB selection and cannot retarget an in-flight upload
+PASS — Switching back to Uno restores original compilation behavior and clears a Nano device selection

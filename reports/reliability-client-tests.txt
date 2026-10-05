@@ -1,0 +1,10 @@
+✔ a failed postMessage must release the compiler for the next attempt (2.932953ms)
+✔ worker errors retain the real exception, asset and last stage, then allow retry (1.426196ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 87.094616

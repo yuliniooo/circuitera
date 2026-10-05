@@ -1,0 +1,48 @@
+{
+  "name": "uno-web-ide",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "node scripts/clean-build.mjs && node scripts/prepare-library-assets.mjs && vite build && node scripts/copy-avr-assets.mjs && node scripts/build-public-pages.mjs && node scripts/build-pwa.mjs",
+    "preview": "vite preview --host 0.0.0.0 --port 4173",
+    "test": "node --test test/serial.test.js test/uploader.test.js test/worker.test.js test/autocomplete.test.js test/sketch-store.test.js test/capabilities.test.js test/nano.test.js",
+    "test:examples": "node test/compile-examples.mjs",
+    "test:libraries": "node test/compile-libraries.mjs",
+    "test:ui": "node test/ui-regressions.mjs",
+    "test:editor": "node test/editor-tabs.mjs",
+    "test:workspace": "node test/compile-workspace.mjs",
+    "check:site": "node scripts/check-branding.mjs && node scripts/check-site-release.mjs",
+    "test:site": "node test/site-ui.mjs",
+    "test:projects": "node test/compile-projects.mjs",
+    "test:offline": "node test/offline.mjs",
+    "test:nano": "node test/compile-nano.mjs",
+    "test:reliability": "node --test test/compiler-client.test.js test/local-debug.test.js",
+    "test:pb": "node test/compile-pb.mjs && node --test test/pb-upload.test.js"
+  },
+  "dependencies": {
+    "@codemirror/autocomplete": "6.20.3",
+    "@codemirror/commands": "6.11.0",
+    "@codemirror/lang-cpp": "^6.0.3",
+    "@codemirror/language": "6.12.4",
+    "@codemirror/state": "6.7.4",
+    "@codemirror/theme-one-dark": "^6.1.2",
+    "@codemirror/view": "6.43.11",
+    "@horang-corp/avr-gcc-wasm": "0.2.0",
+    "@uiw/react-codemirror": "^4.23.10",
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "fake-indexeddb": "6.2.4",
+    "jsdom": "26.1.0",
+    "react-test-renderer": "18.3.1",
+    "vite": "^6.0.7"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

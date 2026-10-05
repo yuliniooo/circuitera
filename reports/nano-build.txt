@@ -1,0 +1,24 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> uno-web-ide@1.0.0 build
+> node scripts/clean-build.mjs && node scripts/prepare-library-assets.mjs && vite build && node scripts/copy-avr-assets.mjs && node scripts/build-public-pages.mjs && node scripts/build-pwa.mjs
+
+Prepared 17 pinned source bundles; 0 verified for this exact build.
+vite v6.4.3 building for production...
+transforming...
+✓ 1637 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                            3.25 kB │ gzip:   1.14 kB
+dist/assets/compiler.worker-BYuiSncs.js   16.43 kB
+dist/assets/index-DCiN9K1n.css            61.64 kB │ gzip:  13.20 kB
+dist/assets/index-ByCk3pEd.js            851.46 kB │ gzip: 277.25 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 3.40s
+Copied AVR-GCC WASM, Uno core, and pinned library sources into dist/avr.
+Prepared direct IDE homepage and crawlable About, Features, Help and Examples pages.
+Prepared PWA shell (21 files) and optional compiler cache (28 assets), release 89c03751fa1e9bde21fb.

@@ -1,0 +1,19 @@
+✔ PB upload accepts reported 16 with accurate identification (737.30865ms)
+✔ PB upload accepts reported f with accurate identification (731.856161ms)
+✔ Unexpected signature blocks programming and releases port (363.067749ms)
+✔ Diagnostic never writes flash and survives a lost sync reply (812.159813ms)
+✔ PB flash readback mismatch cannot report success (722.856205ms)
+✔ PB oversize firmware rejected before opening port (0.367084ms)
+✔ Missing signature remains explicitly uncertain (0.093741ms)
+✔ Permission failure preserved (0.460103ms)
+✔ PB probes 57600 only after 115200 fails, then uploads at the working baud (3794.559333ms)
+✔ No response is distinguished and port released (3064.617219ms)
+✔ Unsupported signature query allows compatible bootloader with uncertainty (1329.883592ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 13428.200353

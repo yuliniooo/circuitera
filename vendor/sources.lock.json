@@ -1,0 +1,128 @@
+[
+  {
+    "id": "servo",
+    "name": "Servo",
+    "version": "1.3.0",
+    "url": "https://downloads.arduino.cc/libraries/github.com/arduino-libraries/Servo-1.3.0.zip",
+    "sha256": "d25b0d77f10a810d24876c570410f32cc3129f9cc3d0370c861a278b969b4b38",
+    "upstream": "https://github.com/arduino-libraries/Servo.git",
+    "license": "See included upstream notices"
+  },
+  {
+    "id": "liquidcrystal",
+    "name": "LiquidCrystal",
+    "version": "1.0.7",
+    "url": "https://downloads.arduino.cc/libraries/github.com/arduino-libraries/LiquidCrystal-1.0.7.zip",
+    "sha256": "f7b14c42afbbdcfbe66073e6ef1e4cbaa03f5d11f52f9ab91c916b6ccac38434",
+    "upstream": "https://github.com/arduino-libraries/LiquidCrystal.git",
+    "license": "See included upstream notices"
+  },
+  {
+    "id": "dht",
+    "name": "DHT sensor library",
+    "version": "1.4.7",
+    "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/DHT_sensor_library-1.4.7.zip",
+    "sha256": "5c5d3881b49840c7be98cc0848a48930bbac364fadc7edb7965fe98f9bb1463f",
+    "upstream": "https://github.com/adafruit/DHT-sensor-library.git",
+    "license": "See included upstream notices"
+  },
+  {
+    "id": "unified-sensor",
+    "name": "Adafruit Unified Sensor",
+    "version": "1.1.15",
+    "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_Unified_Sensor-1.1.15.zip",
+    "sha256": "d64cdec0b817535f568fc3b8b8d44e7e097749f5ab8040aea573f412a3cbaec6",
+    "upstream": "https://github.com/adafruit/Adafruit_Sensor.git",
+    "license": "See included upstream notices"
+  },
+  {
+    "id": "gfx",
+    "name": "Adafruit GFX Library",
+    "version": "1.12.6",
+    "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_GFX_Library-1.12.6.zip",
+    "sha256": "7d4dc7a7522716d2c88a3b1b9b13521d33cfeeae9ebffa42c2dba0559696a997",
+    "upstream": "https://github.com/adafruit/Adafruit-GFX-Library.git",
+    "license": "See included upstream notices"
+  },
+  {
+    "id": "ssd1306",
+    "name": "Adafruit SSD1306",
+    "version": "2.5.17",
+    "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_SSD1306-2.5.17.zip",
+    "sha256": "9b8a9c29a16576d66bce16ed9f6a731632fecbb477171f38a6bc033fda15dd06",
+    "upstream": "https://github.com/adafruit/Adafruit_SSD1306.git",
+    "license": "See included upstream notices"
+  },
+  {
+    "id": "busio",
+    "name": "Adafruit BusIO",
+    "version": "1.17.4",
+    "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_BusIO-1.17.4.zip",
+    "sha256": "c7bab1b6c6eee64b50964c8e149b795719a01f1d9dfcdcef170b35daa696349b",
+    "upstream": "https://github.com/adafruit/Adafruit_BusIO.git",
+    "license": "See included upstream notices"
+  },
+  {
+    "id": "neopixel",
+    "name": "Adafruit NeoPixel",
+    "version": "1.15.5",
+    "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_NeoPixel-1.15.5.zip",
+    "sha256": "3d767caa011ab3078df7fe3c3e0456359ce2bc309eba343932690a2c1612fd16",
+    "upstream": "https://github.com/adafruit/Adafruit_NeoPixel.git",
+    "license": "See included upstream notices"
+  },
+  {
+    "id": "newping",
+    "name": "NewPing",
+    "version": "1.9.7",
+    "url": "https://downloads.arduino.cc/libraries/bitbucket.org/teckel12/NewPing-1.9.7.zip",
+    "sha256": "7f4c4ef7f39a1ce8a6bf05580717712fc3e669ee5b0c343479569d5e2e374564",
+    "upstream": "https://bitbucket.org/teckel12/arduino-new-ping.git",
+    "license": "See included upstream notices"
+  },
+  {
+    "id": "irremote",
+    "name": "IRremote",
+    "version": "4.7.1",
+    "url": "https://downloads.arduino.cc/libraries/github.com/z3t0/IRremote-4.7.1.zip",
+    "sha256": "33d7630e883cc60088b8d81f4fd1129b72bf14894edd56ec3ddbed998b3d4ce1",
+    "upstream": "https://github.com/z3t0/Arduino-IRremote.git",
+    "license": "See included upstream notices"
+  },
+  {
+    "id": "keypad",
+    "name": "Keypad",
+    "version": "3.1.1",
+    "url": "https://downloads.arduino.cc/libraries/github.com/Chris--A/Keypad-3.1.1.zip",
+    "sha256": "816e366073a7ca0353b962a973ba3a7c6852f73f8cc2ccb8a6c5223807e5faf5",
+    "upstream": "https://github.com/Chris--A/Keypad.git",
+    "license": "See included upstream notices"
+  },
+  {
+    "id": "accelstepper",
+    "name": "AccelStepper",
+    "version": "1.64.0",
+    "url": "https://downloads.arduino.cc/libraries/github.com/waspinator/AccelStepper-1.64.0.zip",
+    "sha256": "45d152991271f8480bc939a7f325e006bfa3695a865eda383770bb68f0140e05",
+    "upstream": "https://github.com/waspinator/AccelStepper.git",
+    "license": "See included upstream notices"
+  },
+  {
+    "id": "liquidcrystal-i2c",
+    "name": "LiquidCrystal I2C",
+    "version": "1.1.2",
+    "url": "https://downloads.arduino.cc/libraries/github.com/johnrickman/LiquidCrystal_I2C-1.1.2.zip",
+    "sha256": "7f288f4aa7ad33a25122727b057e49c48ef5f0d3a4943b7aca33ed2b78982adb",
+    "upstream": "https://github.com/johnrickman/LiquidCrystal_I2C.git",
+    "license": "See included upstream notices"
+  },
+  {
+    "id": "arduino-core",
+    "name": "Arduino AVR Boards",
+    "version": "1.8.6",
+    "url": "https://downloads.arduino.cc/cores/staging/avr-1.8.6.tar.bz2",
+    "sha256": "ff1d17274b5a952f172074bd36c3924336baefded0232e10982f8999c2f7c3b6",
+    "upstream": "https://github.com/arduino/ArduinoCore-avr",
+    "license": "See included upstream notices"
+  }
+]

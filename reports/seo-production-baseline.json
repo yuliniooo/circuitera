@@ -1,0 +1,2358 @@
+{
+  "dist/favicon.svg": {
+    "sha256": "345b5f128d5dcfdac913f4243a108afd3ef99b803365b8fbdc7b53381a2aad19",
+    "bytes": 507
+  },
+  "dist/_headers": {
+    "sha256": "f8e25f51a200dbd585916a3479119d9ae1ae3eee5f7c94ba5bbc6ce7d7f735af",
+    "bytes": 629
+  },
+  "dist/index.html": {
+    "sha256": "8bc363c39860dfb3063ec1394315040c3fd700b0cf47818bd4479af7999d48bb",
+    "bytes": 3377
+  },
+  "dist/favicon.png": {
+    "sha256": "5a638b071a5848b3772f1abf3eed98fbd40c9266d1295c08bb8f88f0fc2b3ed4",
+    "bytes": 967
+  },
+  "dist/favicon-16.png": {
+    "sha256": "d67dcf63c60ef5f21bcc9caa6006a4d33efeb270ddbe82fd615465988783f514",
+    "bytes": 520
+  },
+  "dist/favicon-32.png": {
+    "sha256": "5a638b071a5848b3772f1abf3eed98fbd40c9266d1295c08bb8f88f0fc2b3ed4",
+    "bytes": 967
+  },
+  "dist/manifest.webmanifest": {
+    "sha256": "899778fe99135e2bef8ad62711c41e906aa9c0a42f39557fcedf0637ddfe581a",
+    "bytes": 574
+  },
+  "dist/sitemap.xml": {
+    "sha256": "4c94547cd955e1f96a2cb81ba6f27b05da9575676b43951c87fabb762ff2589a",
+    "bytes": 762
+  },
+  "dist/RELEASE.md": {
+    "sha256": "7683d5efde6ee85af5f5a77a0dfe911412eeae172824be9737690477592d5e98",
+    "bytes": 15349
+  },
+  "dist/favicon-192.png": {
+    "sha256": "10dae7b201fc6c2179e55715ca8998eb85f1888ad49ce9431926295b37e48e68",
+    "bytes": 5218
+  },
+  "dist/robots.txt": {
+    "sha256": "8ab4ba72a81395edcd3b5e3a8174ba4711798cfd1d42b7c789af6d7447063ddf",
+    "bytes": 112
+  },
+  "dist/_redirects": {
+    "sha256": "042c383dbc15bc2445d5942cc5939a2bf6a42de86c2407bb4a35c218dc79728c",
+    "bytes": 227
+  },
+  "dist/apple-touch-icon.png": {
+    "sha256": "be2361e65baeaae548ada95cb49fe20f4084c8fdef0052c016075fb8116c412f",
+    "bytes": 4732
+  },
+  "dist/favicon-48.png": {
+    "sha256": "b8d50a8429f30580dc704c8b89a780098824ae480f5df19897c64566a8264937",
+    "bytes": 1348
+  },
+  "dist/favicon.ico": {
+    "sha256": "4928115749288defb14b8285e5e654b43087a5ee2520a5dc1e57fb495eaefe03",
+    "bytes": 2889
+  },
+  "dist/sw.js": {
+    "sha256": "a48df9e851500c570a0394a8d8521f01daeb935252c1b326294a26ecc71fe113",
+    "bytes": 9201
+  },
+  "dist/googleb22ad35e0875e1ed.html": {
+    "sha256": "972b00d6171c5d708d436db7ceb05a24f942744c78e898f29e678ee3fb0d8f46",
+    "bytes": 53
+  },
+  "dist/brand/circuitera-favicon-source-512.png": {
+    "sha256": "b4ce97f54129cab09f778efc9f56ce1a1fc91476c3ca95ee39b12355c71ee602",
+    "bytes": 9060
+  },
+  "dist/brand/circuitera-icon.png": {
+    "sha256": "966a2f9b890e74f2415fb3cd3ba805a66db8eade63705598c8112e32f1e7fca5",
+    "bytes": 8705
+  },
+  "dist/brand/circuitera-wordmark-light.png": {
+    "sha256": "dfbe9e26add4c42e2dca5e873b2bc882c12d6852d2a66662ea015421f6783e5f",
+    "bytes": 6200
+  },
+  "dist/brand/circuitera-icon-light-512.png": {
+    "sha256": "4a7e30b33d37d6804ad2c8e65148b09b895098137ef7fa96ba2ea058f476ca11",
+    "bytes": 8255
+  },
+  "dist/brand/circuitera-wordmark-light.svg": {
+    "sha256": "4b8a313ed9ff2f00c0434311726258a1428ee6b7f6dc768f29c8ae4ed7830db4",
+    "bytes": 544
+  },
+  "dist/brand/circuitera-icon-dark-512.svg": {
+    "sha256": "bb3328aaf4458ea1cad02e5cb36b898483e2d8b93804c7b6cf0d3d162c4c4fdd",
+    "bytes": 358
+  },
+  "dist/brand/circuitera-social.svg": {
+    "sha256": "8e98fcee97fdfe0cc791e1ad82c13d7d6d795a600bba17b908151b2a6909816c",
+    "bytes": 1632
+  },
+  "dist/brand/circuitera-wordmark-dark.png": {
+    "sha256": "ada078e2857690014d728d4f49fc7b392bf1950a6fd15124a51d5bf382969895",
+    "bytes": 6257
+  },
+  "dist/brand/circuitera-wordmark-dark.svg": {
+    "sha256": "f1fa146851cf19f438cbb1c5101bfc03dcb4ebfa3a16204a7264de7d1582163c",
+    "bytes": 544
+  },
+  "dist/brand/circuitera-icon-dark.png": {
+    "sha256": "dc743c24ce23ee1a0a4dc64d37272a0a293630f60dbc01f3a66c04be2542aa12",
+    "bytes": 8647
+  },
+  "dist/brand/circuitera-icon-dark-512.png": {
+    "sha256": "44e8cabb86bae92420c6a6bd29975f98f3156cd855a80410646fea2f3d3c0912",
+    "bytes": 8426
+  },
+  "dist/brand/circuitera-icon-light-512.svg": {
+    "sha256": "6440c68ecd57cf0d7edf509ec6734f1d568b1d086e5a3b916f510301fa8dec86",
+    "bytes": 358
+  },
+  "dist/brand/circuitera-icon.svg": {
+    "sha256": "12a723cdd875293eb4d6e5f784f59b0ab941f53488f8cf701e20cfd56aae85de",
+    "bytes": 313
+  },
+  "dist/brand/circuitera-social.png": {
+    "sha256": "d7dadf6bfce8110238d2c9e3163f5f814aac408fe43bcfb332fb09a2b3d0fe07",
+    "bytes": 44319
+  },
+  "dist/brand/circuitera-icon-dark.svg": {
+    "sha256": "a816874db9b703abe8e9fed79951b23e56b699d3f59d3e1863a221e43d4f7358",
+    "bytes": 313
+  },
+  "dist/arduino-on-chromebook/index.html": {
+    "sha256": "b6199e0385f3014f5aaf77ee1dca23f6835349f70d604dd0639d96ca579f64e8",
+    "bytes": 7582
+  },
+  "dist/assets/index-CjaWg2cT.js": {
+    "sha256": "f5acc76cdad20bd2b7480bb9c6224c783070a6c9f466fb450c121d9344c5a8b5",
+    "bytes": 860272
+  },
+  "dist/assets/index--SkMz_Cn.css": {
+    "sha256": "4d64cbdbaecec6aa67383c4f537977e4b40fab3779cb8e218ef4dc21706e1971",
+    "bytes": 62393
+  },
+  "dist/assets/compiler.worker-BWABVUPA.js": {
+    "sha256": "2b822a5055d394660e5923d2f3ae49b302f82ac8aecec6541fdd040fc2a7a118",
+    "bytes": 16782
+  },
+  "dist/getting-started/index.html": {
+    "sha256": "d01ddb22ea5b8afc86e8dd7a8d9d5952872975f1e102f5bd0ef4f408c18096c1",
+    "bytes": 7816
+  },
+  "dist/examples/index.html": {
+    "sha256": "d886f2d6e40787af9151bbd8dab54531a2c88bb4f6b50918a839f57750222a5f",
+    "bytes": 16622
+  },
+  "dist/avr/THIRD_PARTY_NOTICES.md": {
+    "sha256": "851b929191cbd4dbec7597ad44d4702cd8c252bca9d1c363b3c53996941c01be",
+    "bytes": 1370
+  },
+  "dist/supported-libraries/index.html": {
+    "sha256": "59bedc486c997af1a35922b3be8eaab50f6702c2ff0eb60cb339be739cedb111",
+    "bytes": 13477
+  },
+  "dist/how-it-works/index.html": {
+    "sha256": "e033d018c1f2e8a5b742d82c39833967fc41661365261d8786efe945f4624370",
+    "bytes": 10935
+  },
+  "dist/features/index.html": {
+    "sha256": "ed5919813ad492bc4ee1b77b85576cd8d314b94c193902346469f72079833455",
+    "bytes": 12730
+  },
+  "dist/about/index.html": {
+    "sha256": "f02d6321741e10bbde76a4ed4513fae9866016ab93d9854bbbc03022b61f8ce2",
+    "bytes": 21549
+  },
+  "dist/troubleshooting/index.html": {
+    "sha256": "a2fb7f99863d2cc39c3a59ad13e47d4f95d9ee40579d2be662458bf16b1ddf15",
+    "bytes": 8808
+  },
+  "dist/uno-pinout/index.html": {
+    "sha256": "ba4914ad6d629de30bee50ae6d4480886d221ef57dd6ddbbb5cbf048431edf54",
+    "bytes": 9803
+  },
+  "dist/avr/curated/busio-6c97854fdbc8dd0a.json": {
+    "sha256": "6c97854fdbc8dd0aba7c4c5274c8c41254a8ef8673d21080c60f9c270fab4769",
+    "bytes": 54923
+  },
+  "dist/avr/curated/manifest.json": {
+    "sha256": "517f74f1f2ba576e9911ec364bcd6a11ee01677af88482c58f707355db05aeda",
+    "bytes": 34039
+  },
+  "dist/avr/curated/neopixel-b05e962e1ed8cb79.json": {
+    "sha256": "b05e962e1ed8cb79907f40f3d40057be30c5798aba99c4c5092eee2ad0da7ce2",
+    "bytes": 185787
+  },
+  "dist/avr/curated/liquidcrystal-i2c-9d9ff100cf467bd2.json": {
+    "sha256": "9d9ff100cf467bd2c2e431f52ded41f0c2682b2b0fe41f1355c0578e6ecd3424",
+    "bytes": 13298
+  },
+  "dist/avr/curated/liquidcrystal-fff35ca8f56cea1b.json": {
+    "sha256": "fff35ca8f56cea1b00fbba8767a6ce3bdf20496604706ab5cef4da5c09150ab1",
+    "bytes": 12587
+  },
+  "dist/avr/curated/keypad-efae8c87f9d2fe14.json": {
+    "sha256": "efae8c87f9d2fe1471a6fb9ba74ec0b0ee3ce51b6771621b3580ffffd880f259",
+    "bytes": 19248
+  },
+  "dist/avr/curated/uno-core-f3b1ff28b7930b7f.json": {
+    "sha256": "f3b1ff28b7930b7f629d7e325822aa4d7ded9b8a6b5171bbbccc1719d0490c4c",
+    "bytes": 9818659
+  },
+  "dist/avr/curated/nano-variant-be5fc7a105716005.json": {
+    "sha256": "be5fc7a105716005de771d6e65f1d56a8edfb511bee5eedf184e612e9004e13f",
+    "bytes": 7857
+  },
+  "dist/avr/curated/ssd1306-69323d2c6051cea4.json": {
+    "sha256": "69323d2c6051cea4d7b5ca1a0dbb10ed9f3817f0c689cfac97e2f31e964246c1",
+    "bytes": 70608
+  },
+  "dist/avr/curated/dht-e7d7f87221b675f9.json": {
+    "sha256": "e7d7f87221b675f91429265203d4d5df832803ab9e9906a3d86a9e2c0a10b30e",
+    "bytes": 26175
+  },
+  "dist/avr/curated/gfx-bb954e850f80093f.json": {
+    "sha256": "bb954e850f80093f13f39df02a3fb4a7fcd87f4904671cc32a424fbb31f842ed",
+    "bytes": 1717248
+  },
+  "dist/avr/curated/servo-69dc662f0bbb78df.json": {
+    "sha256": "69dc662f0bbb78df1deab5fd87073d4f47679892e3d448552364e6957599fd18",
+    "bytes": 19375
+  },
+  "dist/avr/curated/wire-f9c051e82b7ab559.json": {
+    "sha256": "f9c051e82b7ab5598bf347dfaaec2497ec171fbed8c3ad8de92ed035b3152d69",
+    "bytes": 38034
+  },
+  "dist/avr/curated/spi-76fe6432652cfc51.json": {
+    "sha256": "76fe6432652cfc5189dd8ff1ad13289801c82d8013d0a1c938c8a8f0ff0408a1",
+    "bytes": 16801
+  },
+  "dist/avr/curated/unified-sensor-4d18bfe56bfa9755.json": {
+    "sha256": "4d18bfe56bfa975546bffba44b3171f713282150771811ea58b9a888f1299a01",
+    "bytes": 14074
+  },
+  "dist/avr/curated/accelstepper-d3dd14efb6886dd5.json": {
+    "sha256": "d3dd14efb6886dd50825bfaad00698da29937096c76a1ffddfc59a3757700a37",
+    "bytes": 65506
+  },
+  "dist/avr/curated/softwareserial-3ff256d6124ab7c7.json": {
+    "sha256": "3ff256d6124ab7c791535d64c6333115e2c001e697e2205c081e5440ba7d4084",
+    "bytes": 18879
+  },
+  "dist/avr/curated/newping-6174ba868be20467.json": {
+    "sha256": "6174ba868be20467f42d2a90fb3201cb7bb55c12bf140f0304917a0738466441",
+    "bytes": 34278
+  },
+  "dist/avr/curated/eeprom-f61931295fd35419.json": {
+    "sha256": "f61931295fd3541998b3a11e1e3261e8e4a9ee1dc946fb2f9a112a2b6809b6d7",
+    "bytes": 55222
+  },
+  "dist/avr/curated/irremote-9071dddc11755498.json": {
+    "sha256": "9071dddc11755498ffedc7814d7ab8665091a39ca7794a1ff309e9579d29f978",
+    "bytes": 747669
+  },
+  "dist/avr/sources/boards.txt": {
+    "sha256": "8d9bfed2385fefb4cfc1999ccf9f70ad097f8fd32f8e4b299a49ea3d1f1de8de",
+    "bytes": 40230
+  },
+  "dist/avr/sources/sources.lock.json": {
+    "sha256": "d7721f3f76f5b351671bf75c94ee49a0092659b7724cd768daf2f3677c9faf3b",
+    "bytes": 5327
+  },
+  "dist/avr/tools/avr-objcopy.mjs": {
+    "sha256": "6bda2f075bcbab021b5506175631008ef1f0db4ac8ff9ff78c2b6f7d89fb9416",
+    "bytes": 135032
+  },
+  "dist/avr/tools/avr-ld.wasm": {
+    "sha256": "8b884781cd1bde8007bc4f878e82335c502f9bed57f62b182d72ec6372371675",
+    "bytes": 1078207
+  },
+  "dist/avr/tools/cc1plus.mjs": {
+    "sha256": "b33f286338e5774ed705f321d05556a533bf8b43dd8f832144905b2bce08e2d7",
+    "bytes": 183199
+  },
+  "dist/avr/tools/avr-as.wasm": {
+    "sha256": "cf228116046caa8865bcd49dc8f2cafe1fbf61dabc3920d51ca27cf020d0f34b",
+    "bytes": 761856
+  },
+  "dist/avr/tools/avr-ld.mjs": {
+    "sha256": "f7e7434ee053a8b86349e20b828cbc96e5b7dde7596ea992d775b70881dc1229",
+    "bytes": 142386
+  },
+  "dist/avr/tools/avr-objcopy.wasm": {
+    "sha256": "9de9e2fcc18f0ce549234340222ab4b301123f1465d670a407ed065d5f02edd4",
+    "bytes": 725405
+  },
+  "dist/avr/tools/avr-as.mjs": {
+    "sha256": "f87023c95bb4fb900a8787eadf8058b657fbc8117aa212e1faf629e20ed5a38b",
+    "bytes": 134895
+  },
+  "dist/avr/tools/cc1plus.wasm": {
+    "sha256": "c987b310a29dc685b9ba8bf7710d346cb890d735bf2d5db03d44fe864dc17584",
+    "bytes": 13844490
+  },
+  "dist/avr/sources/arduino-core/HardwareSerial.cpp": {
+    "sha256": "641c8d9b1f266c7b97ca59bcb0915e09a897ef1fa78dd9cdb2c93ce1c2d19c1b",
+    "bytes": 8990
+  },
+  "dist/avr/sources/arduino-core/HardwareSerial3.cpp": {
+    "sha256": "c3b7fdb1ca29887151676e5dd8fd326ecc932e458cf1138cd275777068a113f3",
+    "bytes": 1976
+  },
+  "dist/avr/sources/arduino-core/IPAddress.h": {
+    "sha256": "7703aef6f91a385729cf8f16ed561b0f8c7eb823698c80af3a33f9e0de3b4e72",
+    "bytes": 2861
+  },
+  "dist/avr/sources/arduino-core/HardwareSerial.h": {
+    "sha256": "f64d1a45fb14b94ca2425e73978f61bd054a886e5f838089098008d199a9bd73",
+    "bytes": 5262
+  },
+  "dist/avr/sources/arduino-core/wiring_digital.c": {
+    "sha256": "f56a12bb80e3179db3c4803a90b7c3c4ac6b14d4f23ababb121173ef0e27d26c",
+    "bytes": 4979
+  },
+  "dist/avr/sources/arduino-core/PluggableUSB.h": {
+    "sha256": "555ba172a3004d809a10a8c6bc5ae93154a0148eb5a5a62e9855ad1b57535704",
+    "bytes": 2063
+  },
+  "dist/avr/sources/arduino-core/HardwareSerial0.cpp": {
+    "sha256": "388bd9bcd3ff9c2b30a1d6d9a14a4b61a5ab070cc8000f186138c0d15565adf6",
+    "bytes": 2606
+  },
+  "dist/avr/sources/arduino-core/HardwareSerial_private.h": {
+    "sha256": "ff787b0f29eebaaa903aff4d12349e4a45f5c6ca995cec7aa699bd8296253a93",
+    "bytes": 4470
+  },
+  "dist/avr/sources/arduino-core/Print.h": {
+    "sha256": "29403f23a682faae75437ca4e8370e0075efa3c70f9850d27ff0105eca4c9146",
+    "bytes": 2964
+  },
+  "dist/avr/sources/arduino-core/new.cpp": {
+    "sha256": "7aedc314beaa121f3568f6fb25466e5c3fd6c8e096c267d1dd371bd6ba779c57",
+    "bytes": 3584
+  },
+  "dist/avr/sources/arduino-core/new": {
+    "sha256": "3181c9898df4eb34b6f73b8d64bdb2449c68d39277d4b1fc8e80d2f8fbb296ae",
+    "bytes": 2514
+  },
+  "dist/avr/sources/arduino-core/wiring_analog.c": {
+    "sha256": "af985237cce8dcf22d1a1359bab6af274c780592feae73707c792c334ee63172",
+    "bytes": 7637
+  },
+  "dist/avr/sources/arduino-core/main.cpp": {
+    "sha256": "a2d7d7d72e5259b0212f6682be0ded139f854481fad2c6e742d2f6264924402b",
+    "bytes": 1372
+  },
+  "dist/avr/sources/arduino-core/abi.cpp": {
+    "sha256": "eee76e094254f0a57f98d3ad413b94ac581103766117b3a568ece620944c5d9a",
+    "bytes": 1144
+  },
+  "dist/avr/sources/arduino-core/Arduino.h": {
+    "sha256": "335f45c59532cd7df39ce1435fbf1abf8d503d42ac6085a92e0f2ff75f5fffac",
+    "bytes": 7613
+  },
+  "dist/avr/sources/arduino-core/wiring_private.h": {
+    "sha256": "c416d346d436f2ba55507ba867a0fd6bf8d261440194a237fa318e20c5617bdc",
+    "bytes": 2255
+  },
+  "dist/avr/sources/arduino-core/wiring_pulse.S": {
+    "sha256": "9810731062c66edf81cfb5af736c66914410471008c40f73dca2562233b135a8",
+    "bytes": 6022
+  },
+  "dist/avr/sources/arduino-core/PluggableUSB.cpp": {
+    "sha256": "6c39d37902d2819007ef6b82c132ba89c821b134e143d59d33c99a46765e2a62",
+    "bytes": 2725
+  },
+  "dist/avr/sources/arduino-core/Printable.h": {
+    "sha256": "ba6be49c4ef46aa03fa7b78cc444e72f811805cf33dfdddf26bd062cdbc14a0b",
+    "bytes": 1335
+  },
+  "dist/avr/sources/arduino-core/wiring_shift.c": {
+    "sha256": "651f4a11837e609be423ceb0b31cfd5cf6b09bad06f62cbc85c241efae8e50ec",
+    "bytes": 1569
+  },
+  "dist/avr/sources/arduino-core/WInterrupts.c": {
+    "sha256": "6550a77cf2e54006286cea7cc22a724d156756a8ad1421b78da6627433449e9b",
+    "bytes": 11466
+  },
+  "dist/avr/sources/arduino-core/WString.h": {
+    "sha256": "8b18cd1821d625873814b24b33040f71ef488f6b251111f3bf2c27f64f8527a6",
+    "bytes": 9910
+  },
+  "dist/avr/sources/arduino-core/WCharacter.h": {
+    "sha256": "26aa841fe42aeace3a7caf3af27b9ffecde391b4a5661782027c0c14b6ccf4e3",
+    "bytes": 4576
+  },
+  "dist/avr/sources/arduino-core/wiring_pulse.c": {
+    "sha256": "44e8c70ed20c11689ecbf6eedd7b469ad7bc1090d0b0ddfe8ec9a10d4a212b2d",
+    "bytes": 3435
+  },
+  "dist/avr/sources/arduino-core/IPAddress.cpp": {
+    "sha256": "e423a28f833614ff4e1cf1e5b841181e8e0c727f4ca3ae81ee66afa84cf75f63",
+    "bytes": 2851
+  },
+  "dist/avr/sources/arduino-core/Server.h": {
+    "sha256": "a75dd1f4e53398af5006b2f9b26df53ca76dd3999649bdf31bf4120aef4ea144",
+    "bytes": 963
+  },
+  "dist/avr/sources/arduino-core/USBCore.cpp": {
+    "sha256": "9750200cafecc523c388b7d9474f2b3b94d71bcca59ab4bc481c668b57e2c836",
+    "bytes": 20589
+  },
+  "dist/avr/sources/arduino-core/new.h": {
+    "sha256": "46d737ed07098aa51ea868c000f7dd0a919361cc7481518754632547fa60d858",
+    "bytes": 149
+  },
+  "dist/avr/sources/arduino-core/USBAPI.h": {
+    "sha256": "72f7b2eb6361a200106d9041dfa77669e438d64c93c253e79cecf385546d90ae",
+    "bytes": 6282
+  },
+  "dist/avr/sources/arduino-core/Stream.h": {
+    "sha256": "4f8adb5c1ab52d5f2b5a831cf8bdc0ae49b92c32dd22f2dc5c53389322701cdb",
+    "bytes": 6060
+  },
+  "dist/avr/sources/arduino-core/Udp.h": {
+    "sha256": "2bcab2ff8d1e4acfa389085d81b065dafc0fe7173c808447986f89a852d073ba",
+    "bytes": 4363
+  },
+  "dist/avr/sources/arduino-core/wiring.c": {
+    "sha256": "586bdf890ff6cd70d2a5457aef406517fff1113dcee51ea9f4f86cd54f8cc204",
+    "bytes": 11951
+  },
+  "dist/avr/sources/arduino-core/HardwareSerial2.cpp": {
+    "sha256": "d7ade11adc2a90e526f5629d7804b95ec2a34c06a6811f4d072cffba3d5a0daa",
+    "bytes": 1976
+  },
+  "dist/avr/sources/arduino-core/HardwareSerial1.cpp": {
+    "sha256": "a530014dd9f52d02f65db73995b24d18cd38bba586d1249b533826379f82208c",
+    "bytes": 2316
+  },
+  "dist/avr/sources/arduino-core/binary.h": {
+    "sha256": "cf4471358657a38f744807fe2b6eb7ab5dd13bab402e77d3dd38e78635c02755",
+    "bytes": 11214
+  },
+  "dist/avr/sources/arduino-core/hooks.c": {
+    "sha256": "525370afcb26502a965376f05b00b4aafc89644e6bc3c693718d56533ca38771",
+    "bytes": 1142
+  },
+  "dist/avr/sources/arduino-core/Print.cpp": {
+    "sha256": "4e5077fe1dff0b2f506f23bb2a7dea251f739aa9aab2ad285f71ad6434161e26",
+    "bytes": 5442
+  },
+  "dist/avr/sources/arduino-core/USBCore.h": {
+    "sha256": "4da9e387bade6ae523b311e8f2cac1db5e5b5353028419a5183a07e67f38552f",
+    "bytes": 8372
+  },
+  "dist/avr/sources/arduino-core/Client.h": {
+    "sha256": "0619cd22b5f07c705d1c19db2c868bf5e2441ce3278f3fba11e71104ee2636bd",
+    "bytes": 1529
+  },
+  "dist/avr/sources/arduino-core/Tone.cpp": {
+    "sha256": "7c902769f0950fc26a1032258f526775d25ae61aca97de2036653459172f3d00",
+    "bytes": 15022
+  },
+  "dist/avr/sources/arduino-core/WString.cpp": {
+    "sha256": "12c0c7ec6ec3347fb37d33738522816fa953f1f199e8fc9f18ac55a36cced612",
+    "bytes": 17001
+  },
+  "dist/avr/sources/arduino-core/USBDesc.h": {
+    "sha256": "09370bbb62b01fe6f56f19aaed0b9cc7a859049ef7ecd94dfccfa19764fd0903",
+    "bytes": 2070
+  },
+  "dist/avr/sources/arduino-core/Stream.cpp": {
+    "sha256": "a0f2cfbb1489174e0d52ca9798129751e52994f04a9ece88fb465715f8c3b3cb",
+    "bytes": 8776
+  },
+  "dist/avr/sources/arduino-core/CDC.cpp": {
+    "sha256": "9cefa4fec5eb361179978b9c94f5937dcacf068eafd45eee726646226b258dc2",
+    "bytes": 8751
+  },
+  "dist/avr/sources/arduino-core/WMath.cpp": {
+    "sha256": "6d7dc0d38000d3d22f56438bc4dd26fe15dd8f9c85fed8d9edf0ba23b6431646",
+    "bytes": 1641
+  },
+  "dist/avr/sources/uno-variant/pins_arduino.h": {
+    "sha256": "d313845f9916c1f21c8ba9848d40806f5caab52529ad510e81b3f15318441631",
+    "bytes": 6437
+  },
+  "dist/avr/sources/nano-variant/pins_arduino.h": {
+    "sha256": "f781478ed9f9507b6553e44dc90873103ea84e654528dc0e34901a32bfee3149",
+    "bytes": 969
+  },
+  "dist/avr/sources/libraries/eeprom/library.properties": {
+    "sha256": "7b44377b05444c626aae064abcdbb224bedc7b3b3b2086965c9b94abc0c6c01c",
+    "bytes": 463
+  },
+  "dist/avr/sources/libraries/eeprom/README.md": {
+    "sha256": "fbef9bc7d1f8eef492ea308955ffb0e67926f3d3693427c19a2855db80e28f69",
+    "bytes": 5146
+  },
+  "dist/avr/sources/libraries/eeprom/keywords.txt": {
+    "sha256": "9b47bb4b8bb6c73b940bfcb613051e1f813d1c0840b2ce03f9060d058d6849ca",
+    "bytes": 502
+  },
+  "dist/avr/sources/libraries/liquidcrystal/README.adoc": {
+    "sha256": "5fad94ae070a931cfd10af3b2fb375f61da8d694e629bd2206aa3535907664b3",
+    "bytes": 1158
+  },
+  "dist/avr/sources/libraries/liquidcrystal/library.properties": {
+    "sha256": "2f42fb318ffffaf90919aafa42446249545ef7ee25745526811f93cefc8d79fe",
+    "bytes": 606
+  },
+  "dist/avr/sources/libraries/liquidcrystal/keywords.txt": {
+    "sha256": "2869978f66e354f41ccb260073dc30b4edc09e4234323b00285ea2518a593c3e",
+    "bytes": 846
+  },
+  "dist/avr/sources/libraries/irremote/library.properties": {
+    "sha256": "ab76e7080a31cc7585b46a06878a6a0a5b1fea06ce6be0bde4147ed063fc42d5",
+    "bytes": 648
+  },
+  "dist/avr/sources/libraries/irremote/library.json": {
+    "sha256": "4c380ebdcd205cadbd4f2d006f9612fcec4b44ca80edaeeea021d16fe2c059d2",
+    "bytes": 940
+  },
+  "dist/avr/sources/libraries/irremote/LICENSE": {
+    "sha256": "7e53f7b77b4ed079b6a0c195358c6b35c954c298e694b5dd3afc969dd4558332",
+    "bytes": 1227
+  },
+  "dist/avr/sources/libraries/irremote/Doxyfile": {
+    "sha256": "4c6e3cd642753831726d759ed4dc999a92e6cbbdd587b3ac1f51b456a4f07d3d",
+    "bytes": 109584
+  },
+  "dist/avr/sources/libraries/irremote/README.md": {
+    "sha256": "bc866eca75c0936252ac0521148c5ab20b461c97dfc7f8c12673ef77c42626b7",
+    "bytes": 106998
+  },
+  "dist/avr/sources/libraries/irremote/keywords.txt": {
+    "sha256": "043ea745424356565e28392f6c35d2324a505ba2b82341b1f436849f04caebc1",
+    "bytes": 4223
+  },
+  "dist/avr/sources/libraries/irremote/Contributing.md": {
+    "sha256": "2696160f9a70bdcf4919daaaa845d9a93a35c8ecc8edb4eb0be2baa349770f74",
+    "bytes": 3782
+  },
+  "dist/avr/sources/libraries/irremote/Contributors.md": {
+    "sha256": "3a8beec96c19a459505c32267455e00df614b530862e894f806b51b0d46f0074",
+    "bytes": 2759
+  },
+  "dist/avr/sources/libraries/irremote/changelog.md": {
+    "sha256": "734157922b1922cf83bf01462a48770b5a1fd3eac43b8d22c7144ec71bb9579f",
+    "bytes": 22226
+  },
+  "dist/avr/sources/libraries/liquidcrystal-i2c/LiquidCrystal_I2C.h": {
+    "sha256": "224670e9207bb3503aeb33faea1b59299210f432a2f92c449fbf52b58c18b5a7",
+    "bytes": 3428
+  },
+  "dist/avr/sources/libraries/liquidcrystal-i2c/library.properties": {
+    "sha256": "b15404c8c45b7093249d5e05ff78d67707039c656a95b2fac52fe9ec3a4b52dd",
+    "bytes": 427
+  },
+  "dist/avr/sources/libraries/liquidcrystal-i2c/LiquidCrystal_I2C.o": {
+    "sha256": "0381135dcb79324d86a81d8d591007d03f1f2abe6dd212e0ff40e2bd1a8aa33d",
+    "bytes": 41564
+  },
+  "dist/avr/sources/libraries/liquidcrystal-i2c/LiquidCrystal_I2C.cpp": {
+    "sha256": "e11bcab00fcd319dae267eec65592a7a724f4775bc1b883e7b86b44bcad5fac2",
+    "bytes": 8584
+  },
+  "dist/avr/sources/libraries/liquidcrystal-i2c/library.json": {
+    "sha256": "475fd85c6c6986d7278e0212ae9caf8d0c805355ec57ed4e60bce718c1f01d57",
+    "bytes": 311
+  },
+  "dist/avr/sources/libraries/liquidcrystal-i2c/README.md": {
+    "sha256": "ab9ad25d41917bfe749bfdad75a499456b491ecd3470fca29cb16f9a1d812d45",
+    "bytes": 83
+  },
+  "dist/avr/sources/libraries/liquidcrystal-i2c/keywords.txt": {
+    "sha256": "084c3a5f717638e67682223511177012d14b213bb669ebff6944e46700d637c6",
+    "bytes": 1095
+  },
+  "dist/avr/sources/libraries/dht/DHT.h": {
+    "sha256": "6301be3c1d7cdb6174932a09b2d1c2cd5dc1ae242a48802b425cd2c2515d0ffb",
+    "bytes": 2969
+  },
+  "dist/avr/sources/libraries/dht/CONTRIBUTING.md": {
+    "sha256": "b00e0676c653cd109ed21655910e530c19cfa5d348460751856ac9eb4e88b277",
+    "bytes": 1288
+  },
+  "dist/avr/sources/libraries/dht/library.properties": {
+    "sha256": "a224463cf9b12c1b0615b70ea881d7d07ee1d989815414875bce1bb12cd464af",
+    "bytes": 353
+  },
+  "dist/avr/sources/libraries/dht/DHT_U.h": {
+    "sha256": "b94797389a9a357767fc97f39d6cf68b53f478e79f3a080be57fed9fb368163f",
+    "bytes": 3102
+  },
+  "dist/avr/sources/libraries/dht/license.txt": {
+    "sha256": "8598f9a7e17727381839097b65b763e8e574b980b8157754209e9a089176c927",
+    "bytes": 1064
+  },
+  "dist/avr/sources/libraries/dht/README.md": {
+    "sha256": "e6cb9c429a334754319514fada735c1e3bcda65b8ff86045cba2a8fa03276401",
+    "bytes": 1724
+  },
+  "dist/avr/sources/libraries/dht/code-of-conduct.md": {
+    "sha256": "ac59b5fda90f64a09b9db5a4aea0288cabc930e503802fa568f5c48ffe07a6aa",
+    "bytes": 5829
+  },
+  "dist/avr/sources/libraries/dht/keywords.txt": {
+    "sha256": "811689e0a1ca66d0a1f3c127f28962171ff1bc920228e931f1a117a050cfc9cd",
+    "bytes": 529
+  },
+  "dist/avr/sources/libraries/dht/DHT.cpp": {
+    "sha256": "cf70defe189d5d6e8a4ec379c4e1819bc2ec4285f3ea68ecfc58708ac5013915",
+    "bytes": 12201
+  },
+  "dist/avr/sources/libraries/dht/DHT_U.cpp": {
+    "sha256": "9cd0b15a4482bde92d7b8c9ff24e26edc6a00a9c329fcdb85830b95e4ce467c8",
+    "bytes": 6624
+  },
+  "dist/avr/sources/libraries/spi/library.properties": {
+    "sha256": "44fe70bb86522405266ed3dffcecfc60396520ec927c6ec50d93a8e0e83a48c2",
+    "bytes": 518
+  },
+  "dist/avr/sources/libraries/spi/keywords.txt": {
+    "sha256": "f3dfd00ed48d2735da9f80262e916a89612a1070b646fd94c36119159942249e",
+    "bytes": 835
+  },
+  "dist/avr/sources/libraries/softwareserial/library.properties": {
+    "sha256": "4086afadef260b1c9e44aa9693eeceab6cd6c6da9946664a58fcd32ac6a75a71",
+    "bytes": 510
+  },
+  "dist/avr/sources/libraries/softwareserial/keywords.txt": {
+    "sha256": "cd95ede0ac386efd5e5792b4f20bd5c7ce3fd2f55ff4194302782fbdd4039aa5",
+    "bytes": 659
+  },
+  "dist/avr/sources/libraries/neopixel/CONTRIBUTING.md": {
+    "sha256": "b40002543489ad8da91be9d1fc17e7f7eeee8cbe27cf01796fa78a80185565be",
+    "bytes": 1288
+  },
+  "dist/avr/sources/libraries/neopixel/library.properties": {
+    "sha256": "91a42bcc6f06d3f6a828bd329c6c942dd2b61789276661f719c79e2f25e1120e",
+    "bytes": 369
+  },
+  "dist/avr/sources/libraries/neopixel/COPYING": {
+    "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768",
+    "bytes": 7651
+  },
+  "dist/avr/sources/libraries/neopixel/psoc6.c": {
+    "sha256": "2c6408ef5ec89f7666f60397be43a9e071c605ba62fab37cfff6724cb47c9629",
+    "bytes": 3392
+  },
+  "dist/avr/sources/libraries/neopixel/rp2040_pio.h": {
+    "sha256": "0f0dda6e8824b83a368daff759a0693dc61dadc3314263418de200089e7fffed",
+    "bytes": 1989
+  },
+  "dist/avr/sources/libraries/neopixel/README.md": {
+    "sha256": "6c714197f2ed4ff8e40307fe39ab2d1033ad3990d32f17f40859ce86e78c378f",
+    "bytes": 8539
+  },
+  "dist/avr/sources/libraries/neopixel/keywords.txt": {
+    "sha256": "371be950a33e02a8decf5ec12b33daf52270111eb7a57d15fe971b27a534d6ca",
+    "bytes": 1449
+  },
+  "dist/avr/sources/libraries/neopixel/Adafruit_NeoPixel.cpp": {
+    "sha256": "96600c063012af338f0b9cd749bd2b08df19c4b298dd3f950904e3b3c0766793",
+    "bytes": 132169
+  },
+  "dist/avr/sources/libraries/neopixel/esp.c": {
+    "sha256": "1f158b01845a3798f5cba7094c8fffba7effd96fe1903a379472ddc563ef1905",
+    "bytes": 8684
+  },
+  "dist/avr/sources/libraries/neopixel/esp8266.c": {
+    "sha256": "4dc66ada19e049983096255792944838d5afae4cd67eafb722e66357b629af59",
+    "bytes": 2451
+  },
+  "dist/avr/sources/libraries/neopixel/kendyte_k210.c": {
+    "sha256": "7d807d22f36521d1ad9f10f78396c6c750d4c6ad306c2c230cc17403f9b26a0e",
+    "bytes": 2116
+  },
+  "dist/avr/sources/libraries/neopixel/Adafruit_Neopixel_RP2.cpp": {
+    "sha256": "bce93f514303057b36927a14c6fd4c436268d03ce882e14728a0a83c3407f765",
+    "bytes": 1379
+  },
+  "dist/avr/sources/libraries/neopixel/Adafruit_NeoPixel.h": {
+    "sha256": "25a8279dcaa27519c92726fe3dcced0e452ec7c2786c303f3e18cc82028e59f4",
+    "bytes": 20311
+  },
+  "dist/avr/sources/libraries/newping/library.properties": {
+    "sha256": "ccafb2c573ea9938cc6f402231df43015274699c035b9fee85f8f09d88e9c81d",
+    "bytes": 671
+  },
+  "dist/avr/sources/libraries/newping/README.md": {
+    "sha256": "b1224eb36f71a449a2064371213b055e775b817edf1cc9a1596b353f4e3ce405",
+    "bytes": 142
+  },
+  "dist/avr/sources/libraries/newping/keywords.txt": {
+    "sha256": "29d836a7fef2e831ae0da4fde9acb91e90f112828ee9f787a8a9037fc95be39b",
+    "bytes": 653
+  },
+  "dist/avr/sources/libraries/keypad/library.properties": {
+    "sha256": "90e47ffe33fa8f8d024a40ceb1b38c818e6e0f33d8f8ccf000d88af68556c347",
+    "bytes": 537
+  },
+  "dist/avr/sources/libraries/keypad/LICENSE": {
+    "sha256": "d62f065830aa3739cc031156b9690805c7b2e811b4a178c8b4acd8725d561c94",
+    "bytes": 35142
+  },
+  "dist/avr/sources/libraries/keypad/README.md": {
+    "sha256": "75ab85fa84c8169a671a98749d917b60135686f2859e30a2183e7712627b7bce",
+    "bytes": 532
+  },
+  "dist/avr/sources/libraries/keypad/keywords.txt": {
+    "sha256": "9f850c55ca9a4b8209eb344cd2fc707f2a3e1bab6130368712e690e45ba083e7",
+    "bytes": 733
+  },
+  "dist/avr/sources/libraries/ssd1306/Adafruit_SSD1306.h": {
+    "sha256": "89c5e18cc19a41bd47130e1a4dc344733ad2bb6b6ef6c4c43eeddaf9854db6a2",
+    "bytes": 9042
+  },
+  "dist/avr/sources/libraries/ssd1306/library.properties": {
+    "sha256": "bfb5d85959c14de682a285496e3c905054a0b126b0ca2d7c1870307890e6bc9d",
+    "bytes": 363
+  },
+  "dist/avr/sources/libraries/ssd1306/splash.h": {
+    "sha256": "01d79e7b12ba9e2f29f967803bb85b037ad8981b2b2f7d3997db51811d47177d",
+    "bytes": 13813
+  },
+  "dist/avr/sources/libraries/ssd1306/CMakeLists.txt": {
+    "sha256": "470e043da72e14b051ab7f5ba5d33aa28f18ec387d8707f85867a5aaa80d4405",
+    "bytes": 315
+  },
+  "dist/avr/sources/libraries/ssd1306/license.txt": {
+    "sha256": "4b6bb6d827e9da638841bf575c6068b83aaaf0d9508e892d3ea27e2525b070e8",
+    "bytes": 1499
+  },
+  "dist/avr/sources/libraries/ssd1306/README.md": {
+    "sha256": "b098cb53f4810301ab31d26d3cc0c24310c960c66d7c40453a91be81dc2e5103",
+    "bytes": 4439
+  },
+  "dist/avr/sources/libraries/ssd1306/Adafruit_SSD1306.cpp": {
+    "sha256": "ddbd788bfaf97dd3b5ba5ee67eb62ab51652cbe86e34c2e7d24d5e074bb34bdd",
+    "bytes": 45961
+  },
+  "dist/avr/sources/libraries/ssd1306/component.mk": {
+    "sha256": "65a8bc94954334982bc226826da72647027c1bcc85447804e1fbab7f23228ab7",
+    "bytes": 31
+  },
+  "dist/avr/sources/libraries/gfx/Adafruit_SPITFT.cpp": {
+    "sha256": "b5982e2ebb558b29a9c76a9bb694193208b46fdafa7d8ea105eb168b0fe9dcb5",
+    "bytes": 99447
+  },
+  "dist/avr/sources/libraries/gfx/library.properties": {
+    "sha256": "e6b702f2d0463216bf4b89d10c1701ae0de2aabbee42f7088054e9e21949cc31",
+    "bytes": 412
+  },
+  "dist/avr/sources/libraries/gfx/CMakeLists.txt": {
+    "sha256": "719d4bf7cc03c5e1c3227d6786980ac2e2491f8dd98baa055bf3e55820f80e35",
+    "bytes": 370
+  },
+  "dist/avr/sources/libraries/gfx/glcdfont.c": {
+    "sha256": "bd6d60ecb9cc350a83f209d7c62de2fe5f6ce3402d5598cde2988b5b44e83e02",
+    "bytes": 9064
+  },
+  "dist/avr/sources/libraries/gfx/Adafruit_SPITFT.h": {
+    "sha256": "23901ed7ab3953816d13471c4016763b25983fa0400448589f06376d53be1b10",
+    "bytes": 25059
+  },
+  "dist/avr/sources/libraries/gfx/license.txt": {
+    "sha256": "3e7bede50526352926c2283e640f2823d9f9f2165d1852044c4fb1bbac283106",
+    "bytes": 1344
+  },
+  "dist/avr/sources/libraries/gfx/README.md": {
+    "sha256": "6890f42a55c06828629738cb9b015f813a108a85d30013a3b1a77c4a7d0140a1",
+    "bytes": 4772
+  },
+  "dist/avr/sources/libraries/gfx/component.mk": {
+    "sha256": "65a8bc94954334982bc226826da72647027c1bcc85447804e1fbab7f23228ab7",
+    "bytes": 31
+  },
+  "dist/avr/sources/libraries/gfx/Adafruit_SPITFT_Macros.h": {
+    "sha256": "c6f1e4e0cc97b98e85bb0c863954d41f72d3bd31874b03a57faa9ae4f8984f6d",
+    "bytes": 329
+  },
+  "dist/avr/sources/libraries/gfx/Adafruit_GrayOLED.cpp": {
+    "sha256": "03ea5c79bf86d8c7a7118dee264341fac0ecc0c5ecdc57eee47dea1981f9edd6",
+    "bytes": 15424
+  },
+  "dist/avr/sources/libraries/gfx/Adafruit_GrayOLED.h": {
+    "sha256": "27c451c21b6d16bef0fb6b94527dfe1d738a9445de4b351f75f24cc360c4e0ad",
+    "bytes": 3920
+  },
+  "dist/avr/sources/libraries/gfx/Adafruit_GFX.h": {
+    "sha256": "e4ace04cbed4499c0e2a80df33b381c87ce98689d98da82712f0748bf7359171",
+    "bytes": 18022
+  },
+  "dist/avr/sources/libraries/gfx/gfxfont.h": {
+    "sha256": "4e1b06371217d63102bac242d4a3ec8dcaff93cd34b4241bbc39eda521a1be11",
+    "bytes": 1108
+  },
+  "dist/avr/sources/libraries/gfx/Adafruit_GFX.cpp": {
+    "sha256": "5afa8ca16241a9a0cb354012dd00780c6c00620c345b810a9504cb77bfc698d5",
+    "bytes": 102797
+  },
+  "dist/avr/sources/libraries/unified-sensor/Adafruit_Sensor.h": {
+    "sha256": "7f3a6d8889e9d852aecf1c64cdab9d66d801101ae03a9af28e86021245b04c64",
+    "bytes": 9721
+  },
+  "dist/avr/sources/libraries/unified-sensor/library.properties": {
+    "sha256": "9898dcd235542e85f504cc0d1c5bff9e99f17602607dae944075fdcab6831d37",
+    "bytes": 381
+  },
+  "dist/avr/sources/libraries/unified-sensor/LICENSE.txt": {
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "bytes": 11358
+  },
+  "dist/avr/sources/libraries/unified-sensor/README.md": {
+    "sha256": "10662abe4d85297d3d2fb79a94590de6150d7b04caa68aa65c55bbb7b6cd48ff",
+    "bytes": 12271
+  },
+  "dist/avr/sources/libraries/unified-sensor/Adafruit_Sensor.cpp": {
+    "sha256": "e6cc18df0ce4dd1894b224b232d3b589536cac8ed201025f6e900facd40e7bcb",
+    "bytes": 3696
+  },
+  "dist/avr/sources/libraries/accelstepper/library.properties": {
+    "sha256": "8b207f4d32f85428c633d6e96f652217a0acb9a44070d750d9720880b6cbb925",
+    "bytes": 390
+  },
+  "dist/avr/sources/libraries/accelstepper/LICENSE": {
+    "sha256": "2049b397b6ec820f887eb983e8c13c6cfbfca97df76b69683cfa8829d37a7220",
+    "bytes": 834
+  },
+  "dist/avr/sources/libraries/accelstepper/README.md": {
+    "sha256": "b9ee565dcbba6d53484af1dd78de03d69e38ef0a3162b9a7e2f5ad3b28d2b34a",
+    "bytes": 1278
+  },
+  "dist/avr/sources/libraries/accelstepper/keywords.txt": {
+    "sha256": "b464f0148b2d032769450ba598d31cb90cc1420e9373e8863926f7ea5768a88e",
+    "bytes": 977
+  },
+  "dist/avr/sources/libraries/wire/library.properties": {
+    "sha256": "175b7bec13aa47a986d8dfe60169dfd18d077b5631c3423d0313e1b5762de239",
+    "bytes": 406
+  },
+  "dist/avr/sources/libraries/wire/keywords.txt": {
+    "sha256": "aabe8429ccc5d879c5a3bb48a8ac59a2a3f358ffe05599e9a5320fa34fafe289",
+    "bytes": 596
+  },
+  "dist/avr/sources/libraries/servo/README.adoc": {
+    "sha256": "60118fb34521358959bb2c0ee968e144719e404406232eed4bab290f3fe2d395",
+    "bytes": 991
+  },
+  "dist/avr/sources/libraries/servo/library.properties": {
+    "sha256": "c24ffc7c26f147f167c8d6ccc4c9c1d2e80893fb001d3c3742b4d5d7ec840a96",
+    "bytes": 588
+  },
+  "dist/avr/sources/libraries/servo/LICENSE.txt": {
+    "sha256": "20c17d8b8c48a600800dfd14f95d5cb9ff47066a9641ddeab48dc54aec96e331",
+    "bytes": 26526
+  },
+  "dist/avr/sources/libraries/servo/keywords.txt": {
+    "sha256": "59ae2d3c412f136b04c2cb00019dc9f93ba0d56b409c1c3241adb48413e17d2e",
+    "bytes": 586
+  },
+  "dist/avr/sources/libraries/busio/Adafruit_I2CRegister.h": {
+    "sha256": "8318d1f65d5468742c0aa48bd50a7e3bd4ddf02e3eba11bc01ad50cf9c20bc67",
+    "bytes": 252
+  },
+  "dist/avr/sources/libraries/busio/library.properties": {
+    "sha256": "1f1c13c18d84a15f71e8e833aeaf1ada2d505cc915485174167ea661ed085194",
+    "bytes": 340
+  },
+  "dist/avr/sources/libraries/busio/CMakeLists.txt": {
+    "sha256": "388cb8134d21bca989fa8efc48f6e8f7960805a14bfef75ae0d23ee8dcef97cd",
+    "bytes": 383
+  },
+  "dist/avr/sources/libraries/busio/Adafruit_GenericDevice.h": {
+    "sha256": "b12c364e359a0aba6aabc440bc64e375b825214a2835fa1bf38ac709f9e25546",
+    "bytes": 2268
+  },
+  "dist/avr/sources/libraries/busio/LICENSE": {
+    "sha256": "86e9fafdb50d2a85d8fef369b4635b5a1b89160603e5b1f95484df0804b49508",
+    "bytes": 1085
+  },
+  "dist/avr/sources/libraries/busio/Adafruit_SPIDevice.h": {
+    "sha256": "58ff1433718cef7317638403160d5dd918d92c0f7b4204fb08ad401751d74508",
+    "bytes": 5515
+  },
+  "dist/avr/sources/libraries/busio/Adafruit_BusIO_Register.h": {
+    "sha256": "91560f9fc1b8cda42ab039ccdfe0abf92bf09c425a6142ff54af099809b9d47a",
+    "bytes": 3802
+  },
+  "dist/avr/sources/libraries/busio/README.md": {
+    "sha256": "7857d55466e3f419a4f99829968fb94ef270b816152592eb6c561e880daa6e3e",
+    "bytes": 525
+  },
+  "dist/avr/sources/libraries/busio/component.mk": {
+    "sha256": "65a8bc94954334982bc226826da72647027c1bcc85447804e1fbab7f23228ab7",
+    "bytes": 31
+  },
+  "dist/avr/sources/libraries/busio/Adafruit_BusIO_Register.cpp": {
+    "sha256": "9a0af578ea07956296834f4505e5b134ad7e1cc22ac9c9d84a640a07a94f870b",
+    "bytes": 12495
+  },
+  "dist/avr/sources/libraries/busio/Adafruit_SPIDevice.cpp": {
+    "sha256": "f846ee438eee41bef174c6dbe1f689f7ccbbd732ca4261c7b9e9337b1e5d08b5",
+    "bytes": 14297
+  },
+  "dist/avr/sources/libraries/busio/Adafruit_GenericDevice.cpp": {
+    "sha256": "c26d9c1207c3626fb95884f01cc1f8179fcd7c2c6b0583fff25187c4f2c814d2",
+    "bytes": 3301
+  },
+  "dist/avr/sources/libraries/busio/Adafruit_I2CDevice.h": {
+    "sha256": "88b843d7a44e3f974950d883649e5682f21d9f8ce135daff3a42d015f7cd27e7",
+    "bytes": 1139
+  },
+  "dist/avr/sources/libraries/busio/Adafruit_I2CDevice.cpp": {
+    "sha256": "317c342821f1df676a0e034f65685b4d6bf240d2ab8dcea91d18f1e063326d37",
+    "bytes": 9404
+  },
+  "dist/avr/sources/libraries/eeprom/src/EEPROM.h": {
+    "sha256": "9f1c31da3792ce1a639a92a95eba78cf7a418cbe3035003730818ca61f714da3",
+    "bytes": 5457
+  },
+  "dist/avr/sources/libraries/eeprom/src/avr-libc/eerd_dword.S": {
+    "sha256": "636a8e232424a941ff486d54f1c6f7581ef57f5973d836d8cfa1207941f2efa1",
+    "bytes": 2228
+  },
+  "dist/avr/sources/libraries/eeprom/src/avr-libc/eerd_block.S": {
+    "sha256": "9712611ead48064ef38b6846f2c19d90807553303e1da20c1877e35562b8f410",
+    "bytes": 4670
+  },
+  "dist/avr/sources/libraries/eeprom/src/avr-libc/eedef.h": {
+    "sha256": "f8cbb308053ca3f87cdd2a112c4c7bc4e1e148a7f1ca17b1acd5e4273f5de422",
+    "bytes": 2777
+  },
+  "dist/avr/sources/libraries/eeprom/src/avr-libc/eeupd_word.S": {
+    "sha256": "8220e0192f225d0f7708f015dfc706b6256bff8e7a523404240e37a74971063d",
+    "bytes": 1976
+  },
+  "dist/avr/sources/libraries/eeprom/src/avr-libc/eerd_word.S": {
+    "sha256": "6b14cc423a18d21e870f3af90b2f59a35d86ea33d7e08a5cfce4e4ac0d8fc011",
+    "bytes": 2127
+  },
+  "dist/avr/sources/libraries/eeprom/src/avr-libc/eewr_byte.S": {
+    "sha256": "aa280cc9eee08daf874090e09eeb07ec8e9c70d33467c3a3a8e554e9dd42ac15",
+    "bytes": 5624
+  },
+  "dist/avr/sources/libraries/eeprom/src/avr-libc/eerd_byte.S": {
+    "sha256": "eb5c247b7b7e58c256c216fb005ad84f495629181e86f47765d0adab5a535be4",
+    "bytes": 3549
+  },
+  "dist/avr/sources/libraries/eeprom/src/avr-libc/eewr_word.S": {
+    "sha256": "7221d9f6fdd6eb0c40a3aa18c1cb9065a25ca9094601ec436356f5699aa939b1",
+    "bytes": 1946
+  },
+  "dist/avr/sources/libraries/eeprom/src/avr-libc/eewr_block.S": {
+    "sha256": "f8b4c95e252a8f2c87873e262681e3a03b8142028255565eca4de5498a3a6648",
+    "bytes": 2243
+  },
+  "dist/avr/sources/libraries/eeprom/src/avr-libc/eeupd_block.S": {
+    "sha256": "563d3a944af90ebabdeab9de9f22d17bafde57f065dcaa8a978c4fbd209049ff",
+    "bytes": 2400
+  },
+  "dist/avr/sources/libraries/eeprom/src/avr-libc/eewr_dword.S": {
+    "sha256": "bcc3f509ec6da3643bef72181f19170b5c5fa2151d34c14b404b0e66d276faaf",
+    "bytes": 2093
+  },
+  "dist/avr/sources/libraries/eeprom/src/avr-libc/eeupd_byte.S": {
+    "sha256": "941accd760220f38c514309b6507f69a812d7fca7a2928ee45a1a0999cb13b1b",
+    "bytes": 3102
+  },
+  "dist/avr/sources/libraries/eeprom/src/avr-libc/sectionname.h": {
+    "sha256": "d63f8cccb70412a9354d3e6f4618d83af40e49756f22d3b3f58196e46ace64bf",
+    "bytes": 2132
+  },
+  "dist/avr/sources/libraries/eeprom/src/avr-libc/eeupd_dword.S": {
+    "sha256": "ae067ca6839b3abe487c2bc60ee9a04896fba56580f69738130234077868ead9",
+    "bytes": 2158
+  },
+  "dist/avr/sources/libraries/eeprom/src/avr-libc/asmdef.h": {
+    "sha256": "a3b55eaacae132f5bbe0129f562e643c55c58f6b77bfa023e353785df3cb1ddc",
+    "bytes": 6812
+  },
+  "dist/avr/sources/libraries/eeprom/src/avr-libc/SOURCE.json": {
+    "sha256": "4faad80cb34771b5e599a53a41d4ac8484368017f19826f9caec7be6909c28f7",
+    "bytes": 515
+  },
+  "dist/avr/sources/libraries/eeprom/examples/eeprom_write/eeprom_write.ino": {
+    "sha256": "f75c56d67cb2d2d204cc109a9f739747f69a891c9112c4ed88c01460afc37e75",
+    "bytes": 1474
+  },
+  "dist/avr/sources/libraries/eeprom/examples/eeprom_put/eeprom_put.ino": {
+    "sha256": "3220e10ae4ec4d5a34abb505ec46b42df0e0a4d7bcccffe444602ffd116dd660",
+    "bytes": 1360
+  },
+  "dist/avr/sources/libraries/eeprom/examples/eeprom_clear/eeprom_clear.ino": {
+    "sha256": "7d92358201dabe49db0e2d964db9dc77959e3438894fa0b37e5ea72237d6eba0",
+    "bytes": 918
+  },
+  "dist/avr/sources/libraries/eeprom/examples/eeprom_get/eeprom_get.ino": {
+    "sha256": "b11b91faf5b6209875e9ba8dd56a0596fec88b48568b18fc3943d1d7c9f4d093",
+    "bytes": 1795
+  },
+  "dist/avr/sources/libraries/eeprom/examples/eeprom_update/eeprom_update.ino": {
+    "sha256": "74b7e418ab02d860a68d97d46a921426440e22ce82133bbade9912f5fe1de46b",
+    "bytes": 1820
+  },
+  "dist/avr/sources/libraries/eeprom/examples/eeprom_iteration/eeprom_iteration.ino": {
+    "sha256": "774680fecbb0541f69c1772e4b0ebbb1066dc62c31d5b0ddf7e0804de29a4a5a",
+    "bytes": 1036
+  },
+  "dist/avr/sources/libraries/eeprom/examples/eeprom_read/eeprom_read.ino": {
+    "sha256": "7198cec1a7af7effd906437951113c08324410530d26f51fd42813b91a6ef363",
+    "bytes": 1399
+  },
+  "dist/avr/sources/libraries/eeprom/examples/eeprom_crc/eeprom_crc.ino": {
+    "sha256": "998fa9b0d1feb7fbf7a090579deb30c8d7ddfb021e5637a8051e22902f745169",
+    "bytes": 1433
+  },
+  "dist/avr/sources/libraries/liquidcrystal/src/LiquidCrystal.h": {
+    "sha256": "401df74a6b1fd297eb2a8af18ac838dcf201ffa5276c142261dae46eb446298b",
+    "bytes": 2817
+  },
+  "dist/avr/sources/libraries/liquidcrystal/src/LiquidCrystal.cpp": {
+    "sha256": "2913d012d4c7398324d690c7d94badfa3242eee829c060adcf8757e90c9d4834",
+    "bytes": 9071
+  },
+  "dist/avr/sources/libraries/liquidcrystal/examples/Display/Display.ino": {
+    "sha256": "7fba608350b8f1b68f246db11e1b9ec17b6835b0adc289688397604dd22ba696",
+    "bytes": 1652
+  },
+  "dist/avr/sources/libraries/liquidcrystal/examples/Scroll/Scroll.ino": {
+    "sha256": "84e3e08bd7e0ec214b3a49da1d40d602d406ea022fc0c262ed1c585cf442df1a",
+    "bytes": 2454
+  },
+  "dist/avr/sources/libraries/liquidcrystal/examples/setCursor/setCursor.ino": {
+    "sha256": "c76acb33a6a3668b59f4546eb3712503ccd8157864854ddd8b06f343215fe1f4",
+    "bytes": 2018
+  },
+  "dist/avr/sources/libraries/liquidcrystal/examples/Autoscroll/Autoscroll.ino": {
+    "sha256": "7f1a5513d88808a221095706f3d01a6303d2c64e5ff99e8f368b106172980abf",
+    "bytes": 1977
+  },
+  "dist/avr/sources/libraries/liquidcrystal/examples/Blink/Blink.ino": {
+    "sha256": "743785787d8d6ab033205cf529f78b842cccb49c88487c3e1e90c5be0b6c8b02",
+    "bytes": 1601
+  },
+  "dist/avr/sources/libraries/liquidcrystal/examples/TextDirection/TextDirection.ino": {
+    "sha256": "61e9852d0c7c0bc6462b6e7a3165f06221bfa0260d7b511bf3752fcc3bac7296",
+    "bytes": 1990
+  },
+  "dist/avr/sources/libraries/liquidcrystal/examples/SerialDisplay/SerialDisplay.ino": {
+    "sha256": "429961992547257ca30c6ed6c7a1352fe890f8bae6bdde0a334f7f1dfa363a8e",
+    "bytes": 1856
+  },
+  "dist/avr/sources/libraries/liquidcrystal/examples/Cursor/Cursor.ino": {
+    "sha256": "d0475faf63197bc2329381c8760e43d0cb904d36a22cdb42f7fc71ea3c55d4f0",
+    "bytes": 1624
+  },
+  "dist/avr/sources/libraries/liquidcrystal/examples/CustomCharacter/CustomCharacter.ino": {
+    "sha256": "062350eaa087ca5754ca3c5a2df3cb78c7ab513dac509e2be4bfd16f3a86c6e6",
+    "bytes": 3048
+  },
+  "dist/avr/sources/libraries/liquidcrystal/examples/HelloWorld/HelloWorld.ino": {
+    "sha256": "edeeb29777eb90369a86ba815823bb6a8bb78f98bc84a8313bf863cbd0b1c46a",
+    "bytes": 1717
+  },
+  "dist/avr/sources/libraries/irremote/pictures/IRReceiverPinout.jpg": {
+    "sha256": "03a464f19dbabab31bd1edb0823b58023b75ebb327ab75c048d6ae0792a2409c",
+    "bytes": 36852
+  },
+  "dist/avr/sources/libraries/irremote/pictures/LGRemote1.jpg": {
+    "sha256": "1adc13ba969d6f3c84453f7d569d4e2b40e07fbf5338be2b885ba59602f6e90b",
+    "bytes": 12271
+  },
+  "dist/avr/sources/libraries/irremote/pictures/IR_UnitTest_delay.bmp": {
+    "sha256": "de158a6ce78171cb4c265fc9a9b5327b911864114b6077f6eecb56f6f2f1874d",
+    "bytes": 1200054
+  },
+  "dist/avr/sources/libraries/irremote/pictures/LG_AKB73315611.jpg": {
+    "sha256": "dc881bfed89d7fb72680b7123e1e9fab563b6d38e73e37e901aa06e76d89ff48",
+    "bytes": 54012
+  },
+  "dist/avr/sources/libraries/irremote/pictures/BoseWaveMusicSystem.jpg": {
+    "sha256": "4f8e0073d1a8fb2318ad795cfd9a336d62c36de854697e0073e0afa4e482d014",
+    "bytes": 60458
+  },
+  "dist/avr/sources/libraries/irremote/pictures/IR_RobotCar.jpg": {
+    "sha256": "8fb2fc1683652f1f230ec959cf4789158a6aa0ec59bc590e16470df265b39c96",
+    "bytes": 163679
+  },
+  "dist/avr/sources/libraries/irremote/pictures/SloeberDefineSymbols.png": {
+    "sha256": "9d99806d88613b290359b34f7c475cce9bc1fa08101d7286a65d3ff45608d4e7",
+    "bytes": 24761
+  },
+  "dist/avr/sources/libraries/irremote/pictures/IR_PWM_by_software_detail.png": {
+    "sha256": "1d5bf0344e4660ca6bfc50bb88c88f4d3f82835da32a50dc07623d0b62c01d2a",
+    "bytes": 20096
+  },
+  "dist/avr/sources/libraries/irremote/pictures/LG_AKB75415316.jpg": {
+    "sha256": "6dc17ba7fb179a0b4269d93b30cad6079759663269f6af8d3812e78c790b948c",
+    "bytes": 343580
+  },
+  "dist/avr/sources/libraries/irremote/pictures/BoseWaveSoundTouch_IV.jpg": {
+    "sha256": "9ba1831ce14896ae423f0bc8a1c20aba662bb916320f602b07bff4969c461fe6",
+    "bytes": 152295
+  },
+  "dist/avr/sources/libraries/irremote/pictures/IR_PWM_by_software_jitter.png": {
+    "sha256": "c75e7573efecc263dae62fcac0656fe12c9cfd5c1a3037b4e0540bcf8b109303",
+    "bytes": 24065
+  },
+  "dist/avr/sources/libraries/irremote/src/ir_OpenLASIR.hpp": {
+    "sha256": "006a9ecd5577f1e03abd69edb89b1d401a42128ba8c55591f60f821523f913f0",
+    "bytes": 14136
+  },
+  "dist/avr/sources/libraries/irremote/src/LocalDebugLevelEnd.h": {
+    "sha256": "8a913919cf98d3bd313298f5481958dd68eeaa8fca5c5c43ce0a400f33c3d1df",
+    "bytes": 1330
+  },
+  "dist/avr/sources/libraries/irremote/src/IRCommandDispatcher.hpp": {
+    "sha256": "ea42d3a7c6ed39e420619db8986afdb80737fc3d42f2c1706732f35424a14ccc",
+    "bytes": 21006
+  },
+  "dist/avr/sources/libraries/irremote/src/IRremote.hpp": {
+    "sha256": "a76b2f4e32dbd008b93d8f0bb282bdb74f0ba0f3ccabc75cad3d779f08518cd5",
+    "bytes": 15216
+  },
+  "dist/avr/sources/libraries/irremote/src/ir_BangOlufsen.hpp": {
+    "sha256": "f8f085a1fea0d22d4817b8a4f296dc0ed35a94091a077b5d2dfa8cc31b752556",
+    "bytes": 23137
+  },
+  "dist/avr/sources/libraries/irremote/src/ir_Samsung.hpp": {
+    "sha256": "f1f2b7f100beb6939f4e4e8aa8998c6148d13f49fbeeee91a9e3bcec7e385819",
+    "bytes": 18129
+  },
+  "dist/avr/sources/libraries/irremote/src/ir_Pronto.hpp": {
+    "sha256": "3750b04c0afb43f2ffa58ed6a1da2603402ec3fb1d6255e4b4446fae5d07c191",
+    "bytes": 12548
+  },
+  "dist/avr/sources/libraries/irremote/src/ir_Others.hpp": {
+    "sha256": "d92dfd9511118b0936a540b6c32fca35b1fb7a093055806c451fe428c9012e1f",
+    "bytes": 9712
+  },
+  "dist/avr/sources/libraries/irremote/src/digitalWriteFast.h": {
+    "sha256": "2df1a133b0bcefdd22f6d0217047b918c744984290c12a4036456b3ff3a6811e",
+    "bytes": 21110
+  },
+  "dist/avr/sources/libraries/irremote/src/ir_Denon.hpp": {
+    "sha256": "432be839da867718224c0263b85879e8a32ceba0621a7059d896cacae72ac02f",
+    "bytes": 13880
+  },
+  "dist/avr/sources/libraries/irremote/src/IRremoteInt.h": {
+    "sha256": "c9a3cbdfab35d1b08480565f997f728e590e9266151709520d05848a04a70332",
+    "bytes": 41626
+  },
+  "dist/avr/sources/libraries/irremote/src/ir_DistanceWidthProtocol.hpp": {
+    "sha256": "7a48a10b2496dbe5d32aa6e83b6619f39af624e916c2865e56fffba50b6439ce",
+    "bytes": 23072
+  },
+  "dist/avr/sources/libraries/irremote/src/ir_Sony.hpp": {
+    "sha256": "953271cd23e1e99f0967e14af63717a446fdc989f97895e8972f63ce483a90c6",
+    "bytes": 9486
+  },
+  "dist/avr/sources/libraries/irremote/src/IRCommandDispatcher.h": {
+    "sha256": "01bffd7833ffe2d915543229edf9073eb6b570605bac1fa2d2b349af4610efe1",
+    "bytes": 6361
+  },
+  "dist/avr/sources/libraries/irremote/src/IRProtocol.h": {
+    "sha256": "b04f4d600eb25d71ccfdad8458ec5021c73faec0f540b18785dc89143fdfba3a",
+    "bytes": 9012
+  },
+  "dist/avr/sources/libraries/irremote/src/IRProtocol.hpp": {
+    "sha256": "e3b22bb6709b2ab051c2c39926085e7c92967e76a3b236dd2c00f33c6832914b",
+    "bytes": 8167
+  },
+  "dist/avr/sources/libraries/irremote/src/TinyIRReceiver.hpp": {
+    "sha256": "6e77806ad2eb7f269b414e0971f0067d93573e85eefade82dd7d5963531f2d68",
+    "bytes": 31534
+  },
+  "dist/avr/sources/libraries/irremote/src/LocalDebugLevelStart.h": {
+    "sha256": "9a677ea3c005d9e68c3f95ce40f95298496b2e286586e9dfc5cbca94bee6e4c3",
+    "bytes": 4112
+  },
+  "dist/avr/sources/libraries/irremote/src/ir_LG.hpp": {
+    "sha256": "6ce0d53f74b88ef588dbb6f2b25afa04ee2f6b170e8b9c9248eb1ce583ae8575",
+    "bytes": 12426
+  },
+  "dist/avr/sources/libraries/irremote/src/LongUnion.h": {
+    "sha256": "85552aed9af0b091ec1d1a70e14f0f625cde4ef5ec22da77e7a748f13d321673",
+    "bytes": 4031
+  },
+  "dist/avr/sources/libraries/irremote/src/IRFeedbackLED.hpp": {
+    "sha256": "fddeb36fa972a021bd8d8f0d685c71026a7a4c441dd6f149cd8c84aa77d3bf9d",
+    "bytes": 6416
+  },
+  "dist/avr/sources/libraries/irremote/src/IRSend.hpp": {
+    "sha256": "09db382ef26c262121749e7ddbb08832c634bb18504e6c40f2e296d49d48f869",
+    "bytes": 67773
+  },
+  "dist/avr/sources/libraries/irremote/src/TinyIR.h": {
+    "sha256": "a1e48cd89303505d5b9268121b045c2f626aaeccc58cf9d4877b1b7d172ead7c",
+    "bytes": 13028
+  },
+  "dist/avr/sources/libraries/irremote/src/ir_JVC.hpp": {
+    "sha256": "4568a4242e87ae08125f91ba4221ef30d93914bfda941d5c80be9d7c06ca39aa",
+    "bytes": 10043
+  },
+  "dist/avr/sources/libraries/irremote/src/ir_FAST.hpp": {
+    "sha256": "152bc879e32db918e667210c3a02db64b3ab020ce59c1f901e40d9ef97f173a2",
+    "bytes": 5615
+  },
+  "dist/avr/sources/libraries/irremote/src/TinyIRSender.hpp": {
+    "sha256": "e4a878ea570636c34d3eea06a007c74b3b545559e6ed5aa035647d2e51b96d72",
+    "bytes": 16501
+  },
+  "dist/avr/sources/libraries/irremote/src/IRremote.h": {
+    "sha256": "9bf072c91edabafca922f406c218887dd74e788d647f3c6c24baa2032b9bc1d6",
+    "bytes": 3063
+  },
+  "dist/avr/sources/libraries/irremote/src/ir_NEC.hpp": {
+    "sha256": "b2aeca310df44c1a1f9a9445ba0ff838b4e7800e9f5699ded9275f858c955e2e",
+    "bytes": 18076
+  },
+  "dist/avr/sources/libraries/irremote/src/ir_Template.hpp": {
+    "sha256": "f0d4e2487f682eb375c3ffe77d984501719f33b5cf6da3013fa6d419647de472",
+    "bytes": 7425
+  },
+  "dist/avr/sources/libraries/irremote/src/ir_BoseWave.hpp": {
+    "sha256": "da46d234b19d7326e89e4fc4144728b717bacd8e3e483be86fc549473da0d6fd",
+    "bytes": 4536
+  },
+  "dist/avr/sources/libraries/irremote/src/IRVersion.h": {
+    "sha256": "1cea9aecea44d8c871ba6ea190a68eb1919552c79c8ef7406aaf967f864c90bd",
+    "bytes": 2367
+  },
+  "dist/avr/sources/libraries/irremote/src/ir_Kaseikyo.hpp": {
+    "sha256": "a622758cc079e459fe336088fb0c101fe1ca3c69988eb56b6b2031002ab10284",
+    "bytes": 13656
+  },
+  "dist/avr/sources/libraries/irremote/src/ac_LG.h": {
+    "sha256": "c8a7dfa4eecb6a4361ef08fa7d3727b7f814c91545d7623366b6a103cc274b93",
+    "bytes": 5468
+  },
+  "dist/avr/sources/libraries/irremote/src/ir_Lego.hpp": {
+    "sha256": "1b11df58644fc557c0d4b4e48db9302acdf739afaec6b773c947811f5ca99f91",
+    "bytes": 9915
+  },
+  "dist/avr/sources/libraries/irremote/src/ac_LG.hpp": {
+    "sha256": "2d58503896845d7a45b9eff20bc6c18ff3e16cdf6b6cd8518f016873f3b564bf",
+    "bytes": 10028
+  },
+  "dist/avr/sources/libraries/irremote/src/ir_RC5_RC6.hpp": {
+    "sha256": "85e60cbbad0fd964b00112625804366c312b0b43d25a2d1d6a5682a81fecdb71",
+    "bytes": 39092
+  },
+  "dist/avr/sources/libraries/irremote/src/IRReceive.hpp": {
+    "sha256": "2a0ab8efa9d99586de947930ee9e68acc550c4ee22a12a9f884cbaa9b5c13597",
+    "bytes": 95587
+  },
+  "dist/avr/sources/libraries/irremote/src/ir_MagiQuest.hpp": {
+    "sha256": "81250964693fdf64739ce7dc612bd8bb8e7f5e3c8aa49394ed4d33fd612882f3",
+    "bytes": 10617
+  },
+  "dist/avr/sources/libraries/irremote/src/private/IRTimer.hpp": {
+    "sha256": "93ef73ce03587ec6e37297005c87e794f4f5907c6566e91be65ce8e40a7c4b0b",
+    "bytes": 87133
+  },
+  "dist/avr/sources/libraries/irremote/examples/SendDemo/IRremote_SendDemo_ReceiveDemo.log": {
+    "sha256": "ab8ae3178f62f58f4f41e9fc2e1975b560ce9fe160b63d52a11ed81b6199063e",
+    "bytes": 8694
+  },
+  "dist/avr/sources/libraries/irremote/examples/SendDemo/PinDefinitionsAndMore.h": {
+    "sha256": "bc5a5e7cb139fa6740d00d6d86ad4ff684c118ea9b6b01f79994f40b978ee07b",
+    "bytes": 16909
+  },
+  "dist/avr/sources/libraries/irremote/examples/SendDemo/SendDemo.ino": {
+    "sha256": "cd1bd56f9d6df322a3b5da88dd9f099f838cb8381e31720882d0ba9e4e61a782",
+    "bytes": 23642
+  },
+  "dist/avr/sources/libraries/irremote/examples/TinyReceiver/TinyReceiver.ino": {
+    "sha256": "04a60d7e5f8df45693259d19c0c2e1ff529823c009812d9507ab50434e6413f5",
+    "bytes": 7391
+  },
+  "dist/avr/sources/libraries/irremote/examples/TinyReceiver/PinDefinitionsAndMore.h": {
+    "sha256": "bc5a5e7cb139fa6740d00d6d86ad4ff684c118ea9b6b01f79994f40b978ee07b",
+    "bytes": 16909
+  },
+  "dist/avr/sources/libraries/irremote/examples/UnitTest/UnitTest.ino": {
+    "sha256": "06bda680253ce71f88e857742a51fe8967f279f9e33246899478bdcdb0b45273",
+    "bytes": 51681
+  },
+  "dist/avr/sources/libraries/irremote/examples/UnitTest/UnitTest.log": {
+    "sha256": "5c5abcfe57cdf52b8bf0c07041e0ffc4587dd65ea2dd5b92b6478d575160a5ad",
+    "bytes": 65406
+  },
+  "dist/avr/sources/libraries/irremote/examples/UnitTest/PinDefinitionsAndMore.h": {
+    "sha256": "bc5a5e7cb139fa6740d00d6d86ad4ff684c118ea9b6b01f79994f40b978ee07b",
+    "bytes": 16909
+  },
+  "dist/avr/sources/libraries/irremote/examples/UnitTest/UnitTest_64bit.log": {
+    "sha256": "22725bf7c66e4b24a888474ccce542c5dcfcdb8f2fdb52e1e27c458285e4320b",
+    "bytes": 42106
+  },
+  "dist/avr/sources/libraries/irremote/examples/SendRawDemo/SendRawDemo.ino": {
+    "sha256": "9172057e772d23b45d09eb4237149c1220539deba2459ca4d4a575bfb4fc4b78",
+    "bytes": 7108
+  },
+  "dist/avr/sources/libraries/irremote/examples/SendRawDemo/PinDefinitionsAndMore.h": {
+    "sha256": "bc5a5e7cb139fa6740d00d6d86ad4ff684c118ea9b6b01f79994f40b978ee07b",
+    "bytes": 16909
+  },
+  "dist/avr/sources/libraries/irremote/examples/TinySender/TinySender.ino": {
+    "sha256": "e7441f76862da993ef990c433fc2f01d472b9082c43148e43342b4b0ef2e1cfd",
+    "bytes": 5890
+  },
+  "dist/avr/sources/libraries/irremote/examples/TinySender/PinDefinitionsAndMore.h": {
+    "sha256": "bc5a5e7cb139fa6740d00d6d86ad4ff684c118ea9b6b01f79994f40b978ee07b",
+    "bytes": 16909
+  },
+  "dist/avr/sources/libraries/irremote/examples/MicroGirs/MicroGirs.ino": {
+    "sha256": "0d6c03d6507d3f7d146abaa8dbadb537aae1e70dce3b9de87570a764235b967b",
+    "bytes": 13014
+  },
+  "dist/avr/sources/libraries/irremote/examples/MicroGirs/PinDefinitionsAndMore.h": {
+    "sha256": "bc5a5e7cb139fa6740d00d6d86ad4ff684c118ea9b6b01f79994f40b978ee07b",
+    "bytes": 16909
+  },
+  "dist/avr/sources/libraries/irremote/examples/ReceiverTimingAnalysis/ReceiverTimingAnalysis.ino": {
+    "sha256": "32c01efc6822c10acdfac7760fbc3a32099f005123471616f66a65b51eac12ba",
+    "bytes": 8687
+  },
+  "dist/avr/sources/libraries/irremote/examples/ControlRelay/PinDefinitionsAndMore.h": {
+    "sha256": "bc5a5e7cb139fa6740d00d6d86ad4ff684c118ea9b6b01f79994f40b978ee07b",
+    "bytes": 16909
+  },
+  "dist/avr/sources/libraries/irremote/examples/ControlRelay/ControlRelay.ino": {
+    "sha256": "45e1a34b3e33d40f6153137e503d7ccbda31b9ffed60cb3d2a04781c669b5dfb",
+    "bytes": 4512
+  },
+  "dist/avr/sources/libraries/irremote/examples/SimpleSender/SimpleSender.ino": {
+    "sha256": "973be553e83252cd4ed368cdd400ae3048773a244fd13b32415fbf47dce06a1e",
+    "bytes": 3557
+  },
+  "dist/avr/sources/libraries/irremote/examples/SimpleSender/PinDefinitionsAndMore.h": {
+    "sha256": "bc5a5e7cb139fa6740d00d6d86ad4ff684c118ea9b6b01f79994f40b978ee07b",
+    "bytes": 16909
+  },
+  "dist/avr/sources/libraries/irremote/examples/CallbackDemo/CallbackDemo.ino": {
+    "sha256": "81f6ed4d36a92165f160b21ff8f4f11064db7f3f565c90e2c933d857cb9a4070",
+    "bytes": 7005
+  },
+  "dist/avr/sources/libraries/irremote/examples/CallbackDemo/PinDefinitionsAndMore.h": {
+    "sha256": "bc5a5e7cb139fa6740d00d6d86ad4ff684c118ea9b6b01f79994f40b978ee07b",
+    "bytes": 16909
+  },
+  "dist/avr/sources/libraries/irremote/examples/ReceiveDemo/IRremote_SendDemo_ReceiveDemo.log": {
+    "sha256": "ab8ae3178f62f58f4f41e9fc2e1975b560ce9fe160b63d52a11ed81b6199063e",
+    "bytes": 8694
+  },
+  "dist/avr/sources/libraries/irremote/examples/ReceiveDemo/ReceiveDemo.ino": {
+    "sha256": "a4a61bf580c969e401a798ab2138e1fd958b34c4a32f6b847cd66203bef91578",
+    "bytes": 18097
+  },
+  "dist/avr/sources/libraries/irremote/examples/ReceiveDemo/PinDefinitionsAndMore.h": {
+    "sha256": "bc5a5e7cb139fa6740d00d6d86ad4ff684c118ea9b6b01f79994f40b978ee07b",
+    "bytes": 16909
+  },
+  "dist/avr/sources/libraries/irremote/examples/IRDispatcherDemo/DemoIRCommandMapping.h": {
+    "sha256": "e48a574cf68b2db3a7d0942e3a1ae24bf80941ea85159cfda7afd03a0818f2e0",
+    "bytes": 6817
+  },
+  "dist/avr/sources/libraries/irremote/examples/IRDispatcherDemo/IRDispatcherDemo.ino": {
+    "sha256": "2a86bc7f6af3aae1b253a338c5632f1f8a978e69269320bee600ddd3d060e85a",
+    "bytes": 9707
+  },
+  "dist/avr/sources/libraries/irremote/examples/IRDispatcherDemo/PinDefinitionsAndMore.h": {
+    "sha256": "bc5a5e7cb139fa6740d00d6d86ad4ff684c118ea9b6b01f79994f40b978ee07b",
+    "bytes": 16909
+  },
+  "dist/avr/sources/libraries/irremote/examples/SimpleReceiverForHashCodes/SimpleReceiverForHashCodes.ino": {
+    "sha256": "6c6897ddac19bd89d555e842f1a8128155c66fac3ec6f1264d88ae680d83afc0",
+    "bytes": 4367
+  },
+  "dist/avr/sources/libraries/irremote/examples/SimpleReceiverForHashCodes/PinDefinitionsAndMore.h": {
+    "sha256": "bc5a5e7cb139fa6740d00d6d86ad4ff684c118ea9b6b01f79994f40b978ee07b",
+    "bytes": 16909
+  },
+  "dist/avr/sources/libraries/irremote/examples/ReceiveAndSendDistanceWidth/ReceiveAndSendDistanceWidth.ino": {
+    "sha256": "dd7d4eb67ead8772ccee7bf9cc6503ee7f92b5efa564fff7e707b4dd1b187e0b",
+    "bytes": 8989
+  },
+  "dist/avr/sources/libraries/irremote/examples/ReceiveAndSendDistanceWidth/PinDefinitionsAndMore.h": {
+    "sha256": "bc5a5e7cb139fa6740d00d6d86ad4ff684c118ea9b6b01f79994f40b978ee07b",
+    "bytes": 16909
+  },
+  "dist/avr/sources/libraries/irremote/examples/SendBoseWaveDemo/SendBoseWaveDemo.ino": {
+    "sha256": "8cf02e116a15db040fc247e81fb8378dcb2ddfc9d5899135cd0f088f58890aa9",
+    "bytes": 9423
+  },
+  "dist/avr/sources/libraries/irremote/examples/SendBoseWaveDemo/PinDefinitionsAndMore.h": {
+    "sha256": "bc5a5e7cb139fa6740d00d6d86ad4ff684c118ea9b6b01f79994f40b978ee07b",
+    "bytes": 16909
+  },
+  "dist/avr/sources/libraries/irremote/examples/IRremoteInfo/IRremoteInfo.ino": {
+    "sha256": "f5b9cd86f071652fb68a1519fdae793bcf88e762b502ef42ac7474a1ad666e9e",
+    "bytes": 11001
+  },
+  "dist/avr/sources/libraries/irremote/examples/IRremoteExtensionTest/IRremoteExtensionTest.ino": {
+    "sha256": "f04fe5476cd82dc9991951a506d4416017b5a997345f9a829659cd0779128523",
+    "bytes": 3536
+  },
+  "dist/avr/sources/libraries/irremote/examples/IRremoteExtensionTest/IRremoteExtensionClass.cpp": {
+    "sha256": "34038e440b40a5a10030732f50e88651ccad69e4267170453f88b4ae81e38503",
+    "bytes": 2721
+  },
+  "dist/avr/sources/libraries/irremote/examples/IRremoteExtensionTest/IRremoteExtensionClass.h": {
+    "sha256": "846d79828636aa4310ee442ed0f9c29940e10d9c0d19cde5b6a42e5a79640dd7",
+    "bytes": 1843
+  },
+  "dist/avr/sources/libraries/irremote/examples/IRremoteExtensionTest/PinDefinitionsAndMore.h": {
+    "sha256": "bc5a5e7cb139fa6740d00d6d86ad4ff684c118ea9b6b01f79994f40b978ee07b",
+    "bytes": 16909
+  },
+  "dist/avr/sources/libraries/irremote/examples/ReceiveOneAndSendMultiple/ReceiveOneAndSendMultiple.ino": {
+    "sha256": "3ec62259a405a461a32455497c582b73015a1e01d927317f89e8a2330e409d0a",
+    "bytes": 9844
+  },
+  "dist/avr/sources/libraries/irremote/examples/ReceiveOneAndSendMultiple/PinDefinitionsAndMore.h": {
+    "sha256": "bc5a5e7cb139fa6740d00d6d86ad4ff684c118ea9b6b01f79994f40b978ee07b",
+    "bytes": 16909
+  },
+  "dist/avr/sources/libraries/irremote/examples/SendProntoDemo/SendProntoDemo.ino": {
+    "sha256": "f0814d467958b5c5c9ef925830d61b017d291390eb8bcbaed24e4f61f5dae261",
+    "bytes": 6210
+  },
+  "dist/avr/sources/libraries/irremote/examples/SendProntoDemo/PinDefinitionsAndMore.h": {
+    "sha256": "bc5a5e7cb139fa6740d00d6d86ad4ff684c118ea9b6b01f79994f40b978ee07b",
+    "bytes": 16909
+  },
+  "dist/avr/sources/libraries/irremote/examples/MultipleSendPins/MultipleSendPins.ino": {
+    "sha256": "445cebbbc29c97082ff3eee1e8ee9986a600fbff47be7331d312633a58730e5f",
+    "bytes": 3286
+  },
+  "dist/avr/sources/libraries/irremote/examples/AllProtocolsOnLCD/LiquidCrystal_I2C.h": {
+    "sha256": "8718aa595605552e0e939a00168094676018ba9914bccd29e36e7b86c4753c9e",
+    "bytes": 3474
+  },
+  "dist/avr/sources/libraries/irremote/examples/AllProtocolsOnLCD/LiquidCrystal.h": {
+    "sha256": "91dfada74d80859683c2f9fffd406f21ae3920d6f5a5487be101c3497331b601",
+    "bytes": 2810
+  },
+  "dist/avr/sources/libraries/irremote/examples/AllProtocolsOnLCD/ADCUtils.h": {
+    "sha256": "39e1c2d7f31ac55fd75b119bfc5f6bc6579c5e1a8eee4809ee95d9db94f0f7f1",
+    "bytes": 11277
+  },
+  "dist/avr/sources/libraries/irremote/examples/AllProtocolsOnLCD/LiquidCrystal_I2C.hpp": {
+    "sha256": "297d0e5de49d6959963719ddc068881248bba8a994ee19b1bde5fe11fafa0f47",
+    "bytes": 10727
+  },
+  "dist/avr/sources/libraries/irremote/examples/AllProtocolsOnLCD/PinDefinitionsAndMore.h": {
+    "sha256": "bc5a5e7cb139fa6740d00d6d86ad4ff684c118ea9b6b01f79994f40b978ee07b",
+    "bytes": 16909
+  },
+  "dist/avr/sources/libraries/irremote/examples/AllProtocolsOnLCD/ADCUtils.hpp": {
+    "sha256": "f0c00393d4b8d97056b727108858af840c7cd084b4914b4016f7fc67882b7ce4",
+    "bytes": 34155
+  },
+  "dist/avr/sources/libraries/irremote/examples/AllProtocolsOnLCD/LCDPrintUtils.hpp": {
+    "sha256": "6cb3ebd842e7a2774b5f528e948f2c17390089978e60cdf3c83b53e54c247918",
+    "bytes": 14830
+  },
+  "dist/avr/sources/libraries/irremote/examples/AllProtocolsOnLCD/AllProtocolsOnLCD.ino": {
+    "sha256": "2a269840560a4e0ac5b4a65e09141e455c438361c1b8db2895f7a6ea63506235",
+    "bytes": 18446
+  },
+  "dist/avr/sources/libraries/irremote/examples/AllProtocolsOnLCD/LiquidCrystal.cpp": {
+    "sha256": "87f0857c940dbaa59a9d84f3d9d7e33289aacb4a1b874fef7659e18219cd62b7",
+    "bytes": 9973
+  },
+  "dist/avr/sources/libraries/irremote/examples/ReceiveDump/ReceiveDump.ino": {
+    "sha256": "ba416a8ccc6a17cece5955f5a29e3d7288d8e1baab9a0cdd87e94d0373c76637",
+    "bytes": 9572
+  },
+  "dist/avr/sources/libraries/irremote/examples/ReceiveDump/ReceiveDump.log": {
+    "sha256": "b1ce5aeb9f7226967be658f47feff167676a4ad18908d43559c6961ef339535b",
+    "bytes": 2877
+  },
+  "dist/avr/sources/libraries/irremote/examples/ReceiveDump/PinDefinitionsAndMore.h": {
+    "sha256": "bc5a5e7cb139fa6740d00d6d86ad4ff684c118ea9b6b01f79994f40b978ee07b",
+    "bytes": 16909
+  },
+  "dist/avr/sources/libraries/irremote/examples/SendAndReceive/SendAndReceive.log": {
+    "sha256": "057c1c1ff414167d9e07bec3ef7b8478bf6fc1d5097e975fe9b843bfbae93cd9",
+    "bytes": 1641
+  },
+  "dist/avr/sources/libraries/irremote/examples/SendAndReceive/PinDefinitionsAndMore.h": {
+    "sha256": "bc5a5e7cb139fa6740d00d6d86ad4ff684c118ea9b6b01f79994f40b978ee07b",
+    "bytes": 16909
+  },
+  "dist/avr/sources/libraries/irremote/examples/SendAndReceive/SendAndReceive.ino": {
+    "sha256": "2a0f31e290c16d17d7f17d5ca04142ee03302157672ec1d66f4cd4b2fc641b10",
+    "bytes": 7383
+  },
+  "dist/avr/sources/libraries/irremote/examples/MultipleReceivers/MultipleReceivers.ino": {
+    "sha256": "9dc095e76436cfcf53f91d0707feb0602a51333685c16278867f0ff79349d7c6",
+    "bytes": 6667
+  },
+  "dist/avr/sources/libraries/irremote/examples/MultipleReceivers/PinDefinitionsAndMore.h": {
+    "sha256": "bc5a5e7cb139fa6740d00d6d86ad4ff684c118ea9b6b01f79994f40b978ee07b",
+    "bytes": 16909
+  },
+  "dist/avr/sources/libraries/irremote/examples/ReceiveAndSend/ReceiveAndSend.ino": {
+    "sha256": "005803e7ef1da56343413c49634b9e3c348c7e0faa800131e7cc8807e8635bb5",
+    "bytes": 10892
+  },
+  "dist/avr/sources/libraries/irremote/examples/ReceiveAndSend/PinDefinitionsAndMore.h": {
+    "sha256": "bc5a5e7cb139fa6740d00d6d86ad4ff684c118ea9b6b01f79994f40b978ee07b",
+    "bytes": 16909
+  },
+  "dist/avr/sources/libraries/irremote/examples/ReceiveAndSendHob2Hood/PinDefinitionsAndMore.h": {
+    "sha256": "bc5a5e7cb139fa6740d00d6d86ad4ff684c118ea9b6b01f79994f40b978ee07b",
+    "bytes": 16909
+  },
+  "dist/avr/sources/libraries/irremote/examples/ReceiveAndSendHob2Hood/ReceiveAndSendHob2Hood.ino": {
+    "sha256": "7237efcf9f334d56027a212ebf95a806d231146053472ffca6bebe0773058190",
+    "bytes": 7279
+  },
+  "dist/avr/sources/libraries/irremote/examples/SendLGAirConditionerDemo/SendLGAirConditionerDemo.ino": {
+    "sha256": "388415c2525f482da699773b140d7b380ab5924903eaa8112b22901da3d8dbac",
+    "bytes": 6128
+  },
+  "dist/avr/sources/libraries/irremote/examples/SendLGAirConditionerDemo/PinDefinitionsAndMore.h": {
+    "sha256": "bc5a5e7cb139fa6740d00d6d86ad4ff684c118ea9b6b01f79994f40b978ee07b",
+    "bytes": 16909
+  },
+  "dist/avr/sources/libraries/irremote/examples/SimpleReceiver/PinDefinitionsAndMore.h": {
+    "sha256": "bc5a5e7cb139fa6740d00d6d86ad4ff684c118ea9b6b01f79994f40b978ee07b",
+    "bytes": 16909
+  },
+  "dist/avr/sources/libraries/irremote/examples/SimpleReceiver/SimpleReceiver.ino": {
+    "sha256": "aeab60e66d312e3bbeb10600fdbcd531c2b5c2c416968610848b6ba1a549bcd4",
+    "bytes": 6496
+  },
+  "dist/avr/sources/libraries/liquidcrystal-i2c/examples/CustomChars/CustomChars.pde": {
+    "sha256": "ac73f0455ce1a73105b1c6d8e2520407e291f381d93a55a13a42cb5c3dde607c",
+    "bytes": 1612
+  },
+  "dist/avr/sources/libraries/liquidcrystal-i2c/examples/SerialDisplay/SerialDisplay.pde": {
+    "sha256": "a0c03e2a8420496ec31ca5e437545cc42779f1c5d34cf64ca725ff88c5293c28",
+    "bytes": 812
+  },
+  "dist/avr/sources/libraries/liquidcrystal-i2c/examples/HelloWorld/HelloWorld.pde": {
+    "sha256": "24710c982658e3734a7be18b1931d201b941d56bde3d226f8821e4eea5c24d3d",
+    "bytes": 606
+  },
+  "dist/avr/sources/libraries/dht/examples/DHTtester/DHTtester.ino": {
+    "sha256": "0bbc4b5d69879c38c4fb3ce0bf7d7601b7a67b5cd882b9bba0a395748998640b",
+    "bytes": 2677
+  },
+  "dist/avr/sources/libraries/dht/examples/DHT_Unified_Sensor/DHT_Unified_Sensor.ino": {
+    "sha256": "1ca27ca31f57cf492f5fc1bf1ea21eea1b72dc0369554ec6bbd9326e21bbce37",
+    "bytes": 3294
+  },
+  "dist/avr/sources/libraries/spi/src/SPI.cpp": {
+    "sha256": "adae94aae5f04be3225a568a1ed932a917160c0859e51ee3850fa0da4cf4e345",
+    "bytes": 5716
+  },
+  "dist/avr/sources/libraries/spi/src/SPI.h": {
+    "sha256": "5b444eebc18adac5a69e99cfdc229cb7c8622125b67e1e0d2e2127fa2cde52b1",
+    "bytes": 10393
+  },
+  "dist/avr/sources/libraries/spi/examples/BarometricPressureSensor/BarometricPressureSensor.ino": {
+    "sha256": "c016cda20c69764f55471ccc742c1ac8f5acd72aab4b966051ee1233ddc941a3",
+    "bytes": 4544
+  },
+  "dist/avr/sources/libraries/spi/examples/DigitalPotControl/DigitalPotControl.ino": {
+    "sha256": "8640e1f98a4c51aa5576a2cb89a5b09307ddef0f480170833580e83374c65049",
+    "bytes": 1994
+  },
+  "dist/avr/sources/libraries/softwareserial/src/SoftwareSerial.h": {
+    "sha256": "5897e15a3fc14307066fbad6e201f88e39417a8d40368c21b41ea14a0abf2f25",
+    "bytes": 3903
+  },
+  "dist/avr/sources/libraries/softwareserial/src/SoftwareSerial.cpp": {
+    "sha256": "f49b152375ede361c7475ac9a83d9fa23bef7f3c9c58c46ca036b1aa85cd65b0",
+    "bytes": 13476
+  },
+  "dist/avr/sources/libraries/softwareserial/examples/SoftwareSerialExample/SoftwareSerialExample.ino": {
+    "sha256": "74d311b7f6000631dcd77c95bad97166eba823e69154620819cb379c21aab322",
+    "bytes": 1378
+  },
+  "dist/avr/sources/libraries/softwareserial/examples/TwoPortReceive/TwoPortReceive.ino": {
+    "sha256": "9de2a26d5033715ad78f153692a0071c75c1966fb043a7ebd2deb5ece07f760d",
+    "bytes": 2570
+  },
+  "dist/avr/sources/libraries/neopixel/examples/buttoncycler/buttoncycler.ino": {
+    "sha256": "5faa09628cc09cb91ef6a45efd401abf6f95e6412d23a1fbb0319d628be49dce",
+    "bytes": 7031
+  },
+  "dist/avr/sources/libraries/neopixel/examples/StrandtestBLE/StrandtestBLE.ino": {
+    "sha256": "d8bbc4be9f678cef2d080b3697b660e7aab3158ba512d9253d923b701b397349",
+    "bytes": 7879
+  },
+  "dist/avr/sources/libraries/neopixel/examples/StrandtestBLE/BLESerial.cpp": {
+    "sha256": "f84d0c33f6be332463ab543c52de82387100574d006c08fec24e664ac6f4f215",
+    "bytes": 3681
+  },
+  "dist/avr/sources/libraries/neopixel/examples/StrandtestBLE/BLESerial.h": {
+    "sha256": "fb313b7a51e83a77cbca48149556065fa9f941b274d6aeccdb84524229a26a7d",
+    "bytes": 1569
+  },
+  "dist/avr/sources/libraries/neopixel/examples/simple/simple.ino": {
+    "sha256": "662a2d2efa28b5069c59674cc286962bdea094bf2aff962479ddfb1c8bb21f69",
+    "bytes": 1818
+  },
+  "dist/avr/sources/libraries/neopixel/examples/strandtest_nodelay/strandtest_nodelay.ino": {
+    "sha256": "f131a05fdd0ab97ad1fe1835e3f95aff5eb20daf63ca04162971e9fb7dfdd7fd",
+    "bytes": 7681
+  },
+  "dist/avr/sources/libraries/neopixel/examples/StrandtestArduinoBLECallback/StrandtestArduinoBLECallback.ino": {
+    "sha256": "3f801ce5cdc89c504ef62212244db80d6eab6a1d35b043e39f4b33277b0b7a55",
+    "bytes": 9141
+  },
+  "dist/avr/sources/libraries/neopixel/examples/strandtest/strandtest.ino": {
+    "sha256": "2088f27c2e14bef24c908d4409ee8c93446da8b32ff125d73464e0bf7b44eb0f",
+    "bytes": 6568
+  },
+  "dist/avr/sources/libraries/neopixel/examples/simple_new_operator/simple_new_operator.ino": {
+    "sha256": "81565970788edf5e57ae0e53a8cb9545896f90793ff358ecafd15ce72ee639bb",
+    "bytes": 2723
+  },
+  "dist/avr/sources/libraries/neopixel/examples/strandtest_wheel/strandtest_wheel.ino": {
+    "sha256": "9772c6cf904d1c4de060d92bfd911199010463e7241859d613c3a37783536d1d",
+    "bytes": 4151
+  },
+  "dist/avr/sources/libraries/neopixel/examples/StrandtestArduinoBLE/StrandtestArduinoBLE.ino": {
+    "sha256": "45d1b397089f5db205ea820b8fb425616f970eedd8524650823121411b3d29f7",
+    "bytes": 9033
+  },
+  "dist/avr/sources/libraries/neopixel/examples/RGBWstrandtest/RGBWstrandtest.ino": {
+    "sha256": "8d09da7e039e9d6901f45c354483d7e1dd0df714e0bed770abd332c33fe478dd",
+    "bytes": 6831
+  },
+  "dist/avr/sources/libraries/neopixel/examples/StrandtestBLE_nodelay/BLESerial.cpp": {
+    "sha256": "f84d0c33f6be332463ab543c52de82387100574d006c08fec24e664ac6f4f215",
+    "bytes": 3681
+  },
+  "dist/avr/sources/libraries/neopixel/examples/StrandtestBLE_nodelay/StrandtestBLE_nodelay.ino": {
+    "sha256": "0fe584f16984b222052349d7a9cc73e816514bba20003d303d63e1723f2f0dad",
+    "bytes": 7570
+  },
+  "dist/avr/sources/libraries/neopixel/examples/StrandtestBLE_nodelay/BLESerial.h": {
+    "sha256": "fb313b7a51e83a77cbca48149556065fa9f941b274d6aeccdb84524229a26a7d",
+    "bytes": 1569
+  },
+  "dist/avr/sources/libraries/newping/src/NewPing.cpp": {
+    "sha256": "f8a4d7f9af1ab737423fc660be48980810672709ebe4e4a7e185db5240d058fd",
+    "bytes": 16835
+  },
+  "dist/avr/sources/libraries/newping/src/NewPing.h": {
+    "sha256": "34f4cd11fd68f0ef4a61ceaf367645c3607b14281db1198adae91228a1470dc4",
+    "bytes": 16035
+  },
+  "dist/avr/sources/libraries/newping/examples/NewPingTimerMedian/NewPingTimerMedian.ino": {
+    "sha256": "aa57b08f350e94e42a4aed36ca1e7df8c8defe114fa31f2e08534125ff53f538",
+    "bytes": 3188
+  },
+  "dist/avr/sources/libraries/newping/examples/NewPing15SensorsTimer/NewPing15SensorsTimer.ino": {
+    "sha256": "77f0b965dd017454b1ec3a6f30cd39846564cfc0557e4d4827329d5e9a7bb67b",
+    "bytes": 4209
+  },
+  "dist/avr/sources/libraries/newping/examples/TimerExample/TimerExample.ino": {
+    "sha256": "563bfff4ba14c3c7c578dde5107d8c01f6e0e0f41a6e39b14d820d86cf816132",
+    "bytes": 1224
+  },
+  "dist/avr/sources/libraries/newping/examples/NewPing3Sensors/NewPing3Sensors.ino": {
+    "sha256": "fd23a0ad37aefb908af5e6cd084fe303eac5966dd76944d03479e65d4921fd53",
+    "bytes": 1035
+  },
+  "dist/avr/sources/libraries/newping/examples/NewPingEventTimer/NewPingEventTimer.ino": {
+    "sha256": "7113c50d0cede547c402b7e7b8eeff257dcbec6378ec3c7e57c9004ef5e59b52",
+    "bytes": 2771
+  },
+  "dist/avr/sources/libraries/newping/examples/NewPingExample/NewPingExample.ino": {
+    "sha256": "ec1e4f3f9a6bf527676e32685b23476b86e3bfbd002ef1d4d83e07d89a96626a",
+    "bytes": 1072
+  },
+  "dist/avr/sources/libraries/keypad/src/Key.h": {
+    "sha256": "2431d8e470be381534dd6bd52b02156912d6f89933081c65126f57c240612e11",
+    "bytes": 1560
+  },
+  "dist/avr/sources/libraries/keypad/src/Keypad.h": {
+    "sha256": "c841785f3c5ef422a9b8826c44ed921a46780e2103d9b4742123e6897c8f9f23",
+    "bytes": 5612
+  },
+  "dist/avr/sources/libraries/keypad/src/Keypad.cpp": {
+    "sha256": "2594406caac069448f28d3caf6d1b82f62df5098c20a2fdcb7930d9fab71fceb",
+    "bytes": 9353
+  },
+  "dist/avr/sources/libraries/keypad/src/Key.cpp": {
+    "sha256": "1bb3ee93e3fdf5a6ea4346127d78112f918a73d494b5b64775ab0c7c1e68f986",
+    "bytes": 1488
+  },
+  "dist/avr/sources/libraries/keypad/examples/EventKeypad/EventKeypad.ino": {
+    "sha256": "06f15322774e1a2a2b88cb5be2be333dbc72ea8b43de6c1aeadebe75f48cfb32",
+    "bytes": 1942
+  },
+  "dist/avr/sources/libraries/keypad/examples/HelloKeypad3/HelloKeypad3.ino": {
+    "sha256": "d0ee4f4337f2172483e15b1475a7bca9cc92bafd4f850200049263b67d114c9a",
+    "bytes": 1589
+  },
+  "dist/avr/sources/libraries/keypad/examples/MultiKey/MultiKey.ino": {
+    "sha256": "f3d89fcf58ebf9c87ef285433f895ba9c19fbc053e5d683cb203bfdf0dbc5347",
+    "bytes": 2104
+  },
+  "dist/avr/sources/libraries/keypad/examples/HelloKeypad/HelloKeypad.ino": {
+    "sha256": "2726e1104b8dee8ba55820462f05adfbd4843f99032bdc2af3a49ce31e83a2c8",
+    "bytes": 748
+  },
+  "dist/avr/sources/libraries/keypad/examples/DynamicKeypad/DynamicKeypad.ino": {
+    "sha256": "7b475bdd1fcd31088b8723ac7da0a930994c8b7e03da7b7339a38ae789f23cfd",
+    "bytes": 9231
+  },
+  "dist/avr/sources/libraries/keypad/examples/CustomKeypad/CustomKeypad.ino": {
+    "sha256": "f989d29bdf2d6c98c0e680f82cb2888e20cff67c18cebca53afc69ce82fc57a7",
+    "bytes": 894
+  },
+  "dist/avr/sources/libraries/keypad/examples/loopCounter/loopCounter.ino": {
+    "sha256": "9bf5ea00f391dbd8d3c03275356ee0a01ee7338a65389509b3cb64e6f9f76870",
+    "bytes": 1328
+  },
+  "dist/avr/sources/libraries/ssd1306/scripts/splash1.png": {
+    "sha256": "6e5f25c215470eb73ef7d3e5f37c4175f028ea4fe1b04c58aabfa9ac445fd29f",
+    "bytes": 471
+  },
+  "dist/avr/sources/libraries/ssd1306/scripts/splash2.png": {
+    "sha256": "f7d0ba6519b9913f4ed71a8975ce9f0816020ee775373f0c145073f1c32f5169",
+    "bytes": 417
+  },
+  "dist/avr/sources/libraries/ssd1306/scripts/Makefile": {
+    "sha256": "d37ea677edb9ca9e7e3b1f30a1a05f897465068578da25d49dca58e5f404e2d9",
+    "bytes": 601
+  },
+  "dist/avr/sources/libraries/ssd1306/scripts/make_splash.py": {
+    "sha256": "1208aa2074ee98429cf1aaecc33e473dc3e16c105fd179a91bea9fdcd2d5a735",
+    "bytes": 939
+  },
+  "dist/avr/sources/libraries/ssd1306/examples/ssd1306_64x32_i2c/ssd1306_64x32_i2c.ino": {
+    "sha256": "fcc72174fe3d8ed58d52530c093f8f7dca773e2a9f081ca6a8ad71d2bd943321",
+    "bytes": 12018
+  },
+  "dist/avr/sources/libraries/ssd1306/examples/OLED_featherwing/OLED_featherwing.ino": {
+    "sha256": "966b36d0c4c460e501134cd9ee96b76789fcfbfdd5acdadfb846f52d126182dd",
+    "bytes": 2485
+  },
+  "dist/avr/sources/libraries/ssd1306/examples/ssd1306_128x64_i2c/ssd1306_128x64_i2c.ino": {
+    "sha256": "cdd2e1f790a6fb2eb1f1d0addd1d82611aa8ff288e3ff7f41c5910fac69e2084",
+    "bytes": 12019
+  },
+  "dist/avr/sources/libraries/ssd1306/examples/ssd1306_128x64_spi/ssd1306_128x64_spi.ino": {
+    "sha256": "3e14c5421101924fdf81c04ce8517760224755dd314ace8396c3514d3eb19a1b",
+    "bytes": 11962
+  },
+  "dist/avr/sources/libraries/ssd1306/examples/ssd1306_128x32_i2c/ssd1306_128x32_i2c.ino": {
+    "sha256": "d2bf9015549240b045cd0e1b3f53b55a5df3ef597d250ba77ce5fbc0c80dfa49",
+    "bytes": 12019
+  },
+  "dist/avr/sources/libraries/ssd1306/examples/ssd1306_128x32_spi/ssd1306_128x32_spi.ino": {
+    "sha256": "319e74a91c9dda78a95d9db6715f34335a3b5114fb9da5cdaa0cc58ca8aca87c",
+    "bytes": 11961
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeMonoBold9pt7b.h": {
+    "sha256": "8cfea064cff367cf3e6a89cd2400ffdb731271f88a5016fb619dcd79b7dad733",
+    "bytes": 10813
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/Picopixel.h": {
+    "sha256": "035c01e6d48efdfef1e4de6152d0d03910210e449236506ec7c8f71799073363",
+    "bytes": 9089
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeMonoOblique12pt7b.h": {
+    "sha256": "cd07c68d1dd9ecb2654a66fbb1aeb0117f779844cc079f99678cf9c3dabf04fe",
+    "bytes": 15329
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeSerifBold9pt7b.h": {
+    "sha256": "61ebd809fca54d93b4195289be5f4e837cfe41f7998cff66b5fa2c09c5916b3f",
+    "bytes": 11765
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeMonoOblique24pt7b.h": {
+    "sha256": "f7f878d3b47231b43c9dd07d57100dd0364abfdb8953a25fd85b107da7ab0d1f",
+    "bytes": 45474
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/Org_01.h": {
+    "sha256": "6366cd58da1ab53f7b27d68f85463d3db207c88b7a01f97132f8c6a8c3be4451",
+    "bytes": 9394
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeSans24pt7b.h": {
+    "sha256": "e3cde750f607f1db3bd6c6d2d92e5cfd36a9a20d49df90d6a13b6eee7a490747",
+    "bytes": 51823
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeMono9pt7b.h": {
+    "sha256": "6bef1a38a049113ee9f4c7874ba3a164631e74d608df117491bcfb60fec56ec3",
+    "bytes": 9702
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeSerifItalic18pt7b.h": {
+    "sha256": "86cdd8f59ca0b47508a6e858f84e796adf735c0a8355e2f52784ad526033cdff",
+    "bytes": 30788
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeSerif18pt7b.h": {
+    "sha256": "498cd6591b04cc27c0306979016a059ed284f44338375143e99a0c6fa1000171",
+    "bytes": 29170
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeSansBold12pt7b.h": {
+    "sha256": "50b008dd06cf02fc3e46d872781f3bebb2009f09f80ca791e67138ef51d58630",
+    "bytes": 18348
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeSansBold24pt7b.h": {
+    "sha256": "ce00fb926f7d718b253dde1cbdd2f18c509c748ecec608c0ddc639ce188e9a54",
+    "bytes": 56169
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeSansBold18pt7b.h": {
+    "sha256": "4b3a67ee0d2fd5bce431a256cc77c0acd53f8cce4e0d0619a7a2695a7fbee970",
+    "bytes": 33022
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeSerifBoldItalic18pt7b.h": {
+    "sha256": "ec0ca5a439493bded92a41534644c9db51298bcda976362880ae6ee933aea0a5",
+    "bytes": 34638
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/TomThumb.h": {
+    "sha256": "a2b89525189e738feb2eba5288f9f6c7ece0b171d603468c4c585372a3342723",
+    "bytes": 20296
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/Tiny3x3a2pt7b.h": {
+    "sha256": "96fe2267efcd0f9086c735ad594fe9798b868b9198720af9bf18cc929d96f474",
+    "bytes": 5684
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeMonoOblique9pt7b.h": {
+    "sha256": "8bbee06061722f180fe53e8813857dfd00cf404630c60283c4407f6f7700ac89",
+    "bytes": 10635
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeSerifBoldItalic24pt7b.h": {
+    "sha256": "98cc662d98016e0e69125f4e0da5bce9a364490eccb008c73bf9ed313df9831a",
+    "bytes": 56852
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeMonoBold24pt7b.h": {
+    "sha256": "660733c0f5bdf2afc72472af94404bc59dc2eebe7e9787f064ba7756a594ce38",
+    "bytes": 47645
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeSans9pt7b.h": {
+    "sha256": "feacaaf7df57be67d483ed35a7aeb59402ad8c9736e456e3f044e62eaf3a9314",
+    "bytes": 11733
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeSerifBold18pt7b.h": {
+    "sha256": "4fbfb1faa143e09b570e95c434c0821a07994529bec579fd22bfd9f9baad3780",
+    "bytes": 31666
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeSerifItalic24pt7b.h": {
+    "sha256": "3af05ccf96780dc26b9154b7871528e3c8c7e09f82b6b00e17d9dfb5020478f8",
+    "bytes": 52612
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeMonoBold18pt7b.h": {
+    "sha256": "0c89a48671074e834b9c00d2347cb4e433799b8bfcde9eade8979a07d5bedda4",
+    "bytes": 28745
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeMonoBold12pt7b.h": {
+    "sha256": "0739083a428d8120ac0818e0585717f46b2183f08530f9b83813f1447febc611",
+    "bytes": 15460
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeSerifItalic12pt7b.h": {
+    "sha256": "587bc04736886112a06d1bc4fbafc242c4a24de032acb42d9fda43596e2dcbcd",
+    "bytes": 17178
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeSansOblique24pt7b.h": {
+    "sha256": "d41e526b2d677bc32edcc5e5b674a07be7a08048375ad69d3651717de3cb7753",
+    "bytes": 60416
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeSansBold9pt7b.h": {
+    "sha256": "a833751a8153c442afaadc16de2699e9a0163264c1df2ef30f3b5bbdba2b93ed",
+    "bytes": 12269
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeSerifBoldItalic9pt7b.h": {
+    "sha256": "96aec072db8f36a223d055521f1f04f6c9a1aa64395a974464d00e80e5ed67ea",
+    "bytes": 12830
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeSerifItalic9pt7b.h": {
+    "sha256": "ee4f79365a5ec0dcac844c497cbb484cc6d46d6c2391b3ebad58eec8e4ea0620",
+    "bytes": 11781
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeMono18pt7b.h": {
+    "sha256": "f09df516cb487de3d2e0f36d9c45ffe4ea4bfc938735d10b47ff641842618688",
+    "bytes": 24117
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeSansBoldOblique9pt7b.h": {
+    "sha256": "399a69c387df1a8cd84987f9d2b9a015443e18bf1d819b74b5bf66af6aed3ebc",
+    "bytes": 13802
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeSans12pt7b.h": {
+    "sha256": "0e15e376ec314ac1399613e2466288d795501a467d4e7860e852976997cd7850",
+    "bytes": 17025
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeMonoBoldOblique9pt7b.h": {
+    "sha256": "77e4c898599042277d04d3004feffd39b18c89d1a93f5cba65ff7506e25dd6ea",
+    "bytes": 11829
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeSansOblique12pt7b.h": {
+    "sha256": "c3ae703940f3f08bf4ccbcbb24cae7771720ab8b9b8ca74d390edd99a9659688",
+    "bytes": 19475
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeSerifBoldItalic12pt7b.h": {
+    "sha256": "c4587d3d064b6ee43cdc27c4fbe1828cf0bf531dc19ff692d177f71b358d2277",
+    "bytes": 18806
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeMonoBoldOblique18pt7b.h": {
+    "sha256": "97083aec2726a168deafb4766377187dceb8fe6e52382b242730c3ec34cc8f8f",
+    "bytes": 31586
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeMono24pt7b.h": {
+    "sha256": "c9a03fb1fad357e68f7487da819b083711d7c3d11201635da5ed12a6a83821a2",
+    "bytes": 40387
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeSansBoldOblique12pt7b.h": {
+    "sha256": "6cf7dc07ecc478acb2822e067b05be5834331f0751bd2aba030a3d38e001a6de",
+    "bytes": 20593
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeMonoBoldOblique24pt7b.h": {
+    "sha256": "b30c44c9aa6edc573c1b587ac0dc56388c62d05114cb76510a0f78e4ded86d18",
+    "bytes": 52988
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeSansBoldOblique18pt7b.h": {
+    "sha256": "b6cd1ab0683ca218a93b22c499e750300c1d4c101ac4566db84a6fa28d236f30",
+    "bytes": 38016
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeSansOblique18pt7b.h": {
+    "sha256": "9d03873e93cc61fcbed21128c22c37e2d93a470165280a0822dbbf331eefa122",
+    "bytes": 35968
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeMonoOblique18pt7b.h": {
+    "sha256": "d80a751b9b2a60178699602ee042006b944263175494d53d1a404d2968a1a508",
+    "bytes": 26771
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeSerifBold24pt7b.h": {
+    "sha256": "e66cb62a26127b5776848167c9cb406ebc51c480123eb313e6fc9f2e38c62460",
+    "bytes": 54298
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeSerifBold12pt7b.h": {
+    "sha256": "e1aa2959eb408b289cff144996efd7bf2d6b08e5eebde8dbb80792aaee8dbfeb",
+    "bytes": 17115
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeMono12pt7b.h": {
+    "sha256": "21f369cca12e929a6cc26c740b64d2e9bb40ebf8f20c5b878f064d4ebb3d36de",
+    "bytes": 13799
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeSansBoldOblique24pt7b.h": {
+    "sha256": "4fed61aa9cd99eb0a492f10e8aa01287db136e24235fb195f75412ae2e1db0ab",
+    "bytes": 64465
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeSerif9pt7b.h": {
+    "sha256": "330670dc6c05b39915dc47bd5b1e272a44f2bf18108eca799649d2ac7368839a",
+    "bytes": 11296
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeSerif24pt7b.h": {
+    "sha256": "c6cbb427f51e1ffe1f4cfe89e1f2c2317edbe0a5a8c3b517eb02719721e27c57",
+    "bytes": 48958
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeMonoBoldOblique12pt7b.h": {
+    "sha256": "e7d8dc059aca726294f1dbc6eb4826e13261059434d426bc717cba629cd4b61a",
+    "bytes": 17082
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeSans18pt7b.h": {
+    "sha256": "b6cc5607b838fcb422ef5c5925439b54061ab63eda1e00767d0c0bf3ee0b429f",
+    "bytes": 30893
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeSansOblique9pt7b.h": {
+    "sha256": "1ddc19a4b495408ba0d0c7efb48904d9c3459c62ab722aa54b99d283fa5cd0d4",
+    "bytes": 13184
+  },
+  "dist/avr/sources/libraries/gfx/Fonts/FreeSerif12pt7b.h": {
+    "sha256": "d9e664a614eeda7ea7942b0fd85e2715d28747a712f346377c47efcbab99aed9",
+    "bytes": 16208
+  },
+  "dist/avr/sources/libraries/gfx/fontconvert/fontconvert_win.md": {
+    "sha256": "76bf8de4bfb5f86fff8d2f80b0f32bcbf401642430b00a6c121112d270e598f1",
+    "bytes": 3831
+  },
+  "dist/avr/sources/libraries/gfx/fontconvert/bdf2adafruit.py": {
+    "sha256": "eb03983ee15e821888ad4c8f321ffaba8b9346f3d09f6624ab4597d200dcc9ce",
+    "bytes": 4487
+  },
+  "dist/avr/sources/libraries/gfx/fontconvert/makefonts.sh": {
+    "sha256": "ccc786b8fb5077bd6d1948778620469cbbfa83f3f3b17cef1436cd22c71cf662",
+    "bytes": 1221
+  },
+  "dist/avr/sources/libraries/gfx/fontconvert/fontconvert.c": {
+    "sha256": "42e70906d68e4a7bced1c47a7bb12d2a86c29484eeb564f76449ea7a9b6c3ba1",
+    "bytes": 10270
+  },
+  "dist/avr/sources/libraries/gfx/fontconvert/Makefile": {
+    "sha256": "a39d6a4413c7d8d5c394cd9e52c8ad8553a8afc71be3fd426e496a77ec88c17a",
+    "bytes": 236
+  },
+  "dist/avr/sources/libraries/gfx/examples/mock_ili9341/mock_ili9341.ino": {
+    "sha256": "552db5228c974f0c7b2c48d9502ddfa109ede4fe46a91539b38fbe8c16236455",
+    "bytes": 9790
+  },
+  "dist/avr/sources/libraries/gfx/examples/GFXcanvas/GFXcanvasSerialDemo.cpp": {
+    "sha256": "9cd57fa49ed5a66e1227e729fd2848e5e519cd86e1563efbb907e7b3aaa4af09",
+    "bytes": 2094
+  },
+  "dist/avr/sources/libraries/gfx/examples/GFXcanvas/GFXcanvasSerialDemo.h": {
+    "sha256": "c1bfa43f9e35f3488c091734eefd8c6994db9445488e5e3c035a983f31423221",
+    "bytes": 2408
+  },
+  "dist/avr/sources/libraries/gfx/examples/GFXcanvas/GFXcanvas.ino": {
+    "sha256": "8bc2d443ee94aea3b445e293da18093859e88024d94dfcf8fb33d9c668e3db64",
+    "bytes": 3671
+  },
+  "dist/avr/sources/libraries/unified-sensor/examples/sensortest/sensortest.ino": {
+    "sha256": "472213230418b04ae01bd884b631fb34af497061f8fe5e2e933ff08945b0c0d4",
+    "bytes": 4174
+  },
+  "dist/avr/sources/libraries/accelstepper/src/AccelStepper.cpp": {
+    "sha256": "d9b5155f0c0f642d8fb920d4f714923d284c78bb0725647708cc9d96df495afb",
+    "bytes": 14404
+  },
+  "dist/avr/sources/libraries/accelstepper/src/MultiStepper.h": {
+    "sha256": "7ff3db90c64d4df4763c39f6d977445e187246a4010666afe19775b38d481f80",
+    "bytes": 3224
+  },
+  "dist/avr/sources/libraries/accelstepper/src/AccelStepper.h": {
+    "sha256": "c79899c5be4d7ac9b86e1527807afce9bddb0db5a5693f65c026ccfb9e4d21ad",
+    "bytes": 43231
+  },
+  "dist/avr/sources/libraries/accelstepper/src/MultiStepper.cpp": {
+    "sha256": "ab3fddc4bb7ff0e462d7cc0eef931ba6bbcfc58f24d451385a722eee5809f3d9",
+    "bytes": 2198
+  },
+  "dist/avr/sources/libraries/accelstepper/extras/doc/tab_l.gif": {
+    "sha256": "d5ecca2b2495aa6b20a860061133a58c00942a408b7828369af4d4b7e08a54d5",
+    "bytes": 706
+  },
+  "dist/avr/sources/libraries/accelstepper/extras/doc/index.html": {
+    "sha256": "0d360d3249e93d2985dad6c0e6bff1e4a9653f5d96d2cc1a48545a4fe810b49a",
+    "bytes": 22804
+  },
+  "dist/avr/sources/libraries/accelstepper/extras/doc/doxygen.png": {
+    "sha256": "6973a2aae66bbb99f2b57f2ef160182825fa5305444511ca1eca4e1b0b38528b",
+    "bytes": 3779
+  },
+  "dist/avr/sources/libraries/accelstepper/extras/doc/functions.html": {
+    "sha256": "03f50878b4b8b2b8331df363e4e8fbf75396a6d5bd59022be4cf9e5bf5c308d2",
+    "bytes": 9462
+  },
+  "dist/avr/sources/libraries/accelstepper/extras/doc/classAccelStepper.html": {
+    "sha256": "f883d0372fd5b395d517ced5388044346a04cc2f6daba200eedbe1b75dbde674",
+    "bytes": 97520
+  },
+  "dist/avr/sources/libraries/accelstepper/extras/doc/AccelStepper_8h-source.html": {
+    "sha256": "53798be36cabe24548153ff6a4cef5d3854357e326782bf75e9723929f99fbd1",
+    "bytes": 47718
+  },
+  "dist/avr/sources/libraries/accelstepper/extras/doc/tab_b.gif": {
+    "sha256": "50eb5bf4441ea3073ec1ca36dd63bc2b1eb736f514c6de2bc648e98f0fe9cecd",
+    "bytes": 35
+  },
+  "dist/avr/sources/libraries/accelstepper/extras/doc/annotated.html": {
+    "sha256": "50d072cf273359b5b6a43877d020278736a5734855064e8f24a95e4c22695e2a",
+    "bytes": 2716
+  },
+  "dist/avr/sources/libraries/accelstepper/extras/doc/functions_func.html": {
+    "sha256": "1280796940d40a00a4018d9e09f5da5bf187e485b767b76ba6f448f2052dfe87",
+    "bytes": 7372
+  },
+  "dist/avr/sources/libraries/accelstepper/extras/doc/tabs.css": {
+    "sha256": "f80f106b598278c2c3d69597c292980d56225307cdf44526f801001de263d978",
+    "bytes": 8700
+  },
+  "dist/avr/sources/libraries/accelstepper/extras/doc/classAccelStepper-members.html": {
+    "sha256": "6df2085bdc2374d6a0a042915c106be75ce50af947cd22a28d1590d369308d34",
+    "bytes": 16953
+  },
+  "dist/avr/sources/libraries/accelstepper/extras/doc/doxygen.css": {
+    "sha256": "be29efb3042fcdc3844730bec6f952025dd5f56675259061cb293ea4fe1f322c",
+    "bytes": 31428
+  },
+  "dist/avr/sources/libraries/accelstepper/extras/doc/files.html": {
+    "sha256": "31ae89f469b237e30e413b7f46173d2da8c09132826b741ad9e1c84f058fd61b",
+    "bytes": 2520
+  },
+  "dist/avr/sources/libraries/accelstepper/extras/doc/tab_r.gif": {
+    "sha256": "1876b505a59e66fdc10880a43b6aee462f3ca4dfefcb963b9de9c2d82539a85b",
+    "bytes": 2585
+  },
+  "dist/avr/sources/libraries/accelstepper/examples/Overshoot/Overshoot.pde": {
+    "sha256": "1a48c6f57f11243d752f108a1abdb34e5b72c79709a9d7b36fb8199b9e82f03e",
+    "bytes": 751
+  },
+  "dist/avr/sources/libraries/accelstepper/examples/Quickstop/Quickstop.pde": {
+    "sha256": "59cde89f834a355d089a44007337c98f2e17f4cf1e811709366da559972fcfff",
+    "bytes": 1036
+  },
+  "dist/avr/sources/libraries/accelstepper/examples/MotorShield/MotorShield.pde": {
+    "sha256": "c613abb0e410b27bbc0b15ed7039377cb89a80972255e12e67156986079bf1f9",
+    "bytes": 2822
+  },
+  "dist/avr/sources/libraries/accelstepper/examples/ConstantSpeed/ConstantSpeed.pde": {
+    "sha256": "8ad5cc94c36f2c9682270e1368e2645477aad13f503066d340c97c45b5a3b8eb",
+    "bytes": 522
+  },
+  "dist/avr/sources/libraries/accelstepper/examples/Random/Random.pde": {
+    "sha256": "e1355f169f80be4f8087473fece8e3f9b0ae132ede5b242d9ec40bc3ed32339a",
+    "bytes": 724
+  },
+  "dist/avr/sources/libraries/accelstepper/examples/DualMotorShield/DualMotorShield.pde": {
+    "sha256": "219f908039221e6991e32ee1293a7e6f025e78255b96ff44ac7e42cfeab31bdc",
+    "bytes": 1307
+  },
+  "dist/avr/sources/libraries/accelstepper/examples/AFMotor_MultiStepper/AFMotor_MultiStepper.pde": {
+    "sha256": "762734575830fcb94ea25f579e1dfb200cf0623ef0d76ef0e5f9116410edbc8f",
+    "bytes": 1532
+  },
+  "dist/avr/sources/libraries/accelstepper/examples/ProportionalControl/ProportionalControl.pde": {
+    "sha256": "80ad6d81e028d9fd063430cea44b50dc36de42e776ccb2a78e68a7a890d3ceca",
+    "bytes": 870
+  },
+  "dist/avr/sources/libraries/accelstepper/examples/Bounce/Bounce.pde": {
+    "sha256": "462081e564d56663b3291d445bd9f2bd8217a0d902dc7a5470cb0c5162b7e2eb",
+    "bytes": 683
+  },
+  "dist/avr/sources/libraries/accelstepper/examples/MultiStepper/MultiStepper.pde": {
+    "sha256": "b8aaf39f0f6e830eeb87afddaacddec964947c101b36adbb88f6bbef19ecf12f",
+    "bytes": 1257
+  },
+  "dist/avr/sources/libraries/accelstepper/examples/AFMotor_ConstantSpeed/AFMotor_ConstantSpeed.pde": {
+    "sha256": "cc2b4c63e561c06f43e2b2846764d2ce862b155d62d2817ffc18a8120c1cd493",
+    "bytes": 985
+  },
+  "dist/avr/sources/libraries/accelstepper/examples/MultipleSteppers/MultipleSteppers.pde": {
+    "sha256": "4e2c0289c98fe62562b207f9f2124aaf44d615a5fdd9227f5df3866c0752ae21",
+    "bytes": 1133
+  },
+  "dist/avr/sources/libraries/accelstepper/examples/Blocking/Blocking.pde": {
+    "sha256": "37d4ce8649319cb8361fd5442642b16ceb717b3013543bed31df09838ddad30e",
+    "bytes": 693
+  },
+  "dist/avr/sources/libraries/wire/src/Wire.h": {
+    "sha256": "e08adefc3c3b31d9444ba8bd28d67beef1efff310cdef4d8f8aa4ad88542da92",
+    "bytes": 2925
+  },
+  "dist/avr/sources/libraries/wire/src/Wire.cpp": {
+    "sha256": "e56c6ff92128cc1334b8e112fc463396646166e2dc8f99178b45d5201bb607c3",
+    "bytes": 10677
+  },
+  "dist/avr/sources/libraries/wire/src/utility/twi.h": {
+    "sha256": "a8551bcf840a1d17dfa435fb6f299726bf45abfe75018ddc860a7788053a0f30",
+    "bytes": 1840
+  },
+  "dist/avr/sources/libraries/wire/src/utility/twi.c": {
+    "sha256": "846c0a685d1796990c8c5d06df4364fcf8d4657c2221161a613f8cafb232301d",
+    "bytes": 21073
+  },
+  "dist/avr/sources/libraries/wire/examples/master_writer/master_writer.ino": {
+    "sha256": "5b8954f14d23cc2d89fdc6684733c4218853df170ac5397666cfe134a469d9ab",
+    "bytes": 646
+  },
+  "dist/avr/sources/libraries/wire/examples/i2c_scanner/i2c_scanner.ino": {
+    "sha256": "8e794fb497e5aa66880b6a1837cbfda276d466428a386dcf86094c91b77f677c",
+    "bytes": 2086
+  },
+  "dist/avr/sources/libraries/wire/examples/digital_potentiometer/digital_potentiometer.ino": {
+    "sha256": "67d9868669acebf9963fdeb16922f98c0702cd69493cb19151adb5be84df9291",
+    "bytes": 894
+  },
+  "dist/avr/sources/libraries/wire/examples/SFRRanger_reader/SFRRanger_reader.ino": {
+    "sha256": "d905bd0ef761ee7205c70bc372019af74d12499907a2245be2caa83212ceceea",
+    "bytes": 2695
+  },
+  "dist/avr/sources/libraries/wire/examples/slave_receiver/slave_receiver.ino": {
+    "sha256": "427067bfad002457e3f6376da0e37bce2bf72da7528b573d9b2f324bc693af58",
+    "bytes": 977
+  },
+  "dist/avr/sources/libraries/wire/examples/master_reader/master_reader.ino": {
+    "sha256": "85c176446dbe3672db01b13b97a67e9fb3e41db781b4308f8c283371f788f43b",
+    "bytes": 730
+  },
+  "dist/avr/sources/libraries/wire/examples/slave_sender/slave_sender.ino": {
+    "sha256": "8ac3725ad606719bc386dd15fcf55f7f592c6faa7e3aec0451b1b84d1c0f9d99",
+    "bytes": 702
+  },
+  "dist/avr/sources/libraries/servo/docs/api.md": {
+    "sha256": "600e9773cb244858c971697c3401ec077d1b158beb987d2a8da3eb2ab98f1452",
+    "bytes": 4007
+  },
+  "dist/avr/sources/libraries/servo/docs/readme.md": {
+    "sha256": "0916cee0fc96f61616a56708d1e40719fe33209a1fac1108f8a579c75e92547c",
+    "bytes": 1703
+  },
+  "dist/avr/sources/libraries/servo/src/Servo.h": {
+    "sha256": "baf96f1d65390abddb1c88121198480e4d993b7c9ef87657640082aa73944d7d",
+    "bytes": 5546
+  },
+  "dist/avr/sources/libraries/servo/src/nrf52/Servo.cpp": {
+    "sha256": "0655e7165a6e0211d207118be2dec5d43cb4c3fe83845f7d4b3d02c9263a1ea7",
+    "bytes": 4184
+  },
+  "dist/avr/sources/libraries/servo/src/nrf52/ServoTimers.h": {
+    "sha256": "b21ebb93e4112f65efe41cb85025795e780c6a3da262ed815b3311199e0b7f72",
+    "bytes": 1216
+  },
+  "dist/avr/sources/libraries/servo/src/megaavr/Servo.cpp": {
+    "sha256": "46a3b247b22d070be6bd1e089f07bf6c6288b729cd95b7ac8ce6268eeeb679a7",
+    "bytes": 7134
+  },
+  "dist/avr/sources/libraries/servo/src/megaavr/ServoTimers.h": {
+    "sha256": "a62bb3292892e49d1f6d2bb61039fd04d102ecd47c26880598ce9b3fc6d8aaee",
+    "bytes": 1535
+  },
+  "dist/avr/sources/libraries/servo/src/mbed/Servo.cpp": {
+    "sha256": "9b0cd8b6ce8610cf30271cc64bc751394167c147f7a24198598d67d465d1c244",
+    "bytes": 3432
+  },
+  "dist/avr/sources/libraries/servo/src/mbed/ServoTimers.h": {
+    "sha256": "a601289af8327e6bf55140e76f38f6487912254cbf7988a43e4ba728b8b9850b",
+    "bytes": 25
+  },
+  "dist/avr/sources/libraries/servo/src/stm32f4/Servo.cpp": {
+    "sha256": "38faed85ad26229996db005097eb3272c428df27257995543292d8d50cf6b4e9",
+    "bytes": 5860
+  },
+  "dist/avr/sources/libraries/servo/src/stm32f4/ServoTimers.h": {
+    "sha256": "c8e934ff558624c97a6623e94366a2dff6a495214591015ab69e44e292754b2f",
+    "bytes": 7171
+  },
+  "dist/avr/sources/libraries/servo/src/avr/Servo.cpp": {
+    "sha256": "6b4477836ed3a00c3d77a5ad1e6a8636a4ee6cc905a9d93dfc60fca654860abb",
+    "bytes": 10902
+  },
+  "dist/avr/sources/libraries/servo/src/avr/ServoTimers.h": {
+    "sha256": "c18bf7dfd3804d0862572b4e0ea3b4e73431916771ceb531c28e88ed36ec4461",
+    "bytes": 2174
+  },
+  "dist/avr/sources/libraries/servo/src/sam/Servo.cpp": {
+    "sha256": "fca054e655d8689f090cac957378d1d1ae873ae0271a03ca88216484c6d0d250",
+    "bytes": 9923
+  },
+  "dist/avr/sources/libraries/servo/src/sam/ServoTimers.h": {
+    "sha256": "a57c1963d74bb1e5183b49ffa55e7072e9334eff621e4095344572de5bf895eb",
+    "bytes": 2635
+  },
+  "dist/avr/sources/libraries/servo/src/renesas/Servo.cpp": {
+    "sha256": "8512a2dfa345e7e2719707a523aec6378aa912aaceb9ae754a74ec7b069f3287",
+    "bytes": 8522
+  },
+  "dist/avr/sources/libraries/servo/src/renesas/ServoTimers.h": {
+    "sha256": "4a467f2a963fdc1ba93f056e14e2c8e5a23d620ff67b1fbb9eed584a2785ceb4",
+    "bytes": 24
+  },
+  "dist/avr/sources/libraries/servo/src/xmc/Servo.cpp": {
+    "sha256": "db21c3e90988157ccedb5f73132f54ca89a269e029f0020e891dc005bbff9a4c",
+    "bytes": 5186
+  },
+  "dist/avr/sources/libraries/servo/src/xmc/ServoTimers.h": {
+    "sha256": "58307e1798f219049b85753eff5c2a80b8966d50e621d8b41a266d29ea4ec50b",
+    "bytes": 9274
+  },
+  "dist/avr/sources/libraries/servo/src/zephyr/Servo.cpp": {
+    "sha256": "9253fc7a467ed9baf2253051058618e8f87e0a313b092d0cce6d86984fb3b40e",
+    "bytes": 4415
+  },
+  "dist/avr/sources/libraries/servo/src/zephyr/ServoTimers.h": {
+    "sha256": "13e47457f62bd3c911019077497f0917dc2347634704a72e7300cf40b686fe9d",
+    "bytes": 189
+  },
+  "dist/avr/sources/libraries/servo/src/esp32/Servo.cpp": {
+    "sha256": "5b91ccf65ba05b6b9ba4111ed04585b8f6c3f44f5c49ee7dd1667186e949f00f",
+    "bytes": 3835
+  },
+  "dist/avr/sources/libraries/servo/src/esp32/ServoTimers.h": {
+    "sha256": "c6dd843a248d976fb320033bd13e5fb19fbadea98be0506f27810bed7004ffc8",
+    "bytes": 362
+  },
+  "dist/avr/sources/libraries/servo/src/samd/Servo.cpp": {
+    "sha256": "df3f72da87fa054e7188b5c710a8a89402f3be7dfaa26a7ef96be94bce283fa4",
+    "bytes": 10585
+  },
+  "dist/avr/sources/libraries/servo/src/samd/ServoTimers.h": {
+    "sha256": "4dc4cb22c655cd76a2fafe486d0c754c4e9857c37f8fc52b80236b53c144897c",
+    "bytes": 2414
+  },
+  "dist/avr/sources/libraries/servo/examples/Sweep/readme.md": {
+    "sha256": "801bb16d561b99b0896287f10369c3464cb0de8eb138a6765b234f6043982919",
+    "bytes": 1010
+  },
+  "dist/avr/sources/libraries/servo/examples/Sweep/Sweep.ino": {
+    "sha256": "575a5c3ef350486d292d60c74caa88d43f4dc4d4833dd7de964968917c6752da",
+    "bytes": 1038
+  },
+  "dist/avr/sources/libraries/servo/examples/Knob/Knob.ino": {
+    "sha256": "faba7e31db9b8320b88b82c18fc09adcafbd70a8907e1472c8bdc5d8334c92a4",
+    "bytes": 921
+  },
+  "dist/avr/sources/libraries/servo/examples/Knob/readme.md": {
+    "sha256": "8c11dd38cbf87ec311d62af865f60a1ce7660bb2a7abfe65366c973f58b1a81a",
+    "bytes": 1327
+  },
+  "dist/avr/sources/libraries/servo/examples/Sweep/images/sweep_schem.png": {
+    "sha256": "a880b9af6e78a74e27cac1094cc0a9120ab05a6ee1f8c129c5810f24a05b58d3",
+    "bytes": 11238
+  },
+  "dist/avr/sources/libraries/servo/examples/Sweep/images/sweep_bb.png": {
+    "sha256": "e4f06196d89b5b0fa00e7bbaa7ec758276c84847b8a7179e8e6c8f3b8acc7724",
+    "bytes": 18442
+  },
+  "dist/avr/sources/libraries/servo/examples/Knob/images/knob_BB.png": {
+    "sha256": "fabab2e131fb2c7c32910cc5dda868995e118536b2ef6a290d010c63d5152933",
+    "bytes": 20514
+  },
+  "dist/avr/sources/libraries/servo/examples/Knob/images/knob_schem.png": {
+    "sha256": "49a6999c7d706d0a91f12678237226e2dabfe3c9e6b92782e081da4339ca0730",
+    "bytes": 26918
+  },
+  "dist/avr/sources/libraries/busio/examples/spi_registers/spi_registers.ino": {
+    "sha256": "8b65414c766bf25a7b7aeda67f5bc00fe09c18bb443828068e2ad7a96931457a",
+    "bytes": 991
+  },
+  "dist/avr/sources/libraries/busio/examples/i2c_readwrite/i2c_readwrite.ino": {
+    "sha256": "1cc8df8ea7c9c27c3d337b3d84993af3b1463699bc5fd198a81a6a869fff3a39",
+    "bytes": 1086
+  },
+  "dist/avr/sources/libraries/busio/examples/spi_modetest/spi_modetest.ino": {
+    "sha256": "acd3f3fe9c85a8cb022230e8cc1c3b66e7d363a9a0a456dc176adedf7c548c22",
+    "bytes": 805
+  },
+  "dist/avr/sources/libraries/busio/examples/genericdevice_uartregtest/genericdevice_uartregtest.ino": {
+    "sha256": "fd481a405762d0126b24e43e7bd4a325d0b2d872e135b517a9b5066b740fa85a",
+    "bytes": 6283
+  },
+  "dist/avr/sources/libraries/busio/examples/i2corspi_register/i2corspi_register.ino": {
+    "sha256": "2f6f8a11ecb2cd0bda15aafe93a91ca92814fc4b3693d5978255b1c45d5c6912",
+    "bytes": 1039
+  },
+  "dist/avr/sources/libraries/busio/examples/i2c_address_detect/i2c_address_detect.ino": {
+    "sha256": "89cf0ee48c931364bea41cf3dab036342ae4c835d02626f7635b576c130a4c12",
+    "bytes": 465
+  },
+  "dist/avr/sources/libraries/busio/examples/i2c_registers/i2c_registers.ino": {
+    "sha256": "a49021363dd14caed7250bd37414062614a22819364ae2cd2e4a5fb7ee7f29c9",
+    "bytes": 1075
+  },
+  "dist/avr/sources/libraries/busio/examples/genericdevice_uarttest/genericdevice_uarttest.ino": {
+    "sha256": "86e41d2c599b41c7fd211020bc9a6ee253a6d903af0a6ab029c84e6d351c44eb",
+    "bytes": 2676
+  },
+  "dist/avr/sources/libraries/busio/examples/spi_register_bits/spi_register_bits.ino": {
+    "sha256": "9149aa505c8b3239d27d7bb9fae6f50a86956234e8b6e10c49bedb823c6332d6",
+    "bytes": 9090
+  },
+  "dist/avr/sources/libraries/busio/examples/spi_readwrite/spi_readwrite.ino": {
+    "sha256": "3a0955fa5c28452ecfe51fcb699ce15667b9556e32426cfe120d02ae1ea6aad1",
+    "bytes": 963
+  }
+}

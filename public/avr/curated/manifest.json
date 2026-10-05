@@ -1,0 +1,1074 @@
+{
+  "format": 1,
+  "target": "atmega328p",
+  "toolchain": "avr-gcc-wasm@0.2.0",
+  "buildId": "f8d3d433a68a28f956a7b5da9b58b5ab795b250b4e3b41dec5f539607fd05090",
+  "engineHash": "2823deaca913259bd8c72311ea52ff07a4481985e0a25744aea5795e70abc21a",
+  "core": {
+    "file": "curated/uno-core-f3b1ff28b7930b7f.json",
+    "hash": "f3b1ff28b7930b7f629d7e325822aa4d7ded9b8a6b5171bbbccc1719d0490c4c"
+  },
+  "pbCore": {
+    "file": "curated/pb-core-b5dee940d083c843.json",
+    "hash": "b5dee940d083c843c5bc17396a73546d17583ec25895ab2925bcbb71a360288a"
+  },
+  "variants": {
+    "eightanaloginputs": {
+      "file": "curated/nano-variant-be5fc7a105716005.json",
+      "hash": "be5fc7a105716005de771d6e65f1d56a8edfb511bee5eedf184e612e9004e13f"
+    }
+  },
+  "libraries": [
+    {
+      "id": "servo",
+      "name": "Servo",
+      "description": "Position hobby servos with hardware-timed pulses. Uses Timer1 on Uno.",
+      "headers": [
+        "Servo.h",
+        "avr/ServoTimers.h"
+      ],
+      "root": "src",
+      "sources": [
+        "src/avr/Servo.cpp"
+      ],
+      "examples": [
+        "Servo",
+        "Servo sweep"
+      ],
+      "version": "1.3.0",
+      "dependencies": [],
+      "file": "curated/servo-69dc662f0bbb78df.json",
+      "hash": "69dc662f0bbb78df1deab5fd87073d4f47679892e3d448552364e6957599fd18",
+      "provenance": {
+        "id": "servo",
+        "name": "Servo",
+        "version": "1.3.0",
+        "url": "https://downloads.arduino.cc/libraries/github.com/arduino-libraries/Servo-1.3.0.zip",
+        "sha256": "d25b0d77f10a810d24876c570410f32cc3129f9cc3d0370c861a278b969b4b38",
+        "upstream": "https://github.com/arduino-libraries/Servo.git",
+        "license": "See included upstream notices"
+      },
+      "status": "PASS",
+      "boardTests": {
+        "arduino:avr:nano:cpu=atmega328": {
+          "status": "PASS",
+          "flashBytes": 2522,
+          "ramBytes": 50,
+          "hexSha256": "5876db596b614400fa158c2006bb356b9a54d776bc3de145ee0003f041faf7d5",
+          "error": ""
+        },
+        "arduino:avr:nano:cpu=atmega328old": {
+          "status": "PASS",
+          "flashBytes": 2522,
+          "ramBytes": 50,
+          "hexSha256": "5876db596b614400fa158c2006bb356b9a54d776bc3de145ee0003f041faf7d5",
+          "error": ""
+        },
+        "circuitera:avr:atmega328pb": {
+          "status": "PASS",
+          "flashBytes": 2708,
+          "ramBytes": 50,
+          "hexSha256": "6375115a18f90b77a57393f62ec50bd0631e8806feeba35a0866ca7b83ca5984",
+          "error": ""
+        }
+      },
+      "test": {
+        "flashBytes": 2522,
+        "ramBytes": 50,
+        "hexSha256": "5876db596b614400fa158c2006bb356b9a54d776bc3de145ee0003f041faf7d5",
+        "error": ""
+      }
+    },
+    {
+      "id": "wire",
+      "name": "Wire",
+      "description": "Talk to I2C devices on A4 (SDA) and A5 (SCL).",
+      "root": "src",
+      "headers": [
+        "Wire.h",
+        "utility/twi.h"
+      ],
+      "sources": [
+        "src/Wire.cpp",
+        "src/utility/twi.c"
+      ],
+      "examples": [
+        "I2C scanner"
+      ],
+      "builtIn": true,
+      "version": "1.0",
+      "dependencies": [],
+      "file": "curated/wire-f9c051e82b7ab559.json",
+      "hash": "f9c051e82b7ab5598bf347dfaaec2497ec171fbed8c3ad8de92ed035b3152d69",
+      "provenance": {
+        "id": "arduino-core",
+        "name": "Arduino AVR Boards",
+        "version": "1.8.6",
+        "url": "https://downloads.arduino.cc/cores/staging/avr-1.8.6.tar.bz2",
+        "sha256": "ff1d17274b5a952f172074bd36c3924336baefded0232e10982f8999c2f7c3b6",
+        "upstream": "https://github.com/arduino/ArduinoCore-avr",
+        "license": "See included upstream notices"
+      },
+      "status": "PASS",
+      "boardTests": {
+        "arduino:avr:nano:cpu=atmega328": {
+          "status": "PASS",
+          "flashBytes": 4494,
+          "ramBytes": 408,
+          "hexSha256": "1c4402f70b558274eef5920ee43bc83bf7cc66bd48edaf63973de2b3fa371324",
+          "error": ""
+        },
+        "arduino:avr:nano:cpu=atmega328old": {
+          "status": "PASS",
+          "flashBytes": 4494,
+          "ramBytes": 408,
+          "hexSha256": "1c4402f70b558274eef5920ee43bc83bf7cc66bd48edaf63973de2b3fa371324",
+          "error": ""
+        },
+        "circuitera:avr:atmega328pb": {
+          "status": "PASS",
+          "flashBytes": 4706,
+          "ramBytes": 408,
+          "hexSha256": "164357064825d407c91b474939a1f0f8d6a6bdeac4673cc777bd2902f8e3dd2d",
+          "error": ""
+        }
+      },
+      "test": {
+        "flashBytes": 4494,
+        "ramBytes": 408,
+        "hexSha256": "1c4402f70b558274eef5920ee43bc83bf7cc66bd48edaf63973de2b3fa371324",
+        "error": ""
+      }
+    },
+    {
+      "id": "spi",
+      "name": "SPI",
+      "description": "Hardware SPI communication on pins 10–13.",
+      "root": "src",
+      "headers": [
+        "SPI.h"
+      ],
+      "sources": [
+        "src/SPI.cpp"
+      ],
+      "examples": [
+        "SPI transfer"
+      ],
+      "builtIn": true,
+      "version": "1.0",
+      "dependencies": [],
+      "file": "curated/spi-76fe6432652cfc51.json",
+      "hash": "76fe6432652cfc5189dd8ff1ad13289801c82d8013d0a1c938c8a8f0ff0408a1",
+      "provenance": {
+        "id": "arduino-core",
+        "name": "Arduino AVR Boards",
+        "version": "1.8.6",
+        "url": "https://downloads.arduino.cc/cores/staging/avr-1.8.6.tar.bz2",
+        "sha256": "ff1d17274b5a952f172074bd36c3924336baefded0232e10982f8999c2f7c3b6",
+        "upstream": "https://github.com/arduino/ArduinoCore-avr",
+        "license": "See included upstream notices"
+      },
+      "status": "PASS",
+      "boardTests": {
+        "arduino:avr:nano:cpu=atmega328": {
+          "status": "PASS",
+          "flashBytes": 2728,
+          "ramBytes": 192,
+          "hexSha256": "0f714e83d109a83d58a51243fed739db4fb780e836fe36e8ef6bfee580779be7",
+          "error": ""
+        },
+        "arduino:avr:nano:cpu=atmega328old": {
+          "status": "PASS",
+          "flashBytes": 2728,
+          "ramBytes": 192,
+          "hexSha256": "0f714e83d109a83d58a51243fed739db4fb780e836fe36e8ef6bfee580779be7",
+          "error": ""
+        },
+        "circuitera:avr:atmega328pb": {
+          "status": "PASS",
+          "flashBytes": 2940,
+          "ramBytes": 192,
+          "hexSha256": "0ea8d56847f64d0d4ad2afb993dcd60aab96e5f378bc62bd794ed3543e2adbea",
+          "error": ""
+        }
+      },
+      "test": {
+        "flashBytes": 2728,
+        "ramBytes": 192,
+        "hexSha256": "0f714e83d109a83d58a51243fed739db4fb780e836fe36e8ef6bfee580779be7",
+        "error": ""
+      }
+    },
+    {
+      "id": "eeprom",
+      "name": "EEPROM",
+      "description": "Store small values in the Uno’s 1 KB nonvolatile memory.",
+      "root": "src",
+      "headers": [
+        "EEPROM.h",
+        "avr/eeprom.h",
+        "avr-libc/asmdef.h",
+        "avr-libc/eedef.h",
+        "avr-libc/sectionname.h"
+      ],
+      "sources": [
+        "src/avr-libc/eerd_byte.S",
+        "src/avr-libc/eerd_word.S",
+        "src/avr-libc/eerd_dword.S",
+        "src/avr-libc/eerd_block.S",
+        "src/avr-libc/eewr_byte.S",
+        "src/avr-libc/eewr_word.S",
+        "src/avr-libc/eewr_dword.S",
+        "src/avr-libc/eewr_block.S",
+        "src/avr-libc/eeupd_byte.S",
+        "src/avr-libc/eeupd_word.S",
+        "src/avr-libc/eeupd_dword.S",
+        "src/avr-libc/eeupd_block.S"
+      ],
+      "examples": [
+        "EEPROM read-write"
+      ],
+      "builtIn": true,
+      "version": "2.0",
+      "dependencies": [],
+      "file": "curated/eeprom-f61931295fd35419.json",
+      "hash": "f61931295fd3541998b3a11e1e3261e8e4a9ee1dc946fb2f9a112a2b6809b6d7",
+      "provenance": {
+        "id": "arduino-core",
+        "name": "Arduino AVR Boards",
+        "version": "1.8.6",
+        "url": "https://downloads.arduino.cc/cores/staging/avr-1.8.6.tar.bz2",
+        "sha256": "ff1d17274b5a952f172074bd36c3924336baefded0232e10982f8999c2f7c3b6",
+        "upstream": "https://github.com/arduino/ArduinoCore-avr",
+        "license": "See included upstream notices"
+      },
+      "status": "PASS",
+      "boardTests": {
+        "arduino:avr:nano:cpu=atmega328": {
+          "status": "PASS",
+          "flashBytes": 2424,
+          "ramBytes": 188,
+          "hexSha256": "51ed745400439acaed8f3bf1612d8c0c3a3e0e5c6d286e6d38e59a284259a338",
+          "error": ""
+        },
+        "arduino:avr:nano:cpu=atmega328old": {
+          "status": "PASS",
+          "flashBytes": 2424,
+          "ramBytes": 188,
+          "hexSha256": "51ed745400439acaed8f3bf1612d8c0c3a3e0e5c6d286e6d38e59a284259a338",
+          "error": ""
+        },
+        "circuitera:avr:atmega328pb": {
+          "status": "PASS",
+          "flashBytes": 2582,
+          "ramBytes": 188,
+          "hexSha256": "8064670efb240e8fb33561e7b63caf2291e1eef8086357a908de7b42217fa1d4",
+          "error": ""
+        }
+      },
+      "test": {
+        "flashBytes": 2424,
+        "ramBytes": 188,
+        "hexSha256": "51ed745400439acaed8f3bf1612d8c0c3a3e0e5c6d286e6d38e59a284259a338",
+        "error": ""
+      }
+    },
+    {
+      "id": "softwareserial",
+      "name": "SoftwareSerial",
+      "description": "An additional software serial port on digital pins.",
+      "root": "src",
+      "headers": [
+        "SoftwareSerial.h"
+      ],
+      "sources": [
+        "src/SoftwareSerial.cpp"
+      ],
+      "examples": [
+        "SoftwareSerial"
+      ],
+      "builtIn": true,
+      "version": "1.0",
+      "dependencies": [],
+      "file": "curated/softwareserial-3ff256d6124ab7c7.json",
+      "hash": "3ff256d6124ab7c791535d64c6333115e2c001e697e2205c081e5440ba7d4084",
+      "provenance": {
+        "id": "arduino-core",
+        "name": "Arduino AVR Boards",
+        "version": "1.8.6",
+        "url": "https://downloads.arduino.cc/cores/staging/avr-1.8.6.tar.bz2",
+        "sha256": "ff1d17274b5a952f172074bd36c3924336baefded0232e10982f8999c2f7c3b6",
+        "upstream": "https://github.com/arduino/ArduinoCore-avr",
+        "license": "See included upstream notices"
+      },
+      "status": "PASS",
+      "boardTests": {
+        "arduino:avr:nano:cpu=atmega328": {
+          "status": "PASS",
+          "flashBytes": 3466,
+          "ramBytes": 301,
+          "hexSha256": "39dfdae2ca47408a1dd9921e472b2bf1a04e3a14127ad94f26af7363a8d0039c",
+          "error": ""
+        },
+        "arduino:avr:nano:cpu=atmega328old": {
+          "status": "PASS",
+          "flashBytes": 3466,
+          "ramBytes": 301,
+          "hexSha256": "39dfdae2ca47408a1dd9921e472b2bf1a04e3a14127ad94f26af7363a8d0039c",
+          "error": ""
+        },
+        "circuitera:avr:atmega328pb": {
+          "status": "PASS",
+          "flashBytes": 3678,
+          "ramBytes": 301,
+          "hexSha256": "df5823a866f3941522501a2301ec49858c60de87904f735b5726dbf593dadff6",
+          "error": ""
+        }
+      },
+      "test": {
+        "flashBytes": 3466,
+        "ramBytes": 301,
+        "hexSha256": "39dfdae2ca47408a1dd9921e472b2bf1a04e3a14127ad94f26af7363a8d0039c",
+        "error": ""
+      }
+    },
+    {
+      "id": "liquidcrystal",
+      "name": "LiquidCrystal",
+      "description": "Drive an HD44780 character LCD with parallel data pins.",
+      "root": "src",
+      "headers": [
+        "LiquidCrystal.h"
+      ],
+      "sources": [
+        "src/LiquidCrystal.cpp"
+      ],
+      "examples": [
+        "LCD Hello World"
+      ],
+      "version": "1.0.7",
+      "dependencies": [],
+      "file": "curated/liquidcrystal-fff35ca8f56cea1b.json",
+      "hash": "fff35ca8f56cea1b00fbba8767a6ce3bdf20496604706ab5cef4da5c09150ab1",
+      "provenance": {
+        "id": "liquidcrystal",
+        "name": "LiquidCrystal",
+        "version": "1.0.7",
+        "url": "https://downloads.arduino.cc/libraries/github.com/arduino-libraries/LiquidCrystal-1.0.7.zip",
+        "sha256": "f7b14c42afbbdcfbe66073e6ef1e4cbaa03f5d11f52f9ab91c916b6ccac38434",
+        "upstream": "https://github.com/arduino-libraries/LiquidCrystal.git",
+        "license": "See included upstream notices"
+      },
+      "status": "PASS",
+      "boardTests": {
+        "arduino:avr:nano:cpu=atmega328": {
+          "status": "PASS",
+          "flashBytes": 2232,
+          "ramBytes": 59,
+          "hexSha256": "3eecfdfe5651074a99091eacb7389a93cc8a321261e2caed84f118ab173f4991",
+          "error": ""
+        },
+        "arduino:avr:nano:cpu=atmega328old": {
+          "status": "PASS",
+          "flashBytes": 2232,
+          "ramBytes": 59,
+          "hexSha256": "3eecfdfe5651074a99091eacb7389a93cc8a321261e2caed84f118ab173f4991",
+          "error": ""
+        }
+      },
+      "test": {
+        "flashBytes": 2232,
+        "ramBytes": 59,
+        "hexSha256": "3eecfdfe5651074a99091eacb7389a93cc8a321261e2caed84f118ab173f4991",
+        "error": ""
+      }
+    },
+    {
+      "id": "dht",
+      "name": "DHT",
+      "description": "Temperature and humidity from DHT11 / DHT22 sensors.",
+      "root": "",
+      "headers": [
+        "DHT.h",
+        "DHT_U.h"
+      ],
+      "sources": [
+        "DHT.cpp",
+        "DHT_U.cpp"
+      ],
+      "dependencies": [
+        "unified-sensor"
+      ],
+      "examples": [
+        "DHT temperature-humidity",
+        "OLED sensor display"
+      ],
+      "version": "1.4.7",
+      "file": "curated/dht-e7d7f87221b675f9.json",
+      "hash": "e7d7f87221b675f91429265203d4d5df832803ab9e9906a3d86a9e2c0a10b30e",
+      "provenance": {
+        "id": "dht",
+        "name": "DHT sensor library",
+        "version": "1.4.7",
+        "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/DHT_sensor_library-1.4.7.zip",
+        "sha256": "5c5d3881b49840c7be98cc0848a48930bbac364fadc7edb7965fe98f9bb1463f",
+        "upstream": "https://github.com/adafruit/DHT-sensor-library.git",
+        "license": "See included upstream notices"
+      },
+      "status": "PASS",
+      "boardTests": {
+        "arduino:avr:nano:cpu=atmega328": {
+          "status": "PASS",
+          "flashBytes": 5610,
+          "ramBytes": 219,
+          "hexSha256": "57bce1e38cb5d4a433dcf650c08d0069d814040f566d2d47da42392dab3e0729",
+          "error": ""
+        },
+        "arduino:avr:nano:cpu=atmega328old": {
+          "status": "PASS",
+          "flashBytes": 5610,
+          "ramBytes": 219,
+          "hexSha256": "57bce1e38cb5d4a433dcf650c08d0069d814040f566d2d47da42392dab3e0729",
+          "error": ""
+        }
+      },
+      "test": {
+        "flashBytes": 5610,
+        "ramBytes": 219,
+        "hexSha256": "57bce1e38cb5d4a433dcf650c08d0069d814040f566d2d47da42392dab3e0729",
+        "error": ""
+      }
+    },
+    {
+      "id": "unified-sensor",
+      "name": "Adafruit Unified Sensor",
+      "description": "Shared sensor metadata and measurements for Adafruit drivers.",
+      "root": "",
+      "headers": [
+        "Adafruit_Sensor.h"
+      ],
+      "sources": [
+        "Adafruit_Sensor.cpp"
+      ],
+      "examples": [
+        "Unified sensor"
+      ],
+      "version": "1.1.15",
+      "dependencies": [],
+      "file": "curated/unified-sensor-4d18bfe56bfa9755.json",
+      "hash": "4d18bfe56bfa975546bffba44b3171f713282150771811ea58b9a888f1299a01",
+      "provenance": {
+        "id": "unified-sensor",
+        "name": "Adafruit Unified Sensor",
+        "version": "1.1.15",
+        "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_Unified_Sensor-1.1.15.zip",
+        "sha256": "d64cdec0b817535f568fc3b8b8d44e7e097749f5ab8040aea573f412a3cbaec6",
+        "upstream": "https://github.com/adafruit/Adafruit_Sensor.git",
+        "license": "See included upstream notices"
+      },
+      "status": "PASS",
+      "boardTests": {
+        "arduino:avr:nano:cpu=atmega328": {
+          "status": "PASS",
+          "flashBytes": 9226,
+          "ramBytes": 302,
+          "hexSha256": "a3a949e763a9ce9519c83f8b4100f169a42218bac491ae311bbeeb997a50ef9d",
+          "error": ""
+        },
+        "arduino:avr:nano:cpu=atmega328old": {
+          "status": "PASS",
+          "flashBytes": 9226,
+          "ramBytes": 302,
+          "hexSha256": "a3a949e763a9ce9519c83f8b4100f169a42218bac491ae311bbeeb997a50ef9d",
+          "error": ""
+        }
+      },
+      "test": {
+        "flashBytes": 9226,
+        "ramBytes": 302,
+        "hexSha256": "a3a949e763a9ce9519c83f8b4100f169a42218bac491ae311bbeeb997a50ef9d",
+        "error": ""
+      }
+    },
+    {
+      "id": "gfx",
+      "name": "Adafruit GFX",
+      "description": "Graphics, text, bitmaps and fonts for compatible displays.",
+      "root": "",
+      "headers": [
+        "Adafruit_GFX.h",
+        "Adafruit_GrayOLED.h",
+        "Adafruit_SPITFT.h",
+        "gfxfont.h",
+        "Adafruit_SPITFT_Macros.h",
+        "Fonts/FreeMono12pt7b.h",
+        "Fonts/FreeMono18pt7b.h",
+        "Fonts/FreeMono24pt7b.h",
+        "Fonts/FreeMono9pt7b.h",
+        "Fonts/FreeMonoBold12pt7b.h",
+        "Fonts/FreeMonoBold18pt7b.h",
+        "Fonts/FreeMonoBold24pt7b.h",
+        "Fonts/FreeMonoBold9pt7b.h",
+        "Fonts/FreeMonoBoldOblique12pt7b.h",
+        "Fonts/FreeMonoBoldOblique18pt7b.h",
+        "Fonts/FreeMonoBoldOblique24pt7b.h",
+        "Fonts/FreeMonoBoldOblique9pt7b.h",
+        "Fonts/FreeMonoOblique12pt7b.h",
+        "Fonts/FreeMonoOblique18pt7b.h",
+        "Fonts/FreeMonoOblique24pt7b.h",
+        "Fonts/FreeMonoOblique9pt7b.h",
+        "Fonts/FreeSans12pt7b.h",
+        "Fonts/FreeSans18pt7b.h",
+        "Fonts/FreeSans24pt7b.h",
+        "Fonts/FreeSans9pt7b.h",
+        "Fonts/FreeSansBold12pt7b.h",
+        "Fonts/FreeSansBold18pt7b.h",
+        "Fonts/FreeSansBold24pt7b.h",
+        "Fonts/FreeSansBold9pt7b.h",
+        "Fonts/FreeSansBoldOblique12pt7b.h",
+        "Fonts/FreeSansBoldOblique18pt7b.h",
+        "Fonts/FreeSansBoldOblique24pt7b.h",
+        "Fonts/FreeSansBoldOblique9pt7b.h",
+        "Fonts/FreeSansOblique12pt7b.h",
+        "Fonts/FreeSansOblique18pt7b.h",
+        "Fonts/FreeSansOblique24pt7b.h",
+        "Fonts/FreeSansOblique9pt7b.h",
+        "Fonts/FreeSerif12pt7b.h",
+        "Fonts/FreeSerif18pt7b.h",
+        "Fonts/FreeSerif24pt7b.h",
+        "Fonts/FreeSerif9pt7b.h",
+        "Fonts/FreeSerifBold12pt7b.h",
+        "Fonts/FreeSerifBold18pt7b.h",
+        "Fonts/FreeSerifBold24pt7b.h",
+        "Fonts/FreeSerifBold9pt7b.h",
+        "Fonts/FreeSerifBoldItalic12pt7b.h",
+        "Fonts/FreeSerifBoldItalic18pt7b.h",
+        "Fonts/FreeSerifBoldItalic24pt7b.h",
+        "Fonts/FreeSerifBoldItalic9pt7b.h",
+        "Fonts/FreeSerifItalic12pt7b.h",
+        "Fonts/FreeSerifItalic18pt7b.h",
+        "Fonts/FreeSerifItalic24pt7b.h",
+        "Fonts/FreeSerifItalic9pt7b.h",
+        "Fonts/Org_01.h",
+        "Fonts/Picopixel.h",
+        "Fonts/Tiny3x3a2pt7b.h",
+        "Fonts/TomThumb.h"
+      ],
+      "sources": [
+        "Adafruit_GFX.cpp",
+        "Adafruit_GrayOLED.cpp",
+        "Adafruit_SPITFT.cpp",
+        "glcdfont.c"
+      ],
+      "dependencies": [
+        "busio"
+      ],
+      "examples": [
+        "GFX canvas",
+        "OLED Hello World"
+      ],
+      "version": "1.12.6",
+      "file": "curated/gfx-bb954e850f80093f.json",
+      "hash": "bb954e850f80093f13f39df02a3fb4a7fcd87f4904671cc32a424fbb31f842ed",
+      "provenance": {
+        "id": "gfx",
+        "name": "Adafruit GFX Library",
+        "version": "1.12.6",
+        "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_GFX_Library-1.12.6.zip",
+        "sha256": "7d4dc7a7522716d2c88a3b1b9b13521d33cfeeae9ebffa42c2dba0559696a997",
+        "upstream": "https://github.com/adafruit/Adafruit-GFX-Library.git",
+        "license": "See included upstream notices"
+      },
+      "status": "PASS",
+      "boardTests": {
+        "arduino:avr:nano:cpu=atmega328": {
+          "status": "PASS",
+          "flashBytes": 10952,
+          "ramBytes": 533,
+          "hexSha256": "c628c4487b157fad25678998e2651f5a02baa1a1705830562a857c672e7fb170",
+          "error": ""
+        },
+        "arduino:avr:nano:cpu=atmega328old": {
+          "status": "PASS",
+          "flashBytes": 10952,
+          "ramBytes": 533,
+          "hexSha256": "c628c4487b157fad25678998e2651f5a02baa1a1705830562a857c672e7fb170",
+          "error": ""
+        }
+      },
+      "test": {
+        "flashBytes": 10952,
+        "ramBytes": 533,
+        "hexSha256": "c628c4487b157fad25678998e2651f5a02baa1a1705830562a857c672e7fb170",
+        "error": ""
+      }
+    },
+    {
+      "id": "ssd1306",
+      "name": "Adafruit SSD1306",
+      "description": "Monochrome OLEDs over I2C or SPI. A 128×64 framebuffer uses 1 KB of SRAM.",
+      "root": "",
+      "headers": [
+        "Adafruit_SSD1306.h",
+        "splash.h"
+      ],
+      "sources": [
+        "Adafruit_SSD1306.cpp"
+      ],
+      "dependencies": [
+        "gfx",
+        "wire",
+        "spi"
+      ],
+      "examples": [
+        "OLED Hello World",
+        "OLED sensor display"
+      ],
+      "version": "2.5.17",
+      "file": "curated/ssd1306-69323d2c6051cea4.json",
+      "hash": "69323d2c6051cea4d7b5ca1a0dbb10ed9f3817f0c689cfac97e2f31e964246c1",
+      "provenance": {
+        "id": "ssd1306",
+        "name": "Adafruit SSD1306",
+        "version": "2.5.17",
+        "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_SSD1306-2.5.17.zip",
+        "sha256": "9b8a9c29a16576d66bce16ed9f6a731632fecbb477171f38a6bc033fda15dd06",
+        "upstream": "https://github.com/adafruit/Adafruit_SSD1306.git",
+        "license": "See included upstream notices"
+      },
+      "status": "PASS",
+      "boardTests": {
+        "arduino:avr:nano:cpu=atmega328": {
+          "status": "PASS",
+          "flashBytes": 13868,
+          "ramBytes": 399,
+          "hexSha256": "5f4fce80006c6fcbcb62cf16cbec53ce8dac9d95bc6b0d8d05f04402a292b500",
+          "error": ""
+        },
+        "arduino:avr:nano:cpu=atmega328old": {
+          "status": "PASS",
+          "flashBytes": 13868,
+          "ramBytes": 399,
+          "hexSha256": "5f4fce80006c6fcbcb62cf16cbec53ce8dac9d95bc6b0d8d05f04402a292b500",
+          "error": ""
+        }
+      },
+      "test": {
+        "flashBytes": 13868,
+        "ramBytes": 399,
+        "hexSha256": "5f4fce80006c6fcbcb62cf16cbec53ce8dac9d95bc6b0d8d05f04402a292b500",
+        "error": ""
+      }
+    },
+    {
+      "id": "busio",
+      "name": "Adafruit BusIO",
+      "description": "Real I2C/SPI device and register access for Adafruit drivers.",
+      "root": "",
+      "headers": [
+        "Adafruit_BusIO_Register.h",
+        "Adafruit_I2CDevice.h",
+        "Adafruit_SPIDevice.h",
+        "Adafruit_I2CRegister.h",
+        "Adafruit_GenericDevice.h"
+      ],
+      "sources": [
+        "Adafruit_BusIO_Register.cpp",
+        "Adafruit_I2CDevice.cpp",
+        "Adafruit_SPIDevice.cpp",
+        "Adafruit_GenericDevice.cpp"
+      ],
+      "dependencies": [
+        "wire",
+        "spi"
+      ],
+      "examples": [
+        "BusIO register"
+      ],
+      "version": "1.17.4",
+      "file": "curated/busio-6c97854fdbc8dd0a.json",
+      "hash": "6c97854fdbc8dd0aba7c4c5274c8c41254a8ef8673d21080c60f9c270fab4769",
+      "provenance": {
+        "id": "busio",
+        "name": "Adafruit BusIO",
+        "version": "1.17.4",
+        "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_BusIO-1.17.4.zip",
+        "sha256": "c7bab1b6c6eee64b50964c8e149b795719a01f1d9dfcdcef170b35daa696349b",
+        "upstream": "https://github.com/adafruit/Adafruit_BusIO.git",
+        "license": "See included upstream notices"
+      },
+      "status": "PASS",
+      "boardTests": {
+        "arduino:avr:nano:cpu=atmega328": {
+          "status": "PASS",
+          "flashBytes": 7140,
+          "ramBytes": 438,
+          "hexSha256": "f1bc12d49e598d0c429f295be184c032681a865526cb80f56d5e214def4bd044",
+          "error": ""
+        },
+        "arduino:avr:nano:cpu=atmega328old": {
+          "status": "PASS",
+          "flashBytes": 7140,
+          "ramBytes": 438,
+          "hexSha256": "f1bc12d49e598d0c429f295be184c032681a865526cb80f56d5e214def4bd044",
+          "error": ""
+        }
+      },
+      "test": {
+        "flashBytes": 7140,
+        "ramBytes": 438,
+        "hexSha256": "f1bc12d49e598d0c429f295be184c032681a865526cb80f56d5e214def4bd044",
+        "error": ""
+      }
+    },
+    {
+      "id": "neopixel",
+      "name": "Adafruit NeoPixel",
+      "description": "Control addressable RGB LEDs with the AVR timing implementation.",
+      "root": "",
+      "headers": [
+        "Adafruit_NeoPixel.h",
+        "rp2040_pio.h"
+      ],
+      "sources": [
+        "Adafruit_NeoPixel.cpp"
+      ],
+      "examples": [
+        "NeoPixel"
+      ],
+      "version": "1.15.5",
+      "dependencies": [],
+      "file": "curated/neopixel-b05e962e1ed8cb79.json",
+      "hash": "b05e962e1ed8cb79907f40f3d40057be30c5798aba99c4c5092eee2ad0da7ce2",
+      "provenance": {
+        "id": "neopixel",
+        "name": "Adafruit NeoPixel",
+        "version": "1.15.5",
+        "url": "https://downloads.arduino.cc/libraries/github.com/adafruit/Adafruit_NeoPixel-1.15.5.zip",
+        "sha256": "3d767caa011ab3078df7fe3c3e0456359ce2bc309eba343932690a2c1612fd16",
+        "upstream": "https://github.com/adafruit/Adafruit_NeoPixel.git",
+        "license": "See included upstream notices"
+      },
+      "status": "PASS",
+      "boardTests": {
+        "arduino:avr:nano:cpu=atmega328": {
+          "status": "PASS",
+          "flashBytes": 3270,
+          "ramBytes": 41,
+          "hexSha256": "76ef41c13fdb7466182e5e9b6496b1750207fa99453861312b71cb3cd4b7a564",
+          "error": ""
+        },
+        "arduino:avr:nano:cpu=atmega328old": {
+          "status": "PASS",
+          "flashBytes": 3270,
+          "ramBytes": 41,
+          "hexSha256": "76ef41c13fdb7466182e5e9b6496b1750207fa99453861312b71cb3cd4b7a564",
+          "error": ""
+        }
+      },
+      "test": {
+        "flashBytes": 3270,
+        "ramBytes": 41,
+        "hexSha256": "76ef41c13fdb7466182e5e9b6496b1750207fa99453861312b71cb3cd4b7a564",
+        "error": ""
+      }
+    },
+    {
+      "id": "newping",
+      "name": "NewPing",
+      "description": "Ultrasonic ranging with optional Timer2-based asynchronous ping.",
+      "root": "src",
+      "headers": [
+        "NewPing.h"
+      ],
+      "sources": [
+        "src/NewPing.cpp"
+      ],
+      "examples": [
+        "Ultrasonic distance"
+      ],
+      "version": "1.9.7",
+      "dependencies": [],
+      "file": "curated/newping-6174ba868be20467.json",
+      "hash": "6174ba868be20467f42d2a90fb3201cb7bb55c12bf140f0304917a0738466441",
+      "provenance": {
+        "id": "newping",
+        "name": "NewPing",
+        "version": "1.9.7",
+        "url": "https://downloads.arduino.cc/libraries/bitbucket.org/teckel12/NewPing-1.9.7.zip",
+        "sha256": "7f4c4ef7f39a1ce8a6bf05580717712fc3e669ee5b0c343479569d5e2e374564",
+        "upstream": "https://bitbucket.org/teckel12/arduino-new-ping.git",
+        "license": "See included upstream notices"
+      },
+      "status": "PASS",
+      "boardTests": {
+        "arduino:avr:nano:cpu=atmega328": {
+          "status": "PASS",
+          "flashBytes": 3304,
+          "ramBytes": 209,
+          "hexSha256": "6a472ca53127da0158193cc49134730804bdf1c345a12d43322a38b4b3c73bca",
+          "error": ""
+        },
+        "arduino:avr:nano:cpu=atmega328old": {
+          "status": "PASS",
+          "flashBytes": 3304,
+          "ramBytes": 209,
+          "hexSha256": "6a472ca53127da0158193cc49134730804bdf1c345a12d43322a38b4b3c73bca",
+          "error": ""
+        }
+      },
+      "test": {
+        "flashBytes": 3304,
+        "ramBytes": 209,
+        "hexSha256": "6a472ca53127da0158193cc49134730804bdf1c345a12d43322a38b4b3c73bca",
+        "error": ""
+      }
+    },
+    {
+      "id": "irremote",
+      "name": "IRremote",
+      "description": "Receive and send infrared remote-control protocols. Uses Timer2 for reception.",
+      "root": "src",
+      "headers": [
+        "IRremote.hpp",
+        "IRremote.h",
+        "IRremoteInt.h",
+        "TinyIRReceiver.hpp",
+        "TinyIRSender.hpp",
+        "ac_LG.h",
+        "ac_LG.hpp",
+        "digitalWriteFast.h",
+        "ir_BangOlufsen.hpp",
+        "ir_BoseWave.hpp",
+        "ir_Denon.hpp",
+        "ir_DistanceWidthProtocol.hpp",
+        "ir_FAST.hpp",
+        "ir_JVC.hpp",
+        "ir_Kaseikyo.hpp",
+        "ir_Lego.hpp",
+        "ir_LG.hpp",
+        "ir_MagiQuest.hpp",
+        "ir_NEC.hpp",
+        "ir_OpenLASIR.hpp",
+        "ir_Others.hpp",
+        "ir_Pronto.hpp",
+        "ir_RC5_RC6.hpp",
+        "ir_Samsung.hpp",
+        "ir_Sony.hpp",
+        "ir_Template.hpp",
+        "IRCommandDispatcher.h",
+        "IRCommandDispatcher.hpp",
+        "IRFeedbackLED.hpp",
+        "IRProtocol.h",
+        "IRProtocol.hpp",
+        "IRReceive.hpp",
+        "IRSend.hpp",
+        "IRVersion.h",
+        "LocalDebugLevelEnd.h",
+        "LocalDebugLevelStart.h",
+        "LongUnion.h",
+        "private/IRTimer.hpp",
+        "TinyIR.h"
+      ],
+      "sources": [],
+      "examples": [
+        "IR remote"
+      ],
+      "version": "4.7.1",
+      "dependencies": [],
+      "file": "curated/irremote-9071dddc11755498.json",
+      "hash": "9071dddc11755498ffedc7814d7ab8665091a39ca7794a1ff309e9579d29f978",
+      "provenance": {
+        "id": "irremote",
+        "name": "IRremote",
+        "version": "4.7.1",
+        "url": "https://downloads.arduino.cc/libraries/github.com/z3t0/IRremote-4.7.1.zip",
+        "sha256": "33d7630e883cc60088b8d81f4fd1129b72bf14894edd56ec3ddbed998b3d4ce1",
+        "upstream": "https://github.com/z3t0/Arduino-IRremote.git",
+        "license": "See included upstream notices"
+      },
+      "status": "PASS",
+      "boardTests": {
+        "arduino:avr:nano:cpu=atmega328": {
+          "status": "PASS",
+          "flashBytes": 12096,
+          "ramBytes": 491,
+          "hexSha256": "b3a774f82e68e8b62da0ea512436375f42d1d90966844ac372b2f3d984d6dd1e",
+          "error": ""
+        },
+        "arduino:avr:nano:cpu=atmega328old": {
+          "status": "PASS",
+          "flashBytes": 12096,
+          "ramBytes": 491,
+          "hexSha256": "b3a774f82e68e8b62da0ea512436375f42d1d90966844ac372b2f3d984d6dd1e",
+          "error": ""
+        }
+      },
+      "test": {
+        "flashBytes": 12096,
+        "ramBytes": 491,
+        "hexSha256": "b3a774f82e68e8b62da0ea512436375f42d1d90966844ac372b2f3d984d6dd1e",
+        "error": ""
+      }
+    },
+    {
+      "id": "keypad",
+      "name": "Keypad",
+      "description": "Scan matrix keypads with debouncing and key states.",
+      "root": "src",
+      "headers": [
+        "Keypad.h",
+        "Key.h"
+      ],
+      "sources": [
+        "src/Keypad.cpp",
+        "src/Key.cpp"
+      ],
+      "examples": [
+        "Keypad"
+      ],
+      "version": "3.1.1",
+      "dependencies": [],
+      "file": "curated/keypad-efae8c87f9d2fe14.json",
+      "hash": "efae8c87f9d2fe1471a6fb9ba74ec0b0ee3ce51b6771621b3580ffffd880f259",
+      "provenance": {
+        "id": "keypad",
+        "name": "Keypad",
+        "version": "3.1.1",
+        "url": "https://downloads.arduino.cc/libraries/github.com/Chris--A/Keypad-3.1.1.zip",
+        "sha256": "816e366073a7ca0353b962a973ba3a7c6852f73f8cc2ccb8a6c5223807e5faf5",
+        "upstream": "https://github.com/Chris--A/Keypad.git",
+        "license": "See included upstream notices"
+      },
+      "status": "PASS",
+      "boardTests": {
+        "arduino:avr:nano:cpu=atmega328": {
+          "status": "PASS",
+          "flashBytes": 3922,
+          "ramBytes": 327,
+          "hexSha256": "544488d5d5ed9d7684d76f714899cfc68b1aaa016dec387436965540f5c3faa5",
+          "error": ""
+        },
+        "arduino:avr:nano:cpu=atmega328old": {
+          "status": "PASS",
+          "flashBytes": 3922,
+          "ramBytes": 327,
+          "hexSha256": "544488d5d5ed9d7684d76f714899cfc68b1aaa016dec387436965540f5c3faa5",
+          "error": ""
+        }
+      },
+      "test": {
+        "flashBytes": 3922,
+        "ramBytes": 327,
+        "hexSha256": "544488d5d5ed9d7684d76f714899cfc68b1aaa016dec387436965540f5c3faa5",
+        "error": ""
+      }
+    },
+    {
+      "id": "accelstepper",
+      "name": "AccelStepper",
+      "description": "Nonblocking stepper motion, speed and acceleration profiles.",
+      "root": "src",
+      "headers": [
+        "AccelStepper.h",
+        "MultiStepper.h"
+      ],
+      "sources": [
+        "src/AccelStepper.cpp",
+        "src/MultiStepper.cpp"
+      ],
+      "examples": [
+        "Stepper motor"
+      ],
+      "version": "1.64",
+      "dependencies": [],
+      "file": "curated/accelstepper-d3dd14efb6886dd5.json",
+      "hash": "d3dd14efb6886dd50825bfaad00698da29937096c76a1ffddfc59a3757700a37",
+      "provenance": {
+        "id": "accelstepper",
+        "name": "AccelStepper",
+        "version": "1.64.0",
+        "url": "https://downloads.arduino.cc/libraries/github.com/waspinator/AccelStepper-1.64.0.zip",
+        "sha256": "45d152991271f8480bc939a7f325e006bfa3695a865eda383770bb68f0140e05",
+        "upstream": "https://github.com/waspinator/AccelStepper.git",
+        "license": "See included upstream notices"
+      },
+      "status": "PASS",
+      "boardTests": {
+        "arduino:avr:nano:cpu=atmega328": {
+          "status": "PASS",
+          "flashBytes": 6118,
+          "ramBytes": 119,
+          "hexSha256": "286b97a8bc8be145d9c8cc2c5816b306f34e6235244638bf1551c343c5487343",
+          "error": ""
+        },
+        "arduino:avr:nano:cpu=atmega328old": {
+          "status": "PASS",
+          "flashBytes": 6118,
+          "ramBytes": 119,
+          "hexSha256": "286b97a8bc8be145d9c8cc2c5816b306f34e6235244638bf1551c343c5487343",
+          "error": ""
+        }
+      },
+      "test": {
+        "flashBytes": 6118,
+        "ramBytes": 119,
+        "hexSha256": "286b97a8bc8be145d9c8cc2c5816b306f34e6235244638bf1551c343c5487343",
+        "error": ""
+      }
+    },
+    {
+      "id": "liquidcrystal-i2c",
+      "name": "LiquidCrystal_I2C",
+      "description": "PCF8574 I2C character LCD backpack. The pinned johnrickman API uses init().",
+      "root": "",
+      "headers": [
+        "LiquidCrystal_I2C.h"
+      ],
+      "sources": [
+        "LiquidCrystal_I2C.cpp"
+      ],
+      "dependencies": [
+        "wire"
+      ],
+      "examples": [
+        "I2C LCD Hello World"
+      ],
+      "version": "1.1.2",
+      "file": "curated/liquidcrystal-i2c-9d9ff100cf467bd2.json",
+      "hash": "9d9ff100cf467bd2c2e431f52ded41f0c2682b2b0fe41f1355c0578e6ecd3424",
+      "provenance": {
+        "id": "liquidcrystal-i2c",
+        "name": "LiquidCrystal I2C",
+        "version": "1.1.2",
+        "url": "https://downloads.arduino.cc/libraries/github.com/johnrickman/LiquidCrystal_I2C-1.1.2.zip",
+        "sha256": "7f288f4aa7ad33a25122727b057e49c48ef5f0d3a4943b7aca33ed2b78982adb",
+        "upstream": "https://github.com/johnrickman/LiquidCrystal_I2C.git",
+        "license": "See included upstream notices"
+      },
+      "status": "PASS",
+      "boardTests": {
+        "arduino:avr:nano:cpu=atmega328": {
+          "status": "PASS",
+          "flashBytes": 4006,
+          "ramBytes": 275,
+          "hexSha256": "f4d2b07b34c40c7830028fe3f04af30aa9243a745c1e16db1c3a3bd74783add3",
+          "error": ""
+        },
+        "arduino:avr:nano:cpu=atmega328old": {
+          "status": "PASS",
+          "flashBytes": 4006,
+          "ramBytes": 275,
+          "hexSha256": "f4d2b07b34c40c7830028fe3f04af30aa9243a745c1e16db1c3a3bd74783add3",
+          "error": ""
+        }
+      },
+      "test": {
+        "flashBytes": 4006,
+        "ramBytes": 275,
+        "hexSha256": "f4d2b07b34c40c7830028fe3f04af30aa9243a745c1e16db1c3a3bd74783add3",
+        "error": ""
+      }
+    }
+  ]
+}

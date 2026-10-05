@@ -1,0 +1,10 @@
+PASS — Independent main.ino + motor.cpp + sensors.c + headers compile and link with actual Servo library
+PASS — Unchanged library objects are reused while project translation units are rebuilt
+PASS — Changed secondary .cpp source changes generated firmware
+PASS — Project header is visible to separate translation units
+PASS — Changing only a header recompiles necessary code and invalidates library cache context
+PASS — Multiple .ino tabs share Arduino declarations and genuinely compile
+PASS — Blink preserves previous single-sketch firmware exactly
+PASS — Button preserves previous single-sketch firmware exactly
+PASS — Servo preserves previous single-sketch firmware exactly
+PASS — Ultrasonic preserves previous single-sketch firmware exactly

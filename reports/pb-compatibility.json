@@ -1,0 +1,202 @@
+{
+  "buildId": "f8d3d433a68a28f956a7b5da9b58b5ab795b250b4e3b41dec5f539607fd05090",
+  "scope": "Actual AVR-GCC WASM compile/link/HEX via filesystem transport. Physical upload unverified.",
+  "boards": [
+    {
+      "id": "arduino:avr:uno",
+      "sketches": [
+        {
+          "name": "Blink",
+          "status": "PASS",
+          "flashBytes": 1064,
+          "ramBytes": 9,
+          "hexSha256": "342df52d0d916122431cb1622a61cbbe2180e9ccb94e4b5705a24915c4e0fa28"
+        },
+        {
+          "name": "Serial",
+          "status": "PASS",
+          "flashBytes": 1934,
+          "ramBytes": 198,
+          "hexSha256": "57d82768cc7e4e78bf229fe0d5b2365c5a8ac9171e71831ee81aff43a38d1a18"
+        },
+        {
+          "name": "Analog",
+          "status": "PASS",
+          "flashBytes": 2300,
+          "ramBytes": 188,
+          "hexSha256": "62b19493ee291edac6adf3b8c8cc4a7648d09956b34d1557a645a80472b1c6d4"
+        },
+        {
+          "name": "PWM",
+          "status": "PASS",
+          "flashBytes": 1052,
+          "ramBytes": 9,
+          "hexSha256": "1990920823e7b63ed5675ac8f199d565298eabb7e3afe8eb2364d57924a8db33"
+        },
+        {
+          "name": "Interrupts",
+          "status": "PASS",
+          "flashBytes": 1348,
+          "ramBytes": 17,
+          "hexSha256": "098c94e417e2156634efd404ff100e9afcdb1081871bcc149d4cc8e26a194b8e"
+        },
+        {
+          "name": "Pins",
+          "status": "PASS",
+          "flashBytes": 456,
+          "ramBytes": 9,
+          "hexSha256": "a25bcffecc05db30cc05c7a639d64e61a987690ad0e55ef9b82d5f507a052041"
+        },
+        {
+          "name": "MCU macro/vector guard, multifile project, Servo cache",
+          "status": "PASS"
+        }
+      ],
+      "libraries": [
+        {
+          "name": "servo",
+          "status": "PASS",
+          "flashBytes": 2522,
+          "ramBytes": 50,
+          "hexSha256": "5876db596b614400fa158c2006bb356b9a54d776bc3de145ee0003f041faf7d5",
+          "id": "servo",
+          "hash": "69dc662f0bbb78df1deab5fd87073d4f47679892e3d448552364e6957599fd18"
+        },
+        {
+          "name": "wire",
+          "status": "PASS",
+          "flashBytes": 4494,
+          "ramBytes": 408,
+          "hexSha256": "1c4402f70b558274eef5920ee43bc83bf7cc66bd48edaf63973de2b3fa371324",
+          "id": "wire",
+          "hash": "f9c051e82b7ab5598bf347dfaaec2497ec171fbed8c3ad8de92ed035b3152d69"
+        },
+        {
+          "name": "spi",
+          "status": "PASS",
+          "flashBytes": 2728,
+          "ramBytes": 192,
+          "hexSha256": "0f714e83d109a83d58a51243fed739db4fb780e836fe36e8ef6bfee580779be7",
+          "id": "spi",
+          "hash": "76fe6432652cfc5189dd8ff1ad13289801c82d8013d0a1c938c8a8f0ff0408a1"
+        },
+        {
+          "name": "eeprom",
+          "status": "PASS",
+          "flashBytes": 2424,
+          "ramBytes": 188,
+          "hexSha256": "51ed745400439acaed8f3bf1612d8c0c3a3e0e5c6d286e6d38e59a284259a338",
+          "id": "eeprom",
+          "hash": "f61931295fd3541998b3a11e1e3261e8e4a9ee1dc946fb2f9a112a2b6809b6d7"
+        },
+        {
+          "name": "softwareserial",
+          "status": "PASS",
+          "flashBytes": 3466,
+          "ramBytes": 301,
+          "hexSha256": "39dfdae2ca47408a1dd9921e472b2bf1a04e3a14127ad94f26af7363a8d0039c",
+          "id": "softwareserial",
+          "hash": "3ff256d6124ab7c791535d64c6333115e2c001e697e2205c081e5440ba7d4084"
+        }
+      ]
+    },
+    {
+      "id": "circuitera:avr:atmega328pb",
+      "sketches": [
+        {
+          "name": "Blink",
+          "status": "PASS",
+          "flashBytes": 1262,
+          "ramBytes": 9,
+          "hexSha256": "e3cf05938c0adc86fdb77520483fe809422beae85424ab493903c12f638433de"
+        },
+        {
+          "name": "Serial",
+          "status": "PASS",
+          "flashBytes": 2088,
+          "ramBytes": 198,
+          "hexSha256": "13318e6b9fee8c487a4aa695ad01508f1f8052478054bb8cfa9da32bffa024b9"
+        },
+        {
+          "name": "Analog",
+          "status": "PASS",
+          "flashBytes": 2458,
+          "ramBytes": 188,
+          "hexSha256": "f6bdf2578a27942fc55afc4a6367b6f243e6c2c7e24ee526f52eee855bee1670"
+        },
+        {
+          "name": "PWM",
+          "status": "PASS",
+          "flashBytes": 1360,
+          "ramBytes": 9,
+          "hexSha256": "df01c4b822f39cf2c0feb06d08142921d9ce3e2fcd3c43502d60635cf99229db"
+        },
+        {
+          "name": "Interrupts",
+          "status": "PASS",
+          "flashBytes": 1546,
+          "ramBytes": 17,
+          "hexSha256": "648afff72b2232c1fd8001648af108fef635e83ee3cb0d891eac8db28d0ec14a"
+        },
+        {
+          "name": "Pins",
+          "status": "PASS",
+          "flashBytes": 584,
+          "ramBytes": 9,
+          "hexSha256": "1bfe83cb938649c8bb57bbac6839a0e43a113e7c76c9e74dd4e5c5869da06e4a"
+        },
+        {
+          "name": "MCU macro/vector guard, multifile project, Servo cache",
+          "status": "PASS"
+        }
+      ],
+      "libraries": [
+        {
+          "name": "servo",
+          "status": "PASS",
+          "flashBytes": 2708,
+          "ramBytes": 50,
+          "hexSha256": "6375115a18f90b77a57393f62ec50bd0631e8806feeba35a0866ca7b83ca5984",
+          "id": "servo",
+          "hash": "69dc662f0bbb78df1deab5fd87073d4f47679892e3d448552364e6957599fd18"
+        },
+        {
+          "name": "wire",
+          "status": "PASS",
+          "flashBytes": 4706,
+          "ramBytes": 408,
+          "hexSha256": "164357064825d407c91b474939a1f0f8d6a6bdeac4673cc777bd2902f8e3dd2d",
+          "id": "wire",
+          "hash": "f9c051e82b7ab5598bf347dfaaec2497ec171fbed8c3ad8de92ed035b3152d69"
+        },
+        {
+          "name": "spi",
+          "status": "PASS",
+          "flashBytes": 2940,
+          "ramBytes": 192,
+          "hexSha256": "0ea8d56847f64d0d4ad2afb993dcd60aab96e5f378bc62bd794ed3543e2adbea",
+          "id": "spi",
+          "hash": "76fe6432652cfc5189dd8ff1ad13289801c82d8013d0a1c938c8a8f0ff0408a1"
+        },
+        {
+          "name": "eeprom",
+          "status": "PASS",
+          "flashBytes": 2582,
+          "ramBytes": 188,
+          "hexSha256": "8064670efb240e8fb33561e7b63caf2291e1eef8086357a908de7b42217fa1d4",
+          "id": "eeprom",
+          "hash": "f61931295fd3541998b3a11e1e3261e8e4a9ee1dc946fb2f9a112a2b6809b6d7"
+        },
+        {
+          "name": "softwareserial",
+          "status": "PASS",
+          "flashBytes": 3678,
+          "ramBytes": 301,
+          "hexSha256": "df5823a866f3941522501a2301ec49858c60de87904f735b5726dbf593dadff6",
+          "id": "softwareserial",
+          "hash": "3ff256d6124ab7c791535d64c6333115e2c001e697e2205c081e5440ba7d4084"
+        }
+      ]
+    }
+  ]
+}

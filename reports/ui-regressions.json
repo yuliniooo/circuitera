@@ -1,0 +1,166 @@
+{
+  "testedAt": "2026-10-03T22:49:32.581Z",
+  "scope": "Isolated React handler tests with a test editor host, actual production Worker on Node transport, and software serial-port fixture. Not Chrome DOM or physical USB tests.",
+  "checks": [
+    {
+      "name": "Autocomplete is optional, persists locally, and removes its extension when disabled",
+      "status": "PASS"
+    },
+    {
+      "name": "Autosave writes current source without pressing Save; default theme is light",
+      "status": "PASS"
+    },
+    {
+      "name": "Local save restores exact source after remount",
+      "status": "PASS"
+    },
+    {
+      "name": "Export .ino contains the current source",
+      "status": "PASS"
+    },
+    {
+      "name": "Import .ino updates the editor with actual file contents",
+      "status": "PASS"
+    },
+    {
+      "name": "Compile handler uses current imported code through the real Worker",
+      "status": "PASS"
+    },
+    {
+      "name": "System Check uses real WASM but cannot replace the active sketch or its upload artifact",
+      "status": "PASS"
+    },
+    {
+      "name": "Font size and layout controls preserve source and record only local session statistics",
+      "status": "PASS"
+    },
+    {
+      "name": "Compiler line-number diagnostics remain visible after real GCC failure",
+      "status": "PASS"
+    },
+    {
+      "name": "Upload handler recompiles changed source and calls unchanged STK500v1 with readback",
+      "status": "PASS"
+    },
+    {
+      "name": "Serial line endings and numeric plotter handle real stream chunks",
+      "status": "PASS"
+    },
+    {
+      "name": "Paused monitor freezes display while the port drains and the plotter keeps receiving real samples",
+      "status": "PASS"
+    },
+    {
+      "name": "Plot pause keeps Serial Monitor reading, resume adds multiple series, CSV exports real samples, and Clear empties the chart",
+      "status": "PASS"
+    },
+    {
+      "name": "Monitor closes and releases its port before firmware upload",
+      "status": "PASS"
+    },
+    {
+      "name": "Serial Monitor receives text, sends newline-terminated text, and disconnects",
+      "status": "PASS"
+    },
+    {
+      "name": "Physical-disconnect event clears selected-port state immediately",
+      "status": "PASS"
+    },
+    {
+      "name": "Theme persists; duplicate preserves source; rename is saved locally",
+      "status": "PASS"
+    },
+    {
+      "name": "School-policy rejection produces clear IT guidance",
+      "status": "PASS"
+    },
+    {
+      "name": "Library checkmarks agree with exact-build compile/link evidence",
+      "status": "PASS"
+    },
+    {
+      "name": "Library search finds OLED by description and examples",
+      "status": "PASS"
+    },
+    {
+      "name": "Two simultaneous tabs compile their exact source into different real HEX; late results stay with the initiating sketch",
+      "status": "PASS"
+    },
+    {
+      "name": "Each tab uploads only its own real HEX through unchanged STK500v1 and readback verification (software port fixture)",
+      "status": "PASS"
+    },
+    {
+      "name": "Switching sketches while USB selection is pending cancels before any flash commands",
+      "status": "PASS"
+    },
+    {
+      "name": "All sketches, open tabs, tab order, and active sketch survive remount from IndexedDB",
+      "status": "PASS"
+    },
+    {
+      "name": "Export All downloads ZIP with current sketches; sketch content is stored only in IndexedDB",
+      "status": "PASS"
+    },
+    {
+      "name": "Closing a tab keeps its saved sketch and reopening restores its exact code",
+      "status": "PASS"
+    },
+    {
+      "name": "Delete requires confirmation; Cancel keeps data and confirmation removes only that sketch",
+      "status": "PASS"
+    },
+    {
+      "name": "Save/New/Close handlers and Alt fallbacks work when the browser delivers the keyboard event",
+      "status": "PASS"
+    },
+    {
+      "name": "Examples reject incorrect/case/space variants, cancel preserves work, and exact password opens a new sketch",
+      "status": "PASS"
+    },
+    {
+      "name": "Public example opens once as a new sketch; navigation waits for the real WASM compile to finish",
+      "status": "PASS"
+    },
+    {
+      "name": "Leaving the IDE commits pending local edits and releases the Serial Monitor port before navigation",
+      "status": "PASS"
+    },
+    {
+      "name": "Project UI compiles separate C++ objects; switching files retains firmware and secondary-file edits force genuine recompilation before upload",
+      "status": "PASS"
+    },
+    {
+      "name": "Project records, selected file, independent source contents and open tabs survive IndexedDB remount; project ZIP downloads",
+      "status": "PASS"
+    },
+    {
+      "name": "Optional Test My Uno requires explicit actions, uses real WASM + unchanged STK500v1, rejects bad readback, and never replaces student sketches or their firmware (software port only)",
+      "status": "PASS"
+    },
+    {
+      "name": "ATmega328PB — 16 MHz: UI compiles its own board macro and current source; actual baud reaches uploader; flash readback and Serial Monitor reopen pass (software port)",
+      "status": "PASS"
+    },
+    {
+      "name": "Arduino Nano V3 — ATmega328P (new bootloader): UI compiles its own board macro and current source; actual baud reaches uploader; flash readback and Serial Monitor reopen pass (software port)",
+      "status": "PASS"
+    },
+    {
+      "name": "Arduino Nano V3 — ATmega328P (old bootloader): UI compiles its own board macro and current source; actual baud reaches uploader; flash readback and Serial Monitor reopen pass (software port)",
+      "status": "PASS"
+    },
+    {
+      "name": "Nano selection survives remount without modifying IndexedDB sketches or project records",
+      "status": "PASS"
+    },
+    {
+      "name": "Target selector is locked during pending USB selection and cannot retarget an in-flight upload",
+      "status": "PASS"
+    },
+    {
+      "name": "Switching back to Uno restores original compilation behavior and clears a Nano device selection",
+      "status": "PASS"
+    }
+  ]
+}

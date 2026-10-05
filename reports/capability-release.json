@@ -1,0 +1,19 @@
+{
+  "testedAt": "2026-09-13T22:51:55.392Z",
+  "status": "PASS",
+  "protectedFileCount": 1044,
+  "googleVerification": {
+    "path": "/googleb22ad35e0875e1ed.html",
+    "sha256": "972b00d6171c5d708d436db7ceb05a24f942744c78e898f29e678ee3fb0d8f46",
+    "unchanged": true
+  },
+  "checks": [
+    "Direct IDE and obsolete routes tested with real React/CodeMirror",
+    "No authentication modules, dependency, configuration, forms or session checks",
+    "Original IndexedDB identity retained; atomic project extension and restoration tested",
+    "WASM binaries, core, library sources and Uno uploader unchanged; board-aware worker, autocomplete and project extensions regression-tested",
+    "Google verification source and production bytes match original",
+    "Self-only connections and Web Serial permissions",
+    "Indexable homepage and static information pages"
+  ]
+}

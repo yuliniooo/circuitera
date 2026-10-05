@@ -1,0 +1,14 @@
+/ide / 301
+/ide/* / 301
+/signin / 301
+/signin/* / 301
+/register / 301
+/register/* / 301
+/forgot-password / 301
+/forgot-password/* / 301
+/reset-password / 301
+/reset-password/* / 301
+/auth / 301
+/auth/* / 301
+# Cloudflare Pages supplies SPA fallback when no top-level 404.html exists.
+# Do not add a catch-all rewrite: it would also intercept real runtime assets.

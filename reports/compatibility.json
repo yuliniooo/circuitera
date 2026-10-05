@@ -1,0 +1,534 @@
+{
+  "testedAt": "2026-10-05T00:51:55.751Z",
+  "buildId": "f8d3d433a68a28f956a7b5da9b58b5ab795b250b4e3b41dec5f539607fd05090",
+  "toolchain": "avr-gcc-wasm@0.2.0",
+  "runtime": "Actual shipped WASM binaries on v24.19.0; filesystem transport replaces HTTP only",
+  "target": "ATmega328P / avr5 / F_CPU=16000000L",
+  "flags": [
+    "-quiet",
+    "-imultilib",
+    "avr5",
+    "-D__AVR_ATmega328P__",
+    "-D__AVR_DEVICE_NAME__=atmega328p",
+    "-DF_CPU=16000000L",
+    "-DARDUINO=10819",
+    "-DARDUINO_AVR_UNO",
+    "-DARDUINO_ARCH_AVR",
+    "-isystem",
+    "/sysroot/gcc/include",
+    "-isystem",
+    "/sysroot/avr/include",
+    "-I",
+    "/arduino/core",
+    "-I",
+    "/arduino/variant",
+    "-mn-flash=1",
+    "-mno-skip-bug",
+    "-mmcu=avr5",
+    "-Os",
+    "-std=gnu++11",
+    "-fpermissive",
+    "-fno-exceptions",
+    "-fno-threadsafe-statics",
+    "-fno-rtti",
+    "-fno-enforce-eh-specs",
+    "-ffunction-sections",
+    "-fdata-sections"
+  ],
+  "scope": "Compile, assemble, link, AVR ELF validation, Intel HEX checksum and flash-size validation. No physical device is attached; electrical behavior is not tested.",
+  "libraries": [
+    {
+      "id": "servo",
+      "name": "Servo",
+      "version": "1.3.0",
+      "hash": "69dc662f0bbb78df1deab5fd87073d4f47679892e3d448552364e6957599fd18",
+      "status": "PASS",
+      "example": "Servo sweep",
+      "sourceSha256": "9a441be3f5e2b23e5f613a86f5397d6a1f7b1d01920de934c599ffe68b2efc34",
+      "hexSha256": "5876db596b614400fa158c2006bb356b9a54d776bc3de145ee0003f041faf7d5",
+      "flashBytes": 2522,
+      "ramBytes": 50,
+      "durationMs": 1038,
+      "dependencies": [],
+      "selectedLibraries": [
+        "servo"
+      ],
+      "objects": {
+        "compiledObjects": 1,
+        "cachedObjects": 0,
+        "libraries": [
+          "servo"
+        ]
+      },
+      "output": "✓ COMPILED\nSketch uses 2522 bytes (8%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 50 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 1.0 s.\nTarget: Arduino Uno R3 / ATMEGA328P.\nLibraries: Servo 1.3.0.\nLibrary objects: 1 compiled, 0 reused.",
+      "error": ""
+    },
+    {
+      "id": "wire",
+      "name": "Wire",
+      "version": "1.0",
+      "hash": "f9c051e82b7ab5598bf347dfaaec2497ec171fbed8c3ad8de92ed035b3152d69",
+      "status": "PASS",
+      "example": "I2C scanner",
+      "sourceSha256": "235fea50b75d692c515d9b0f4457bae1a5069c161647148abc1f9fcd6cc465cf",
+      "hexSha256": "1c4402f70b558274eef5920ee43bc83bf7cc66bd48edaf63973de2b3fa371324",
+      "flashBytes": 4494,
+      "ramBytes": 408,
+      "durationMs": 785,
+      "dependencies": [],
+      "selectedLibraries": [
+        "wire"
+      ],
+      "objects": {
+        "compiledObjects": 2,
+        "cachedObjects": 0,
+        "libraries": [
+          "wire"
+        ]
+      },
+      "output": "✓ COMPILED\nSketch uses 4494 bytes (14%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 408 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.8 s.\nTarget: Arduino Uno R3 / ATMEGA328P.\nLibraries: Wire 1.0.\nLibrary objects: 2 compiled, 0 reused.",
+      "error": ""
+    },
+    {
+      "id": "spi",
+      "name": "SPI",
+      "version": "1.0",
+      "hash": "76fe6432652cfc5189dd8ff1ad13289801c82d8013d0a1c938c8a8f0ff0408a1",
+      "status": "PASS",
+      "example": "SPI transfer",
+      "sourceSha256": "e7967cd3e28c6acf44f5a78616def505e3c5f1026841b40418c7461f0cf403ea",
+      "hexSha256": "0f714e83d109a83d58a51243fed739db4fb780e836fe36e8ef6bfee580779be7",
+      "flashBytes": 2728,
+      "ramBytes": 192,
+      "durationMs": 611,
+      "dependencies": [],
+      "selectedLibraries": [
+        "spi"
+      ],
+      "objects": {
+        "compiledObjects": 1,
+        "cachedObjects": 0,
+        "libraries": [
+          "spi"
+        ]
+      },
+      "output": "✓ COMPILED\nSketch uses 2728 bytes (8%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 192 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.6 s.\nTarget: Arduino Uno R3 / ATMEGA328P.\nLibraries: SPI 1.0.\nLibrary objects: 1 compiled, 0 reused.",
+      "error": ""
+    },
+    {
+      "id": "eeprom",
+      "name": "EEPROM",
+      "version": "2.0",
+      "hash": "f61931295fd3541998b3a11e1e3261e8e4a9ee1dc946fb2f9a112a2b6809b6d7",
+      "status": "PASS",
+      "example": "EEPROM read-write",
+      "sourceSha256": "5305be8ba5afdb87a3845a844c03ddd4376f74015289d5125c0b1a6af59c12da",
+      "hexSha256": "51ed745400439acaed8f3bf1612d8c0c3a3e0e5c6d286e6d38e59a284259a338",
+      "flashBytes": 2424,
+      "ramBytes": 188,
+      "durationMs": 918,
+      "dependencies": [],
+      "selectedLibraries": [
+        "eeprom"
+      ],
+      "objects": {
+        "compiledObjects": 12,
+        "cachedObjects": 0,
+        "libraries": [
+          "eeprom"
+        ]
+      },
+      "output": "✓ COMPILED\nSketch uses 2424 bytes (8%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 188 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.9 s.\nTarget: Arduino Uno R3 / ATMEGA328P.\nLibraries: EEPROM 2.0.\nLibrary objects: 12 compiled, 0 reused.",
+      "error": ""
+    },
+    {
+      "id": "softwareserial",
+      "name": "SoftwareSerial",
+      "version": "1.0",
+      "hash": "3ff256d6124ab7c791535d64c6333115e2c001e697e2205c081e5440ba7d4084",
+      "status": "PASS",
+      "example": "SoftwareSerial",
+      "sourceSha256": "7998ff36c3c0eb537b55fcedfb428d1e300b58b8ba772c0603fb0454dd63caac",
+      "hexSha256": "39dfdae2ca47408a1dd9921e472b2bf1a04e3a14127ad94f26af7363a8d0039c",
+      "flashBytes": 3466,
+      "ramBytes": 301,
+      "durationMs": 633,
+      "dependencies": [],
+      "selectedLibraries": [
+        "softwareserial"
+      ],
+      "objects": {
+        "compiledObjects": 1,
+        "cachedObjects": 0,
+        "libraries": [
+          "softwareserial"
+        ]
+      },
+      "output": "✓ COMPILED\nSketch uses 3466 bytes (11%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 301 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.6 s.\nTarget: Arduino Uno R3 / ATMEGA328P.\nLibraries: SoftwareSerial 1.0.\nLibrary objects: 1 compiled, 0 reused.",
+      "error": ""
+    },
+    {
+      "id": "liquidcrystal",
+      "name": "LiquidCrystal",
+      "version": "1.0.7",
+      "hash": "fff35ca8f56cea1b00fbba8767a6ce3bdf20496604706ab5cef4da5c09150ab1",
+      "status": "PASS",
+      "example": "LCD Hello World",
+      "sourceSha256": "e39b08eed1e36af8f74b40de03f76776cb1e2d78c5e0d05a79d88714a5168fb9",
+      "hexSha256": "3eecfdfe5651074a99091eacb7389a93cc8a321261e2caed84f118ab173f4991",
+      "flashBytes": 2232,
+      "ramBytes": 59,
+      "durationMs": 625,
+      "dependencies": [],
+      "selectedLibraries": [
+        "liquidcrystal"
+      ],
+      "objects": {
+        "compiledObjects": 1,
+        "cachedObjects": 0,
+        "libraries": [
+          "liquidcrystal"
+        ]
+      },
+      "output": "✓ COMPILED\nSketch uses 2232 bytes (7%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 59 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.6 s.\nTarget: Arduino Uno R3 / ATMEGA328P.\nLibraries: LiquidCrystal 1.0.7.\nLibrary objects: 1 compiled, 0 reused.",
+      "error": ""
+    },
+    {
+      "id": "dht",
+      "name": "DHT",
+      "version": "1.4.7",
+      "hash": "e7d7f87221b675f91429265203d4d5df832803ab9e9906a3d86a9e2c0a10b30e",
+      "status": "PASS",
+      "example": "DHT temperature-humidity",
+      "sourceSha256": "1484202b14c124a871ced28732d9a7688b1f931e1eebe56d7ecfa4310280a4f2",
+      "hexSha256": "57bce1e38cb5d4a433dcf650c08d0069d814040f566d2d47da42392dab3e0729",
+      "flashBytes": 5610,
+      "ramBytes": 219,
+      "durationMs": 754,
+      "dependencies": [
+        "unified-sensor"
+      ],
+      "selectedLibraries": [
+        "dht",
+        "unified-sensor"
+      ],
+      "objects": {
+        "compiledObjects": 3,
+        "cachedObjects": 0,
+        "libraries": [
+          "dht",
+          "unified-sensor"
+        ]
+      },
+      "output": "✓ COMPILED\nSketch uses 5610 bytes (17%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 219 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.8 s.\nTarget: Arduino Uno R3 / ATMEGA328P.\nLibraries: DHT 1.4.7, Adafruit Unified Sensor 1.1.15.\nLibrary objects: 3 compiled, 0 reused.",
+      "error": ""
+    },
+    {
+      "id": "unified-sensor",
+      "name": "Adafruit Unified Sensor",
+      "version": "1.1.15",
+      "hash": "4d18bfe56bfa975546bffba44b3171f713282150771811ea58b9a888f1299a01",
+      "status": "PASS",
+      "example": "Unified sensor",
+      "sourceSha256": "90b2f60a03822c6e1cf1668c6ccc6a4a806418b08e98491cda0fe5314091ccbf",
+      "hexSha256": "a3a949e763a9ce9519c83f8b4100f169a42218bac491ae311bbeeb997a50ef9d",
+      "flashBytes": 9226,
+      "ramBytes": 302,
+      "durationMs": 510,
+      "dependencies": [],
+      "selectedLibraries": [
+        "dht",
+        "unified-sensor"
+      ],
+      "objects": {
+        "compiledObjects": 0,
+        "cachedObjects": 3,
+        "libraries": [
+          "dht",
+          "unified-sensor"
+        ]
+      },
+      "output": "✓ COMPILED\nSketch uses 9226 bytes (29%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 302 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.5 s.\nTarget: Arduino Uno R3 / ATMEGA328P.\nLibraries: DHT 1.4.7, Adafruit Unified Sensor 1.1.15.\nLibrary objects: 0 compiled, 3 reused.",
+      "error": ""
+    },
+    {
+      "id": "gfx",
+      "name": "Adafruit GFX",
+      "version": "1.12.6",
+      "hash": "bb954e850f80093f13f39df02a3fb4a7fcd87f4904671cc32a424fbb31f842ed",
+      "status": "PASS",
+      "example": "GFX canvas",
+      "sourceSha256": "37f72720010dc07aa3f1d67a1c6b87fd337a4d15f09a0d4f4731d625bcbe947d",
+      "hexSha256": "c628c4487b157fad25678998e2651f5a02baa1a1705830562a857c672e7fb170",
+      "flashBytes": 10952,
+      "ramBytes": 533,
+      "durationMs": 2197,
+      "dependencies": [
+        "busio"
+      ],
+      "selectedLibraries": [
+        "busio",
+        "gfx",
+        "spi",
+        "wire"
+      ],
+      "objects": {
+        "compiledObjects": 11,
+        "cachedObjects": 0,
+        "libraries": [
+          "busio",
+          "gfx",
+          "spi",
+          "wire"
+        ]
+      },
+      "output": "✓ COMPILED\nSketch uses 10952 bytes (34%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 533 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 2.2 s.\nTarget: Arduino Uno R3 / ATMEGA328P.\nLibraries: Adafruit BusIO 1.17.4, Adafruit GFX 1.12.6, SPI 1.0, Wire 1.0.\nLibrary objects: 11 compiled, 0 reused.",
+      "error": ""
+    },
+    {
+      "id": "ssd1306",
+      "name": "Adafruit SSD1306",
+      "version": "2.5.17",
+      "hash": "69323d2c6051cea4d7b5ca1a0dbb10ed9f3817f0c689cfac97e2f31e964246c1",
+      "status": "PASS",
+      "example": "OLED Hello World",
+      "sourceSha256": "8cd378334e60b9cd883b646eec7e460f659a62cc615465ad38111dc22455496b",
+      "hexSha256": "5f4fce80006c6fcbcb62cf16cbec53ce8dac9d95bc6b0d8d05f04402a292b500",
+      "flashBytes": 13868,
+      "ramBytes": 399,
+      "durationMs": 2445,
+      "dependencies": [
+        "gfx",
+        "wire",
+        "spi"
+      ],
+      "selectedLibraries": [
+        "busio",
+        "gfx",
+        "spi",
+        "ssd1306",
+        "wire"
+      ],
+      "objects": {
+        "compiledObjects": 12,
+        "cachedObjects": 0,
+        "libraries": [
+          "busio",
+          "gfx",
+          "spi",
+          "ssd1306",
+          "wire"
+        ]
+      },
+      "output": "✓ COMPILED\nSketch uses 13868 bytes (43%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 399 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 2.4 s.\nTarget: Arduino Uno R3 / ATMEGA328P.\nLibraries: Adafruit BusIO 1.17.4, Adafruit GFX 1.12.6, SPI 1.0, Adafruit SSD1306 2.5.17, Wire 1.0.\nLibrary objects: 12 compiled, 0 reused.",
+      "error": ""
+    },
+    {
+      "id": "busio",
+      "name": "Adafruit BusIO",
+      "version": "1.17.4",
+      "hash": "6c97854fdbc8dd0aba7c4c5274c8c41254a8ef8673d21080c60f9c270fab4769",
+      "status": "PASS",
+      "example": "BusIO register",
+      "sourceSha256": "68f2dbba44dc6911918b24f6317fcf3f37ff35b292cb984592543764fdc61fc9",
+      "hexSha256": "f1bc12d49e598d0c429f295be184c032681a865526cb80f56d5e214def4bd044",
+      "flashBytes": 7140,
+      "ramBytes": 438,
+      "durationMs": 1057,
+      "dependencies": [
+        "wire",
+        "spi"
+      ],
+      "selectedLibraries": [
+        "busio",
+        "spi",
+        "wire"
+      ],
+      "objects": {
+        "compiledObjects": 7,
+        "cachedObjects": 0,
+        "libraries": [
+          "busio",
+          "spi",
+          "wire"
+        ]
+      },
+      "output": "✓ COMPILED\nSketch uses 7140 bytes (22%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 438 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 1.1 s.\nTarget: Arduino Uno R3 / ATMEGA328P.\nLibraries: Adafruit BusIO 1.17.4, SPI 1.0, Wire 1.0.\nLibrary objects: 7 compiled, 0 reused.",
+      "error": ""
+    },
+    {
+      "id": "neopixel",
+      "name": "Adafruit NeoPixel",
+      "version": "1.15.5",
+      "hash": "b05e962e1ed8cb79907f40f3d40057be30c5798aba99c4c5092eee2ad0da7ce2",
+      "status": "PASS",
+      "example": "NeoPixel",
+      "sourceSha256": "043fc3a8173ed07516aa4e159b9a85d352874e8d324d9c53b3483bba9322685c",
+      "hexSha256": "76ef41c13fdb7466182e5e9b6496b1750207fa99453861312b71cb3cd4b7a564",
+      "flashBytes": 3270,
+      "ramBytes": 41,
+      "durationMs": 656,
+      "dependencies": [],
+      "selectedLibraries": [
+        "neopixel"
+      ],
+      "objects": {
+        "compiledObjects": 1,
+        "cachedObjects": 0,
+        "libraries": [
+          "neopixel"
+        ]
+      },
+      "output": "✓ COMPILED\nSketch uses 3270 bytes (10%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 41 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.7 s.\nTarget: Arduino Uno R3 / ATMEGA328P.\nLibraries: Adafruit NeoPixel 1.15.5.\nLibrary objects: 1 compiled, 0 reused.",
+      "error": ""
+    },
+    {
+      "id": "newping",
+      "name": "NewPing",
+      "version": "1.9.7",
+      "hash": "6174ba868be20467f42d2a90fb3201cb7bb55c12bf140f0304917a0738466441",
+      "status": "PASS",
+      "example": "Ultrasonic distance",
+      "sourceSha256": "d924057dd646ac4d634b37e13c3c1bf3069a6d8da62efd301a5b847f217194b2",
+      "hexSha256": "6a472ca53127da0158193cc49134730804bdf1c345a12d43322a38b4b3c73bca",
+      "flashBytes": 3304,
+      "ramBytes": 209,
+      "durationMs": 604,
+      "dependencies": [],
+      "selectedLibraries": [
+        "newping"
+      ],
+      "objects": {
+        "compiledObjects": 1,
+        "cachedObjects": 0,
+        "libraries": [
+          "newping"
+        ]
+      },
+      "output": "✓ COMPILED\nSketch uses 3304 bytes (10%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 209 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.6 s.\nTarget: Arduino Uno R3 / ATMEGA328P.\nLibraries: NewPing 1.9.7.\nLibrary objects: 1 compiled, 0 reused.",
+      "error": ""
+    },
+    {
+      "id": "irremote",
+      "name": "IRremote",
+      "version": "4.7.1",
+      "hash": "9071dddc11755498ffedc7814d7ab8665091a39ca7794a1ff309e9579d29f978",
+      "status": "PASS",
+      "example": "IR remote",
+      "sourceSha256": "ea0eedf867a7f7372da98d0c37d494adffb6c14da6ca8b16ec8a4730e07e1419",
+      "hexSha256": "b3a774f82e68e8b62da0ea512436375f42d1d90966844ac372b2f3d984d6dd1e",
+      "flashBytes": 12096,
+      "ramBytes": 491,
+      "durationMs": 1284,
+      "dependencies": [],
+      "selectedLibraries": [
+        "irremote"
+      ],
+      "objects": {
+        "compiledObjects": 0,
+        "cachedObjects": 0,
+        "libraries": [
+          "irremote"
+        ]
+      },
+      "output": "✓ COMPILED\nSketch uses 12096 bytes (38%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 491 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 1.3 s.\nTarget: Arduino Uno R3 / ATMEGA328P.\nLibraries: IRremote 4.7.1.\nLibrary objects: 0 compiled, 0 reused.",
+      "error": ""
+    },
+    {
+      "id": "keypad",
+      "name": "Keypad",
+      "version": "3.1.1",
+      "hash": "efae8c87f9d2fe1471a6fb9ba74ec0b0ee3ce51b6771621b3580ffffd880f259",
+      "status": "PASS",
+      "example": "Keypad",
+      "sourceSha256": "16b6faea27958ebc6772e28254105137529b6f40492bbed2add48a6f26960bba",
+      "hexSha256": "544488d5d5ed9d7684d76f714899cfc68b1aaa016dec387436965540f5c3faa5",
+      "flashBytes": 3922,
+      "ramBytes": 327,
+      "durationMs": 649,
+      "dependencies": [],
+      "selectedLibraries": [
+        "keypad"
+      ],
+      "objects": {
+        "compiledObjects": 2,
+        "cachedObjects": 0,
+        "libraries": [
+          "keypad"
+        ]
+      },
+      "output": "✓ COMPILED\nSketch uses 3922 bytes (12%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 327 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.6 s.\nTarget: Arduino Uno R3 / ATMEGA328P.\nLibraries: Keypad 3.1.1.\nLibrary objects: 2 compiled, 0 reused.",
+      "error": ""
+    },
+    {
+      "id": "accelstepper",
+      "name": "AccelStepper",
+      "version": "1.64",
+      "hash": "d3dd14efb6886dd50825bfaad00698da29937096c76a1ffddfc59a3757700a37",
+      "status": "PASS",
+      "example": "Stepper motor",
+      "sourceSha256": "aa53b58c41631e8f0d2879b2ac1da61c2989f45b1a8aa47991e0d6e2fbb56602",
+      "hexSha256": "286b97a8bc8be145d9c8cc2c5816b306f34e6235244638bf1551c343c5487343",
+      "flashBytes": 6118,
+      "ramBytes": 119,
+      "durationMs": 711,
+      "dependencies": [],
+      "selectedLibraries": [
+        "accelstepper"
+      ],
+      "objects": {
+        "compiledObjects": 2,
+        "cachedObjects": 0,
+        "libraries": [
+          "accelstepper"
+        ]
+      },
+      "output": "✓ COMPILED\nSketch uses 6118 bytes (19%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 119 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.7 s.\nTarget: Arduino Uno R3 / ATMEGA328P.\nLibraries: AccelStepper 1.64.\nLibrary objects: 2 compiled, 0 reused.",
+      "error": ""
+    },
+    {
+      "id": "liquidcrystal-i2c",
+      "name": "LiquidCrystal_I2C",
+      "version": "1.1.2",
+      "hash": "9d9ff100cf467bd2c2e431f52ded41f0c2682b2b0fe41f1355c0578e6ecd3424",
+      "status": "PASS",
+      "example": "I2C LCD Hello World",
+      "sourceSha256": "fffceadb9a94584933c33e8a35d63c947f1cbb8f788d5d5cc79d0e0f23b3a2cc",
+      "hexSha256": "f4d2b07b34c40c7830028fe3f04af30aa9243a745c1e16db1c3a3bd74783add3",
+      "flashBytes": 4006,
+      "ramBytes": 275,
+      "durationMs": 758,
+      "dependencies": [
+        "wire"
+      ],
+      "selectedLibraries": [
+        "liquidcrystal-i2c",
+        "wire"
+      ],
+      "objects": {
+        "compiledObjects": 3,
+        "cachedObjects": 0,
+        "libraries": [
+          "liquidcrystal-i2c",
+          "wire"
+        ]
+      },
+      "output": "✓ COMPILED\nSketch uses 4006 bytes (12%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 275 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.8 s.\nTarget: Arduino Uno R3 / ATMEGA328P.\nLibraries: LiquidCrystal_I2C 1.1.2, Wire 1.0.\nLibrary objects: 3 compiled, 0 reused.",
+      "error": ""
+    }
+  ],
+  "additional": [
+    {
+      "name": "OLED sensor display",
+      "status": "PASS",
+      "output": "✓ COMPILED\nSketch uses 17848 bytes (55%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 605 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 2.7 s.\nTarget: Arduino Uno R3 / ATMEGA328P.\nLibraries: Adafruit BusIO 1.17.4, DHT 1.4.7, Adafruit GFX 1.12.6, SPI 1.0, Adafruit SSD1306 2.5.17, Adafruit Unified Sensor 1.1.15, Wire 1.0.\nLibrary objects: 15 compiled, 0 reused.",
+      "flashBytes": 17848,
+      "ramBytes": 605
+    },
+    {
+      "name": "Safe object-cache reuse produces identical firmware",
+      "status": "PASS",
+      "output": "✓ COMPILED\nSketch uses 2522 bytes (8%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 50 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.5 s.\nTarget: Arduino Uno R3 / ATMEGA328P.\nLibraries: Servo 1.3.0.\nLibrary objects: 0 compiled, 1 reused."
+    }
+  ]
+}

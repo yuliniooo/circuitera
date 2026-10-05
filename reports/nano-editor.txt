@@ -1,0 +1,7 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> uno-web-ide@1.0.0 test:editor
+> node test/editor-tabs.mjs
+
+Restored history depth 1
+PASS — real CodeMirror retains per-tab source and undo history without cross-tab edits

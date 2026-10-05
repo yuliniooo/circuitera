@@ -1,0 +1,69 @@
+{
+  "testedAt": "2026-09-05T22:43:02.551052+00:00",
+  "status": "PASS",
+  "verificationFile": "googleb22ad35e0875e1ed.html",
+  "sha256": "972b00d6171c5d708d436db7ceb05a24f942744c78e898f29e678ee3fb0d8f46",
+  "bytes": 53,
+  "source": "public/googleb22ad35e0875e1ed.html",
+  "output": "dist/googleb22ad35e0875e1ed.html",
+  "protectedFilesUnchanged": 1654,
+  "notes": [
+    "Original uploaded bytes preserved exactly, including absence of trailing newline",
+    "Public directory persists across future source builds",
+    "Public SEO pages, robots.txt, sitemap.xml, runtime assets and all existing source files are byte-identical",
+    "No structured-data block existed in the current public homepage; no SEO markup changed"
+  ],
+  "liveVerification": {
+    "status": "PASS",
+    "testedAt": "2026-09-05T22:44:49.769758+00:00",
+    "deployId": "6a9c9b21877378597f1bbd47",
+    "checks": [
+      {
+        "path": "/googleb22ad35e0875e1ed.html",
+        "status": 200,
+        "url": "https://arduino-ide.netlify.app/googleb22ad35e0875e1ed.html",
+        "bytes": 53,
+        "sha256": "972b00d6171c5d708d436db7ceb05a24f942744c78e898f29e678ee3fb0d8f46",
+        "exactAttachmentMatch": true
+      },
+      {
+        "path": "/robots.txt",
+        "status": 200,
+        "unchanged": true
+      },
+      {
+        "path": "/sitemap.xml",
+        "status": 200,
+        "unchanged": true
+      },
+      {
+        "path": "/",
+        "status": 200,
+        "indexable": true,
+        "seoMatchesBuild": true,
+        "structuredDataBlocks": 0
+      },
+      {
+        "path": "/features",
+        "status": 200,
+        "indexable": true,
+        "seoMatchesBuild": true,
+        "structuredDataBlocks": 0
+      },
+      {
+        "path": "/how-it-works",
+        "status": 200,
+        "indexable": true,
+        "seoMatchesBuild": true,
+        "structuredDataBlocks": 0
+      },
+      {
+        "path": "/examples",
+        "status": 200,
+        "indexable": true,
+        "seoMatchesBuild": true,
+        "structuredDataBlocks": 0
+      }
+    ]
+  }
+}

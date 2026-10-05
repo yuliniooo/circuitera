@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630"><rect width="1200" height="630" fill="#faf8f3"/>
+<path d="M1050 0V82L1100 132H1200M1200 516H1110L1050 576V630" fill="none" stroke="#dfe3e9" stroke-width="2"/>
+<circle cx="1050" cy="82" r="5" fill="#08b6d1"/><circle cx="1110" cy="516" r="5" fill="#a278da"/>
+<g transform="translate(65 59) scale(2.2)"><path d="M24 8H14L8 14V24H24" fill="none" stroke="#2563ed" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="24" cy="8" r="3.5" fill="#08b6d1"/><circle cx="24" cy="24" r="3.5" fill="#67cf49"/></g>
+<text x="150" y="112" fill="#253043" font-family="DejaVu Sans" font-weight="bold" font-size="43" letter-spacing="-1.2">Circuitera</text>
+<text x="76" y="260" fill="#253043" font-family="DejaVu Sans" font-weight="bold" font-size="66" letter-spacing="-2">Build hardware</text>
+<text x="76" y="345" fill="#253043" font-family="DejaVu Sans" font-weight="bold" font-size="66" letter-spacing="-2">from your browser.</text>
+<text x="80" y="409" fill="#647085" font-family="DejaVu Sans" font-size="23">A fast, browser-based development environment for Arduino Uno.</text>
+<rect x="80" y="485" width="166" height="45" rx="6" fill="#2563ed"/><text x="108" y="514" fill="white" font-family="DejaVu Sans" font-size="17">Local compiler</text>
+<rect x="258" y="485" width="166" height="45" rx="6" fill="#67cf49"/><text x="282" y="514" fill="#122d1c" font-family="DejaVu Sans" font-size="17">Physical upload</text>
+<text x="834" y="514" fill="#647085" font-family="DejaVu Sans Mono" font-size="17">UNO R3 · ATmega328P</text></svg>

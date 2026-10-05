@@ -1,0 +1,285 @@
+{
+  "testedAt": "2026-09-06T23:40:57.613440+00:00",
+  "origin": "https://circuitera.netlify.app",
+  "deployId": "6a9df91bf3d134bcad9981db",
+  "buildId": "629eb1a52514d46dd3501b5f54901eaad110357bf228ea6405bb23a1dcf4e3a7",
+  "checks": [
+    {
+      "path": "/googleb22ad35e0875e1ed.html",
+      "http": 200,
+      "sha256": "972b00d6171c5d708d436db7ceb05a24f942744c78e898f29e678ee3fb0d8f46",
+      "bytes": 53,
+      "matchesBuild": true
+    },
+    {
+      "path": "/robots.txt",
+      "http": 200,
+      "sha256": "5763c4d444bb966eb650f840c01f6aea2c8b63db1819547dec4a6f1700fb3e47",
+      "bytes": 95,
+      "matchesBuild": true
+    },
+    {
+      "path": "/sitemap.xml",
+      "http": 200,
+      "sha256": "1ec627f371d54c64720c06b0015d15157e8261591852035eb6befd718ffadfad",
+      "bytes": 752,
+      "matchesBuild": true
+    },
+    {
+      "path": "/favicon.png",
+      "http": 200,
+      "sha256": "5a638b071a5848b3772f1abf3eed98fbd40c9266d1295c08bb8f88f0fc2b3ed4",
+      "bytes": 967,
+      "matchesBuild": true
+    },
+    {
+      "path": "/sw.js",
+      "http": 200,
+      "sha256": "ed3668b02fb7e236a38bab8bac2f0390a3f200e88a213a3903521cf04d5c16c0",
+      "bytes": 9201,
+      "matchesBuild": true
+    },
+    {
+      "path": "/avr/curated/manifest.json",
+      "http": 200,
+      "sha256": "f7fc9a93f9cd63bee797e5febbedafa2d6b93f98320c7e44a3e9a5286643ee7c",
+      "bytes": 34039,
+      "matchesBuild": true
+    },
+    {
+      "path": "/avr/curated/uno-core-f3b1ff28b7930b7f.json",
+      "http": 200,
+      "sha256": "f3b1ff28b7930b7f629d7e325822aa4d7ded9b8a6b5171bbbccc1719d0490c4c",
+      "bytes": 9818659,
+      "matchesBuild": true
+    },
+    {
+      "path": "/avr/curated/nano-variant-be5fc7a105716005.json",
+      "http": 200,
+      "sha256": "be5fc7a105716005de771d6e65f1d56a8edfb511bee5eedf184e612e9004e13f",
+      "bytes": 7857,
+      "matchesBuild": true
+    },
+    {
+      "path": "/avr/curated/servo-69dc662f0bbb78df.json",
+      "http": 200,
+      "sha256": "69dc662f0bbb78df1deab5fd87073d4f47679892e3d448552364e6957599fd18",
+      "bytes": 19375,
+      "matchesBuild": true
+    },
+    {
+      "path": "/avr/curated/wire-f9c051e82b7ab559.json",
+      "http": 200,
+      "sha256": "f9c051e82b7ab5598bf347dfaaec2497ec171fbed8c3ad8de92ed035b3152d69",
+      "bytes": 38034,
+      "matchesBuild": true
+    },
+    {
+      "path": "/avr/curated/spi-76fe6432652cfc51.json",
+      "http": 200,
+      "sha256": "76fe6432652cfc5189dd8ff1ad13289801c82d8013d0a1c938c8a8f0ff0408a1",
+      "bytes": 16801,
+      "matchesBuild": true
+    },
+    {
+      "path": "/avr/curated/eeprom-f61931295fd35419.json",
+      "http": 200,
+      "sha256": "f61931295fd3541998b3a11e1e3261e8e4a9ee1dc946fb2f9a112a2b6809b6d7",
+      "bytes": 55222,
+      "matchesBuild": true
+    },
+    {
+      "path": "/avr/curated/softwareserial-3ff256d6124ab7c7.json",
+      "http": 200,
+      "sha256": "3ff256d6124ab7c791535d64c6333115e2c001e697e2205c081e5440ba7d4084",
+      "bytes": 18879,
+      "matchesBuild": true
+    },
+    {
+      "path": "/avr/curated/liquidcrystal-fff35ca8f56cea1b.json",
+      "http": 200,
+      "sha256": "fff35ca8f56cea1b00fbba8767a6ce3bdf20496604706ab5cef4da5c09150ab1",
+      "bytes": 12587,
+      "matchesBuild": true
+    },
+    {
+      "path": "/avr/curated/dht-e7d7f87221b675f9.json",
+      "http": 200,
+      "sha256": "e7d7f87221b675f91429265203d4d5df832803ab9e9906a3d86a9e2c0a10b30e",
+      "bytes": 26175,
+      "matchesBuild": true
+    },
+    {
+      "path": "/avr/curated/unified-sensor-4d18bfe56bfa9755.json",
+      "http": 200,
+      "sha256": "4d18bfe56bfa975546bffba44b3171f713282150771811ea58b9a888f1299a01",
+      "bytes": 14074,
+      "matchesBuild": true
+    },
+    {
+      "path": "/avr/curated/gfx-bb954e850f80093f.json",
+      "http": 200,
+      "sha256": "bb954e850f80093f13f39df02a3fb4a7fcd87f4904671cc32a424fbb31f842ed",
+      "bytes": 1717248,
+      "matchesBuild": true
+    },
+    {
+      "path": "/avr/curated/ssd1306-69323d2c6051cea4.json",
+      "http": 200,
+      "sha256": "69323d2c6051cea4d7b5ca1a0dbb10ed9f3817f0c689cfac97e2f31e964246c1",
+      "bytes": 70608,
+      "matchesBuild": true
+    },
+    {
+      "path": "/avr/curated/busio-6c97854fdbc8dd0a.json",
+      "http": 200,
+      "sha256": "6c97854fdbc8dd0aba7c4c5274c8c41254a8ef8673d21080c60f9c270fab4769",
+      "bytes": 54923,
+      "matchesBuild": true
+    },
+    {
+      "path": "/avr/curated/neopixel-b05e962e1ed8cb79.json",
+      "http": 200,
+      "sha256": "b05e962e1ed8cb79907f40f3d40057be30c5798aba99c4c5092eee2ad0da7ce2",
+      "bytes": 185787,
+      "matchesBuild": true
+    },
+    {
+      "path": "/avr/curated/newping-6174ba868be20467.json",
+      "http": 200,
+      "sha256": "6174ba868be20467f42d2a90fb3201cb7bb55c12bf140f0304917a0738466441",
+      "bytes": 34278,
+      "matchesBuild": true
+    },
+    {
+      "path": "/avr/curated/irremote-9071dddc11755498.json",
+      "http": 200,
+      "sha256": "9071dddc11755498ffedc7814d7ab8665091a39ca7794a1ff309e9579d29f978",
+      "bytes": 747669,
+      "matchesBuild": true
+    },
+    {
+      "path": "/avr/curated/keypad-efae8c87f9d2fe14.json",
+      "http": 200,
+      "sha256": "efae8c87f9d2fe1471a6fb9ba74ec0b0ee3ce51b6771621b3580ffffd880f259",
+      "bytes": 19248,
+      "matchesBuild": true
+    },
+    {
+      "path": "/avr/curated/accelstepper-d3dd14efb6886dd5.json",
+      "http": 200,
+      "sha256": "d3dd14efb6886dd50825bfaad00698da29937096c76a1ffddfc59a3757700a37",
+      "bytes": 65506,
+      "matchesBuild": true
+    },
+    {
+      "path": "/avr/curated/liquidcrystal-i2c-9d9ff100cf467bd2.json",
+      "http": 200,
+      "sha256": "9d9ff100cf467bd2c2e431f52ded41f0c2682b2b0fe41f1355c0578e6ecd3424",
+      "bytes": 13298,
+      "matchesBuild": true
+    },
+    {
+      "path": "/assets/compiler.worker-BhiRBqmg.js",
+      "http": 200,
+      "sha256": "29d8b0ac5236f7b49e9cf8f0c7cf3cb8086d23a10904d0d1659c130dd9033678",
+      "bytes": 17012,
+      "matchesBuild": true
+    },
+    {
+      "path": "/assets/index-CtGGrvou.css",
+      "http": 200,
+      "sha256": "23f04f84f8f135faaf7ef899c5941e1a7f3b5827689cb64c9b4d4ce9fdbff258",
+      "bytes": 69446,
+      "matchesBuild": true
+    },
+    {
+      "path": "/assets/index-B7yV8mq0.js",
+      "http": 200,
+      "sha256": "81bed5a1150255e880000e9db27de5cc6166597172893dcb9796a4956eca8d64",
+      "bytes": 886806,
+      "matchesBuild": true
+    },
+    {
+      "path": "/",
+      "http": 200,
+      "metadata": "PASS",
+      "h1": "Arduino IDE for Chromebook \u2014 Compile & Upload in Your Browser",
+      "structuredData": "PASS",
+      "serialPolicy": "PASS"
+    },
+    {
+      "path": "/about",
+      "http": 200,
+      "metadata": "PASS",
+      "h1": "Circuitera.",
+      "structuredData": "PASS",
+      "serialPolicy": "PASS"
+    },
+    {
+      "path": "/features",
+      "http": 200,
+      "metadata": "PASS",
+      "h1": "Everything between an idea and a working circuit.",
+      "structuredData": "PASS",
+      "serialPolicy": "PASS"
+    },
+    {
+      "path": "/how-it-works",
+      "http": 200,
+      "metadata": "PASS",
+      "h1": "A direct path from code to your Uno.",
+      "structuredData": "PASS",
+      "serialPolicy": "PASS"
+    },
+    {
+      "path": "/examples",
+      "http": 200,
+      "metadata": "PASS",
+      "h1": "Small projects. Big \u2018it works\u2019 moments.",
+      "structuredData": "PASS",
+      "serialPolicy": "PASS"
+    },
+    {
+      "path": "/getting-started",
+      "http": 200,
+      "metadata": "PASS",
+      "h1": "Getting Started",
+      "structuredData": "PASS",
+      "serialPolicy": "PASS"
+    },
+    {
+      "path": "/arduino-on-chromebook",
+      "http": 200,
+      "metadata": "PASS",
+      "h1": "Arduino on Chromebook",
+      "structuredData": "PASS",
+      "serialPolicy": "PASS"
+    },
+    {
+      "path": "/supported-libraries",
+      "http": 200,
+      "metadata": "PASS",
+      "h1": "Supported Libraries",
+      "structuredData": "PASS",
+      "serialPolicy": "PASS"
+    },
+    {
+      "path": "/uno-pinout",
+      "http": 200,
+      "metadata": "PASS",
+      "h1": "Arduino Uno Pinout",
+      "structuredData": "PASS",
+      "serialPolicy": "PASS"
+    },
+    {
+      "path": "/troubleshooting",
+      "http": 200,
+      "metadata": "PASS",
+      "h1": "Troubleshooting",
+      "structuredData": "PASS",
+      "serialPolicy": "PASS"
+    }
+  ],
+  "physicalHardwareTested": false
+}

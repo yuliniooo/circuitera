@@ -1,0 +1,12 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> uno-web-ide@1.0.0 test:offline
+> node test/offline.mjs
+
+PASS — Install caches the complete static shell without requiring compiler downloads
+PASS — Offline shell and public help open; missing compiler assets fail honestly with their path
+PASS — Google verification, robots and sitemap bypass the service worker
+PASS — Corrupt downloaded compiler assets are rejected rather than cached as ready
+PASS — Every prepared shell/tool/core/library asset is available offline with exact bytes and no network access
+PASS — Real Servo sketch links and produces HEX using offline cached WASM/core/library bytes
+PASS — Updates cannot force activation/reload during upload and cleanup only owns Circuitera static caches

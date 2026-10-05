@@ -1,0 +1,38 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> uno-web-ide@1.0.0 test:workspace
+> node test/compile-workspace.mjs
+
+PASS — Blink: 1064 flash / 9 SRAM bytes
+PASS — Button: 954 flash / 9 SRAM bytes
+PASS — Analog Input: 2300 flash / 188 SRAM bytes
+PASS — PWM Fade: 1310 flash / 13 SRAM bytes
+PASS — Serial: 3868 flash / 200 SRAM bytes
+PASS — Ultrasonic: 4550 flash / 214 SRAM bytes
+PASS — Ultrasonic distance: 3304 flash / 209 SRAM bytes
+PASS — DHT temperature-humidity: 5610 flash / 219 SRAM bytes
+PASS — Light Sensor: 2392 flash / 188 SRAM bytes
+PASS — Servo: 2520 flash / 50 SRAM bytes
+PASS — Servo sweep: 2522 flash / 50 SRAM bytes
+PASS — Servo + Potentiometer: 2634 flash / 52 SRAM bytes
+PASS — Stepper motor: 6118 flash / 119 SRAM bytes
+PASS — LCD Hello World: 2232 flash / 59 SRAM bytes
+PASS — OLED Hello World: 13868 flash / 399 SRAM bytes
+PASS — OLED sensor display: 17848 flash / 605 SRAM bytes
+PASS — I2C LCD Hello World: 4006 flash / 275 SRAM bytes
+PASS — GFX canvas: 10952 flash / 533 SRAM bytes
+PASS — NeoPixel: 3270 flash / 41 SRAM bytes
+PASS — Traffic Light: 1124 flash / 9 SRAM bytes
+PASS — Reaction Game: 3790 flash / 202 SRAM bytes
+PASS — Parking Sensor: 6412 flash / 221 SRAM bytes
+PASS — Automatic Door: 2944 flash / 55 SRAM bytes
+PASS — Motion Alarm: 4532 flash / 209 SRAM bytes
+PASS — I2C scanner: 4494 flash / 408 SRAM bytes
+PASS — SPI transfer: 2728 flash / 192 SRAM bytes
+PASS — EEPROM read-write: 2424 flash / 188 SRAM bytes
+PASS — SoftwareSerial: 3466 flash / 301 SRAM bytes
+PASS — Unified sensor: 9226 flash / 302 SRAM bytes
+PASS — BusIO register: 7140 flash / 438 SRAM bytes
+PASS — IR remote: 12096 flash / 491 SRAM bytes
+PASS — Keypad: 3922 flash / 327 SRAM bytes
+PASS — all workspace examples, Arduino core APIs, and actual-error explanations.

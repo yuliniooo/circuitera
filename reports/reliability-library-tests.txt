@@ -1,0 +1,31 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> uno-web-ide@1.0.0 test:libraries
+> node test/compile-libraries.mjs
+
+Servo 1.3.0 — PASS — 2522 flash / 50 SRAM bytes
+Wire 1.0 — PASS — 4494 flash / 408 SRAM bytes
+SPI 1.0 — PASS — 2728 flash / 192 SRAM bytes
+EEPROM 2.0 — PASS — 2424 flash / 188 SRAM bytes
+SoftwareSerial 1.0 — PASS — 3466 flash / 301 SRAM bytes
+LiquidCrystal 1.0.7 — PASS — 2232 flash / 59 SRAM bytes
+DHT 1.4.7 — PASS — 5610 flash / 219 SRAM bytes
+Adafruit Unified Sensor 1.1.15 — PASS — 9226 flash / 302 SRAM bytes
+Adafruit GFX 1.12.6 — PASS — 10952 flash / 533 SRAM bytes
+Adafruit SSD1306 2.5.17 — PASS — 13868 flash / 399 SRAM bytes
+Adafruit BusIO 1.17.4 — PASS — 7140 flash / 438 SRAM bytes
+Adafruit NeoPixel 1.15.5 — PASS — 3270 flash / 41 SRAM bytes
+NewPing 1.9.7 — PASS — 3304 flash / 209 SRAM bytes
+IRremote 4.7.1 — PASS — 12096 flash / 491 SRAM bytes
+Keypad 3.1.1 — PASS — 3922 flash / 327 SRAM bytes
+AccelStepper 1.64 — PASS — 6118 flash / 119 SRAM bytes
+LiquidCrystal_I2C 1.1.2 — PASS — 4006 flash / 275 SRAM bytes
+OLED sensor display — PASS
+✓ COMPILED
+Sketch uses 17848 bytes (55%) of program storage space. Maximum is 32256 bytes.
+Global variables use 605 of 2048 SRAM bytes (stack and runtime allocations need additional space).
+Compiled locally in 3.1 s.
+Target: Arduino Uno R3 / ATmega328P.
+Libraries: Adafruit BusIO 1.17.4, DHT 1.4.7, Adafruit GFX 1.12.6, SPI 1.0, Adafruit SSD1306 2.5.17, Adafruit Unified Sensor 1.1.15, Wire 1.0.
+Library objects: 15 compiled, 0 reused.
+Safe object cache — PASS

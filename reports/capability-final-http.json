@@ -1,0 +1,23 @@
+[
+  {
+    "path": "/googleb22ad35e0875e1ed.html",
+    "status": 200,
+    "url": "https://arduino-ide.netlify.app/googleb22ad35e0875e1ed.html",
+    "bytes": 53,
+    "sha256": "972b00d6171c5d708d436db7ceb05a24f942744c78e898f29e678ee3fb0d8f46"
+  },
+  {
+    "path": "/sw.js",
+    "status": 200,
+    "url": "https://arduino-ide.netlify.app/sw.js",
+    "bytes": 9068,
+    "sha256": "3026aa4007cc7362e8364528806676782183c36c37508622f74f0e4b5ee224bc"
+  },
+  {
+    "path": "/manifest.webmanifest",
+    "status": 200,
+    "url": "https://arduino-ide.netlify.app/manifest.webmanifest",
+    "bytes": 574,
+    "sha256": "899778fe99135e2bef8ad62711c41e906aa9c0a42f39557fcedf0637ddfe581a"
+  }
+]

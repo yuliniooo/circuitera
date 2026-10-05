@@ -1,0 +1,19 @@
+✖ a failed postMessage must release the compiler for the next attempt (2.391789ms)
+ℹ tests 1
+ℹ suites 0
+ℹ pass 0
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 115.817661
+
+✖ failing tests:
+
+test at test/compiler-client.test.js:4:1
+✖ a failed postMessage must release the compiler for the next attempt (2.391789ms)
+  Error: A compilation is already running.
+      at compileSketchInBrowser (file:///workspace/scratch/305fbfac368b/uno-web-ide/src/compiler.js?clone-test:28:37)
+      at TestContext.<anonymous> (file:///workspace/scratch/305fbfac368b/uno-web-ide/test/compiler-client.test.js:17:23)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3)

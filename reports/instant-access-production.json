@@ -1,0 +1,122 @@
+{
+  "testedAt": "2026-09-05T22:58:29.310884+00:00",
+  "origin": "https://arduino-ide.netlify.app",
+  "deployId": "6a9c9db2951ee5c149d94c8e",
+  "httpChecks": [
+    {
+      "path": "/googleb22ad35e0875e1ed.html",
+      "status": "PASS",
+      "http": 200,
+      "bytes": 53,
+      "sha256": "972b00d6171c5d708d436db7ceb05a24f942744c78e898f29e678ee3fb0d8f46",
+      "matchesProductionBuild": true,
+      "url": "https://arduino-ide.netlify.app/googleb22ad35e0875e1ed.html"
+    },
+    {
+      "path": "/robots.txt",
+      "status": "PASS",
+      "http": 200,
+      "bytes": 112,
+      "sha256": "8ab4ba72a81395edcd3b5e3a8174ba4711798cfd1d42b7c789af6d7447063ddf",
+      "matchesProductionBuild": true,
+      "url": "https://arduino-ide.netlify.app/robots.txt"
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": "PASS",
+      "http": 200,
+      "bytes": 412,
+      "sha256": "126abf466fe4177d1313439474f9e43d5ff1843b95ed17cc28a59d4502894b75",
+      "matchesProductionBuild": true,
+      "url": "https://arduino-ide.netlify.app/sitemap.xml"
+    },
+    {
+      "path": "/favicon.png",
+      "status": "PASS",
+      "http": 200,
+      "bytes": 967,
+      "sha256": "5a638b071a5848b3772f1abf3eed98fbd40c9266d1295c08bb8f88f0fc2b3ed4",
+      "matchesProductionBuild": true,
+      "url": "https://arduino-ide.netlify.app/favicon.png"
+    },
+    {
+      "path": "/avr/curated/manifest.json",
+      "status": "PASS",
+      "http": 200,
+      "bytes": 24681,
+      "sha256": "edddc8d40c15410ad50ea1caa03f427436a48322c02674935044472ffcb883f2",
+      "matchesProductionBuild": true,
+      "url": "https://arduino-ide.netlify.app/avr/curated/manifest.json"
+    },
+    {
+      "path": "/assets/compiler.worker-CkUaC50a.js",
+      "status": "PASS",
+      "http": 200,
+      "bytes": 12281,
+      "sha256": "3ab1243acda0bb3b888a9174b032d060a34acf7e62c34d961f9f19b195ca0eb7",
+      "matchesProductionBuild": true,
+      "url": "https://arduino-ide.netlify.app/assets/compiler.worker-CkUaC50a.js"
+    },
+    {
+      "path": "/assets/index-2QAsuYAv.js",
+      "status": "PASS",
+      "http": 200,
+      "bytes": 813778,
+      "sha256": "346589d692e8e68dc04e2efdb975df1e39ba86b38df09560dd54063c5a55b435",
+      "matchesProductionBuild": true,
+      "url": "https://arduino-ide.netlify.app/assets/index-2QAsuYAv.js"
+    }
+  ],
+  "physicalUnoConnected": false,
+  "browserChecks": [
+    {
+      "name": "Direct root IDE and seven prior IndexedDB sketches restored",
+      "status": "PASS"
+    },
+    {
+      "name": "Restored custom Blink, delay(173), actual production worker compilation",
+      "status": "PASS",
+      "flashBytes": 1064,
+      "ramBytes": 9,
+      "output": "\u2713 COMPILED\nSketch uses 1064 bytes (3%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 9 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 2.1 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: none.\nLibrary objects: 0 compiled, 0 reused.\n"
+    },
+    {
+      "name": "Servo sweep compiled from its current source with the real Servo object",
+      "status": "PASS",
+      "flashBytes": 2522,
+      "ramBytes": 50,
+      "output": "\u2713 COMPILED\nSketch uses 2522 bytes (8%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 50 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 1.6 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: Servo 1.3.0.\nLibrary objects: 1 compiled, 0 reused.\n"
+    },
+    {
+      "name": "New Servo sketch and active tab persisted across production reload",
+      "status": "PASS"
+    },
+    {
+      "name": "Local digitalWrite suggestion with signature/description accepts Tab",
+      "status": "PASS"
+    },
+    {
+      "name": "Standard Blink genuinely compiles on deployed worker",
+      "status": "PASS",
+      "output": "\u2713 COMPILED\nSketch uses 1064 bytes (3%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 9 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 2.2 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: none.\nLibrary objects: 0 compiled, 0 reused.\n"
+    },
+    {
+      "name": "Optional About navigation saves work and returns directly to the IDE",
+      "status": "PASS"
+    },
+    {
+      "name": "Serial Monitor controls, all baud rates and line endings remain present",
+      "status": "PASS"
+    },
+    {
+      "name": "No horizontal page overflow at 1363px viewport and no account forms",
+      "status": "PASS"
+    },
+    {
+      "name": "Production /signin redirects to / and opens the IDE without a gate",
+      "status": "PASS",
+      "url": "https://arduino-ide.netlify.app/"
+    }
+  ],
+  "scope": "Live Netlify production in Chrome. Real worker compilation through the editor; local storage, autocomplete, information navigation, obsolete URL redirect and monitor controls checked. Actual physical USB hardware was not connected. Serial I/O and flash verification are covered by unchanged implementation and software-port regression tests."
+}

@@ -1,0 +1,55 @@
+/* Scoped below the existing full-height IDE; no workbench geometry changes. */
+.ide-homepage { margin: 0; min-width: 0; }
+.ide-guide { border-top: 1px solid var(--border); background: var(--bg); color: var(--text); font: 14px/1.75 ui-sans-serif, system-ui, sans-serif; }
+.ide-guide-inner { max-width: 1120px; margin-inline: auto; padding: 30px 28px 22px; }
+.ide-guide-header { border-bottom: 1px solid var(--border); padding-bottom: 23px; }
+.ide-guide h1, .ide-guide h2, .ide-guide p { margin: 0; }
+.ide-guide h1 { max-width: 870px; font-size: clamp(23px, 2.2vw, 29px); letter-spacing: -.6px; line-height: 1.3; font-weight: 700; }
+.ide-guide h2 { font-size: 18px; line-height: 1.4; letter-spacing: -.25px; margin-bottom: 15px; }
+.ide-guide p { color: var(--muted); margin-top: 12px; }
+.ide-guide .ide-guide-label { display: flex; align-items: center; gap: 9px; color: var(--blue); font: 10px/1.5 var(--mono); letter-spacing: .055em; margin: 0 0 12px; }
+.ide-guide-label > span { width: 7px; height: 7px; background: var(--blue); box-shadow: 12px 0 var(--cyan), 24px 0 var(--green); border-radius: 2px; margin-right: 25px; }
+.ide-guide-grid { display: grid; grid-template-columns: 1.15fr 1fr; gap: 27px 42px; padding-top: 26px; }
+.ide-guide-grid > section { min-width: 0; }
+.ide-guide-boards, .ide-guide-faq { border-left: 1px solid var(--border); padding-left: 30px; }
+.ide-guide-intro h2 { color: var(--blue); }
+.ide-guide-boards h2 { color: var(--green); }
+.ide-guide-how h2 { color: var(--orange); }
+.ide-guide-faq h2 { color: var(--purple); }
+.ide-guide a { color: var(--blue); text-underline-offset: 3px; }
+.ide-guide a:hover { text-decoration-thickness: 2px; }
+.ide-guide a:focus-visible, .ide-guide summary:focus-visible { outline: 2px solid var(--blue); outline-offset: 4px; border-radius: 2px; }
+.ide-guide-links { display: flex; flex-wrap: wrap; gap: 8px 19px; margin-top: 18px; font-size: 12px; }
+.ide-guide-boards dl { margin: 0; }
+.ide-guide-boards dl > div + div { border-top: 1px solid var(--border); margin-top: 17px; padding-top: 17px; }
+.ide-guide-boards dt { display: flex; align-items: center; gap: 8px; font-weight: 650; }
+.ide-guide-boards dt > span { width: 7px; height: 7px; border: 2px solid var(--green); border-radius: 2px; }
+.ide-guide-boards dd { margin: 6px 0 0 15px; }
+.ide-guide-spec { display: block; color: var(--muted); font: 11px/1.6 var(--mono); }
+.ide-guide-boards dd p { margin-top: 6px; font-size: 13px; }
+.ide-guide .ide-guide-note { border-left: 2px solid var(--yellow); padding-left: 12px; font-size: 12px; margin: 17px 0; }
+.ide-guide-how ol { padding-left: 24px; margin: 0; }
+.ide-guide-how li { padding-left: 5px; margin: 8px 0; color: var(--muted); }
+.ide-guide-how li::marker { color: var(--orange); font: 12px var(--mono); }
+.ide-guide strong { color: var(--text); font-weight: 600; }
+.ide-guide code { font: 12px var(--mono); color: var(--cyan); overflow-wrap: anywhere; }
+.ide-guide-faq details { border-bottom: 1px solid var(--border); padding: 11px 0; }
+.ide-guide-faq details:first-of-type { padding-top: 0; }
+.ide-guide-faq summary { cursor: pointer; font-weight: 550; font-size: 13px; }
+.ide-guide-faq summary::marker { color: var(--purple); }
+.ide-guide-faq details p { font-size: 13px; margin: 9px 0 2px; }
+.ide-guide-footer { border-top: 1px solid var(--border); margin-top: 26px; padding-top: 18px; font-size: 11px; }
+.ide-guide-footer nav { display: flex; flex-wrap: wrap; gap: 8px 20px; }
+.ide-guide-footer nav a:last-child { margin-left: auto; }
+.ide-guide-footer p { font-size: 10px; }
+.ide-static-placeholder { height: 100dvh; min-height: 580px; }
+@media (scripting: none) { .ide-static-placeholder { height: auto; min-height: 0; padding: 20px 28px; } }
+@media (max-width: 700px) {
+  .ide-guide-inner { padding: 25px 20px 20px; }
+  .ide-guide-grid { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  .ide-guide-boards, .ide-guide-faq { border-left: 0; padding-left: 0; border-top: 1px solid var(--border); padding-top: 22px; }
+  .ide-guide h1 { font-size: 23px; }
+  .ide-guide-footer nav a:last-child { margin-left: 0; }
+  .ide-static-placeholder { min-height: 600px; }
+}
+@media (max-width: 700px) and (scripting: none) { .ide-static-placeholder { min-height: 0; } }

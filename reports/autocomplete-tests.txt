@@ -1,0 +1,19 @@
+✔ Arduino functions/constants carry signatures and descriptions without snippets (10.777387ms)
+✔ Serial member context shows serial signatures and no unrelated globals (2.563416ms)
+✔ Only actual declarations are suggested; locals and parameters respect scope (7.2259ms)
+✔ Declarations refresh after editing or deleting source (2.137594ms)
+✔ Suggestions are suppressed in comments, strings, character literals and read-only mode (1.45878ms)
+✔ All 17 tested libraries offer their public include headers; failed libraries are excluded (0.969272ms)
+✔ Library instance methods use declared types and included headers (1.52448ms)
+✔ Applying a function inserts only a call, reuses existing parentheses, and is undoable (0.530861ms)
+✔ Cached include completion uses current document and does not duplicate closing delimiters (1.480443ms)
+Large-sketch completion (2000 declarations): 14.8 ms including EditorState creation; not a Chromebook benchmark.
+✔ Completion has no network or worker code path and stays bounded on a large sketch (22.559335ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 191.986686

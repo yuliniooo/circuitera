@@ -1,0 +1,50 @@
+{
+  "origin": "https://arduino-ide.netlify.app/",
+  "deployId": "6a9cafe7f05889f617937e98",
+  "testedAt": "2026-09-06T00:17:45.768Z",
+  "physicalHardwareTested": false,
+  "scope": "Real production Chrome UI and shipped AVR-GCC WASM Worker. No physical Uno or Nano connected.",
+  "compilations": [
+    {
+      "name": "Existing Uno Blink in deployed Chrome",
+      "output": "✓ COMPILED\nSketch uses 1064 bytes (3%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 9 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 5.1 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: none.\nLibrary objects: 0 compiled, 0 reused.\n"
+    },
+    {
+      "name": "Nano new bootloader Blink in deployed Chrome",
+      "output": "✓ COMPILED\nSketch uses 1064 bytes (3%) of program storage space. Maximum is 30720 bytes.\nGlobal variables use 9 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.8 s.\nTarget: Arduino Nano V3 / ATmega328P.\nBoard: Arduino Nano V3 / ATmega328P · 16 MHz · 5 V\nBootloader: New bootloader · Optiboot\nUpload baud: 115200\nApplication flash: 30720 bytes\nLibraries: none.\nLibrary objects: 0 compiled, 0 reused.\n"
+    },
+    {
+      "name": "Nano old bootloader Blink in deployed Chrome",
+      "output": "✓ COMPILED\nSketch uses 1064 bytes (3%) of program storage space. Maximum is 30720 bytes.\nGlobal variables use 9 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.8 s.\nTarget: Arduino Nano V3 / ATmega328P.\nBoard: Arduino Nano V3 / ATmega328P · 16 MHz · 5 V\nBootloader: Old bootloader · ATmegaBOOT\nUpload baud: 57600\nApplication flash: 30720 bytes\nLibraries: none.\nLibrary objects: 0 compiled, 0 reused.\n"
+    },
+    {
+      "name": "User-provided 500 ms Blink source, Nano old",
+      "output": "✓ COMPILED\nSketch uses 1064 bytes (3%) of program storage space. Maximum is 30720 bytes.\nGlobal variables use 9 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.6 s.\nTarget: Arduino Nano V3 / ATmega328P.\nBoard: Arduino Nano V3 / ATmega328P · 16 MHz · 5 V\nBootloader: Old bootloader · ATmegaBOOT\nUpload baud: 57600\nApplication flash: 30720 bytes\nLibraries: none.\nLibrary objects: 0 compiled, 0 reused.\n"
+    },
+    {
+      "name": "Nano old: custom Servo/Wire/SPI/Serial/PWM/A6/A7 sketch",
+      "output": "✓ COMPILED\nSketch uses 5998 bytes (20%) of program storage space. Maximum is 30720 bytes.\nGlobal variables use 463 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 2.5 s.\nTarget: Arduino Nano V3 / ATmega328P.\nBoard: Arduino Nano V3 / ATmega328P · 16 MHz · 5 V\nBootloader: Old bootloader · ATmegaBOOT\nUpload baud: 57600\nApplication flash: 30720 bytes\nLibraries: Servo 1.3.0, SPI 1.0, Wire 1.0.\nLibrary objects: 4 compiled, 0 reused.\n"
+    },
+    {
+      "name": "Nano new: custom Servo/Wire/SPI/Serial/PWM/A6/A7 sketch",
+      "output": "✓ COMPILED\nSketch uses 5998 bytes (20%) of program storage space. Maximum is 30720 bytes.\nGlobal variables use 463 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 1.3 s.\nTarget: Arduino Nano V3 / ATmega328P.\nBoard: Arduino Nano V3 / ATmega328P · 16 MHz · 5 V\nBootloader: New bootloader · Optiboot\nUpload baud: 115200\nApplication flash: 30720 bytes\nLibraries: Servo 1.3.0, SPI 1.0, Wire 1.0.\nLibrary objects: 4 compiled, 0 reused.\n"
+    },
+    {
+      "name": "Uno Blink after both Nano profiles",
+      "output": "✓ COMPILED\nSketch uses 1064 bytes (3%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 9 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 1.3 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: none.\nLibrary objects: 0 compiled, 0 reused.\n"
+    }
+  ],
+  "checks": [
+    "Uno remains default; both Nano profiles are selectable",
+    "Existing 14 sketches and source restored after deployment",
+    "Nano A6/A7 are analog-only in interactive pin helper",
+    "Nano library manager shows 17/17 exact-build verified libraries",
+    "Real CodeMirror offers A6/A7 local autocomplete",
+    "Nano board preference, current source and 15 sketches including one new test sketch survive refresh",
+    "Uno selected and original Blink restored after testing"
+  ],
+  "layout": {
+    "pageWidth": 1363,
+    "viewportWidth": 1363
+  }
+}

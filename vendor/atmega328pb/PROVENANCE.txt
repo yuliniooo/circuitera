@@ -1,0 +1,42 @@
+Circuitera ATmega328PB support, 2026-10-03
+
+Runtime: the existing @horang-corp/avr-gcc-wasm 0.2.0 modules are unchanged.
+PB header: iom328pb.h already bundled inside that pinned npm package.
+No replacement compiler binaries and no server runtime are introduced.
+
+Added binary device support from Arduino's official AVR toolchain:
+https://downloads.arduino.cc/tools/avr-gcc-7.3.0-atmel3.6.1-arduino7-x86_64-pc-linux-gnu.tar.bz2
+Archive SHA256: bd8c37f6952a2130ac9ee32c53f6a660feb79bee8353c8e289eb60fdcefed91e
+The downloaded archive was checked against the checksum in:
+https://downloads.arduino.cc/packages/package_index.json
+Extracted only:
+  avr/avr/lib/avr5/crtatmega328pb.o
+  avr/avr/lib/avr5/libatmega328pb.a
+  avr/lib/gcc/avr/7.3.0/device-specs/specs-atmega328pb
+The first two are avr-libc device support (BSD-style license included).
+Specs are retained as the reproducible reference for driver lowering.
+The build does not execute native avr-gcc. It executes the existing WASM tools.
+
+Core: existing vendored Arduino AVR core, rebuilt for PB with the WASM compiler.
+Original source license notices remain in vendor/arduino-core.
+pb-compat.h is Circuitera's small PB-only register-name adaptation.
+PB pin tables come from the same licensed Arduino standard variant, with A6/A7
+removed and external linkage for tables compiled through the C++ frontend.
+Every core translation unit is compiled for __AVR_ATmega328PB__, never 328P.
+
+MiniCore technical reference inspected at commit:
+d62c83555b66b7650e635e52415b6a436a342bb5
+https://github.com/MCUdude/MiniCore/tree/d62c83555b66b7650e635e52415b6a436a342bb5
+In particular: avr/variants/pb-variant/pins_arduino.h and Serial/SPI/Wire.
+No MiniCore package or source file is copied into this distribution.
+MiniCore's extra pin mapping is deliberately not exposed for an unknown clone.
+
+Device/boot-section reference:
+https://ww1.microchip.com/downloads/en/DeviceDoc/40001906C.pdf
+Unknown PB bootloader: reserve the maximum 2048-word (4096-byte) boot section.
+Application limit 28672 bytes, page size 128 bytes, SRAM 2048 bytes.
+
+Bootloader signature behavior reference:
+Existing vendor/arduino-core/bootloaders/optiboot/optiboot.c uses compiled
+SIGNATURE_0/1/2 for STK_READ_SIGN. Therefore a serial signature is not independent
+hardware identification, even when it matches the selected target.

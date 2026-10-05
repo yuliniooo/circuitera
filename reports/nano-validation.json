@@ -1,0 +1,31 @@
+{
+  "testedAt": "2026-09-13T22:51:55.148Z",
+  "status": "PASS",
+  "buildId": "629eb1a52514d46dd3501b5f54901eaad110357bf228ea6405bb23a1dcf4e3a7",
+  "protectedFiles": 1062,
+  "profiles": [
+    {
+      "id": "arduino:avr:uno",
+      "baudRate": 115200,
+      "flashLimit": 32256
+    },
+    {
+      "id": "arduino:avr:nano:cpu=atmega328",
+      "baudRate": 115200,
+      "flashLimit": 30720
+    },
+    {
+      "id": "arduino:avr:nano:cpu=atmega328old",
+      "baudRate": 57600,
+      "flashLimit": 30720
+    }
+  ],
+  "checks": [
+    "All 34 Nano library tests compile/link to genuine Intel HEX",
+    "Uno Blink, Button, Servo and Ultrasonic firmware byte-identical",
+    "Original Uno uploader, WASM executables, core, library sources, IndexedDB and project storage unchanged",
+    "Actual upstream Nano eightanaloginputs variant bundled",
+    "28 board/profile/pin/protocol tests including both Nano baud rates, reset, readback, timeout retry, disconnection and monitor reopen"
+  ],
+  "physicalHardware": "Not tested: no physical Uno or Nano connected."
+}

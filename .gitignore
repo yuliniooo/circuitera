@@ -1,0 +1,27 @@
+node_modules/
+dist/
+.DS_Store
+.env
+.env.*
+!.env.example
+*.local
+*.pem
+*.key
+.npmrc
+npm-debug.log*
+.netlify/
+.wrangler/
+.public-render.mjs
+test/generated/
+
+# Upstream desktop drivers and Wi-Fi shield firmware are not used by this web app.
+/vendor/arduino-core/drivers/
+/vendor/arduino-core/firmwares/
+
+# Unused upstream documentation illustrations and prebuilt desktop object.
+/vendor/libraries/**/*.png
+/vendor/libraries/**/*.jpg
+/vendor/libraries/**/*.jpeg
+/vendor/libraries/**/*.bmp
+/vendor/libraries/**/*.gif
+/vendor/libraries/liquidcrystal-i2c/LiquidCrystal_I2C.o

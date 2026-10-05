@@ -1,0 +1,10 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> uno-web-ide@1.0.0 test:examples
+> node test/compile-examples.mjs
+
+Blink: PASS — 1064 flash bytes, 657fdb7d1a85
+Button: PASS — 954 flash bytes, 02ab1e155375
+Servo: PASS — 2520 flash bytes, 4a788814d70e
+Ultrasonic: PASS — 4550 flash bytes, fa9ab829a830
+Current-source, selective-loading and error-line regressions: PASS

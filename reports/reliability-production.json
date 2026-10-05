@@ -1,0 +1,107 @@
+{
+  "origin": "https://circuitera.netlify.app/",
+  "deployId": "6a9df91bf3d134bcad9981db",
+  "priorDeployId": "6a9df7660e61c49af00dcb08",
+  "compilerBuildId": "629eb1a52514d46dd3501b5f54901eaad110357bf228ea6405bb23a1dcf4e3a7",
+  "scope": "Live Chrome UI on the public Netlify production origin. Records marked final are after the last presentation patch; other live records use the preceding deploy with identical worker/tool/core/library assets.",
+  "physicalHardwareTested": false,
+  "checks": [
+    {
+      "name": "System Check",
+      "status": "PASS",
+      "detail": "System Check\n\nRun a small real compile/link for Arduino Uno R3. Checks do not upload firmware, request USB permission, or change the active sketch.\n\nRun System Check\nWebAssembly\n✓ Available\nCompiler worker\n✓ Worker responded\nCompiler\n✓ Real AVR compile/link succeeded · 1044 flash bytes\nArduino core\n✓ Loaded and used by the successful test build\nRequired assets\n✓ Loaded and used by the successful test build\nWeb Serial\n✓ API available; permission checked below\nSerial system\n✓ API responds · 0 previously authorized port(s). Physical communication not tested.\nLocal sketches\n✓ IndexedDB restored; current edits saved\nTechnical details\n\nA selected USB port is not proof of a bootloader connection. Use Test My Uno for a physical upload check."
+    },
+    {
+      "name": "Blink on production",
+      "status": "PASS",
+      "output": "✓ COMPILED\nSketch uses 1064 bytes (3%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 9 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.6 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: none.\nLibrary objects: 0 compiled, 0 reused.\n"
+    },
+    {
+      "name": "Servo on production",
+      "status": "PASS",
+      "output": "✓ COMPILED\nSketch uses 2520 bytes (8%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 50 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 1.2 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: Servo 1.3.0.\nLibrary objects: 1 compiled, 0 reused.\n"
+    },
+    {
+      "name": "Nano new bootloader Servo",
+      "status": "PASS",
+      "output": "✓ COMPILED\nSketch uses 2520 bytes (8%) of program storage space. Maximum is 30720 bytes.\nGlobal variables use 50 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.8 s.\nTarget: Arduino Nano V3 / ATmega328P.\nBoard: Arduino Nano V3 / ATmega328P · 16 MHz · 5 V\nBootloader: New bootloader · Optiboot\nUpload baud: 115200\nApplication flash: 30720 bytes\nLibraries: Servo 1.3.0.\nLibrary objects: 1 compiled, 0 reused.\n"
+    },
+    {
+      "name": "Nano old bootloader Servo",
+      "status": "PASS",
+      "output": "✓ COMPILED\nSketch uses 2520 bytes (8%) of program storage space. Maximum is 30720 bytes.\nGlobal variables use 50 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.7 s.\nTarget: Arduino Nano V3 / ATmega328P.\nBoard: Arduino Nano V3 / ATmega328P · 16 MHz · 5 V\nBootloader: Old bootloader · ATmegaBOOT\nUpload baud: 57600\nApplication flash: 30720 bytes\nLibraries: Servo 1.3.0.\nLibrary objects: 1 compiled, 0 reused.\n"
+    },
+    {
+      "name": "Custom user-entered source on production",
+      "status": "PASS",
+      "source": "const byte LED_PIN = 9;\nvoid setup(){pinMode(LED_PIN,OUTPUT);Serial.begin(9600);}\nvoid loop(){analogWrite(LED_PIN,73);Serial.println(analogRead(A0));delay(275);}\n",
+      "output": "✓ COMPILED\nSketch uses 2878 bytes (9%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 188 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.5 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: none.\nLibrary objects: 0 compiled, 0 reused.\n"
+    },
+    {
+      "name": "Real compiler error and exit status",
+      "status": "PASS",
+      "output": "cc1plus failed\nCompiler exit status: 1\nsketch.ino: In function 'void setup()':\nsketch.ino:2:3: error: 'missingSensor' was not declared in this scope\nException detail:\nError: cc1plus failed\nCompiler exit status: 1\nsketch.ino: In function 'void setup()':\nsketch.ino:2:3: error: 'missingSensor' was not declared in this scope\n    at N (https://circuitera.netlify.app/assets/compiler.worker-BhiRBqmg.js:20:97)\n    at async S (https://circuitera.netlify.app/assets/compiler.worker-BhiRBqmg.js:32:576)\n    at async Le (https://circuitera.netlify.app/assets/compiler.worker-BhiRBqmg.js:32:860)\n    at async self.onmessage (https://circuitera.netlify.app/assets/compiler.worker-BhiRBqmg.js:50:142)\n"
+    },
+    {
+      "name": "Missing library retains original compiler failure",
+      "status": "PASS",
+      "output": "LIBRARY NOT AVAILABLE\n \nMissingCircuiteraLibrary.h is not currently included in Circuitera.\nChoose a tested library from LIBRARIES. Arbitrary library installation is not supported yet.\n \nOriginal compiler error:\ncc1plus failed\nCompiler exit status: 1\nsketch.ino:1:10: fatal error: MissingCircuiteraLibrary.h: No such file or directory\ncompilation terminated.\nException detail:\nError: cc1plus failed\nCompiler exit status: 1\nsketch.ino:1:10: fatal error: MissingCircuiteraLibrary.h: No such file or directory\ncompilation terminated.\n    at N (https://circuitera.netlify.app/assets/compiler.worker-BhiRBqmg.js:20:97)\n    at async S (https://circuitera.netlify.app/assets/compiler.worker-BhiRBqmg.js:32:576)\n    at async Le (https://circuitera.netlify.app/assets/compiler.worker-BhiRBqmg.js:32:860)\n    at async self.onmessage (https://circuitera.netlify.app/assets/compiler.worker-BhiRBqmg.js:50:142)\n"
+    },
+    {
+      "name": "Final production restores source, active tab and font preference",
+      "status": "PASS",
+      "detail": {
+        "editor": "const byte LED_PIN = 9;void setup(){pinMode(LED_PIN,OUTPUT);Serial.begin(9600);}void loop(){analogWrite(LED_PIN,73);Serial.println(analogRead(A0));delay(275);}",
+        "fontSize": "16px",
+        "tabs": [
+          {
+            "name": "Blink.ino",
+            "selected": "false"
+          },
+          {
+            "name": "Blink 2.ino",
+            "selected": "false"
+          },
+          {
+            "name": "Servo.ino",
+            "selected": "false"
+          },
+          {
+            "name": "Untitled.ino",
+            "selected": "true"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Final production find/replace",
+      "status": "PASS",
+      "detail": "const byte LED_OUTPUT = 9;void setup(){pinMode(LED_OUTPUT,OUTPUT);Serial.begin(9600);}void loop(){analogWrite(LED_OUTPUT,73);Serial.println(analogRead(A0));delay(275);}"
+    },
+    {
+      "name": "Final production Blink",
+      "status": "PASS",
+      "output": "✓ COMPILED\nSketch uses 1064 bytes (3%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 9 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 3.3 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: none.\nLibrary objects: 0 compiled, 0 reused.\n"
+    },
+    {
+      "name": "Final production Servo",
+      "status": "PASS",
+      "output": "✓ COMPILED\nSketch uses 2520 bytes (8%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 50 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.9 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: Servo 1.3.0.\nLibrary objects: 1 compiled, 0 reused.\n"
+    },
+    {
+      "name": "Final production deduplicated diagnostic with real filename and line",
+      "status": "PASS",
+      "detail": "Help me debug\n\nLocal code checks for Uno R3. These hints do not inspect wiring, execute code, or replace the compiler. Constants, scopes and conditional compilation are only partially understood.\n\nERROR\nUNKNOWN NAME\n\nmissingSensor has not been declared. Check its spelling and where it is defined.\n\nUntitled.ino · line 2"
+    },
+    {
+      "name": "Final production local autocomplete keyboard selection",
+      "status": "PASS",
+      "detail": "digitalRead()"
+    },
+    {
+      "name": "Final production custom sketch and recovery after error",
+      "status": "PASS",
+      "output": "✓ COMPILED\nSketch uses 2878 bytes (9%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 188 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.7 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: none.\nLibrary objects: 0 compiled, 0 reused.\n"
+    }
+  ]
+}

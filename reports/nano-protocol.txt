@@ -1,0 +1,49 @@
+✔ Uno uploader remains byte-identical to physically proven source (8.954317ms)
+✔ Unknown target rejected; new and invalid preferences default safely to Uno (0.525535ms)
+✔ Arduino Uno R3: STK500v1 flash/readback/release, USB 2341:43 (software port) (415.883111ms)
+✔ Arduino Nano V3 — ATmega328P (new bootloader): STK500v1 flash/readback/release, USB 1a86:7523 (software port) (375.27633ms)
+✔ Arduino Nano V3 — ATmega328P (new bootloader): STK500v1 flash/readback/release, USB 403:6001 (software port) (423.152446ms)
+✔ Arduino Nano V3 — ATmega328P (new bootloader): STK500v1 flash/readback/release, USB 10c4:ea60 (software port) (369.414515ms)
+✔ Arduino Nano V3 — ATmega328P (old bootloader): STK500v1 flash/readback/release, USB 1a86:7523 (software port) (394.747205ms)
+✔ Arduino Nano V3 — ATmega328P (old bootloader): STK500v1 flash/readback/release, USB 403:6001 (software port) (429.211993ms)
+✔ Arduino Nano V3 — ATmega328P (old bootloader): STK500v1 flash/readback/release, USB 10c4:ea60 (software port) (381.941847ms)
+✖ Arduino Nano V3 — ATmega328P (new bootloader): timeout retry preserves next ACK; monitor port can reopen (6906.437862ms)
+✔ Arduino Nano V3 — ATmega328P (new bootloader): corruptRead cannot report success (370.921514ms)
+✔ Arduino Nano V3 — ATmega328P (new bootloader): disconnectOnRead cannot report success (364.855586ms)
+✔ Arduino Nano V3 — ATmega328P (new bootloader): failed sync shows selected bootloader, baud, connection and original exception (7024.084875ms)
+✔ Arduino Nano V3 — ATmega328P (new bootloader): rejects firmware above Nano application boundary before serial open (3.73562ms)
+✖ Arduino Nano V3 — ATmega328P (old bootloader): timeout retry preserves next ACK; monitor port can reopen (6938.988234ms)
+✔ Arduino Nano V3 — ATmega328P (old bootloader): corruptRead cannot report success (411.451625ms)
+✔ Arduino Nano V3 — ATmega328P (old bootloader): disconnectOnRead cannot report success (371.457557ms)
+✔ Arduino Nano V3 — ATmega328P (old bootloader): failed sync shows selected bootloader, baud, connection and original exception (6952.703674ms)
+✔ Arduino Nano V3 — ATmega328P (old bootloader): rejects firmware above Nano application boundary before serial open (1.024742ms)
+✔ Nano A6/A7 are analog-only in helper, hover and local autocomplete; Uno stays unchanged (25.915805ms)
+ℹ tests 20
+ℹ suites 0
+ℹ pass 18
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 32332.501206
+
+✖ failing tests:
+
+test at test/nano.test.js:43:2
+✖ Arduino Nano V3 — ATmega328P (new bootloader): timeout retry preserves next ACK; monitor port can reopen (6906.437862ms)
+  Error: Could not enter the Uno bootloader. Check the USB cable and make sure this is an Uno R3.
+      at Stk500Transport.sync (file:///workspace/scratch/305fbfac368b/uno-web-ide/src/serial.js:141:11)
+      at async uploadUno (file:///workspace/scratch/305fbfac368b/uno-web-ide/src/serial.js:164:5)
+      at async TestContext.<anonymous> (file:///workspace/scratch/305fbfac368b/uno-web-ide/test/nano.test.js:45:3)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7)
+
+test at test/nano.test.js:43:2
+✖ Arduino Nano V3 — ATmega328P (old bootloader): timeout retry preserves next ACK; monitor port can reopen (6938.988234ms)
+  Error: Could not enter the Uno bootloader. Check the USB cable and make sure this is an Uno R3.
+      at Stk500Transport.sync (file:///workspace/scratch/305fbfac368b/uno-web-ide/src/serial.js:141:11)
+      at async uploadUno (file:///workspace/scratch/305fbfac368b/uno-web-ide/src/serial.js:164:5)
+      at async TestContext.<anonymous> (file:///workspace/scratch/305fbfac368b/uno-web-ide/test/nano.test.js:45:3)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7)
+7)

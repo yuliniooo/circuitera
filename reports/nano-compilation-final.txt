@@ -1,0 +1,63 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> uno-web-ide@1.0.0 test:nano
+> node test/compile-nano.mjs
+
+PASS — Arduino Uno R3: Selected board macro and actual analog-input variant — 1044 bytes
+PASS — Arduino Nano V3 — ATmega328P (new bootloader): Selected board macro and actual analog-input variant — 1044 bytes
+PASS — Arduino Nano V3 — ATmega328P (new bootloader): Blink — 1064 bytes
+PASS — Arduino Nano V3 — ATmega328P (new bootloader): Button — 954 bytes
+PASS — Arduino Nano V3 — ATmega328P (new bootloader): Servo — 2520 bytes
+PASS — Arduino Nano V3 — ATmega328P (new bootloader): Ultrasonic — 4550 bytes
+PASS — Arduino Nano V3 — ATmega328P (new bootloader): Serial — 3868 bytes
+PASS — Arduino Nano V3 — ATmega328P (new bootloader): Nano pins — 3028 bytes
+PASS — Arduino Nano V3 — ATmega328P (new bootloader): Meaningfully changed Blink — 1064 bytes
+PASS — Arduino Nano V3 — ATmega328P (new bootloader): Servo — 2522 bytes
+PASS — Arduino Nano V3 — ATmega328P (new bootloader): Wire — 4494 bytes
+PASS — Arduino Nano V3 — ATmega328P (new bootloader): SPI — 2728 bytes
+PASS — Arduino Nano V3 — ATmega328P (new bootloader): EEPROM — 2424 bytes
+PASS — Arduino Nano V3 — ATmega328P (new bootloader): SoftwareSerial — 3466 bytes
+PASS — Arduino Nano V3 — ATmega328P (new bootloader): LiquidCrystal — 2232 bytes
+PASS — Arduino Nano V3 — ATmega328P (new bootloader): DHT — 5610 bytes
+PASS — Arduino Nano V3 — ATmega328P (new bootloader): Adafruit Unified Sensor — 9226 bytes
+PASS — Arduino Nano V3 — ATmega328P (new bootloader): Adafruit GFX — 10952 bytes
+PASS — Arduino Nano V3 — ATmega328P (new bootloader): Adafruit SSD1306 — 13868 bytes
+PASS — Arduino Nano V3 — ATmega328P (new bootloader): Adafruit BusIO — 7140 bytes
+PASS — Arduino Nano V3 — ATmega328P (new bootloader): Adafruit NeoPixel — 3270 bytes
+PASS — Arduino Nano V3 — ATmega328P (new bootloader): NewPing — 3304 bytes
+PASS — Arduino Nano V3 — ATmega328P (new bootloader): IRremote — 12096 bytes
+PASS — Arduino Nano V3 — ATmega328P (new bootloader): Keypad — 3922 bytes
+PASS — Arduino Nano V3 — ATmega328P (new bootloader): AccelStepper — 6118 bytes
+PASS — Arduino Nano V3 — ATmega328P (new bootloader): LiquidCrystal_I2C — 4006 bytes
+PASS — Arduino Nano V3 — ATmega328P (new bootloader): Independent project objects use Nano variant — 2304 bytes
+PASS — Arduino Nano V3 — ATmega328P (old bootloader): Selected board macro and actual analog-input variant — 1044 bytes
+PASS — Arduino Nano V3 — ATmega328P (old bootloader): Blink — 1064 bytes
+PASS — Arduino Nano V3 — ATmega328P (old bootloader): Button — 954 bytes
+PASS — Arduino Nano V3 — ATmega328P (old bootloader): Servo — 2520 bytes
+PASS — Arduino Nano V3 — ATmega328P (old bootloader): Ultrasonic — 4550 bytes
+PASS — Arduino Nano V3 — ATmega328P (old bootloader): Serial — 3868 bytes
+PASS — Arduino Nano V3 — ATmega328P (old bootloader): Nano pins — 3028 bytes
+PASS — Arduino Nano V3 — ATmega328P (old bootloader): Meaningfully changed Blink — 1064 bytes
+PASS — Arduino Nano V3 — ATmega328P (old bootloader): Servo — 2522 bytes
+PASS — Arduino Nano V3 — ATmega328P (old bootloader): Wire — 4494 bytes
+PASS — Arduino Nano V3 — ATmega328P (old bootloader): SPI — 2728 bytes
+PASS — Arduino Nano V3 — ATmega328P (old bootloader): EEPROM — 2424 bytes
+PASS — Arduino Nano V3 — ATmega328P (old bootloader): SoftwareSerial — 3466 bytes
+PASS — Arduino Nano V3 — ATmega328P (old bootloader): LiquidCrystal — 2232 bytes
+PASS — Arduino Nano V3 — ATmega328P (old bootloader): DHT — 5610 bytes
+PASS — Arduino Nano V3 — ATmega328P (old bootloader): Adafruit Unified Sensor — 9226 bytes
+PASS — Arduino Nano V3 — ATmega328P (old bootloader): Adafruit GFX — 10952 bytes
+PASS — Arduino Nano V3 — ATmega328P (old bootloader): Adafruit SSD1306 — 13868 bytes
+PASS — Arduino Nano V3 — ATmega328P (old bootloader): Adafruit BusIO — 7140 bytes
+PASS — Arduino Nano V3 — ATmega328P (old bootloader): Adafruit NeoPixel — 3270 bytes
+PASS — Arduino Nano V3 — ATmega328P (old bootloader): NewPing — 3304 bytes
+PASS — Arduino Nano V3 — ATmega328P (old bootloader): IRremote — 12096 bytes
+PASS — Arduino Nano V3 — ATmega328P (old bootloader): Keypad — 3922 bytes
+PASS — Arduino Nano V3 — ATmega328P (old bootloader): AccelStepper — 6118 bytes
+PASS — Arduino Nano V3 — ATmega328P (old bootloader): LiquidCrystal_I2C — 4006 bytes
+PASS — Arduino Nano V3 — ATmega328P (old bootloader): Independent project objects use Nano variant — 2304 bytes
+PASS — Arduino Uno R3: Uno flash space above Nano reservation remains usable — 31076 bytes
+PASS — Arduino Uno R3: Blink unchanged Uno firmware — 1064 bytes
+PASS — Arduino Uno R3: Button unchanged Uno firmware — 954 bytes
+PASS — Arduino Uno R3: Servo unchanged Uno firmware — 2520 bytes
+PASS — Arduino Uno R3: Ultrasonic unchanged Uno firmware — 4550 bytes

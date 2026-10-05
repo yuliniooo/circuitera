@@ -1,0 +1,38 @@
+✔ Project conversion preserves identity and all files restore atomically without losing other sketches (13.892403ms)
+✔ File selection never changes firmware identity, but header edits do; compile snapshots are independent (8.488242ms)
+✔ Project validation rejects traversal, duplicate names, missing .ino and oversized sources (0.500635ms)
+✔ Export All keeps genuine project files and duplicate projects in independent folders (36.229377ms)
+✔ Pin hover distinguishes digital pins and analogRead channel numbers and ignores comments (7.942774ms)
+✔ Plotter parses numeric/labeled series, keeps time windows and exports exact timestamped CSV (0.868386ms)
+✖ Upload explanations always retain the actual error and stack (5.754585ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 6
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 225.739754
+
+✖ failing tests:
+
+test at test/capabilities.test.js:71:1
+✖ Upload explanations always retain the actual error and stack (5.754585ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(output.includes(category))
+  
+      at TestContext.<anonymous> (file:///workspace/scratch/305fbfac368b/uno-web-ide/test/capabilities.test.js:72:272)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

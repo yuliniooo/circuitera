@@ -1,0 +1,37 @@
+{
+  "testedAt": "2026-09-05T21:31:06.320Z",
+  "deployId": "6a9c898355b3f54897485d4d",
+  "url": "https://arduino-ide.netlify.app/",
+  "metadata": {
+    "canonical": "https://arduino-ide.netlify.app/",
+    "icons": [
+      "https://arduino-ide.netlify.app/favicon.png?v=circuitera-1",
+      "https://arduino-ide.netlify.app/favicon.svg?v=circuitera-1"
+    ],
+    "oldBrandVisible": false,
+    "pageOverflow": false,
+    "socialImage": "https://arduino-ide.netlify.app/brand/circuitera-social.png",
+    "title": "Circuitera – Free Arduino IDE for Chromebook"
+  },
+  "restoredWorkspace": true,
+  "checks": [
+    "Production title and compact Circuitera header",
+    "Existing source, open tabs, and active tab restored without data migration",
+    "Custom user-typed Blink, Button and Servo compile through real browser WASM Worker",
+    "Local digitalWrite autocomplete appears with its signature",
+    "About page displays actual capabilities and independent-project notice",
+    "Header SVG loaded (512px intrinsic width) and rendered visibly",
+    "Production favicon.png returns HTTP 200 image/png (967 bytes)",
+    "No old visible branding; no horizontal page overflow"
+  ],
+  "compiles": {
+    "customBlink": "✓ COMPILED\nSketch uses 1064 bytes (3%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 9 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 2.2 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: none.\nLibrary objects: 0 compiled, 0 reused.\n",
+    "Button": "✓ COMPILED\nSketch uses 954 bytes (3%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 9 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.8 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: none.\nLibrary objects: 0 compiled, 0 reused.\n",
+    "Servo": "✓ COMPILED\nSketch uses 2520 bytes (8%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 50 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 2.0 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: Servo 1.3.0.\nLibrary objects: 1 compiled, 0 reused.\n"
+  },
+  "limitations": [
+    "No physical Uno connected or physical upload retested in this revision.",
+    "Uploader/readback and Serial Monitor were tested with the real code and a software serial-port fixture.",
+    "A separate bulk HTTP asset audit was interrupted by a network approval cancellation. Production favicon fetch succeeded and About/header/compilation were verified separately in Chrome."
+  ]
+}

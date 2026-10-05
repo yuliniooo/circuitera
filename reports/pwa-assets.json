@@ -1,0 +1,219 @@
+{
+  "release": "87a418e952569715e5ea",
+  "shell": [
+    {
+      "path": "/index.html",
+      "hash": null
+    },
+    {
+      "path": "/about/index.html",
+      "hash": null
+    },
+    {
+      "path": "/features/index.html",
+      "hash": null
+    },
+    {
+      "path": "/how-it-works/index.html",
+      "hash": null
+    },
+    {
+      "path": "/examples/index.html",
+      "hash": null
+    },
+    {
+      "path": "/getting-started/index.html",
+      "hash": null
+    },
+    {
+      "path": "/arduino-on-chromebook/index.html",
+      "hash": null
+    },
+    {
+      "path": "/supported-libraries/index.html",
+      "hash": null
+    },
+    {
+      "path": "/uno-pinout/index.html",
+      "hash": null
+    },
+    {
+      "path": "/troubleshooting/index.html",
+      "hash": null
+    },
+    {
+      "path": "/assets/compiler.worker-CxPwTjZo.js",
+      "hash": "18622d64ee9620bff57e60435999510277cedc4c0709e9b2ad078fe15f585623"
+    },
+    {
+      "path": "/assets/index-3onPfXbg.css",
+      "hash": "f5306d6139c1de88628f73436657c4c2016bb0491aab400a79bffcbbb070717f"
+    },
+    {
+      "path": "/assets/index-By-4nB7u.js",
+      "hash": "1ff3114dd63a75e349e840d79b4ad67b699130b8e3696345ab7a8ddecb560c5e"
+    },
+    {
+      "path": "/favicon.png",
+      "hash": "5a638b071a5848b3772f1abf3eed98fbd40c9266d1295c08bb8f88f0fc2b3ed4"
+    },
+    {
+      "path": "/favicon.svg",
+      "hash": "345b5f128d5dcfdac913f4243a108afd3ef99b803365b8fbdc7b53381a2aad19"
+    },
+    {
+      "path": "/favicon-192.png",
+      "hash": "10dae7b201fc6c2179e55715ca8998eb85f1888ad49ce9431926295b37e48e68"
+    },
+    {
+      "path": "/brand/circuitera-icon.svg",
+      "hash": "12a723cdd875293eb4d6e5f784f59b0ab941f53488f8cf701e20cfd56aae85de"
+    },
+    {
+      "path": "/brand/circuitera-icon-dark.svg",
+      "hash": "a816874db9b703abe8e9fed79951b23e56b699d3f59d3e1863a221e43d4f7358"
+    },
+    {
+      "path": "/brand/circuitera-icon-light-512.png",
+      "hash": "4a7e30b33d37d6804ad2c8e65148b09b895098137ef7fa96ba2ea058f476ca11"
+    },
+    {
+      "path": "/brand/circuitera-social.png",
+      "hash": "d7dadf6bfce8110238d2c9e3163f5f814aac408fe43bcfb332fb09a2b3d0fe07"
+    },
+    {
+      "path": "/manifest.webmanifest",
+      "hash": "899778fe99135e2bef8ad62711c41e906aa9c0a42f39557fcedf0637ddfe581a"
+    }
+  ],
+  "compiler": [
+    {
+      "path": "/avr/curated/manifest.json",
+      "hash": "3f402c53c9d03525065d2c9fd32a8abdf3f515cf7f2c45a7941583d86f885838"
+    },
+    {
+      "path": "/avr/curated/uno-core-f3b1ff28b7930b7f.json",
+      "hash": "f3b1ff28b7930b7f629d7e325822aa4d7ded9b8a6b5171bbbccc1719d0490c4c"
+    },
+    {
+      "path": "/avr/curated/pb-core-b5dee940d083c843.json",
+      "hash": "b5dee940d083c843c5bc17396a73546d17583ec25895ab2925bcbb71a360288a"
+    },
+    {
+      "path": "/avr/curated/nano-variant-be5fc7a105716005.json",
+      "hash": "be5fc7a105716005de771d6e65f1d56a8edfb511bee5eedf184e612e9004e13f"
+    },
+    {
+      "path": "/avr/curated/servo-69dc662f0bbb78df.json",
+      "hash": "69dc662f0bbb78df1deab5fd87073d4f47679892e3d448552364e6957599fd18"
+    },
+    {
+      "path": "/avr/curated/wire-f9c051e82b7ab559.json",
+      "hash": "f9c051e82b7ab5598bf347dfaaec2497ec171fbed8c3ad8de92ed035b3152d69"
+    },
+    {
+      "path": "/avr/curated/spi-76fe6432652cfc51.json",
+      "hash": "76fe6432652cfc5189dd8ff1ad13289801c82d8013d0a1c938c8a8f0ff0408a1"
+    },
+    {
+      "path": "/avr/curated/eeprom-f61931295fd35419.json",
+      "hash": "f61931295fd3541998b3a11e1e3261e8e4a9ee1dc946fb2f9a112a2b6809b6d7"
+    },
+    {
+      "path": "/avr/curated/softwareserial-3ff256d6124ab7c7.json",
+      "hash": "3ff256d6124ab7c791535d64c6333115e2c001e697e2205c081e5440ba7d4084"
+    },
+    {
+      "path": "/avr/curated/liquidcrystal-fff35ca8f56cea1b.json",
+      "hash": "fff35ca8f56cea1b00fbba8767a6ce3bdf20496604706ab5cef4da5c09150ab1"
+    },
+    {
+      "path": "/avr/curated/dht-e7d7f87221b675f9.json",
+      "hash": "e7d7f87221b675f91429265203d4d5df832803ab9e9906a3d86a9e2c0a10b30e"
+    },
+    {
+      "path": "/avr/curated/unified-sensor-4d18bfe56bfa9755.json",
+      "hash": "4d18bfe56bfa975546bffba44b3171f713282150771811ea58b9a888f1299a01"
+    },
+    {
+      "path": "/avr/curated/gfx-bb954e850f80093f.json",
+      "hash": "bb954e850f80093f13f39df02a3fb4a7fcd87f4904671cc32a424fbb31f842ed"
+    },
+    {
+      "path": "/avr/curated/ssd1306-69323d2c6051cea4.json",
+      "hash": "69323d2c6051cea4d7b5ca1a0dbb10ed9f3817f0c689cfac97e2f31e964246c1"
+    },
+    {
+      "path": "/avr/curated/busio-6c97854fdbc8dd0a.json",
+      "hash": "6c97854fdbc8dd0aba7c4c5274c8c41254a8ef8673d21080c60f9c270fab4769"
+    },
+    {
+      "path": "/avr/curated/neopixel-b05e962e1ed8cb79.json",
+      "hash": "b05e962e1ed8cb79907f40f3d40057be30c5798aba99c4c5092eee2ad0da7ce2"
+    },
+    {
+      "path": "/avr/curated/newping-6174ba868be20467.json",
+      "hash": "6174ba868be20467f42d2a90fb3201cb7bb55c12bf140f0304917a0738466441"
+    },
+    {
+      "path": "/avr/curated/irremote-9071dddc11755498.json",
+      "hash": "9071dddc11755498ffedc7814d7ab8665091a39ca7794a1ff309e9579d29f978"
+    },
+    {
+      "path": "/avr/curated/keypad-efae8c87f9d2fe14.json",
+      "hash": "efae8c87f9d2fe1471a6fb9ba74ec0b0ee3ce51b6771621b3580ffffd880f259"
+    },
+    {
+      "path": "/avr/curated/accelstepper-d3dd14efb6886dd5.json",
+      "hash": "d3dd14efb6886dd50825bfaad00698da29937096c76a1ffddfc59a3757700a37"
+    },
+    {
+      "path": "/avr/curated/liquidcrystal-i2c-9d9ff100cf467bd2.json",
+      "hash": "9d9ff100cf467bd2c2e431f52ded41f0c2682b2b0fe41f1355c0578e6ecd3424"
+    },
+    {
+      "path": "/avr/tools/cc1plus.mjs",
+      "hash": "b33f286338e5774ed705f321d05556a533bf8b43dd8f832144905b2bce08e2d7"
+    },
+    {
+      "path": "/avr/tools/cc1plus.wasm",
+      "hash": "c987b310a29dc685b9ba8bf7710d346cb890d735bf2d5db03d44fe864dc17584"
+    },
+    {
+      "path": "/avr/tools/avr-as.mjs",
+      "hash": "f87023c95bb4fb900a8787eadf8058b657fbc8117aa212e1faf629e20ed5a38b"
+    },
+    {
+      "path": "/avr/tools/avr-as.wasm",
+      "hash": "cf228116046caa8865bcd49dc8f2cafe1fbf61dabc3920d51ca27cf020d0f34b"
+    },
+    {
+      "path": "/avr/tools/avr-ld.mjs",
+      "hash": "f7e7434ee053a8b86349e20b828cbc96e5b7dde7596ea992d775b70881dc1229"
+    },
+    {
+      "path": "/avr/tools/avr-ld.wasm",
+      "hash": "8b884781cd1bde8007bc4f878e82335c502f9bed57f62b182d72ec6372371675"
+    },
+    {
+      "path": "/avr/tools/avr-objcopy.mjs",
+      "hash": "6bda2f075bcbab021b5506175631008ef1f0db4ac8ff9ff78c2b6f7d89fb9416"
+    },
+    {
+      "path": "/avr/tools/avr-objcopy.wasm",
+      "hash": "9de9e2fcc18f0ce549234340222ab4b301123f1465d670a407ed065d5f02edd4"
+    }
+  ],
+  "routes": {
+    "/": "/index.html",
+    "/about": "/about/index.html",
+    "/features": "/features/index.html",
+    "/how-it-works": "/how-it-works/index.html",
+    "/examples": "/examples/index.html",
+    "/getting-started": "/getting-started/index.html",
+    "/arduino-on-chromebook": "/arduino-on-chromebook/index.html",
+    "/supported-libraries": "/supported-libraries/index.html",
+    "/uno-pinout": "/uno-pinout/index.html",
+    "/troubleshooting": "/troubleshooting/index.html"
+  }
+}

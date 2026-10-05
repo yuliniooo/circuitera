@@ -1,0 +1,20 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> uno-web-ide@1.0.0 test:reliability
+> node --test test/compiler-client.test.js test/local-debug.test.js
+
+✔ a failed postMessage must release the compiler for the next attempt (2.553142ms)
+✔ worker errors retain the real exception, asset and last stage, then allow retry (1.52189ms)
+✔ debug hints ignore comments, quoted text and raw strings (1.965427ms)
+✔ board-aware analog and Servo hints respect Nano analog-only pins (0.790189ms)
+✔ missing pinMode is a suggestion; baud mismatch and real errors retain location (0.647524ms)
+✔ unknown headers are tentative until GCC supplies a real error; local headers are recognized (0.541685ms)
+✔ presentation settings stay bounded and compiler failures keep actionable explanations (0.238549ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 99.867103

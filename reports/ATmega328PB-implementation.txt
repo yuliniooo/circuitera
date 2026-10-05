@@ -1,0 +1,248 @@
+CIRCUITERA — ATmega328PB IMPLEMENTATION REPORT
+2026-10-03
+
+COMPILE VERIFIED
+PHYSICAL UPLOAD UNVERIFIED
+NOT DEPLOYED
+
+Base: saved circuitera-source.zip, version 20 (modified September 13, 2026).
+Existing Netlify project: circuitera, e9e6c869-a579-4994-a59d-7ca862aed0d0.
+The current live deployment inspected is from September 6, 2026. The saved
+source is newer; this release is based on that saved source, not a reconstruction
+of the older production bundle.
+
+1. INSPECTION AND FILES CHANGED
+Compiler flags/linker selection: src/compiler-engine.js.
+WASM modules: @horang-corp/avr-gcc-wasm 0.2.0, copied to dist/avr/tools.
+Core sources: vendor/arduino-core/cores/arduino; generated bundles in
+public/avr/curated, then dist/avr/curated.
+Board configuration: src/boards.js. The source already had Uno and two Nano
+profiles, which were preserved.
+Uploading: src/serial.js, with profile adaptation in src/boardUpload.js.
+Original uploader did NOT request or validate a device signature.
+Original src/serial.js is unchanged, byte for byte.
+
+Changed implementation/build/test files:
+  package.json
+  test/offline.mjs
+  test/nano.test.js
+  test/compile-nano.mjs
+  test/ui-regressions.mjs
+  test/uno-port-fixture.js
+  src/PinHelper.jsx
+  src/App.jsx
+  src/WorkspacePanels.jsx
+  src/ReliabilityPanels.jsx
+  src/compiler-engine.js
+  src/boardUpload.js
+  src/WorkbenchDialogs.jsx
+  src/workspaceSupport.js
+  src/boards.js
+  scripts/build-pwa.mjs
+  scripts/prepare-library-assets.mjs
+  scripts/copy-avr-assets.mjs
+  scripts/compile-core-extension.mjs
+Added files:
+  test/compile-pb.mjs
+  test/pb-upload.test.js
+  test/probe-pb-toolchain.mjs
+  src/boardDiagnostic.js
+  scripts/prepare-pb-core.mjs
+  vendor/atmega328pb/PROVENANCE.txt
+  vendor/atmega328pb/pb-compat.h
+  vendor/atmega328pb/specs-atmega328pb
+  vendor/atmega328pb/AVR-LIBC-LICENSE.txt
+  vendor/atmega328pb/crtatmega328pb.o
+  vendor/atmega328pb/libatmega328pb.a
+Generated core/catalog bundles and regression reports are also refreshed.
+
+2. BOARD PROFILE
+New ID: circuitera:avr:atmega328pb
+Label: ATmega328PB — 16 MHz
+MCU: atmega328pb; F_CPU: 16000000L; architecture: AVR5.
+Arduino board macro: ARDUINO_AVR_ATmega328PB.
+STK500v1-compatible serial bootloader on UART0.
+Default baud 115200; diagnostic falls back to 57600 after failed sync.
+Flash limit: 28672 bytes; SRAM: 2048 bytes; flash pages: 128 bytes.
+The 4096-byte bootloader reservation covers the maximum documented boot section
+when the clone's bootloader/fuses are unknown. No fuses or bootloader are written.
+Default target remains Arduino Uno R3 — ATmega328P, 32256-byte flash limit.
+Nano new/old bootloader behavior and existing flash limits remain intact.
+Selector, status labels, pin helper and hardware-test labels identify PB.
+
+3. ORIGINAL COMPILER SUPPORT
+The bundle contains cc1plus (GCC's internal C++ frontend), avr-as, avr-ld and
+avr-objcopy. There is no avr-g++ driver to invoke. The actual WASM probe found:
+- cc1plus -mmcu=atmega328pb: rejected as an unknown core architecture.
+- avr-as -mmcu=atmega328pb: rejected as an unknown MCU.
+- iom328pb.h: already present in the npm package but excluded by Circuitera's
+  original Uno-only asset-generation filter.
+- PB startup object/device library: absent from the shipped curated runtime.
+Exact probe output: reports/pb-original-toolchain-probe.txt.
+
+The official GCC PB device-specs lower the device to AVR5 for these internal
+tools. Circuitera now performs that same lowering: cc1plus -mmcu=avr5 plus
+__AVR_ATmega328PB__, __AVR_DEVICE_NAME__=atmega328pb and F_CPU=16000000L;
+avr-as -mmcu=avr5; avr-ld -m avr5 with the PB startup and device library.
+PB code never defines the 328P device macro or links the 328P startup/core.
+This is the driver-equivalent PB target, not compiling PB sketches as 328P.
+
+4. DEVICE FILES ADDED
+vendor/atmega328pb/crtatmega328pb.o
+vendor/atmega328pb/libatmega328pb.a
+vendor/atmega328pb/specs-atmega328pb (reference for lowering)
+Existing iom328pb.h is included in the PB bundle; no duplicate header download.
+No WASM binaries or generic AVR5 libc/libm/libgcc/linker scripts were replaced.
+The PB startup object includes all 45 vector entries (180 bytes); the build
+checks for __vector_44. Compiler guard tests check PB macros and vector size.
+Official archive checksum, extraction paths and licenses are in PROVENANCE.txt.
+
+5. ARDUINO CORE AND PINS
+Rebuilt the existing licensed Arduino AVR core from source for PB using the
+same WASM tools. MiniCore was inspected as a technical reference (commit in
+PROVENANCE.txt); no entire MiniCore package or source file was copied.
+A PB-only compatibility header aliases Arduino's unnumbered SPI/TWI register
+names to SPI0/TWI0. UART0 Serial uses the PB header's USART0 vectors naturally.
+C core units are compiled through the existing C++ frontend with C linkage.
+The digital pin-table unit retains ARDUINO_MAIN before header inclusion and
+external table linkage. Existing Uno core objects are unchanged.
+D0–D13 and A0–A5 use the standard Uno mapping:
+LED_BUILTIN=13; SDA=18; SCL=19; MOSI=11; MISO=12; SCK=13; SS=10.
+PB A6/A7 and extra header pins are not exposed by the variant or pin helper.
+Actual clone wiring is NOT verified; the helper clearly identifies its mapping
+as a reference. Extra peripherals beyond the requested primary set are untested.
+
+6. UPLOADER CHANGES
+Kept src/serial.js unchanged, including page programming and readback verification.
+PB runs a read-only diagnostic first, releases the port, then resets and uses
+the existing uploader through the existing configurable-baud port adapter.
+Flash-size rejection happens before opening a serial port.
+Original Uno uploads still take the original direct path; diagnostics for Uno
+are optional through the new Check board button.
+PB failures after successful upload synchronization are labeled flash/write
+failures. Permission, no-response, synchronization, signature, verification and
+successful-upload outcomes have separate diagnostic messages.
+
+7. SIGNATURE HANDLING
+Check board resets the MCU and sends STK500 sync plus READ_SIGN (0x75), without
+writing flash. It closes/releases the serial port after the check.
+1E 95 16 reports ATmega328PB; 1E 95 0F reports ATmega328P.
+Either recognized signature is accepted for the selected PB profile. A mismatch
+is explicitly marked Uncertain with a compiled-signature explanation.
+A matching signature is also described as a bootloader report, not independent
+proof of physical silicon. Optiboot source returns compiled SIGNATURE_0/1/2.
+An unsupported or incomplete signature query after successful sync is uncertain,
+not an automatic rejection. A complete unknown signature blocks PB programming.
+USB bridge vendor/product IDs never identify the MCU.
+
+8–10. COMPILE TEST RESULTS
+Actual shipped WASM tools compiled, assembled, linked and generated HEX.
+The table gives flash/static SRAM bytes (heap and stack are additional).
+
+arduino:avr:uno
+  Blink: PASS — 1064 flash / 9 SRAM bytes
+  Serial: PASS — 1934 flash / 198 SRAM bytes
+  Analog: PASS — 2300 flash / 188 SRAM bytes
+  PWM: PASS — 1052 flash / 9 SRAM bytes
+  Interrupts: PASS — 1348 flash / 17 SRAM bytes
+  Pins: PASS — 456 flash / 9 SRAM bytes
+  MCU macro/vector guard, multifile project, Servo cache: PASS
+  servo: PASS — 2522 flash / 50 SRAM bytes
+  wire: PASS — 4494 flash / 408 SRAM bytes
+  spi: PASS — 2728 flash / 192 SRAM bytes
+  eeprom: PASS — 2424 flash / 188 SRAM bytes
+  softwareserial: PASS — 3466 flash / 301 SRAM bytes
+
+circuitera:avr:atmega328pb
+  Blink: PASS — 1262 flash / 9 SRAM bytes
+  Serial: PASS — 2088 flash / 198 SRAM bytes
+  Analog: PASS — 2458 flash / 188 SRAM bytes
+  PWM: PASS — 1360 flash / 9 SRAM bytes
+  Interrupts: PASS — 1546 flash / 17 SRAM bytes
+  Pins: PASS — 584 flash / 9 SRAM bytes
+  MCU macro/vector guard, multifile project, Servo cache: PASS
+  servo: PASS — 2708 flash / 50 SRAM bytes
+  wire: PASS — 4706 flash / 408 SRAM bytes
+  spi: PASS — 2940 flash / 192 SRAM bytes
+  eeprom: PASS — 2582 flash / 188 SRAM bytes
+  softwareserial: PASS — 3678 flash / 301 SRAM bytes
+
+Both targets passed Blink, Serial, Analog, PWM, interrupts, primary pin constants,
+MCU-macro guards, multi-file projects, and cached Servo compilation.
+Servo, Wire, SPI, EEPROM and SoftwareSerial passed for PB and Uno.
+All 17 existing curated libraries also passed for Uno and both Nano profiles.
+Only the five actually tested PB libraries are labeled PASS for PB; others
+remain UNTESTED. Proofs are tied to the exact compiler build ID.
+
+11. REGRESSION RESULTS
+- Original Uno serial.js: byte-identical, checked by existing unit test.
+- Blink, Button, Servo and Ultrasonic Uno HEX: byte-identical to prior fixtures.
+- Existing unit suite: 52 passed. Compiler/client reliability suite: 7 passed.
+- PB diagnostic/upload software tests: 11 passed, including signature mismatch,
+  unknown-device refusal, signature-query absence, readback corruption,
+  permission errors, no response, timeout recovery, 57600 fallback and limits.
+- React/worker UI tests exercise real compilation, board switching, upload via
+  software serial ports, monitor/plotter, examples, My Sketches, IndexedDB,
+  autosave, projects, shortcuts, autocomplete and hardware-test handlers.
+- CodeMirror/editor, workspace examples, .ino/.cpp/.h/.c project handling and
+  saved-tab regression suites passed. C files retain the existing C++/C-linkage
+  compatibility limitation.
+- Offline service-worker harness caches the PB bundle with the other compiler
+  assets and compiles real Servo firmware for both targets with network disabled.
+- PWA update protection, unrelated cache preservation and public site routes
+  passed in the existing test harnesses.
+These are automated software tests, not a physical Chromebook/USB session.
+A full Chromium visual check could not run: browser binaries were absent and
+browser download failed. Existing build reports a large-bundle advisory.
+
+12. LIMITATIONS AND DEPLOYMENT
+PHYSICAL UPLOAD UNVERIFIED. No actual Uno, Nano or PB device is attached here.
+The physical clone's clock, wiring, MCU marking, bootloader and USB bridge remain
+unverified. PB requires a compatible UART0 serial bootloader at 115200 or 57600.
+It cannot install a missing bootloader or change fuses over this serial flow.
+Extra PB pins/peripherals and the remaining 12 PB libraries are not certified.
+A serial bootloader signature can be compiled in, so identity may be uncertain.
+No backend, server compiler, browser extension or installed user-side CLI is
+introduced. Node/npm are development build tools only; runtime stays static.
+
+NOT DEPLOYED: automatic approval review rejected the Netlify generic deploy
+operation because it had no explicit preview scope and could affect production.
+The Netlify CLI is also not authenticated in this environment. The existing live
+site was not changed. The supplied Netlify ZIP is a complete static build.
+
+13. PHYSICAL BOARD TEST STEPS (AFTER DEPLOYMENT)
+1. Open the updated Circuitera in Chrome, online initially. Reload when a waiting
+   PWA update is ready and no compile/upload is running.
+2. Confirm the MCU marking really says ATmega328PB and the board uses 16 MHz.
+   Disconnect external circuits from D0/D1. Connect the USB data cable.
+3. Select “ATmega328PB — 16 MHz”, then Connect board and choose the USB port.
+4. Click Check board. It resets the MCU but does not write flash. Look for serial
+   connection OK, STK500 synchronization OK, signature and selected target.
+   A 1E 95 0F result is uncertain, not proof that the physical MCU is a 328P.
+   Confirm the chip marking rather than selecting Uno just to hide that warning.
+5. Create a new sketch and paste:
+
+   void setup() { pinMode(LED_BUILTIN, OUTPUT); }
+   void loop() {
+     digitalWrite(LED_BUILTIN, HIGH); delay(500);
+     digitalWrite(LED_BUILTIN, LOW); delay(500);
+   }
+
+6. Click Verify. Output must identify ATmega328PB. Then Upload. Success means
+   every programmed page was read back and matched. Confirm the LED blinks.
+7. Test Serial at 9600 baud using Serial.println("Circuitera") once per second;
+   open Serial Monitor at 9600. Then test analogRead(A0), PWM on D9, and your
+   Servo/Wire/SPI/EEPROM/SoftwareSerial hardware individually with known wiring.
+8. If no bootloader responds at either supported baud, close other serial apps,
+   reconnect and try Reset. A blank/noncompatible bootloader requires separate
+   ISP programming; Circuitera cannot fix that through Web Serial alone.
+9. Reconnect a known Uno, select Arduino Uno R3 — ATmega328P, and upload Blink
+   to confirm your normal club workflow on real hardware.
+10. Prepare the compiler for offline use in the existing offline panel, then
+    disconnect the network and verify a PB sketch again. First-time assets must
+    have finished caching while online.
+
+Evidence: reports/pb-compatibility.json, pb-upload-tests.txt, pb-unit-tests.txt,
+pb-ui-regressions.txt, pb-offline-tests.txt, pb-library-regressions.txt.
+
+Compiler build ID: f8d3d433a68a28f956a7b5da9b58b5ab795b250b4e3b41dec5f539607fd05090

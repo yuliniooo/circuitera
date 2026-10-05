@@ -1,0 +1,13 @@
+{
+  "testedAt": "2026-09-13T22:51:55.170Z",
+  "status": "PASS",
+  "checks": [
+    "Exact title and description",
+    "Canonical and social tags on IDE and About",
+    "Robots and sitemap use current production origin",
+    "PNG signatures and favicon/social dimensions",
+    "No old visible brand in production UI or worker",
+    "Independent-project notice",
+    "Original IndexedDB identity retained"
+  ]
+}

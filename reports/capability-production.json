@@ -1,0 +1,145 @@
+{
+  "testedAt": "2026-09-05T23:46:33.597Z",
+  "site": "https://arduino-ide.netlify.app/",
+  "deployId": "6a9ca8b1ec9f710c7466086b",
+  "release": "98edd32f8c1a7e009ee7",
+  "scope": "Actual production Chrome UI, CodeMirror edits and genuine WebAssembly Worker compilation. No physical Uno or disconnected-Chromebook test. Full HEX checksums and different-source evidence in automated WASM reports.",
+  "checks": [
+    {
+      "name": "Production main.ino + motor.cpp + motor.h with real Servo",
+      "output": "\u2713 COMPILED\nSketch uses 2482 bytes (8%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 50 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 4.9 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: Servo 1.3.0.\nLibrary objects: 1 compiled, 0 reused.\n",
+      "status": "PASS"
+    },
+    {
+      "name": "Button",
+      "output": "\u2713 COMPILED\nSketch uses 954 bytes (3%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 9 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.7 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: none.\nLibrary objects: 0 compiled, 0 reused.\n",
+      "status": "PASS"
+    },
+    {
+      "name": "Serial",
+      "output": "\u2713 COMPILED\nSketch uses 3868 bytes (12%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 200 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.7 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: none.\nLibrary objects: 0 compiled, 0 reused.\n",
+      "status": "PASS"
+    },
+    {
+      "name": "OLED Hello World with SSD1306/GFX/BusIO/Wire/SPI dependencies",
+      "output": "\u2713 COMPILED\nSketch uses 13868 bytes (43%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 399 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 4.6 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: Adafruit BusIO 1.17.4, Adafruit GFX 1.12.6, SPI 1.0, Adafruit SSD1306 2.5.17, Wire 1.0.\nLibrary objects: 12 compiled, 0 reused.\n",
+      "status": "PASS"
+    },
+    {
+      "name": "Local autocomplete shows signature and Enter inserts a function call",
+      "status": "PASS"
+    },
+    {
+      "name": "Custom Arduino C++ entered into the editor",
+      "status": "PASS",
+      "output": "\u2713 COMPILED\nSketch uses 2652 bytes (8%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 188 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.6 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: none.\nLibrary objects: 0 compiled, 0 reused.\n"
+    },
+    {
+      "name": "Final release shell and all 27 compiler assets cached with checksum verification",
+      "status": "PASS"
+    },
+    {
+      "name": "Blink after final update with cache prepared",
+      "status": "PASS",
+      "output": "\u2713 COMPILED\nSketch uses 1064 bytes (3%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 9 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.9 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: none.\nLibrary objects: 0 compiled, 0 reused.\n"
+    },
+    {
+      "name": "Nine existing IndexedDB sketches retained; new multi-file project and selected file survived refresh and update",
+      "status": "PASS"
+    },
+    {
+      "name": "Project error click opened motor.cpp at line 4, column 27 with original GCC output retained",
+      "status": "PASS"
+    },
+    {
+      "name": "Many open tabs keep plus/autocomplete visible; editor width 1113px inside 1115px panel, no page horizontal overflow at 1363px viewport",
+      "status": "PASS"
+    },
+    {
+      "name": "Optional Uno test checks browser support and awaits explicit USB selection; no board connected",
+      "status": "PASS"
+    },
+    {
+      "name": "Uno pinout panel and public Getting Started navigation render correctly",
+      "status": "PASS"
+    },
+    {
+      "name": "Service worker update waited while old editor was open; close/reopen adopted final release with saved files intact",
+      "status": "PASS"
+    }
+  ],
+  "http": [
+    {
+      "path": "/googleb22ad35e0875e1ed.html",
+      "status": 200,
+      "url": "https://arduino-ide.netlify.app/googleb22ad35e0875e1ed.html",
+      "bytes": 53,
+      "sha256": "972b00d6171c5d708d436db7ceb05a24f942744c78e898f29e678ee3fb0d8f46"
+    },
+    {
+      "path": "/sw.js",
+      "status": 200,
+      "url": "https://arduino-ide.netlify.app/sw.js",
+      "bytes": 9068,
+      "sha256": "3026aa4007cc7362e8364528806676782183c36c37508622f74f0e4b5ee224bc"
+    },
+    {
+      "path": "/manifest.webmanifest",
+      "status": 200,
+      "url": "https://arduino-ide.netlify.app/manifest.webmanifest",
+      "bytes": 574,
+      "sha256": "899778fe99135e2bef8ad62711c41e906aa9c0a42f39557fcedf0637ddfe581a"
+    }
+  ],
+  "publicHelpHttp": [
+    {
+      "path": "/googleb22ad35e0875e1ed.html",
+      "status": 200,
+      "url": "https://arduino-ide.netlify.app/googleb22ad35e0875e1ed.html",
+      "bytes": 53,
+      "sha256": "972b00d6171c5d708d436db7ceb05a24f942744c78e898f29e678ee3fb0d8f46"
+    },
+    {
+      "path": "/sw.js",
+      "status": 200,
+      "url": "https://arduino-ide.netlify.app/sw.js",
+      "bytes": 9068,
+      "sha256": "d7b39069fdd18231eef69fe099337bee544b3f86c5724da0b27b6af82bf5f494"
+    },
+    {
+      "path": "/manifest.webmanifest",
+      "status": 200,
+      "url": "https://arduino-ide.netlify.app/manifest.webmanifest",
+      "bytes": 574,
+      "sha256": "899778fe99135e2bef8ad62711c41e906aa9c0a42f39557fcedf0637ddfe581a"
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "url": "https://arduino-ide.netlify.app/robots.txt",
+      "bytes": 112,
+      "sha256": "8ab4ba72a81395edcd3b5e3a8174ba4711798cfd1d42b7c789af6d7447063ddf"
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "url": "https://arduino-ide.netlify.app/sitemap.xml",
+      "bytes": 762,
+      "sha256": "4c94547cd955e1f96a2cb81ba6f27b05da9575676b43951c87fabb762ff2589a"
+    },
+    {
+      "path": "/getting-started/",
+      "status": 200,
+      "url": "https://arduino-ide.netlify.app/getting-started/",
+      "bytes": 7648,
+      "sha256": "ed847e9751a6a55c75c4f948605dd4db5863cd25faf0effe84f985bfc4819625"
+    },
+    {
+      "path": "/supported-libraries/",
+      "status": 200,
+      "url": "https://arduino-ide.netlify.app/supported-libraries/",
+      "bytes": 13457,
+      "sha256": "aa75b639cb4f90da30c492f02487602ec9f15436dbc9518e3ecf69556ba13064"
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "testedAt": "2026-09-05T04:51:16.015Z",
+  "url": "https://arduino-ide.netlify.app/",
+  "deployId": "6a9b9e560e442fff1d5397dc",
+  "scope": "Actual production Chrome, real editor interactions and existing module Web Worker. Successful results require the unchanged engine to validate AVR ELF and nonempty Intel HEX before reporting success. No physical Uno attached; USB RX/TX and flash readback tested separately with the software-port fixture.",
+  "viewport": {
+    "width": 1363,
+    "height": 936
+  },
+  "examples": [
+    {
+      "name": "Blink",
+      "status": "PASS",
+      "source": "// Blink — Arduino Uno R3\nconst int LED_PIN = LED_BUILTIN;\n\n\nvoid setup() {\n  pinMode(LED_PIN, OUTPUT);\n}\n\n\nvoid loop() {\n  digitalWrite(LED_PIN, HIGH);\n  delay(1000);\n  digitalWrite(LED_PIN, LOW);\n  delay(1000);\n}\n\n",
+      "output": "✓ COMPILED\nSketch uses 1064 bytes (3%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 9 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 3.1 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: none.\nLibrary objects: 0 compiled, 0 reused.\n"
+    },
+    {
+      "name": "Button",
+      "status": "PASS",
+      "source": "// Button — connect a pushbutton between pin 2 and GND\nconst int BUTTON_PIN = 2;\nconst int LED_PIN = LED_BUILTIN;\n\n\nvoid setup() {\n  pinMode(BUTTON_PIN, INPUT_PULLUP);\n  pinMode(LED_PIN, OUTPUT);\n}\n\n\nvoid loop() {\n  bool pressed = digitalRead(BUTTON_PIN) == LOW;\n  digitalWrite(LED_PIN, pressed ? HIGH : LOW);\n}\n\n",
+      "output": "✓ COMPILED\nSketch uses 954 bytes (3%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 9 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.9 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: none.\nLibrary objects: 0 compiled, 0 reused.\n"
+    },
+    {
+      "name": "Analog Input",
+      "status": "PASS",
+      "source": "// Potentiometer: outer pins to 5V/GND, middle pin to A0.\nvoid setup() { Serial.begin(9600); }\nvoid loop() {\n  Serial.println(analogRead(A0));\n  delay(50);\n}\n\n",
+      "output": "✓ COMPILED\nSketch uses 2300 bytes (7%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 188 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 1.0 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: none.\nLibrary objects: 0 compiled, 0 reused.\n"
+    },
+    {
+      "name": "Serial",
+      "status": "PASS",
+      "source": "void setup() { Serial.begin(9600); }\nvoid loop() {\n  Serial.print(F(\"time:\"));\n  Serial.println(millis() / 1000.0, 1);\n  delay(100);\n}\n\n",
+      "output": "✓ COMPILED\nSketch uses 3868 bytes (12%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 200 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 1.1 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: none.\nLibrary objects: 0 compiled, 0 reused.\n"
+    },
+    {
+      "name": "Reaction Game",
+      "status": "PASS",
+      "source": "// Button between D2 and GND. Press when the onboard LED turns on.\nenum GameState { WAIT_RELEASE, WAIT_SIGNAL, WAIT_PRESS };\nGameState state = WAIT_RELEASE;\nunsigned long signalAt = 0, startedAt = 0;\nvoid setup() {\n  pinMode(2, INPUT_PULLUP); pinMode(LED_BUILTIN, OUTPUT);\n  Serial.begin(9600); randomSeed(analogRead(A0));\n  Serial.println(F(\"Release the button to begin.\"));\n}\nvoid loop() {\n  bool pressed = digitalRead(2) == LOW;\n  unsigned long now = millis();\n  if (state == WAIT_RELEASE && !pressed) {\n    signalAt = now + random(1500, 4500); state = WAIT_SIGNAL;\n    Serial.println(F(\"Wait for the LED...\"));\n  } else if (state == WAIT_SIGNAL && pressed) {\n    Serial.println(F(\"Too soon! Release to retry.\")); state = WAIT_RELEASE;\n  } else if (state == WAIT_SIGNAL && (long)(now - signalAt) >= 0) {\n    digitalWrite(LED_BUILTIN, HIGH); startedAt = now; state = WAIT_PRESS;\n  } else if (state == WAIT_PRESS && pressed) {\n    digitalWrite(LED_BUILTIN, LOW);\n    Serial.print(F(\"Reaction ms: \")); Serial.println(now - startedAt);\n    state = WAIT_RELEASE; delay(30);\n  }\n}\n\n",
+      "output": "✓ COMPILED\nSketch uses 3790 bytes (12%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 202 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.9 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: none.\nLibrary objects: 0 compiled, 0 reused.\n"
+    },
+    {
+      "name": "Servo",
+      "status": "PASS",
+      "source": "#include <Servo.h>\n\n\nServo arm;\n\n\nvoid setup() {\n  arm.attach(9);\n}\n\n\nvoid loop() {\n  arm.write(0);\n  delay(800);\n  arm.write(90);\n  delay(800);\n  arm.write(180);\n  delay(800);\n}\n\n",
+      "output": "✓ COMPILED\nSketch uses 2520 bytes (8%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 50 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 1.3 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: Servo 1.3.0.\nLibrary objects: 1 compiled, 0 reused.\n"
+    },
+    {
+      "name": "Servo sweep",
+      "status": "PASS",
+      "source": "#include <Servo.h>\nServo arm;\nvoid setup() { arm.attach(9); }\nvoid loop() {\n  for (int angle = 0; angle <= 180; angle++) { arm.write(angle); delay(15); }\n  for (int angle = 180; angle >= 0; angle--) { arm.write(angle); delay(15); }\n}\n\n",
+      "output": "✓ COMPILED\nSketch uses 2522 bytes (8%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 50 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.8 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: Servo 1.3.0.\nLibrary objects: 0 compiled, 1 reused.\n"
+    },
+    {
+      "name": "I2C scanner",
+      "status": "PASS",
+      "source": "#include <Wire.h>\nvoid setup() { Wire.begin(); Serial.begin(9600); }\nvoid loop() {\n  Serial.println(F(\"Scanning I2C: SDA=A4, SCL=A5\"));\n  for (byte address = 1; address < 127; address++) {\n    Wire.beginTransmission(address);\n    if (Wire.endTransmission() == 0) {\n      Serial.print(F(\"Found 0x\")); Serial.println(address, HEX);\n    }\n  }\n  delay(3000);\n}\n\n",
+      "output": "✓ COMPILED\nSketch uses 4494 bytes (14%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 408 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 1.7 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: Wire 1.0.\nLibrary objects: 2 compiled, 0 reused.\n"
+    },
+    {
+      "name": "SPI transfer",
+      "status": "PASS",
+      "source": "#include <SPI.h>\nvoid setup() { pinMode(10, OUTPUT); digitalWrite(10, HIGH); SPI.begin(); Serial.begin(9600); }\nvoid loop() {\n  SPI.beginTransaction(SPISettings(1000000, MSBFIRST, SPI_MODE0));\n  digitalWrite(10, LOW);\n  byte response = SPI.transfer(0x55);\n  digitalWrite(10, HIGH);\n  SPI.endTransaction();\n  Serial.println(response, HEX);\n  delay(1000);\n}\n\n",
+      "output": "✓ COMPILED\nSketch uses 2728 bytes (8%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 192 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 1.3 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: SPI 1.0.\nLibrary objects: 1 compiled, 0 reused.\n"
+    },
+    {
+      "name": "EEPROM read-write",
+      "status": "PASS",
+      "source": "#include <EEPROM.h>\nvoid setup() {\n  Serial.begin(9600);\n  // update() writes only when the value changes. Avoid repeated EEPROM writes.\n  EEPROM.update(0, 42);\n  Serial.print(F(\"Stored value: \")); Serial.println(EEPROM.read(0));\n  int calibration = 1234;\n  EEPROM.put(4, calibration);\n  int restored = 0;\n  EEPROM.get(4, restored);\n  Serial.println(restored);\n}\nvoid loop() {}\n\n",
+      "output": "✓ COMPILED\nSketch uses 2424 bytes (8%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 188 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 2.3 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: EEPROM 2.0.\nLibrary objects: 12 compiled, 0 reused.\n"
+    },
+    {
+      "name": "SoftwareSerial",
+      "status": "PASS",
+      "source": "#include <SoftwareSerial.h>\nSoftwareSerial device(10, 11); // RX, TX; connect to a compatible serial device.\nvoid setup() { Serial.begin(9600); device.begin(9600); }\nvoid loop() {\n  if (device.available()) Serial.write(device.read());\n  if (Serial.available()) device.write(Serial.read());\n}\n\n",
+      "output": "✓ COMPILED\nSketch uses 3466 bytes (11%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 301 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 1.3 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: SoftwareSerial 1.0.\nLibrary objects: 1 compiled, 0 reused.\n"
+    },
+    {
+      "name": "LCD Hello World",
+      "status": "PASS",
+      "source": "#include <LiquidCrystal.h>\nLiquidCrystal lcd(12, 11, 5, 4, 3, 2); // RS, E, D4, D5, D6, D7\nvoid setup() { lcd.begin(16, 2); lcd.print(\"Hello, maker!\"); }\nvoid loop() { lcd.setCursor(0, 1); lcd.print(millis() / 1000); }\n\n",
+      "output": "✓ COMPILED\nSketch uses 2232 bytes (7%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 59 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 1.2 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: LiquidCrystal 1.0.7.\nLibrary objects: 1 compiled, 0 reused.\n"
+    },
+    {
+      "name": "DHT temperature-humidity",
+      "status": "PASS",
+      "source": "#include <DHT.h>\nDHT sensor(2, DHT22); // Change DHT22 to DHT11 for that sensor.\nvoid setup() { Serial.begin(9600); sensor.begin(); }\nvoid loop() {\n  delay(2000);\n  float temperature = sensor.readTemperature();\n  float humidity = sensor.readHumidity();\n  if (isnan(temperature) || isnan(humidity)) { Serial.println(F(\"Check DHT wiring\")); return; }\n  Serial.print(temperature); Serial.print(F(\" C, \"));\n  Serial.print(humidity); Serial.println(F(\" % RH\"));\n}\n\n",
+      "output": "✓ COMPILED\nSketch uses 5610 bytes (17%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 219 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 1.4 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: DHT 1.4.7, Adafruit Unified Sensor 1.1.15.\nLibrary objects: 3 compiled, 0 reused.\n"
+    },
+    {
+      "name": "Unified sensor",
+      "status": "PASS",
+      "source": "#include <Adafruit_Sensor.h>\n#include <DHT_U.h>\nDHT_Unified sensor(2, DHT22);\nvoid setup() {\n  Serial.begin(9600); sensor.begin();\n  sensor.temperature().printSensorDetails();\n  sensor_t metadata;\n  sensor.temperature().getSensor(&metadata);\n  Serial.println(metadata.name);\n}\nvoid loop() {\n  sensors_event_t event;\n  sensor.temperature().getEvent(&event);\n  if (!isnan(event.temperature)) Serial.println(event.temperature);\n  delay(2000);\n}\n\n",
+      "output": "✓ COMPILED\nSketch uses 9226 bytes (29%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 302 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.9 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: DHT 1.4.7, Adafruit Unified Sensor 1.1.15.\nLibrary objects: 0 compiled, 3 reused.\n"
+    },
+    {
+      "name": "GFX canvas",
+      "status": "PASS",
+      "source": "#include <Adafruit_GFX.h>\nGFXcanvas1 canvas(16, 16);\nvoid setup() {\n  Serial.begin(9600);\n  canvas.fillScreen(0); canvas.drawLine(0, 0, 15, 15, 1);\n  canvas.drawCircle(8, 8, 5, 1); canvas.setCursor(0, 0); canvas.print(\"A\");\n  Serial.println(canvas.getPixel(8, 8));\n  Serial.println(canvas.getBuffer()[0], HEX);\n}\nvoid loop() {}\n\n",
+      "output": "✓ COMPILED\nSketch uses 10952 bytes (34%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 533 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 3.9 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: Adafruit BusIO 1.17.4, Adafruit GFX 1.12.6, SPI 1.0, Wire 1.0.\nLibrary objects: 11 compiled, 0 reused.\n"
+    },
+    {
+      "name": "OLED Hello World",
+      "status": "PASS",
+      "source": "#include <Adafruit_SSD1306.h>\nAdafruit_SSD1306 display(128, 64, &Wire, -1);\nvoid setup() {\n  // Uno: SDA=A4, SCL=A5. Verify your display's I2C address.\n  if (!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) { for (;;) {} }\n  display.clearDisplay(); display.setTextSize(1); display.setTextColor(SSD1306_WHITE);\n  display.setCursor(0, 0); display.println(F(\"Hello, maker!\"));\n  display.drawRect(0, 20, 100, 30, SSD1306_WHITE); display.display();\n}\nvoid loop() {}\n\n",
+      "output": "✓ COMPILED\nSketch uses 13868 bytes (43%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 399 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 4.1 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: Adafruit BusIO 1.17.4, Adafruit GFX 1.12.6, SPI 1.0, Adafruit SSD1306 2.5.17, Wire 1.0.\nLibrary objects: 12 compiled, 0 reused.\n"
+    },
+    {
+      "name": "BusIO register",
+      "status": "PASS",
+      "source": "#include <Adafruit_I2CDevice.h>\n#include <Adafruit_BusIO_Register.h>\nAdafruit_I2CDevice device(0x40, &Wire);\nAdafruit_BusIO_Register deviceRegister(&device, 0x00, 1);\nvoid setup() { Serial.begin(9600); Serial.println(device.begin()); }\nvoid loop() {\n  // Use the address and register map specified by your sensor's datasheet.\n  Serial.println(deviceRegister.read(), HEX);\n  delay(1000);\n}\n\n",
+      "output": "✓ COMPILED\nSketch uses 7140 bytes (22%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 438 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 2.7 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: Adafruit BusIO 1.17.4, SPI 1.0, Wire 1.0.\nLibrary objects: 7 compiled, 0 reused.\n"
+    },
+    {
+      "name": "NeoPixel",
+      "status": "PASS",
+      "source": "#include <Adafruit_NeoPixel.h>\nAdafruit_NeoPixel pixels(8, 6, NEO_GRB + NEO_KHZ800);\nvoid setup() { pixels.begin(); pixels.setBrightness(20); }\nvoid loop() {\n  for (uint16_t i = 0; i < pixels.numPixels(); i++) {\n    pixels.clear(); pixels.setPixelColor(i, pixels.Color(0, 80, 180));\n    pixels.show(); delay(120);\n  }\n}\n\n",
+      "output": "✓ COMPILED\nSketch uses 3270 bytes (10%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 41 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 1.2 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: Adafruit NeoPixel 1.15.5.\nLibrary objects: 1 compiled, 0 reused.\n"
+    },
+    {
+      "name": "Ultrasonic distance",
+      "status": "PASS",
+      "source": "#include <NewPing.h>\nNewPing sonar(9, 10, 200); // trigger, echo, maximum cm\nvoid setup() { Serial.begin(9600); }\nvoid loop() {\n  unsigned int duration = sonar.ping_median(3);\n  Serial.print(sonar.convert_cm(duration)); Serial.println(F(\" cm\"));\n  delay(100);\n}\n\n",
+      "output": "✓ COMPILED\nSketch uses 3304 bytes (10%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 209 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 1.3 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: NewPing 1.9.7.\nLibrary objects: 1 compiled, 0 reused.\n"
+    },
+    {
+      "name": "IR remote",
+      "status": "PASS",
+      "source": "#include <IRremote.hpp>\nvoid setup() { Serial.begin(9600); IrReceiver.begin(2, DISABLE_LED_FEEDBACK); }\nvoid loop() {\n  if (IrReceiver.decode()) {\n    IrReceiver.printIRResultShort(&Serial);\n    Serial.println();\n    IrReceiver.resume();\n  }\n}\n\n",
+      "output": "✓ COMPILED\nSketch uses 12096 bytes (38%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 491 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 2.3 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: IRremote 4.7.1.\nLibrary objects: 0 compiled, 0 reused.\n"
+    },
+    {
+      "name": "Keypad",
+      "status": "PASS",
+      "source": "#include <Keypad.h>\nconst byte ROWS = 4, COLS = 3;\nchar keys[ROWS][COLS] = {{'1','2','3'}, {'4','5','6'}, {'7','8','9'}, {'*','0','#'}};\nbyte rowPins[ROWS] = {9, 8, 7, 6};\nbyte colPins[COLS] = {5, 4, 3};\nKeypad keypad(makeKeymap(keys), rowPins, colPins, ROWS, COLS);\nvoid setup() { Serial.begin(9600); }\nvoid loop() { char key = keypad.getKey(); if (key) Serial.println(key); }\n\n",
+      "output": "✓ COMPILED\nSketch uses 3922 bytes (12%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 327 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 1.3 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: Keypad 3.1.1.\nLibrary objects: 2 compiled, 0 reused.\n"
+    },
+    {
+      "name": "Stepper motor",
+      "status": "PASS",
+      "source": "#include <AccelStepper.h>\n// Use a suitable motor driver; do not connect motor windings to Uno pins.\nAccelStepper motor(AccelStepper::DRIVER, 3, 2); // step, direction\nvoid setup() { motor.setMaxSpeed(400); motor.setAcceleration(100); motor.moveTo(200); }\nvoid loop() {\n  if (motor.distanceToGo() == 0) motor.moveTo(-motor.currentPosition());\n  motor.run();\n}\n\n",
+      "output": "✓ COMPILED\nSketch uses 6118 bytes (19%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 119 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 1.4 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: AccelStepper 1.64.\nLibrary objects: 2 compiled, 0 reused.\n"
+    },
+    {
+      "name": "I2C LCD Hello World",
+      "status": "PASS",
+      "source": "#include <LiquidCrystal_I2C.h>\nLiquidCrystal_I2C lcd(0x27, 16, 2); // johnrickman 1.1.2 API; scan for your address.\nvoid setup() { lcd.init(); lcd.backlight(); lcd.setCursor(0, 0); lcd.print(\"Hello, maker!\"); }\nvoid loop() { lcd.setCursor(0, 1); lcd.print(millis() / 1000); }\n\n",
+      "output": "✓ COMPILED\nSketch uses 4006 bytes (12%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 275 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 1.6 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: LiquidCrystal_I2C 1.1.2, Wire 1.0.\nLibrary objects: 3 compiled, 0 reused.\n"
+    },
+    {
+      "name": "PWM Fade",
+      "status": "PASS",
+      "source": "// LED + 220 ohm resistor on PWM pin 9 to GND.\nint brightness = 0;\nint stepSize = 5;\nvoid setup() { pinMode(9, OUTPUT); }\nvoid loop() {\n  analogWrite(9, brightness);\n  brightness += stepSize;\n  if (brightness <= 0 || brightness >= 255) stepSize = -stepSize;\n  delay(30);\n}\n\n",
+      "output": "✓ COMPILED\nSketch uses 1310 bytes (4%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 13 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.7 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: none.\nLibrary objects: 0 compiled, 0 reused.\n"
+    },
+    {
+      "name": "Ultrasonic",
+      "status": "PASS",
+      "source": "// HC-SR04: TRIG to pin 9, ECHO to pin 10\nconst int TRIG_PIN = 9;\nconst int ECHO_PIN = 10;\n\n\nvoid setup() {\n  pinMode(TRIG_PIN, OUTPUT);\n  pinMode(ECHO_PIN, INPUT);\n  Serial.begin(9600);\n}\n\n\nvoid loop() {\n  digitalWrite(TRIG_PIN, LOW);\n  delayMicroseconds(2);\n  digitalWrite(TRIG_PIN, HIGH);\n  delayMicroseconds(10);\n  digitalWrite(TRIG_PIN, LOW);\n\n\n  unsigned long duration = pulseIn(ECHO_PIN, HIGH, 30000);\n  float centimeters = duration * 0.0343 / 2.0;\n  Serial.print(\"Distance: \");\n  Serial.print(centimeters);\n  Serial.println(\" cm\");\n  delay(250);\n}\n\n",
+      "output": "✓ COMPILED\nSketch uses 4550 bytes (14%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 214 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.7 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: none.\nLibrary objects: 0 compiled, 0 reused.\n"
+    },
+    {
+      "name": "Light Sensor",
+      "status": "PASS",
+      "source": "// Voltage divider: 5V -> LDR -> A0 -> 10k resistor -> GND.\nvoid setup() { Serial.begin(9600); }\nvoid loop() {\n  Serial.print(F(\"light:\"));\n  Serial.println(analogRead(A0));\n  delay(100);\n}\n\n",
+      "output": "✓ COMPILED\nSketch uses 2392 bytes (7%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 188 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.7 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: none.\nLibrary objects: 0 compiled, 0 reused.\n"
+    },
+    {
+      "name": "Servo + Potentiometer",
+      "status": "PASS",
+      "source": "#include <Servo.h>\n// Servo signal: D9. Potentiometer middle pin: A0; outer pins: 5V/GND.\nServo arm;\nvoid setup() { arm.attach(9); }\nvoid loop() {\n  int angle = map(analogRead(A0), 0, 1023, 0, 180);\n  arm.write(constrain(angle, 0, 180));\n  delay(15);\n}\n\n",
+      "output": "✓ COMPILED\nSketch uses 2634 bytes (8%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 52 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.7 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: Servo 1.3.0.\nLibrary objects: 0 compiled, 1 reused.\n"
+    },
+    {
+      "name": "OLED sensor display",
+      "status": "PASS",
+      "source": "#include <Adafruit_SSD1306.h>\n#include <DHT.h>\nAdafruit_SSD1306 display(128, 64, &Wire, -1);\nDHT sensor(2, DHT22);\nvoid setup() {\n  sensor.begin();\n  if (!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) { for (;;) {} }\n  display.setTextColor(SSD1306_WHITE); display.setTextSize(1);\n}\nvoid loop() {\n  delay(2000);\n  float temperature = sensor.readTemperature();\n  float humidity = sensor.readHumidity();\n  display.clearDisplay(); display.setCursor(0, 0);\n  if (isnan(temperature) || isnan(humidity)) display.println(F(\"Check DHT wiring\"));\n  else {\n    display.print(F(\"Temp: \")); display.print(temperature, 1); display.println(F(\" C\"));\n    display.print(F(\"Humidity: \")); display.print(humidity, 1); display.println(F(\" %\"));\n  }\n  display.display();\n}\n\n",
+      "output": "✓ COMPILED\nSketch uses 17848 bytes (55%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 605 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 3.8 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: Adafruit BusIO 1.17.4, DHT 1.4.7, Adafruit GFX 1.12.6, SPI 1.0, Adafruit SSD1306 2.5.17, Adafruit Unified Sensor 1.1.15, Wire 1.0.\nLibrary objects: 15 compiled, 0 reused.\n"
+    },
+    {
+      "name": "Traffic Light",
+      "status": "PASS",
+      "source": "// Red D8, yellow D9, green D10; each LED needs a 220 ohm resistor.\nconst int RED = 8, YELLOW = 9, GREEN = 10;\nvoid setup() {\n  pinMode(RED, OUTPUT); pinMode(YELLOW, OUTPUT); pinMode(GREEN, OUTPUT);\n}\nvoid loop() {\n  digitalWrite(RED, HIGH); delay(3000); digitalWrite(RED, LOW);\n  digitalWrite(GREEN, HIGH); delay(3000); digitalWrite(GREEN, LOW);\n  digitalWrite(YELLOW, HIGH); delay(1000); digitalWrite(YELLOW, LOW);\n}\n\n",
+      "output": "✓ COMPILED\nSketch uses 1124 bytes (3%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 9 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.7 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: none.\nLibrary objects: 0 compiled, 0 reused.\n"
+    },
+    {
+      "name": "Parking Sensor",
+      "status": "PASS",
+      "source": "// HC-SR04 TRIG D9, ECHO D10. Passive piezo on D3 and GND.\nvoid setup() {\n  pinMode(9, OUTPUT); pinMode(10, INPUT); pinMode(3, OUTPUT);\n  Serial.begin(9600);\n}\nvoid loop() {\n  digitalWrite(9, LOW); delayMicroseconds(2);\n  digitalWrite(9, HIGH); delayMicroseconds(10); digitalWrite(9, LOW);\n  unsigned long echo = pulseIn(10, HIGH, 30000);\n  float cm = echo * 0.0343 / 2;\n  Serial.print(F(\"distance:\")); Serial.println(cm);\n  if (echo > 0 && cm < 50) { tone(3, 1000, 60); delay((int)constrain(cm * 8, 80, 400)); }\n  else { noTone(3); delay(200); }\n}\n\n",
+      "output": "✓ COMPILED\nSketch uses 6412 bytes (20%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 221 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.7 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: none.\nLibrary objects: 0 compiled, 0 reused.\n"
+    },
+    {
+      "name": "Automatic Door",
+      "status": "PASS",
+      "source": "#include <Servo.h>\n// Small model door: servo signal D6; HC-SR04 TRIG D9, ECHO D10.\nServo door;\nunsigned long lastSeen = 0;\nbool opened = false;\nvoid setup() {\n  door.attach(6); door.write(0); pinMode(9, OUTPUT); pinMode(10, INPUT);\n}\nvoid loop() {\n  digitalWrite(9, LOW); delayMicroseconds(2);\n  digitalWrite(9, HIGH); delayMicroseconds(10); digitalWrite(9, LOW);\n  unsigned long echo = pulseIn(10, HIGH, 30000);\n  if (echo > 0 && echo < 1160) { lastSeen = millis(); opened = true; door.write(90); }\n  if (opened && millis() - lastSeen > 3000) { door.write(0); opened = false; }\n  delay(80);\n}\n\n",
+      "output": "✓ COMPILED\nSketch uses 2944 bytes (9%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 55 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.7 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: Servo 1.3.0.\nLibrary objects: 0 compiled, 1 reused.\n"
+    },
+    {
+      "name": "Motion Alarm",
+      "status": "PASS",
+      "source": "// PIR sensor OUT to D2; passive piezo to D3; common GND.\n// Allow your PIR module to settle after power-on.\nvoid setup() {\n  pinMode(2, INPUT); pinMode(LED_BUILTIN, OUTPUT); Serial.begin(9600);\n}\nvoid loop() {\n  bool motion = digitalRead(2) == HIGH;\n  digitalWrite(LED_BUILTIN, motion);\n  if (motion) tone(3, 880); else noTone(3);\n  Serial.print(F(\"motion:\")); Serial.println(motion ? 1 : 0);\n  delay(100);\n}\n\n",
+      "output": "✓ COMPILED\nSketch uses 4532 bytes (14%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 209 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.8 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: none.\nLibrary objects: 0 compiled, 0 reused.\n"
+    }
+  ],
+  "checks": [
+    {
+      "name": "Light workspace and white editor with dark Output; no horizontal overflow at 1363px",
+      "status": "PASS"
+    },
+    {
+      "name": "All 17 libraries shown as preinstalled; OLED search and dependency details",
+      "status": "PASS"
+    },
+    {
+      "name": "Custom interrupt sketch compiled from editor source in Chrome",
+      "status": "PASS",
+      "source": "volatile unsigned long edges = 0;\nvoid changed() { edges++; }\nvoid setup() {\n Serial.begin(9600); pinMode(2, INPUT_PULLUP);\n attachInterrupt(digitalPinToInterrupt(2), changed, FALLING);\n}\nvoid loop() {\n noInterrupts(); unsigned long n = edges; interrupts();\n Serial.println(n); delay(100);\n if (n > 100) detachInterrupt(digitalPinToInterrupt(2));\n}\n",
+      "output": "✓ COMPILED\nSketch uses 2664 bytes (8%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 196 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 1.1 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: none.\nLibrary objects: 0 compiled, 0 reused.\n"
+    },
+    {
+      "name": "Real GCC unknown-name error retains line 2; clicking explanation moves cursor to line 2",
+      "status": "PASS"
+    },
+    {
+      "name": "Current editor code and light theme survive a full reload without pressing Save",
+      "status": "PASS"
+    },
+    {
+      "name": "Sidebar/console collapse, keyboard resizing, Serial Monitor controls and empty plotter view",
+      "status": "PASS"
+    },
+    {
+      "name": "Diagnostics show actual runtime capability and session state without claiming an attached board",
+      "status": "PASS"
+    }
+  ]
+}

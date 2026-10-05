@@ -1,0 +1,14 @@
+Static release validated: 17/17 libraries, real WASM assets, exact-build proof, unchanged uploader.
+PASS — SEO static HTML and 637 protected files; preserved toolchain and unchanged uploader. {
+  html: { bytes: 10232, gzipBytes: 3415 },
+  javascript: { bytes: 886806, gzipBytes: 288860 },
+  css: { bytes: 69446, gzipBytes: 14665 }
+}
+PASS — Nano exact-build compilation proof, board profiles, unchanged Uno pipeline and software-protocol regression evidence
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> uno-web-ide@1.0.0 check:site
+> node scripts/check-branding.mjs && node scripts/check-site-release.mjs
+
+PASS — Circuitera production branding, metadata, favicon assets, and stable storage identity
+PASS — instant access, protected runtime, no authentication, unchanged Google verification, indexable static pages

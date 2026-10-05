@@ -1,0 +1,15 @@
+{
+  "scope": "Genuine WASM Worker outputs, with software STK500v1 port verification; no physical board attached.",
+  "sketches": [
+    {
+      "source": "// Blink — Arduino Uno R3\nconst int LED_PIN = LED_BUILTIN;\n\nvoid setup() {\n  pinMode(LED_PIN, OUTPUT);\n}\n\nvoid loop() {\n  digitalWrite(LED_PIN, HIGH);\n  delay(173);\n  digitalWrite(LED_PIN, LOW);\n  delay(173);\n}\n",
+      "sha256": "4353bccc1d801402194ab42959a5893cb2eb91f1960e60ccdd47dc4b32a22584",
+      "firmwareBytes": 1152
+    },
+    {
+      "source": "void setup() { Serial.begin(9600); pinMode(8, OUTPUT); }\nvoid loop() { Serial.println(427); digitalWrite(8, HIGH); delay(53); }\n",
+      "sha256": "8e412726ce923d2cf5e8977fee4f5daff8eab791496738d627a69ef25f248116",
+      "firmwareBytes": 2688
+    }
+  ]
+}

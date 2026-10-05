@@ -1,0 +1,36 @@
+✔ Uno uploader remains byte-identical to physically proven source (7.293255ms)
+✔ Unknown target rejected; new and invalid preferences default safely to Uno (0.641325ms)
+✔ Arduino Uno R3: STK500v1 flash/readback/release, USB 2341:43 (software port) (375.206517ms)
+✔ Arduino Nano V3 — ATmega328P (new bootloader): STK500v1 flash/readback/release, USB 1a86:7523 (software port) (370.578559ms)
+✔ Arduino Nano V3 — ATmega328P (new bootloader): STK500v1 flash/readback/release, USB 403:6001 (software port) (369.019827ms)
+✔ Arduino Nano V3 — ATmega328P (new bootloader): STK500v1 flash/readback/release, USB 10c4:ea60 (software port) (368.507617ms)
+✔ Arduino Nano V3 — ATmega328P (old bootloader): STK500v1 flash/readback/release, USB 1a86:7523 (software port) (369.477236ms)
+✔ Arduino Nano V3 — ATmega328P (old bootloader): STK500v1 flash/readback/release, USB 403:6001 (software port) (375.793065ms)
+✔ Arduino Nano V3 — ATmega328P (old bootloader): STK500v1 flash/readback/release, USB 10c4:ea60 (software port) (375.124259ms)
+✔ Arduino Nano V3 — ATmega328P (new bootloader): timeout retry preserves next ACK; monitor port can reopen (857.209441ms)
+✔ Arduino Nano V3 — ATmega328P (new bootloader): corruptRead cannot report success (362.946654ms)
+✔ Arduino Nano V3 — ATmega328P (new bootloader): disconnectOnRead cannot report success (363.665591ms)
+✔ Arduino Nano V3 — ATmega328P (new bootloader): failed sync shows selected bootloader, baud, connection and original exception (6251.207288ms)
+✔ Arduino Nano V3 — ATmega328P (new bootloader): rejects firmware above Nano application boundary before serial open (0.488535ms)
+✔ Arduino Nano V3 — ATmega328P (old bootloader): timeout retry preserves next ACK; monitor port can reopen (858.871416ms)
+✔ Arduino Nano V3 — ATmega328P (old bootloader): corruptRead cannot report success (364.931667ms)
+✔ Arduino Nano V3 — ATmega328P (old bootloader): disconnectOnRead cannot report success (364.511333ms)
+✔ Arduino Nano V3 — ATmega328P (old bootloader): failed sync shows selected bootloader, baud, connection and original exception (6257.620514ms)
+✔ Arduino Nano V3 — ATmega328P (old bootloader): rejects firmware above Nano application boundary before serial open (0.340893ms)
+✔ Nano A6/A7 are analog-only in helper, hover and local autocomplete; Uno stays unchanged (8.296964ms)
+✔ parses Intel HEX and pads to an Uno flash page (1.823483ms)
+✔ rejects a bad Intel HEX checksum (0.514364ms)
+✔ rejects data in the Uno bootloader area (0.250136ms)
+✔ prepares an Arduino sketch with Arduino.h and source line mapping (0.767034ms)
+✔ does not generate prototypes from comments, strings, or control statements (0.25906ms)
+✔ extracts clickable compiler diagnostics (0.679332ms)
+✔ STK500v1 programs and reads back every page of real WASM-generated firmware (377.637594ms)
+✔ flash verification rejects corrupted readback and never reports success (366.52219ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 18442.605065

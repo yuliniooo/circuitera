@@ -1,0 +1,76 @@
+{
+  "origin": "https://arduino-ide.netlify.app",
+  "deployId": "6a9cafe7f05889f617937e98",
+  "buildId": "c4728671240622070d090f411f47d75f84b88ad072c79e91e9fd179610cdc324",
+  "checks": [
+    {
+      "path": "/googleb22ad35e0875e1ed.html",
+      "http": 200,
+      "sha256": "972b00d6171c5d708d436db7ceb05a24f942744c78e898f29e678ee3fb0d8f46",
+      "bytes": 53,
+      "matchesProductionBuild": true
+    },
+    {
+      "path": "/robots.txt",
+      "http": 200,
+      "sha256": "8ab4ba72a81395edcd3b5e3a8174ba4711798cfd1d42b7c789af6d7447063ddf",
+      "bytes": 112,
+      "matchesProductionBuild": true
+    },
+    {
+      "path": "/sitemap.xml",
+      "http": 200,
+      "sha256": "4c94547cd955e1f96a2cb81ba6f27b05da9575676b43951c87fabb762ff2589a",
+      "bytes": 762,
+      "matchesProductionBuild": true
+    },
+    {
+      "path": "/favicon.png",
+      "http": 200,
+      "sha256": "5a638b071a5848b3772f1abf3eed98fbd40c9266d1295c08bb8f88f0fc2b3ed4",
+      "bytes": 967,
+      "matchesProductionBuild": true
+    },
+    {
+      "path": "/sw.js",
+      "http": 200,
+      "sha256": "a48df9e851500c570a0394a8d8521f01daeb935252c1b326294a26ecc71fe113",
+      "bytes": 9201,
+      "matchesProductionBuild": true
+    },
+    {
+      "path": "/avr/curated/manifest.json",
+      "http": 200,
+      "sha256": "517f74f1f2ba576e9911ec364bcd6a11ee01677af88482c58f707355db05aeda",
+      "bytes": 34039,
+      "matchesProductionBuild": true
+    },
+    {
+      "path": "/avr/curated/nano-variant-be5fc7a105716005.json",
+      "http": 200,
+      "sha256": "be5fc7a105716005de771d6e65f1d56a8edfb511bee5eedf184e612e9004e13f",
+      "bytes": 7857,
+      "matchesProductionBuild": true
+    },
+    {
+      "path": "/assets/compiler.worker-BWABVUPA.js",
+      "http": 200,
+      "sha256": "2b822a5055d394660e5923d2f3ae49b302f82ac8aecec6541fdd040fc2a7a118",
+      "bytes": 16782,
+      "matchesProductionBuild": true
+    },
+    {
+      "path": "/assets/index-CjaWg2cT.js",
+      "http": 200,
+      "sha256": "f5acc76cdad20bd2b7480bb9c6224c783070a6c9f466fb450c121d9344c5a8b5",
+      "bytes": 860272,
+      "matchesProductionBuild": true
+    },
+    {
+      "path": "/",
+      "http": 200,
+      "seoAndSerialPolicy": "PASS"
+    }
+  ],
+  "physicalHardwareTested": false
+}

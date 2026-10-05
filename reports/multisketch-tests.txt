@@ -1,0 +1,38 @@
+
+> uno-web-ide@1.0.0 test
+> node --test test/serial.test.js test/uploader.test.js test/worker.test.js test/autocomplete.test.js test/sketch-store.test.js
+
+✔ Arduino functions/constants carry signatures and descriptions without snippets (14.199021ms)
+✔ Serial member context shows serial signatures and no unrelated globals (4.314721ms)
+✔ Only actual declarations are suggested; locals and parameters respect scope (9.324544ms)
+✔ Declarations refresh after editing or deleting source (2.686481ms)
+✔ Suggestions are suppressed in comments, strings, character literals and read-only mode (8.40084ms)
+✔ All 17 tested libraries offer their public include headers; failed libraries are excluded (1.928085ms)
+✔ Library instance methods use declared types and included headers (5.320768ms)
+✔ Applying a function inserts only a call, reuses existing parentheses, and is undoable (0.990689ms)
+✔ Cached include completion uses current document and does not duplicate closing delimiters (1.864233ms)
+Large-sketch completion (2000 declarations): 16.3 ms including EditorState creation; not a Chromebook benchmark.
+✔ Completion has no network or worker code path and stays bounded on a large sketch (29.355323ms)
+✔ parses Intel HEX and pads to an Uno flash page (2.260139ms)
+✔ rejects a bad Intel HEX checksum (0.420787ms)
+✔ rejects data in the Uno bootloader area (0.207649ms)
+✔ prepares an Arduino sketch with Arduino.h and source line mapping (0.641914ms)
+✔ does not generate prototypes from comments, strings, or control statements (0.210534ms)
+✔ extracts clickable compiler diagnostics (0.490932ms)
+✔ migration keeps newest recovery and all legacy sketches; deleted data is never remigrated (9.748466ms)
+✔ pending save indicator waits for transaction completion; rapid edits and closed tabs restore independently (3.039631ms)
+✔ quota failure retains edits and unsaved state; retry commits; failed deletion retains the sketch (1.783413ms)
+✔ aborted transactions reject rather than reporting a successful save (1.34245ms)
+✔ firmware identity guard rejects different tab, changed source, wrong board and empty firmware (0.29734ms)
+✔ Export All ZIP passes independent Python CRC checks and preserves Unicode, duplicate names and exact sources (63.907374ms)
+✔ STK500v1 programs and reads back every page of real WASM-generated firmware (384.869261ms)
+✔ flash verification rejects corrupted readback and never reports success (378.683723ms)
+✔ production Worker sends real stages, compiles source, and survives a GCC failure (2084.473627ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 25
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2678.609566

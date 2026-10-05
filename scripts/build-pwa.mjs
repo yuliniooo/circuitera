@@ -1,0 +1,22 @@
+import { readFile,writeFile,readdir,cp } from 'node:fs/promises';
+import { createHash } from 'node:crypto';
+import { publicRoutes } from '../src/site/routes.js';
+const hash=data=>createHash('sha256').update(data).digest('hex');
+const htmlPaths=publicRoutes.map(route=>route==='/'?'/index.html':route+'/index.html');
+const appAssets=(await readdir('dist/assets')).map(name=>'/assets/'+name);
+const iconAssets=['/favicon.png','/favicon.svg','/favicon-192.png','/brand/circuitera-icon.svg','/brand/circuitera-icon-dark.svg','/brand/circuitera-icon-light-512.png','/brand/circuitera-social.png'];
+const catalog=JSON.parse(await readFile('dist/avr/curated/manifest.json','utf8'));
+const compilerPaths=['/avr/curated/manifest.json','/avr/'+catalog.core.file,...(catalog.pbCore?['/avr/'+catalog.pbCore.file]:[]),...Object.values(catalog.variants||{}).map(v=>'/avr/'+v.file),...catalog.libraries.map(lib=>'/avr/'+lib.file),...['cc1plus','avr-as','avr-ld','avr-objcopy'].flatMap(tool=>['mjs','wasm'].map(ext=>`/avr/tools/${tool}.${ext}`))];
+const allPaths=[...htmlPaths,...appAssets,...iconAssets,'/manifest.webmanifest',...compilerPaths];
+await writeFile('dist/manifest.webmanifest',JSON.stringify({id:'/',name:'Circuitera',short_name:'Circuitera',description:'Build hardware from your browser. A local Arduino Uno development environment.',start_url:'/',scope:'/',display:'standalone',background_color:'#FAF8F3',theme_color:'#FAF8F3',icons:[{src:'/favicon-192.png',sizes:'192x192',type:'image/png',purpose:'any'},{src:'/brand/circuitera-icon-light-512.png',sizes:'512x512',type:'image/png',purpose:'any'}]},null,2)+'\n');
+const release=hash(Buffer.concat(await Promise.all(allPaths.map(path=>readFile('dist'+path))))).slice(0,20);
+for(const path of htmlPaths){const text=await readFile('dist'+path,'utf8');await writeFile('dist'+path,text.replace('</head>',`<meta name="circuitera-release" content="${release}" />\n</head>`));}
+const record=async path=>({path,hash:path.endsWith('.html')?null:hash(await readFile('dist'+path))});
+const shell=await Promise.all([...htmlPaths,...appAssets,...iconAssets,'/manifest.webmanifest'].map(record));
+const compiler=await Promise.all(compilerPaths.map(record));
+const routes=Object.fromEntries(publicRoutes.map(route=>[route,route==='/'?'/index.html':route+'/index.html']));
+let sw=await readFile('scripts/service-worker-template.js','utf8');
+for(const [key,value]of Object.entries({RELEASE:release,SHELL:shell,COMPILER:compiler,ROUTES:routes}))sw=sw.replace('__'+key+'__',JSON.stringify(value));
+await writeFile('dist/sw.js',sw);
+await writeFile('reports/pwa-assets.json',JSON.stringify({release,shell,compiler,routes},null,2)+'\n');
+console.log(`Prepared PWA shell (${shell.length} files) and optional compiler cache (${compiler.length} assets), release ${release}.`);

@@ -1,0 +1,43 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> uno-web-ide@1.0.0 test:pb
+> node test/compile-pb.mjs && node --test test/pb-upload.test.js
+
+PASS arduino:avr:uno Blink 1064 9
+PASS arduino:avr:uno Serial 1934 198
+PASS arduino:avr:uno Analog 2300 188
+PASS arduino:avr:uno PWM 1052 9
+PASS arduino:avr:uno Interrupts 1348 17
+PASS arduino:avr:uno Pins 456 9
+PASS arduino:avr:uno servo 2522 50
+PASS arduino:avr:uno wire 4494 408
+PASS arduino:avr:uno spi 2728 192
+PASS arduino:avr:uno eeprom 2424 188
+PASS arduino:avr:uno softwareserial 3466 301
+PASS circuitera:avr:atmega328pb Blink 1262 9
+PASS circuitera:avr:atmega328pb Serial 2088 198
+PASS circuitera:avr:atmega328pb Analog 2458 188
+PASS circuitera:avr:atmega328pb PWM 1360 9
+PASS circuitera:avr:atmega328pb Interrupts 1546 17
+PASS circuitera:avr:atmega328pb Pins 584 9
+PASS circuitera:avr:atmega328pb servo 2708 50
+PASS circuitera:avr:atmega328pb wire 4706 408
+PASS circuitera:avr:atmega328pb spi 2940 192
+PASS circuitera:avr:atmega328pb eeprom 2582 188
+PASS circuitera:avr:atmega328pb softwareserial 3678 301
+✔ PB upload accepts reported 16 with accurate identification (758.091822ms)
+✔ PB upload accepts reported f with accurate identification (730.142009ms)
+✔ Unexpected signature blocks programming and releases port (363.430937ms)
+✔ Diagnostic never writes flash and survives a lost sync reply (812.377491ms)
+✔ PB flash readback mismatch cannot report success (722.621895ms)
+✔ PB oversize firmware rejected before opening port (1.211215ms)
+✔ Missing signature remains explicitly uncertain (0.193482ms)
+✔ Permission failure preserved (0.591812ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 5265.591881

@@ -1,0 +1,7 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> uno-web-ide@1.0.0 check:site
+> node scripts/check-branding.mjs && node scripts/check-site-release.mjs
+
+PASS — Circuitera production branding, metadata, favicon assets, and stable storage identity
+PASS — instant access, protected runtime, no authentication, unchanged Google verification, indexable static pages

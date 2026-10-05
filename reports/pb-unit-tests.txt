@@ -1,0 +1,86 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> uno-web-ide@1.0.0 test
+> node --test test/serial.test.js test/uploader.test.js test/worker.test.js test/autocomplete.test.js test/sketch-store.test.js test/capabilities.test.js test/nano.test.js
+
+✔ Arduino functions/constants carry signatures and descriptions without snippets (9.998093ms)
+✔ Serial member context shows serial signatures and no unrelated globals (6.765183ms)
+✔ Only actual declarations are suggested; locals and parameters respect scope (10.411135ms)
+✔ Declarations refresh after editing or deleting source (2.540047ms)
+✔ Suggestions are suppressed in comments, strings, character literals and read-only mode (1.893683ms)
+✔ All 17 tested libraries offer their public include headers; failed libraries are excluded (1.258806ms)
+✔ Library instance methods use declared types and included headers (3.908799ms)
+✔ Applying a function inserts only a call, reuses existing parentheses, and is undoable (0.53092ms)
+✔ Cached include completion uses current document and does not duplicate closing delimiters (1.26084ms)
+Large-sketch completion (2000 declarations): 19.7 ms including EditorState creation; not a Chromebook benchmark.
+✔ Completion has no network or worker code path and stays bounded on a large sketch (34.998509ms)
+✔ Project conversion preserves identity and all files restore atomically without losing other sketches (11.745206ms)
+✔ File selection never changes firmware identity, but header edits do; compile snapshots are independent (7.929617ms)
+✔ Project validation rejects traversal, duplicate names, missing .ino and oversized sources (0.452111ms)
+✔ Export All keeps genuine project files and duplicate projects in independent folders (34.977227ms)
+✔ Pin hover distinguishes digital pins and analogRead channel numbers and ignores comments (10.372267ms)
+✔ Plotter parses numeric/labeled series, keeps time windows and exports exact timestamped CSV (0.833796ms)
+✔ Upload explanations always retain the actual error and stack (0.774036ms)
+✔ Uno uploader remains byte-identical to physically proven source (9.927837ms)
+✔ Unknown target rejected; new and invalid preferences default safely to Uno (0.488116ms)
+✔ Arduino Uno R3 — ATmega328P: STK500v1 flash/readback/release, USB 2341:43 (software port) (372.799265ms)
+✔ Arduino Nano V3 — ATmega328P (new bootloader): STK500v1 flash/readback/release, USB 1a86:7523 (software port) (370.332309ms)
+✔ Arduino Nano V3 — ATmega328P (new bootloader): STK500v1 flash/readback/release, USB 403:6001 (software port) (379.614523ms)
+✔ Arduino Nano V3 — ATmega328P (new bootloader): STK500v1 flash/readback/release, USB 10c4:ea60 (software port) (366.932192ms)
+✔ Arduino Nano V3 — ATmega328P (old bootloader): STK500v1 flash/readback/release, USB 1a86:7523 (software port) (369.142381ms)
+✔ Arduino Nano V3 — ATmega328P (old bootloader): STK500v1 flash/readback/release, USB 403:6001 (software port) (369.102248ms)
+✔ Arduino Nano V3 — ATmega328P (old bootloader): STK500v1 flash/readback/release, USB 10c4:ea60 (software port) (373.143887ms)
+✔ Arduino Nano V3 — ATmega328P (new bootloader): timeout retry preserves next ACK; monitor port can reopen (859.756847ms)
+✔ Arduino Nano V3 — ATmega328P (new bootloader): corruptRead cannot report success (363.038942ms)
+✔ Arduino Nano V3 — ATmega328P (new bootloader): disconnectOnRead cannot report success (362.522361ms)
+✔ Arduino Nano V3 — ATmega328P (new bootloader): failed sync shows selected bootloader, baud, connection and original exception (6254.164632ms)
+✔ Arduino Nano V3 — ATmega328P (new bootloader): rejects firmware above Nano application boundary before serial open (0.404049ms)
+✔ Arduino Nano V3 — ATmega328P (old bootloader): timeout retry preserves next ACK; monitor port can reopen (857.703698ms)
+✔ Arduino Nano V3 — ATmega328P (old bootloader): corruptRead cannot report success (361.442291ms)
+✔ Arduino Nano V3 — ATmega328P (old bootloader): disconnectOnRead cannot report success (361.607219ms)
+✔ Arduino Nano V3 — ATmega328P (old bootloader): failed sync shows selected bootloader, baud, connection and original exception (6254.85341ms)
+✔ Arduino Nano V3 — ATmega328P (old bootloader): rejects firmware above Nano application boundary before serial open (0.286151ms)
+✔ Nano A6/A7 are analog-only in helper, hover and local autocomplete; Uno stays unchanged (7.814134ms)
+✔ parses Intel HEX and pads to an Uno flash page (1.382042ms)
+✔ rejects a bad Intel HEX checksum (0.506703ms)
+✔ rejects data in the Uno bootloader area (0.339893ms)
+✔ prepares an Arduino sketch with Arduino.h and source line mapping (0.68342ms)
+✔ does not generate prototypes from comments, strings, or control statements (0.197588ms)
+✔ extracts clickable compiler diagnostics (0.817322ms)
+✔ migration keeps newest recovery and all legacy sketches; deleted data is never remigrated (10.833963ms)
+✔ pending save indicator waits for transaction completion; rapid edits and closed tabs restore independently (3.669899ms)
+✔ quota failure retains edits and unsaved state; retry commits; failed deletion retains the sketch (1.369233ms)
+✔ aborted transactions reject rather than reporting a successful save (1.926012ms)
+✔ firmware identity guard rejects different tab, changed source, wrong board and empty firmware (0.370167ms)
+✔ Export All ZIP passes independent Python CRC checks and preserves Unicode, duplicate names and exact sources (42.430967ms)
+✔ STK500v1 programs and reads back every page of real WASM-generated firmware (384.520128ms)
+✔ flash verification rejects corrupted readback and never reports success (366.39051ms)
+✔ production Worker sends real stages, compiles source, and survives a GCC failure (1526.259882ms)
+ℹ tests 52
+ℹ suites 0
+ℹ pass 52
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 18430.725732
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> uno-web-ide@1.0.0 test:reliability
+> node --test test/compiler-client.test.js test/local-debug.test.js
+
+✔ a failed postMessage must release the compiler for the next attempt (2.547819ms)
+✔ worker errors retain the real exception, asset and last stage, then allow retry (1.247019ms)
+✔ debug hints ignore comments, quoted text and raw strings (1.841735ms)
+✔ board-aware analog and Servo hints respect Nano analog-only pins (0.725743ms)
+✔ missing pinMode is a suggestion; baud mismatch and real errors retain location (0.624281ms)
+✔ unknown headers are tentative until GCC supplies a real error; local headers are recognized (0.383348ms)
+✔ presentation settings stay bounded and compiler failures keep actionable explanations (0.218209ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 85.32127

@@ -1,0 +1,9 @@
+{
+  "name": "avr-libc EEPROM assembly",
+  "version": "2.0.0",
+  "source": "https://github.com/avrdudes/avr-libc/tree/avr-libc-2_0_0-release",
+  "archive": "https://codeload.github.com/avrdudes/avr-libc/tar.gz/refs/tags/avr-libc-2_0_0-release",
+  "sha256": "717d31f0e8d0a46e444156fbf322d63776aaa6da91a94d738830424717badb3d",
+  "license": "BSD-style; complete notices retained in every source file",
+  "changes": "No upstream source changes. Preprocessed and assembled on demand by the existing AVR WASM toolchain."
+}

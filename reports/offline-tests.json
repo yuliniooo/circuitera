@@ -1,0 +1,44 @@
+{
+  "testedAt": "2026-10-03T22:49:35.834Z",
+  "scope": "Actual generated service worker in Node VM with Cache API fixture, network-disabled fetch transport, and genuine AVR WASM. Not a physical Chromebook offline test.",
+  "checks": [
+    {
+      "name": "Install caches the complete static shell without requiring compiler downloads",
+      "status": "PASS"
+    },
+    {
+      "name": "Offline shell and public help open; missing compiler assets fail honestly with their path",
+      "status": "PASS"
+    },
+    {
+      "name": "Google verification, robots and sitemap bypass the service worker",
+      "status": "PASS"
+    },
+    {
+      "name": "Corrupt downloaded compiler assets are rejected rather than cached as ready",
+      "status": "PASS"
+    },
+    {
+      "name": "Every prepared shell/tool/core/library asset is available offline with exact bytes and no network access",
+      "status": "PASS"
+    },
+    {
+      "name": "arduino:avr:uno: Real Servo sketch links and produces HEX using offline cached WASM/core/library bytes",
+      "status": "PASS",
+      "flashBytes": 2472,
+      "hexSha256": "8ccf32bffd8b6804773e47bc13c88af91f15745c40201e2515008e83e67bdfe0",
+      "moduleTransport": "Node imports the identical verified .mjs files from disk; all fetches pass through the offline Service Worker harness."
+    },
+    {
+      "name": "circuitera:avr:atmega328pb: Real Servo sketch links and produces HEX using offline cached WASM/core/library bytes",
+      "status": "PASS",
+      "flashBytes": 2658,
+      "hexSha256": "4e0bf0677f3d4802b60412a933139d4e29a22d48f7bd685c514124c4e2f76227",
+      "moduleTransport": "Node imports the identical verified .mjs files from disk; all fetches pass through the offline Service Worker harness."
+    },
+    {
+      "name": "Updates cannot force activation/reload during upload and cleanup only owns Circuitera static caches",
+      "status": "PASS"
+    }
+  ]
+}

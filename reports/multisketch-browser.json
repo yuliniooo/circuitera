@@ -1,0 +1,71 @@
+{
+  "testedAt": "2026-09-05T20:24:07.111Z",
+  "url": "https://arduino-ide.netlify.app/",
+  "deployId": "6a9c78d5a31287a40b261bc2",
+  "scope": "Production Netlify site in Chrome, real editor and WebAssembly Worker. No physical Uno attached.",
+  "checks": [
+    {
+      "name": "Legacy localStorage sketch migrates to IndexedDB with custom source intact",
+      "status": "PASS"
+    },
+    {
+      "name": "Plus menu creates second tab without replacing first sketch",
+      "status": "PASS"
+    },
+    {
+      "name": "Rename, duplicate, close/reopen and delete confirmation Cancel",
+      "status": "PASS"
+    },
+    {
+      "name": "Compile B while viewing A keeps source and results separate",
+      "status": "PASS"
+    },
+    {
+      "name": "Both sketches, open tabs and active tab survive refresh",
+      "status": "PASS"
+    },
+    {
+      "name": "Both restored sketches and Servo compile using real WASM in production",
+      "status": "PASS"
+    },
+    {
+      "name": "Local digitalWrite autocomplete remains available after tab switching",
+      "status": "PASS"
+    },
+    {
+      "name": "Alt+N and Alt+W work; Ctrl+S saves",
+      "status": "PASS"
+    },
+    {
+      "name": "Command+Z accesses preserved history after switching tabs",
+      "status": "PASS"
+    },
+    {
+      "name": "Compact light-theme tabs retain editor space; no page overflow visible at 1363x936",
+      "status": "PASS"
+    }
+  ],
+  "compiles": [
+    {
+      "name": "Blink A",
+      "source": "// Workspace A: custom Blink\nvoid setup() { pinMode(LED_BUILTIN, OUTPUT); }\nvoid loop() { digitalWrite(LED_BUILTIN, HIGH); delay(173); digitalWrite(LED_BUILTIN, LOW); delay(173); }\n",
+      "output": "✓ COMPILED\nSketch uses 1064 bytes (3%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 9 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 5.8 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: none.\nLibrary objects: 0 compiled, 0 reused.\n",
+      "afterRefresh": "✓ COMPILED\nSketch uses 1064 bytes (3%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 9 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.8 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: none.\nLibrary objects: 0 compiled, 0 reused.\n"
+    },
+    {
+      "name": "Sensor B",
+      "source": "// Workspace B: serial data\nconst int sensorValue = 427;\nvoid setup() { Serial.begin(9600); pinMode(8, OUTPUT); }\nvoid loop() { Serial.println(sensorValue); digitalWrite(8, HIGH); delay(53); }\n",
+      "output": "✓ COMPILED\nSketch uses 2632 bytes (8%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 188 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 0.7 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: none.\nLibrary objects: 0 compiled, 0 reused.\n",
+      "afterRefresh": "✓ COMPILED\nSketch uses 2632 bytes (8%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 188 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 2.5 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: none.\nLibrary objects: 0 compiled, 0 reused.\n"
+    },
+    {
+      "name": "Servo example",
+      "output": "✓ COMPILED\nSketch uses 2520 bytes (8%) of program storage space. Maximum is 32256 bytes.\nGlobal variables use 50 of 2048 SRAM bytes (stack and runtime allocations need additional space).\nCompiled locally in 1.7 s.\nTarget: Arduino Uno R3 / ATmega328P.\nLibraries: Servo 1.3.0.\nLibrary objects: 1 compiled, 0 reused.\n"
+    }
+  ],
+  "limitations": [
+    "Browser download-event capture timed out after Export All. UI reported export; ZIP bytes, filenames and CRCs were independently verified through actual application handlers and Python in the automated tests.",
+    "Chrome normally reserves Ctrl/Command+N and W for browser windows/tabs; Alt alternatives were tested.",
+    "No physical USB upload tested in this revision. The unchanged STK500v1 uploader and full readback were exercised with a software port using each tab’s actual WASM-generated HEX."
+  ]
+}

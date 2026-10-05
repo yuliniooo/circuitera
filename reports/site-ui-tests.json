@@ -1,0 +1,61 @@
+{
+  "testedAt": "2026-10-03T22:42:49.069Z",
+  "scope": "Real React + CodeMirror in JSDOM; fake-indexeddb exercises the production sketch persistence implementation. No auth provider or simulated session.",
+  "checks": [
+    {
+      "name": "Root immediately mounts the full IDE and restores an existing local sketch without any account",
+      "status": "PASS"
+    },
+    {
+      "name": "Static guide remains below the working IDE; one H1, one main and native FAQ interaction preserve editor state",
+      "status": "PASS"
+    },
+    {
+      "name": "Opening About flushes pending edits in the original IndexedDB database",
+      "status": "PASS"
+    },
+    {
+      "name": "Optional information pages navigate normally and remain indexable",
+      "status": "PASS"
+    },
+    {
+      "name": "Public example link requires the local password, then creates a separate sketch without replacing prior work",
+      "status": "PASS"
+    },
+    {
+      "name": "Reload relocks example opening while saved sketches remain available; cancel creates nothing",
+      "status": "PASS"
+    },
+    {
+      "name": "Fresh page mount restores all sketches, the active tab and independent edits; compiler assets resolve from root",
+      "status": "PASS"
+    },
+    {
+      "name": "Returning from help restores the requested homepage title and single guide without duplicating content",
+      "status": "PASS"
+    },
+    {
+      "name": "All retired account URLs and /ide open the same saved IDE, remove obsolete URL parameters and expose no forms",
+      "status": "PASS"
+    },
+    {
+      "name": "Unknown example names cannot replace or create sketches",
+      "status": "PASS"
+    },
+    {
+      "name": "The entire route and editor session requests only the local compiler catalog; no authentication or external requests",
+      "status": "PASS"
+    }
+  ],
+  "requests": [
+    "https://circuitera.example/avr/curated/manifest.json",
+    "https://circuitera.example/avr/curated/manifest.json",
+    "https://circuitera.example/avr/curated/manifest.json",
+    "https://circuitera.example/avr/curated/manifest.json",
+    "https://circuitera.example/avr/curated/manifest.json",
+    "https://circuitera.example/avr/curated/manifest.json",
+    "https://circuitera.example/avr/curated/manifest.json",
+    "https://circuitera.example/avr/curated/manifest.json",
+    "https://circuitera.example/avr/curated/manifest.json"
+  ]
+}
