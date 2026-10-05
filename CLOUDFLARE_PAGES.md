@@ -36,7 +36,7 @@ git commit -m "Prepare Circuitera source for Cloudflare Pages"
 git push origin main
 ```
 
-The source has been prepared for upload to GitHub. Connect the repository to Pages after the upload.
+The source is uploaded to GitHub on main. Connect the repository to Pages. A fresh build of the uploaded source and the Cloudflare asset checks passed.
 
 ## Build and routing decisions
 
@@ -56,7 +56,7 @@ public/_headers is unchanged: serial=(self), nosniff, no-referrer, self-only CSP
 - npm run test:examples: PASS, Blink, Button, Servo, Ultrasonic, source-change and error regressions.
 - npm run test:libraries: PASS, all 17 libraries including Servo; combined OLED/sensor sketch and object-cache check also passed.
 - node scripts/check-cloudflare.mjs: checks runtime bundle hashes, WASM copy integrity, worker inclusion, PWA paths/hashes, all ten prerendered routes, local HTML asset references, required policies, and Pages file limits.
-- Production output: 595 files. Largest asset: avr/tools/cc1plus.wasm, 13,844,490 bytes (13.20 MiB), below Pages' 25 MiB limit.
+- Production output after GitHub exclusions: 573 files. Largest asset: avr/tools/cc1plus.wasm, 13,844,490 bytes (13.20 MiB), below Pages' 25 MiB limit.
 - Source archive has no individual file over GitHub's 100 MB limit. node_modules/ and dist/ are excluded from Git and the deliverable.
 - Vite reports a nonfatal main-JavaScript chunk-size warning. Bundling was left unchanged to preserve the existing application.
 
